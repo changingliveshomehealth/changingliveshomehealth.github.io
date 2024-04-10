@@ -1496,28 +1496,28 @@ button:focus {
   --gray: #4a4a4a;
   --black: #1d1d1d;
 
-  --lightest-blue: #ebf6ff;
-  --lighter-blue: #ccfeff;
-  --light-blue: #00a0dd;
-  --light-blue-hover: #0082ce;
-  --dark-blue: #003764;
+  --lightest-blue: #fff;
+  --lighter-blue: #fff;
+  --light-blue: #fe0000;
+  --light-blue-hover: ##fe0000;
+  --dark-blue: #fe0000;
 
   --lightest-green: #f1faee;
-  --light-green: #6cc04a;
-  --dark-green: #026937;
+  --light-green: #fe0000;
+  --dark-green: #fe0000;
 
   --lightest-orange: #fff1e6;
   --orange: #e24301;
 
   --lightest-teal: #d8f2f3;
-  --teal: #008b9a;
+  --teal: #fe0000;
 
   --lightest-purple: #fcf2ff;
-  --purple: #928df3;
+  --purple: #fe0000;
 
-  --portland-blue: #7d9cc0;
-  --portland-yellow: #ffc72c;
-  --portland-green: #64a70b;
+  --portland-blue: #fe0000;
+  --portland-yellow: #fe0000;
+  --portland-green: #fe0000;
   --portland-gray: #545859;
 }
 
@@ -3829,7 +3829,9 @@ a.social {
   margin-top: 1.2rem;
 }
 .footer-nav__column {
-  width: 25%;
+  width: 40%;
+  color: white;
+  
 }
 .footer-nav__item {
   margin: 0.8rem 0;
@@ -3961,7 +3963,7 @@ a.social {
     font-size: 0.95rem;
   }
   .footer-nav__column {
-    width: 30%;
+    width: 100%;
   }
   .footer-nav__item {
     margin: 0.6rem 0;
