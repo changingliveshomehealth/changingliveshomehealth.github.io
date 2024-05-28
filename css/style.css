@@ -1,0 +1,2674 @@
+.mediaViewInfo {
+	--web-view-name: Changing Lives Home Health Care;
+	--web-view-id: Changing_Lives_Home_Health_Care;
+	--web-scale-on-resize: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Changing_Lives_Home_Health_Care;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Changing_Lives_Home_Health_Care {
+	position: absolute;
+	width: 1903px;
+	height: 6173px;
+	background-color: rgba(255,246,241,1);
+	overflow: hidden;
+	--web-view-name: Changing Lives Home Health Care;
+	--web-view-id: Changing_Lives_Home_Health_Care;
+	--web-scale-on-resize: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+#Banner {
+	position: absolute;
+	width: 1903px;
+	height: 1069px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#bayada-homapage_v3-1 {
+	fill: transparent;
+}
+.bayada-homapage_v3-1 {
+	display: none;
+	overflow: hidden;
+	position: absolute;
+	width: 1903px;
+	height: 1070.438px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#cadr {
+	position: absolute;
+	width: 1903px;
+	height: 1069px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Services {
+	position: absolute;
+	width: 1226.047px;
+	height: 99.5px;
+	left: 337.981px;
+	top: 749px;
+	display: none;
+	overflow: visible;
+}
+#SKILLED_NURSING {
+	opacity: 0.8;
+	position: absolute;
+	width: 112.353px;
+	height: 74.5px;
+	left: 0px;
+	top: 1px;
+	overflow: visible;
+}
+#_2__18 {
+	position: absolute;
+	width: 112.353px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_20 {
+	fill: rgba(225,27,34,1);
+}
+._20 {
+	overflow: visible;
+	position: absolute;
+	width: 112.353px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#SKILLED_NURSING_n {
+	left: 24.858px;
+	top: 7.5px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -4px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#PHYSICAL_THERAPY {
+	position: absolute;
+	width: 112.991px;
+	height: 98.5px;
+	left: 201.203px;
+	top: 1px;
+	overflow: visible;
+}
+#_2__19 {
+	position: absolute;
+	width: 112.991px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_20_q {
+	opacity: 0.8;
+	fill: rgba(225,27,34,1);
+}
+._20_q {
+	overflow: visible;
+	position: absolute;
+	width: 112.357px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#PHYSICAL_THERAPY_r {
+	left: 22.577px;
+	top: 7.5px;
+	position: absolute;
+	overflow: visible;
+	width: 69px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -4px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#SPEECH_THERAPY {
+	position: absolute;
+	width: 112.991px;
+	height: 60px;
+	left: 402.405px;
+	top: 1px;
+	overflow: visible;
+}
+#_2__20 {
+	position: absolute;
+	width: 112.991px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_20_u {
+	opacity: 0.8;
+	fill: rgba(225,27,34,1);
+}
+._20_u {
+	overflow: visible;
+	position: absolute;
+	width: 112.308px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#SPEECH_THERAPY_v {
+	left: 25.637px;
+	top: 9.5px;
+	position: absolute;
+	overflow: visible;
+	width: 53px;
+	white-space: nowrap;
+	line-height: 18px;
+	margin-top: -3px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+#OCCUPATIONAL_THERAPY {
+	position: absolute;
+	width: 143.716px;
+	height: 60px;
+	left: 616.493px;
+	top: 1px;
+	overflow: visible;
+}
+#_2__21 {
+	position: absolute;
+	width: 143.716px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_9 {
+	opacity: 0.8;
+	fill: rgba(225,27,34,1);
+}
+._9 {
+	position: absolute;
+	overflow: visible;
+	width: 143.716px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+}
+#OCCUPATIONAL_THERAPY_z {
+	left: 16.477px;
+	top: 9.5px;
+	position: absolute;
+	overflow: visible;
+	width: 93px;
+	white-space: nowrap;
+	line-height: 18px;
+	margin-top: -3px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+#MEDICAL_SOCIAL_WORKER {
+	position: absolute;
+	width: 144.707px;
+	height: 60px;
+	left: 875.182px;
+	top: 0px;
+	overflow: visible;
+}
+#_2__22 {
+	position: absolute;
+	width: 144.707px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_9_ {
+	opacity: 0.8;
+	fill: rgba(225,27,34,1);
+}
+._9_ {
+	position: absolute;
+	overflow: visible;
+	width: 143.707px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+}
+#MEDICAL_SOCIAL_WORKER_ {
+	left: 15.799px;
+	top: 9.5px;
+	position: absolute;
+	overflow: visible;
+	width: 95px;
+	white-space: nowrap;
+	line-height: 18px;
+	margin-top: -3px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+#SKILLED_NURSING_ {
+	position: absolute;
+	width: 111.999px;
+	height: 60px;
+	left: 1114.048px;
+	top: 2px;
+	overflow: visible;
+}
+#_2__23 {
+	position: absolute;
+	width: 111.999px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_20_ {
+	opacity: 0.8;
+	fill: rgba(225,27,34,1);
+}
+._20_ {
+	overflow: visible;
+	position: absolute;
+	width: 112.366px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#SKILLED_NURSING_ba {
+	left: 9.912px;
+	top: 9px;
+	position: absolute;
+	overflow: visible;
+	width: 77px;
+	white-space: nowrap;
+	line-height: 18px;
+	margin-top: -3px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+#Text {
+	position: absolute;
+	width: 479.423px;
+	height: 389.187px;
+	left: 278.512px;
+	top: 345.406px;
+	overflow: visible;
+}
+#_20_ba {
+	opacity: 0.8;
+	fill: rgba(225,27,34,1);
+}
+._20_ba {
+	position: absolute;
+	overflow: visible;
+	width: 479.423px;
+	height: 326px;
+	left: 0px;
+	top: 0px;
+}
+#Button {
+	position: absolute;
+	width: 162.585px;
+	height: 45.994px;
+	left: 316.838px;
+	top: 343.193px;
+	overflow: visible;
+}
+#_1__1 {
+	opacity: 0.8;
+	position: absolute;
+	width: 162.585px;
+	height: 45.994px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_7 {
+	fill: rgba(225,27,34,1);
+}
+._7 {
+	position: absolute;
+	overflow: visible;
+	width: 162.585px;
+	height: 45.994px;
+	left: 0px;
+	top: 0px;
+}
+#Contact {
+	left: 38.507px;
+	top: 13.905px;
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+}
+#Changing_Lives__Home_Health {
+	left: 13.773px;
+	top: 2.45px;
+	position: absolute;
+	overflow: visible;
+	width: 407px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 55px;
+	color: rgba(255,246,241,1);
+}
+#Changing_Lives_Home_Health_is_ {
+	left: 13.773px;
+	top: 186.643px;
+	position: absolute;
+	overflow: hidden;
+	width: 455.02px;
+	height: 128.35650634765625px;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,246,241,1);
+}
+#MiniSliders {
+	position: absolute;
+	width: 938.615px;
+	height: 419px;
+	left: 822.651px;
+	top: 257.728px;
+	overflow: visible;
+}
+#ServicesBackground {
+	position: absolute;
+	width: 938.615px;
+	height: 419px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#SkilledNursing {
+	position: absolute;
+	width: 148.672px;
+	height: 315px;
+	left: 0px;
+	top: 60px;
+	overflow: visible;
+}
+#_21 {
+	opacity: 0.8;
+	fill: rgba(225,27,34,1);
+}
+._21 {
+	position: absolute;
+	overflow: visible;
+	width: 148.672px;
+	height: 315px;
+	left: 0px;
+	top: 0px;
+}
+#_1 {
+	fill: rgba(255,246,241,1);
+}
+._1 {
+	position: absolute;
+	overflow: visible;
+	width: 126.867px;
+	height: 128px;
+	left: 10.903px;
+	top: 12.272px;
+}
+#Nurse {
+	position: absolute;
+	width: 80.753px;
+	height: 98.924px;
+	left: 33.959px;
+	top: 21.81px;
+	overflow: visible;
+}
+#_7_bm {
+	position: absolute;
+	width: 80.753px;
+	height: 98.924px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_23 {
+	fill: rgba(225,27,34,1);
+}
+._23 {
+	overflow: visible;
+	position: absolute;
+	width: 14.864px;
+	height: 3.036px;
+	left: 52.979px;
+	top: 87.758px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_6 {
+	position: absolute;
+	width: 80.753px;
+	height: 98.924px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_24 {
+	fill: rgba(225,27,34,1);
+}
+._24 {
+	overflow: visible;
+	position: absolute;
+	width: 80.753px;
+	height: 98.924px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_25 {
+	fill: rgba(225,27,34,1);
+}
+._25 {
+	overflow: visible;
+	position: absolute;
+	width: 10.519px;
+	height: 4.692px;
+	left: 35.17px;
+	top: 49.457px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_26 {
+	fill: rgba(225,27,34,1);
+}
+._26 {
+	overflow: visible;
+	position: absolute;
+	width: 3.184px;
+	height: 4.098px;
+	left: 29.972px;
+	top: 38.02px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_27 {
+	fill: rgba(225,27,34,1);
+}
+._27 {
+	overflow: visible;
+	position: absolute;
+	width: 2.942px;
+	height: 4.066px;
+	left: 47.809px;
+	top: 38.047px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_28 {
+	fill: rgba(225,27,34,1);
+}
+._28 {
+	overflow: visible;
+	position: absolute;
+	width: 9.086px;
+	height: 9.144px;
+	left: 35.846px;
+	top: 5.531px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#SKILLED__NURSING {
+	left: 38.655px;
+	top: 157.272px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(255,246,241,1);
+}
+#PhisicalTherapy {
+	position: absolute;
+	width: 148.672px;
+	height: 315px;
+	left: 157.989px;
+	top: 104px;
+	overflow: visible;
+}
+#_24_bw {
+	opacity: 0.9;
+	fill: rgba(255,246,241,1);
+}
+._24_bw {
+	position: absolute;
+	overflow: visible;
+	width: 148.672px;
+	height: 315px;
+	left: 0px;
+	top: 0px;
+}
+#_2 {
+	fill: rgba(225,27,34,1);
+}
+._2 {
+	position: absolute;
+	overflow: visible;
+	width: 126.867px;
+	height: 128px;
+	left: 10.506px;
+	top: 14.272px;
+}
+#Physical-therapy {
+	position: absolute;
+	width: 99.115px;
+	height: 100px;
+	left: 24.779px;
+	top: 20.768px;
+	overflow: visible;
+}
+#_29 {
+	fill: rgba(255,246,241,1);
+}
+._29 {
+	overflow: visible;
+	position: absolute;
+	width: 99.115px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#PHYSICAL_THERAPY_b {
+	left: 35.285px;
+	top: 157.272px;
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(225,27,34,1);
+}
+#SpeechTherapy {
+	position: absolute;
+	width: 148.672px;
+	height: 315px;
+	left: 315.977px;
+	top: 0px;
+	overflow: visible;
+}
+#_22 {
+	opacity: 0.8;
+	fill: rgba(225,27,34,1);
+}
+._22 {
+	position: absolute;
+	overflow: visible;
+	width: 148.672px;
+	height: 315px;
+	left: 0px;
+	top: 0px;
+}
+#_3 {
+	fill: rgba(255,246,241,1);
+}
+._3 {
+	position: absolute;
+	overflow: visible;
+	width: 126.867px;
+	height: 128px;
+	left: 11.101px;
+	top: 12.272px;
+}
+#SPEECH_THERAPY_b {
+	left: 37.663px;
+	top: 154.5px;
+	position: absolute;
+	overflow: visible;
+	width: 67px;
+	white-space: nowrap;
+	line-height: 19px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(255,255,255,1);
+}
+#Dialog {
+	position: absolute;
+	width: 90.432px;
+	height: 86.605px;
+	left: 29.734px;
+	top: 27.929px;
+	overflow: visible;
+}
+#_9_b {
+	position: absolute;
+	width: 90.432px;
+	height: 86.605px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_39 {
+	fill: rgba(225,27,34,1);
+}
+._39 {
+	overflow: visible;
+	position: absolute;
+	width: 58.152px;
+	height: 45.351px;
+	left: 14.005px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_40 {
+	fill: rgba(225,27,34,1);
+}
+._40 {
+	overflow: visible;
+	position: absolute;
+	width: 41.868px;
+	height: 44.163px;
+	left: 0px;
+	top: 42.443px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_41 {
+	fill: rgba(225,27,34,1);
+}
+._41 {
+	overflow: visible;
+	position: absolute;
+	width: 41.817px;
+	height: 39.485px;
+	left: 48.614px;
+	top: 47.119px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_42 {
+	fill: rgba(225,27,34,1);
+}
+._42 {
+	overflow: visible;
+	position: absolute;
+	width: 29.134px;
+	height: 2.769px;
+	left: 19.28px;
+	top: 17.884px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_43 {
+	fill: rgba(225,27,34,1);
+}
+._43 {
+	overflow: visible;
+	position: absolute;
+	width: 28.99px;
+	height: 2.796px;
+	left: 19.353px;
+	top: 12.607px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_44 {
+	fill: rgba(225,27,34,1);
+}
+._44 {
+	overflow: visible;
+	position: absolute;
+	width: 29.135px;
+	height: 2.784px;
+	left: 19.274px;
+	top: 7.34px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#OccupationalTherapy {
+	position: absolute;
+	width: 148.672px;
+	height: 315px;
+	left: 473.966px;
+	top: 104px;
+	overflow: visible;
+}
+#_25_ce {
+	opacity: 0.9;
+	fill: rgba(255,246,241,1);
+}
+._25_ce {
+	position: absolute;
+	overflow: visible;
+	width: 148.672px;
+	height: 315px;
+	left: 0px;
+	top: 0px;
+}
+#_4 {
+	fill: rgba(225,27,34,1);
+}
+._4 {
+	position: absolute;
+	overflow: visible;
+	width: 126.867px;
+	height: 128px;
+	left: 10.704px;
+	top: 12.272px;
+}
+#OCCUPATIONAL_THERAPY_cg {
+	left: 9.911px;
+	top: 154.5px;
+	position: absolute;
+	overflow: visible;
+	width: 117px;
+	white-space: nowrap;
+	line-height: 19px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(225,27,34,1);
+}
+#MedicalSocialWorker {
+	position: absolute;
+	width: 148.672px;
+	height: 315px;
+	left: 631.954px;
+	top: 60px;
+	overflow: visible;
+}
+#_23_ci {
+	opacity: 0.8;
+	fill: rgba(225,27,34,1);
+}
+._23_ci {
+	position: absolute;
+	overflow: visible;
+	width: 148.672px;
+	height: 315px;
+	left: 0px;
+	top: 0px;
+}
+#_5 {
+	fill: rgba(255,246,241,1);
+}
+._5 {
+	position: absolute;
+	overflow: visible;
+	width: 126.867px;
+	height: 128px;
+	left: 11.299px;
+	top: 12.272px;
+}
+#MEDICAL_SOCIAL_WORKER_ck {
+	left: 7.929px;
+	top: 154.5px;
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	white-space: nowrap;
+	line-height: 19px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(255,255,255,1);
+}
+#HomeHealthAide {
+	position: absolute;
+	width: 148.672px;
+	height: 315px;
+	left: 789.943px;
+	top: 104px;
+	overflow: visible;
+}
+#_25_cm {
+	opacity: 0.9;
+	fill: rgba(255,246,241,1);
+}
+._25_cm {
+	position: absolute;
+	overflow: visible;
+	width: 148.672px;
+	height: 315px;
+	left: 0px;
+	top: 0px;
+}
+#_4_cn {
+	fill: rgba(225,27,34,1);
+}
+._4_cn {
+	position: absolute;
+	overflow: visible;
+	width: 126.867px;
+	height: 128px;
+	left: 10.903px;
+	top: 12.272px;
+}
+#HOME {
+	left: 22.797px;
+	top: 170.272px;
+	position: absolute;
+	overflow: visible;
+	width: 95px;
+	white-space: nowrap;
+	line-height: 19px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(225,27,34,1);
+}
+#Menu {
+	position: absolute;
+	width: 1539.356px;
+	height: 100.475px;
+	left: 279px;
+	top: 13.525px;
+	overflow: visible;
+}
+#Contacts {
+	position: absolute;
+	width: 930.004px;
+	height: 26.475px;
+	left: 609.352px;
+	top: 0px;
+	overflow: visible;
+}
+#_45 {
+	opacity: 0.8;
+	fill: rgba(225,27,34,1);
+}
+._45 {
+	overflow: visible;
+	position: absolute;
+	width: 930.004px;
+	height: 26.475px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Menu_cs {
+	position: absolute;
+	width: 858.004px;
+	height: 26.475px;
+	left: 11px;
+	top: 0px;
+	overflow: visible;
+}
+#Language {
+	position: absolute;
+	width: 93.042px;
+	height: 26.475px;
+	left: 764.962px;
+	top: 0px;
+	overflow: visible;
+}
+#_2__13 {
+	position: absolute;
+	width: 93.042px;
+	height: 26.475px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_9_cv {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._9_cv {
+	position: absolute;
+	overflow: visible;
+	width: 97.042px;
+	height: 30.475px;
+	left: 0px;
+	top: 0px;
+}
+#World {
+	fill: rgba(255,246,241,1);
+}
+.World {
+	overflow: visible;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	left: 4.598px;
+	top: 4.737px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#English {
+	left: 22.409px;
+	top: 3.737px;
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,246,241,1);
+}
+#_1_cy {
+	fill: rgba(255,246,241,1);
+}
+._1_cy {
+	overflow: visible;
+	position: absolute;
+	width: 10.744px;
+	height: 7.879px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,78.3497,11.7209) rotate(180deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Search {
+	position: absolute;
+	width: 40px;
+	height: 42px;
+	left: 543.962px;
+	top: -9.236px;
+	display: none;
+	overflow: visible;
+}
+#_4_c {
+	fill: rgba(149,0,0,1);
+}
+._4_c {
+	position: absolute;
+	overflow: visible;
+	width: 40px;
+	height: 42px;
+	left: 0px;
+	top: 0px;
+}
+#ID01_align_center {
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	left: 12.038px;
+	top: 12.923px;
+	overflow: visible;
+}
+#_7_c {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._7_c {
+	overflow: visible;
+	position: absolute;
+	width: 16.416px;
+	height: 16.414px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Contacts_c {
+	position: absolute;
+	width: 742.962px;
+	height: 19px;
+	left: 0px;
+	top: 3.139px;
+	overflow: visible;
+}
+#_3_c {
+	position: absolute;
+	width: 153.962px;
+	height: 19px;
+	left: 589px;
+	top: 0px;
+	overflow: visible;
+}
+#Home_Health_Care {
+	left: 16.962px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 138px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,246,241,1);
+}
+#marker_1 {
+	fill: rgba(255,246,241,1);
+}
+.marker_1 {
+	overflow: visible;
+	position: absolute;
+	width: 12.476px;
+	height: 15px;
+	left: 0px;
+	top: 1px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Fax_818_301-2051 {
+	left: 422px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 144px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,246,241,1);
+}
+#Phone_818_396-5678 {
+	left: 235px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 166px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,246,241,1);
+}
+#changingliveshhgmailcom {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 212px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,246,241,1);
+}
+#Logo {
+	position: absolute;
+	width: 354px;
+	height: 100px;
+	left: 0px;
+	top: 0.475px;
+	overflow: visible;
+}
+#Logo_db {
+	position: absolute;
+	width: 354px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_6_dc {
+	fill: rgba(255,255,255,1);
+}
+._6_dc {
+	position: absolute;
+	overflow: visible;
+	width: 88px;
+	height: 89px;
+	left: 6px;
+	top: 7px;
+}
+#Modern-Minimal-Hospital-Center {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_1_de {
+	fill: rgba(225,27,34,1);
+}
+._1_de {
+	overflow: visible;
+	position: absolute;
+	width: 100.211px;
+	height: 100.211px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_2_df {
+	fill: rgba(225,27,34,1);
+}
+._2_df {
+	overflow: visible;
+	position: absolute;
+	width: 33.535px;
+	height: 50.537px;
+	left: 29.515px;
+	top: 23.999px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_3_dg {
+	fill: rgba(225,27,34,1);
+}
+._3_dg {
+	overflow: visible;
+	position: absolute;
+	width: 1.126px;
+	height: 1.077px;
+	left: 18.228px;
+	top: 31.893px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_4_dh {
+	fill: rgba(225,27,34,1);
+}
+._4_dh {
+	overflow: visible;
+	position: absolute;
+	width: 2.797px;
+	height: 2.811px;
+	left: 29.822px;
+	top: 81.016px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_5_di {
+	fill: rgba(225,27,34,1);
+}
+._5_di {
+	overflow: visible;
+	position: absolute;
+	width: 0.49px;
+	height: 0.542px;
+	left: 60.547px;
+	top: 86.447px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_6_dj {
+	fill: rgba(225,27,34,1);
+}
+._6_dj {
+	overflow: visible;
+	position: absolute;
+	width: 12.294px;
+	height: 9.845px;
+	left: 45.684px;
+	top: 51.586px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Changing_Lives__Home_Health_Ca {
+	left: 115px;
+	top: 12px;
+	position: absolute;
+	overflow: visible;
+	width: 240px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(255,246,241,1);
+}
+#SkilledNursing_dl {
+	position: absolute;
+	width: 1903px;
+	height: 600px;
+	left: 0px;
+	top: 953px;
+	overflow: visible;
+}
+#About_Us {
+	fill: rgba(255,246,241,1);
+}
+.About_Us {
+	position: absolute;
+	overflow: visible;
+	width: 953px;
+	height: 600px;
+	left: 0px;
+	top: 0px;
+}
+#Image {
+	position: absolute;
+	width: 967px;
+	height: 600px;
+	left: 936px;
+	top: 0px;
+	overflow: visible;
+}
+#SKILLED_NURSING_do {
+	left: 297.089px;
+	top: 117px;
+	position: absolute;
+	overflow: visible;
+	width: 169px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(225,27,34,1);
+}
+#_Wound_care__Medication_manage {
+	left: 296.776px;
+	top: 177.5px;
+	position: absolute;
+	overflow: visible;
+	width: 339px;
+	height: 267px;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(74,74,74,1);
+}
+#Button_dq {
+	position: absolute;
+	width: 162.585px;
+	height: 45.994px;
+	left: 297.098px;
+	top: 481px;
+	overflow: visible;
+}
+#_1__5 {
+	position: absolute;
+	width: 162.585px;
+	height: 45.994px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_7_ds {
+	fill: rgba(225,27,34,1);
+}
+._7_ds {
+	position: absolute;
+	overflow: visible;
+	width: 162.585px;
+	height: 45.994px;
+	left: 0px;
+	top: 0px;
+}
+#Contact_dt {
+	left: 38.507px;
+	top: 13.905px;
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+}
+#PhisicalTherapy_du {
+	position: absolute;
+	width: 1903px;
+	height: 600px;
+	left: 0px;
+	top: 1553px;
+	overflow: visible;
+}
+#Background {
+	fill: rgba(225,27,34,1);
+}
+.Background {
+	position: absolute;
+	overflow: visible;
+	width: 968px;
+	height: 600px;
+	left: 935px;
+	top: 0px;
+}
+#ID33 {
+	position: absolute;
+	width: 952px;
+	height: 600px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#PHYSICAL_THERAPY_dx {
+	left: 1095.157px;
+	top: 117px;
+	position: absolute;
+	overflow: visible;
+	width: 187px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,246,241,1);
+}
+#_Restoration_of_specific_funct {
+	left: 1094.315px;
+	top: 177px;
+	position: absolute;
+	overflow: visible;
+	width: 312px;
+	height: 267px;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,246,241,1);
+}
+#Button_dz {
+	position: absolute;
+	width: 162.585px;
+	height: 45.994px;
+	left: 1095.301px;
+	top: 480px;
+	overflow: visible;
+}
+#_1__6 {
+	position: absolute;
+	width: 162.585px;
+	height: 45.994px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_7_d {
+	fill: rgba(255,246,241,1);
+}
+._7_d {
+	position: absolute;
+	overflow: visible;
+	width: 162.585px;
+	height: 45.994px;
+	left: 0px;
+	top: 0px;
+}
+#Contact_d {
+	left: 38.507px;
+	top: 13.905px;
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(225,27,34,1);
+}
+#SpeechTherapy_d {
+	position: absolute;
+	width: 1903px;
+	height: 600px;
+	left: 0px;
+	top: 2153px;
+	overflow: visible;
+}
+#About_Us_d {
+	fill: rgba(255,246,241,1);
+}
+.About_Us_d {
+	position: absolute;
+	overflow: visible;
+	width: 953px;
+	height: 600px;
+	left: 0px;
+	top: 0px;
+}
+#Image_d {
+	position: absolute;
+	width: 967px;
+	height: 600px;
+	left: 936px;
+	top: 0px;
+	overflow: visible;
+}
+#SPEECH_THERAPY_d {
+	left: 298.084px;
+	top: 117px;
+	position: absolute;
+	overflow: visible;
+	width: 166px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(225,27,34,1);
+}
+#_Assistance_in_regaining__spee {
+	left: 297.327px;
+	top: 177px;
+	position: absolute;
+	overflow: visible;
+	width: 528px;
+	height: 243px;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(74,74,74,1);
+}
+#Button_d {
+	position: absolute;
+	width: 162.585px;
+	height: 45.994px;
+	left: 298.088px;
+	top: 456px;
+	overflow: visible;
+}
+#_1__7 {
+	position: absolute;
+	width: 162.585px;
+	height: 45.994px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_7_ea {
+	fill: rgba(225,27,34,1);
+}
+._7_ea {
+	position: absolute;
+	overflow: visible;
+	width: 162.585px;
+	height: 45.994px;
+	left: 0px;
+	top: 0px;
+}
+#Contact_eb {
+	left: 38.507px;
+	top: 13.905px;
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+}
+#OccupationalTherapy_ec {
+	position: absolute;
+	width: 1903px;
+	height: 600px;
+	left: 0px;
+	top: 2753px;
+	overflow: visible;
+}
+#Background_ed {
+	fill: rgba(225,27,34,1);
+}
+.Background_ed {
+	overflow: visible;
+	position: absolute;
+	width: 968px;
+	height: 600px;
+	left: 935px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ID5 {
+	position: absolute;
+	width: 952px;
+	height: 600px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#OCCUPATIONAL_THERAPY_ef {
+	left: 1094.802px;
+	top: 117px;
+	position: absolute;
+	overflow: visible;
+	width: 242px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,246,241,1);
+}
+#_Therapeutic_exercises_for____ {
+	left: 1091.075px;
+	top: 177px;
+	position: absolute;
+	overflow: visible;
+	width: 528px;
+	height: 155px;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,246,241,1);
+}
+#Button_eh {
+	position: absolute;
+	width: 162.585px;
+	height: 45.994px;
+	left: 1095.301px;
+	top: 368px;
+	overflow: visible;
+}
+#_1__8 {
+	position: absolute;
+	width: 162.585px;
+	height: 45.994px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_7_ej {
+	fill: rgba(255,246,241,1);
+}
+._7_ej {
+	position: absolute;
+	overflow: visible;
+	width: 162.585px;
+	height: 45.994px;
+	left: 0px;
+	top: 0px;
+}
+#Contact_ek {
+	left: 38.507px;
+	top: 13.905px;
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(225,27,34,1);
+}
+#MedicalSocialWorker_el {
+	position: absolute;
+	width: 1903px;
+	height: 600px;
+	left: 0px;
+	top: 3353px;
+	overflow: visible;
+}
+#About_Us_em {
+	fill: rgba(255,246,241,1);
+}
+.About_Us_em {
+	overflow: visible;
+	position: absolute;
+	width: 953px;
+	height: 600px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Image_en {
+	position: absolute;
+	width: 967px;
+	height: 600px;
+	left: 936px;
+	top: 0px;
+	overflow: visible;
+}
+#MEDICAL_SOCIAL_WORKER_eo {
+	left: 297.93px;
+	top: 108.638px;
+	position: absolute;
+	overflow: visible;
+	width: 254px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(225,27,34,1);
+}
+#_Assisting_in_claiming_financi {
+	left: 297.327px;
+	top: 172px;
+	position: absolute;
+	overflow: visible;
+	width: 528px;
+	height: 176px;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(74,74,74,1);
+}
+#Button_eq {
+	position: absolute;
+	width: 162.585px;
+	height: 45.994px;
+	left: 298.088px;
+	top: 384.362px;
+	overflow: visible;
+}
+#_1__9 {
+	position: absolute;
+	width: 162.585px;
+	height: 45.994px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_7_es {
+	fill: rgba(225,27,34,1);
+}
+._7_es {
+	position: absolute;
+	overflow: visible;
+	width: 162.585px;
+	height: 45.994px;
+	left: 0px;
+	top: 0px;
+}
+#Contact_et {
+	left: 38.507px;
+	top: 13.905px;
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+}
+#HomeHealthAide_eu {
+	position: absolute;
+	width: 1903px;
+	height: 600px;
+	left: 0px;
+	top: 3953px;
+	overflow: visible;
+}
+#Background_ev {
+	fill: rgba(225,27,34,1);
+}
+.Background_ev {
+	position: absolute;
+	overflow: visible;
+	width: 968px;
+	height: 600px;
+	left: 935px;
+	top: 0px;
+}
+#ID7 {
+	position: absolute;
+	width: 952px;
+	height: 600px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#HOME_HEALTH_AIDE {
+	left: 1095.113px;
+	top: 114px;
+	position: absolute;
+	overflow: visible;
+	width: 194px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,246,241,1);
+}
+#_Personal_Care {
+	left: 1091.075px;
+	top: 178px;
+	position: absolute;
+	overflow: visible;
+	width: 528px;
+	height: 31px;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(255,246,241,1);
+}
+#Button_ez {
+	position: absolute;
+	width: 162.585px;
+	height: 45.994px;
+	left: 1095.301px;
+	top: 246px;
+	overflow: visible;
+}
+#_1__10 {
+	position: absolute;
+	width: 162.585px;
+	height: 45.994px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_7_e {
+	fill: rgba(255,246,241,1);
+}
+._7_e {
+	position: absolute;
+	overflow: visible;
+	width: 162.585px;
+	height: 45.995px;
+	left: 0px;
+	top: 0px;
+}
+#Contact_e {
+	left: 38.507px;
+	top: 13.905px;
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(225,27,34,1);
+}
+#Location {
+	opacity: 0.92;
+	position: absolute;
+	width: 422px;
+	height: 131.608px;
+	left: 732.591px;
+	top: 4642.392px;
+	overflow: visible;
+}
+#Nearby_health_services_provide {
+	left: 0px;
+	top: 43.639px;
+	position: absolute;
+	overflow: visible;
+	width: 423px;
+	white-space: nowrap;
+	line-height: 31px;
+	margin-top: -7.5px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(74,74,74,1);
+}
+#Find_a_location {
+	left: 142px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 139px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(225,27,34,1);
+}
+#Button_e {
+	position: absolute;
+	width: 152px;
+	height: 43px;
+	left: 135px;
+	top: 88.608px;
+	overflow: visible;
+}
+#_1__4 {
+	position: absolute;
+	width: 152px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_7_fa {
+	fill: rgba(225,27,34,1);
+}
+._7_fa {
+	position: absolute;
+	overflow: visible;
+	width: 152px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+}
+#View_locations {
+	left: 24px;
+	top: 12px;
+	position: absolute;
+	overflow: visible;
+	width: 105px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#Career {
+	position: absolute;
+	width: 1903px;
+	height: 600px;
+	left: 0px;
+	top: 4853px;
+	overflow: visible;
+}
+#_22_fb {
+	fill: rgba(255,246,241,1);
+}
+._22_fb {
+	overflow: visible;
+	position: absolute;
+	width: 1903px;
+	height: 600px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#We_have_openings_for__-Registe {
+	left: 298.325px;
+	top: 181.072px;
+	position: absolute;
+	overflow: visible;
+	width: 524px;
+	height: 221px;
+	line-height: 31px;
+	margin-top: -7.5px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(74,74,74,1);
+}
+#Career_Opportunities {
+	left: 299.019px;
+	top: 117px;
+	position: absolute;
+	overflow: visible;
+	width: 199px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,0,0,1);
+}
+#Location_fe {
+	position: absolute;
+	width: 520px;
+	height: 595px;
+	left: 1068.862px;
+	top: 90.069px;
+	display: none;
+	overflow: visible;
+}
+#_14 {
+	fill: rgba(255,255,255,1);
+}
+._14 {
+	position: absolute;
+	overflow: visible;
+	width: 520px;
+	height: 595px;
+	left: 0px;
+	top: 0px;
+}
+#_16 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._16 {
+	position: absolute;
+	overflow: visible;
+	width: 424px;
+	height: 43px;
+	left: 48px;
+	top: 74px;
+}
+#_15 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._15 {
+	position: absolute;
+	overflow: visible;
+	width: 424px;
+	height: 43px;
+	left: 48px;
+	top: 161px;
+}
+#_17 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._17 {
+	position: absolute;
+	overflow: visible;
+	width: 424px;
+	height: 43px;
+	left: 48px;
+	top: 250px;
+}
+#_18 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._18 {
+	position: absolute;
+	overflow: visible;
+	width: 424px;
+	height: 43px;
+	left: 48px;
+	top: 340px;
+}
+#_19 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._19 {
+	position: absolute;
+	overflow: visible;
+	width: 424px;
+	height: 43px;
+	left: 47px;
+	top: 429px;
+}
+#Last_Name {
+	left: 47px;
+	top: 133px;
+	position: absolute;
+	overflow: visible;
+	width: 76px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(74,74,74,1);
+}
+#Email {
+	left: 47px;
+	top: 221px;
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(74,74,74,1);
+}
+#Birthdate {
+	left: 47px;
+	top: 310px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(74,74,74,1);
+}
+#Zip_Code {
+	left: 47px;
+	top: 400px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(74,74,74,1);
+}
+#Last_Name_fp {
+	left: 63px;
+	top: 171px;
+	position: absolute;
+	overflow: visible;
+	width: 76px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(74,74,74,1);
+}
+#Email_fq {
+	left: 63px;
+	top: 259px;
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(74,74,74,1);
+}
+#Birthdate_fr {
+	left: 63px;
+	top: 348px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(74,74,74,1);
+}
+#Zip_Code_fs {
+	left: 63px;
+	top: 438px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(74,74,74,1);
+}
+#First_Name {
+	left: 63px;
+	top: 83px;
+	position: absolute;
+	overflow: visible;
+	width: 77px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(74,74,74,1);
+}
+#First_Name_fu {
+	left: 47px;
+	top: 45px;
+	position: absolute;
+	overflow: visible;
+	width: 77px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(74,74,74,1);
+}
+#Button_fv {
+	position: absolute;
+	width: 424px;
+	height: 44px;
+	left: 47px;
+	top: 504px;
+	overflow: visible;
+}
+#_10 {
+	fill: rgba(255,0,0,1);
+}
+._10 {
+	position: absolute;
+	overflow: visible;
+	width: 424px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+}
+#View_locations_fx {
+	left: 154px;
+	top: 11px;
+	position: absolute;
+	overflow: visible;
+	width: 118px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
+#career {
+	position: absolute;
+	width: 967px;
+	height: 600px;
+	left: 936px;
+	top: 0px;
+	overflow: visible;
+}
+#Button_fz {
+	position: absolute;
+	width: 162.585px;
+	height: 45.994px;
+	left: 299.079px;
+	top: 439.145px;
+	overflow: visible;
+}
+#_1__11 {
+	position: absolute;
+	width: 162.585px;
+	height: 45.994px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_7_f {
+	fill: rgba(225,27,34,1);
+}
+._7_f {
+	position: absolute;
+	overflow: visible;
+	width: 162.585px;
+	height: 45.995px;
+	left: 0px;
+	top: 0px;
+}
+#Contact_f {
+	left: 38.507px;
+	top: 13.905px;
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+}
+#Footer {
+	position: absolute;
+	width: 1903px;
+	height: 594px;
+	left: 0px;
+	top: 5452px;
+	overflow: visible;
+}
+#Background_f {
+	fill: rgba(225,27,34,1);
+}
+.Background_f {
+	position: absolute;
+	overflow: visible;
+	width: 1903px;
+	height: 594px;
+	left: 0px;
+	top: 0px;
+}
+#Compliance_Information________ {
+	left: 1011px;
+	top: 515px;
+	position: absolute;
+	overflow: visible;
+	width: 616px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#_Copyright_2023_All_Rights_Res {
+	left: 279px;
+	top: 515px;
+	position: absolute;
+	overflow: visible;
+	width: 274px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#ID805_E_Wilson_Ave_Unit_B_Glen {
+	left: 299.06px;
+	top: 232px;
+	position: absolute;
+	overflow: visible;
+	width: 175px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -12px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#A_Medicare_Certified__Home_Hea {
+	left: 299.015px;
+	top: 124px;
+	position: absolute;
+	overflow: visible;
+	width: 201px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#chaps-1024x704 {
+	position: absolute;
+	width: 260px;
+	height: 174px;
+	left: 821.5px;
+	top: 190px;
+	overflow: visible;
+}
+#CHAP_Accredited {
+	left: 871.495px;
+	top: 117px;
+	position: absolute;
+	overflow: visible;
+	width: 162px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Opening_Hours {
+	left: 1282.611px;
+	top: 117px;
+	position: absolute;
+	overflow: visible;
+	width: 144px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#_1_gc {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._1_gc {
+	overflow: visible;
+	position: absolute;
+	width: 1347px;
+	height: 1px;
+	left: 278.5px;
+	top: 465.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Monday__Friday_1000AM_to_500PM {
+	left: 1282.23px;
+	top: 200px;
+	position: absolute;
+	overflow: visible;
+	width: 197px;
+	height: 64px;
+	line-height: 40px;
+	margin-top: -12px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#On-Call_Nurse_Available_by_Tel {
+	left: 1281.633px;
+	top: 326px;
+	position: absolute;
+	overflow: visible;
+	width: 274px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -12px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#_2_gf {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._2_gf {
+	overflow: visible;
+	position: absolute;
+	width: 308px;
+	height: 1px;
+	left: 1281.343px;
+	top: 294px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_21_gg {
+	fill: rgba(0,0,0,0);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._21_gg {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	left: 1586px;
+	top: 395px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Social_network {
+	position: absolute;
+	width: 208px;
+	height: 43px;
+	left: 299.001px;
+	top: 389px;
+	overflow: visible;
+}
+#_9_gi {
+	fill: rgba(255,246,241,1);
+}
+._9_gi {
+	overflow: visible;
+	position: absolute;
+	width: 43px;
+	height: 43px;
+	left: 110px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_10_gj {
+	fill: rgba(255,246,241,1);
+}
+._10_gj {
+	overflow: visible;
+	position: absolute;
+	width: 43px;
+	height: 43px;
+	left: 55px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_11 {
+	fill: rgba(255,246,241,1);
+}
+._11 {
+	overflow: visible;
+	position: absolute;
+	width: 43px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_12 {
+	fill: rgba(255,246,241,1);
+}
+._12 {
+	overflow: visible;
+	position: absolute;
+	width: 43px;
+	height: 43px;
+	left: 165px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#in {
+	left: 122px;
+	top: 3px;
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -8px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(254,0,0,1);
+}
+#f {
+	left: 17px;
+	top: 6px;
+	position: absolute;
+	overflow: visible;
+	width: 10px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -8px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(254,0,0,1);
+}
+#instagram {
+	position: absolute;
+	width: 22.965px;
+	height: 22.968px;
+	left: 175.018px;
+	top: 10.016px;
+	overflow: visible;
+}
+#_13 {
+	fill: rgba(255,0,0,1);
+}
+._13 {
+	overflow: visible;
+	position: absolute;
+	width: 22.965px;
+	height: 22.968px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_14_gq {
+	fill: rgba(255,0,0,1);
+}
+._14_gq {
+	overflow: visible;
+	position: absolute;
+	width: 11.479px;
+	height: 11.479px;
+	left: 5.745px;
+	top: 5.741px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_15_gr {
+	fill: rgba(255,0,0,1);
+}
+._15_gr {
+	overflow: visible;
+	position: absolute;
+	width: 2.296px;
+	height: 2.296px;
+	left: 16.078px;
+	top: 4.592px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#twitter {
+	fill: rgba(255,0,0,1);
+}
+.twitter {
+	overflow: visible;
+	position: absolute;
+	width: 18.568px;
+	height: 18.988px;
+	left: 67.216px;
+	top: 12.506px;
+	transform: matrix(1,0,0,1,0,0);
+}
