@@ -61,10 +61,10 @@
 }
 #Text {
 	position: absolute;
-	width: 767px;
+	width: 801px;
 	height: 254.094px;
-	left: 574.5px;
-	top: 250.517px;
+	left: 551px;
+	top: 268.517px;
 	overflow: visible;
 }
 #_28 {
@@ -74,16 +74,16 @@
 ._28 {
 	position: absolute;
 	overflow: visible;
-	width: 767px;
+	width: 800px;
 	height: 185px;
 	left: 0px;
 	top: 0.483px;
 }
 #Button {
 	position: absolute;
-	width: 162.585px;
+	width: 163px;
 	height: 45.994px;
-	left: 302.208px;
+	left: 318.708px;
 	top: 208.099px;
 	overflow: visible;
 }
@@ -108,11 +108,11 @@
 	top: 0px;
 }
 #Contact {
-	left: 38.507px;
+	left: 0px;
 	top: 13.905px;
 	position: absolute;
 	overflow: visible;
-	width: 86px;
+	width: 164px;
 	white-space: nowrap;
 	text-align: center;
 	font-family: Frutiger LT Pro;
@@ -129,17 +129,17 @@
 	display: none;
 	position: absolute;
 	overflow: visible;
-	width: 772.423px;
+	width: 799.711px;
 	height: 77px;
-	left: -5.711px;
+	left: 0px;
 	top: -2.45px;
 }
 #Changing_Lives_Home_Health {
-	left: 8.062px;
+	left: 0px;
 	top: 0px;
 	position: absolute;
 	overflow: visible;
-	width: 747px;
+	width: 802px;
 	white-space: nowrap;
 	text-align: center;
 	font-family: Frutiger LT Pro;
@@ -156,17 +156,17 @@
 	display: none;
 	position: absolute;
 	overflow: visible;
-	width: 771.351px;
+	width: 799.711px;
 	height: 111px;
-	left: -4.64px;
+	left: 0px;
 	top: 74.55px;
 }
 #Changing_Lives_Home_Health_is_ {
-	left: 7.5px;
+	left: 0px;
 	top: 89.55px;
 	position: absolute;
 	overflow: visible;
-	width: 747px;
+	width: 801px;
 	height: 96px;
 	line-height: 30px;
 	margin-top: -7px;
