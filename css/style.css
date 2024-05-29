@@ -1134,7 +1134,7 @@
 #Contacts {
 	position: absolute;
 	width: 936px;
-	height: 26.073px;
+	height: 26px;
 	left: 408px;
 	top: 23.927px;
 	overflow: visible;
@@ -1154,15 +1154,15 @@
 #Language {
 	position: absolute;
 	width: 99.374px;
-	height: 25.609px;
+	height: 26px;
 	left: 836.626px;
-	top: 0.464px;
+	top: 0px;
 	overflow: visible;
 }
 #_2__13 {
 	position: absolute;
 	width: 99.374px;
-	height: 25.609px;
+	height: 26px;
 	left: 0px;
 	top: 0px;
 	overflow: visible;
@@ -1180,7 +1180,7 @@
 	position: absolute;
 	overflow: visible;
 	width: 103.374px;
-	height: 29.609px;
+	height: 30px;
 	left: 0px;
 	top: 0px;
 }
@@ -1191,14 +1191,14 @@
 	overflow: visible;
 	position: absolute;
 	width: 18.157px;
-	height: 16.444px;
+	height: 16.835px;
 	left: 4.911px;
 	top: 4.583px;
 	transform: matrix(1,0,0,1,0,0);
 }
 #English {
 	left: 23.935px;
-	top: 3.615px;
+	top: 3.829px;
 	position: absolute;
 	overflow: visible;
 	width: 59px;
@@ -1218,7 +1218,7 @@
 	position: absolute;
 	width: 11.475px;
 	height: 7.621px;
-	transform: translate(0px, 0px) matrix(1,0,0,1,83.6817,11.3376) rotate(180deg);
+	transform: translate(0px, 0px) matrix(1,0,0,1,83.6817,11.5839) rotate(180deg);
 	transform-origin: center;
 	left: 0px;
 	top: 0px;
