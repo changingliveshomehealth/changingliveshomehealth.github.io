@@ -1,12 +1,12 @@
 .mediaViewInfo {
-	--web-view-name: Changing Lives Home Health Care;
-	--web-view-id: Changing_Lives_Home_Health_Care;
+	--web-view-name: To GH;
+	--web-view-id: To_GH;
 	--web-scale-on-resize: true;
 	--web-application: true;
 	--web-enable-deep-linking: true;
 }
 :root {
-	--web-view-ids: Changing_Lives_Home_Health_Care;
+	--web-view-ids: To_GH;
 }
 * {
 	margin: 0;
@@ -14,14 +14,14 @@
 	box-sizing: border-box;
 	border: none;
 }
-#Changing_Lives_Home_Health_Care {
+#To_GH {
 	position: absolute;
 	width: 1903px;
-	height: 6046px;
+	height: 6251px;
 	background-color: rgba(255,246,241,1);
 	overflow: hidden;
-	--web-view-name: Changing Lives Home Health Care;
-	--web-view-id: Changing_Lives_Home_Health_Care;
+	--web-view-name: To GH;
+	--web-view-id: To_GH;
 	--web-scale-on-resize: true;
 	--web-application: true;
 	--web-enable-deep-linking: true;
@@ -29,31 +29,31 @@
 #Banner {
 	position: absolute;
 	width: 1903px;
-	height: 995px;
+	height: 995.293px;
 	left: 0px;
 	top: 0px;
 	overflow: visible;
 }
-#ID1_i {
+#ID1 {
 	fill: transparent;
 }
-.ID1_i {
+.ID1 {
 	overflow: hidden;
 	position: absolute;
-	width: 1903px;
-	height: 995px;
+	width: 1822.672px;
+	height: 953px;
 	left: 0px;
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#ID1_i {
+#ID1_n {
 	fill: transparent;
 }
-.ID1_i {
+.ID1_n {
 	overflow: hidden;
 	position: absolute;
 	width: 1903px;
-	height: 995px;
+	height: 995.293px;
 	left: 0px;
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
@@ -67,7 +67,7 @@
 	position: absolute;
 	overflow: visible;
 	width: 1903px;
-	height: 955px;
+	height: 913px;
 	left: 0px;
 	top: 0px;
 }
@@ -75,12 +75,12 @@
 	position: absolute;
 	width: 801px;
 	height: 254.094px;
-	left: 551px;
-	top: 268.517px;
+	left: 550.992px;
+	top: 264.296px;
 	overflow: visible;
 }
 #_28 {
-	opacity: 0.85;
+	opacity: 0.8;
 	fill: rgba(225,27,34,1);
 }
 ._28 {
@@ -92,6 +92,7 @@
 	top: 0.483px;
 }
 #Button {
+	opacity: 0.9;
 	position: absolute;
 	width: 163px;
 	height: 45.994px;
@@ -191,36 +192,35 @@
 }
 #Services {
 	position: absolute;
-	width: 939.276px;
-	height: 257.905px;
-	left: 481.862px;
-	top: 586px;
+	width: 935.985px;
+	height: 204.07px;
+	left: 483.5px;
+	top: 563.93px;
 	overflow: visible;
 }
 #SkilledNursing {
-	opacity: 0.9;
 	position: absolute;
-	width: 148.672px;
-	height: 209.982px;
+	width: 126.904px;
+	height: 204.07px;
 	left: 0px;
 	top: 0px;
 	overflow: visible;
 }
 #_21 {
-	opacity: 0.8;
+	opacity: 0.9;
 	fill: rgba(225,27,34,1);
 }
 ._21 {
 	position: absolute;
 	overflow: visible;
-	width: 148.672px;
-	height: 209.982px;
-	left: 0px;
+	width: 126.87px;
+	height: 204.07px;
+	left: 0.034px;
 	top: 0px;
 }
 #SKILLED__NURSING {
-	left: 40.336px;
-	top: 152.272px;
+	left: 29.434px;
+	top: 142px;
 	position: absolute;
 	overflow: visible;
 	width: 69px;
@@ -236,20 +236,21 @@
 	position: absolute;
 	width: 126.867px;
 	height: 128px;
-	left: 10.903px;
-	top: 12.272px;
+	left: 0px;
+	top: 0px;
 	overflow: visible;
 }
-#_1 {
+#_98 {
 	fill: rgba(255,246,241,1);
 }
-._1 {
-	position: absolute;
+._98 {
 	overflow: visible;
+	position: absolute;
 	width: 126.867px;
 	height: 128px;
 	left: 0px;
 	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
 }
 #Nurse {
 	position: absolute;
@@ -311,10 +312,10 @@
 	top: 49.457px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_26_ {
+#_26_bb {
 	fill: rgba(225,27,34,1);
 }
-._26_ {
+._26_bb {
 	overflow: visible;
 	position: absolute;
 	width: 3.184px;
@@ -323,10 +324,10 @@
 	top: 38.02px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_27_ {
+#_27_bc {
 	fill: rgba(225,27,34,1);
 }
-._27_ {
+._27_bc {
 	overflow: visible;
 	position: absolute;
 	width: 2.942px;
@@ -335,10 +336,10 @@
 	top: 38.047px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_28_ {
+#_28_bd {
 	fill: rgba(225,27,34,1);
 }
-._28_ {
+._28_bd {
 	overflow: visible;
 	position: absolute;
 	width: 9.086px;
@@ -351,8 +352,8 @@
 	position: absolute;
 	width: 20.314px;
 	height: 12.635px;
-	left: 64.214px;
-	top: 209.982px;
+	left: 53.312px;
+	top: 197.71px;
 	display: none;
 	overflow: visible;
 }
@@ -382,43 +383,49 @@
 	transform: matrix(1,0,0,1,0,0);
 }
 #PhisicalTherapy {
-	opacity: 0.9;
 	position: absolute;
-	width: 148.672px;
-	height: 210.516px;
-	left: 158.121px;
-	top: 47.389px;
+	width: 127.065px;
+	height: 204.07px;
+	left: 160.458px;
+	top: 0px;
 	overflow: visible;
 }
-#_24_bd {
+#_34 {
 	opacity: 0.9;
 	fill: rgba(255,246,241,1);
+	stroke: rgba(225,27,34,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
 }
-._24_bd {
+._34 {
 	position: absolute;
 	overflow: visible;
-	width: 148.672px;
-	height: 210.516px;
+	width: 126.87px;
+	height: 204.07px;
 	left: 0px;
 	top: 0px;
 }
-#_2 {
+#_102 {
 	fill: rgba(225,27,34,1);
 }
-._2 {
-	position: absolute;
+._102 {
 	overflow: visible;
-	width: 126.867px;
+	position: absolute;
+	width: 126.536px;
 	height: 128px;
-	left: 10.903px;
-	top: 12.611px;
+	left: 0.53px;
+	top: 0.339px;
+	transform: matrix(1,0,0,1,0,0);
 }
 #Physical-therapy {
 	position: absolute;
-	width: 99.115px;
+	width: 98.784px;
 	height: 100px;
-	left: 24.779px;
-	top: 22.768px;
+	left: 14.406px;
+	top: 10.496px;
 	overflow: visible;
 }
 #_29 {
@@ -427,15 +434,15 @@
 ._29 {
 	overflow: visible;
 	position: absolute;
-	width: 99.115px;
+	width: 98.784px;
 	height: 100px;
 	left: 0px;
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
 #PHYSICAL_THERAPY {
-	left: 37.155px;
-	top: 148.611px;
+	left: 26.797px;
+	top: 142.339px;
 	position: absolute;
 	overflow: visible;
 	width: 75px;
@@ -447,65 +454,63 @@
 	font-size: 16px;
 	color: rgba(225,27,34,1);
 }
-#ArrowDown_bi {
+#ArrowDown_bn {
 	position: absolute;
-	width: 20.877px;
-	height: 12.273px;
-	left: 63.535px;
-	top: 210.516px;
+	width: 20.823px;
+	height: 12.241px;
+	left: 53.024px;
+	top: 198.244px;
 	display: none;
 	overflow: visible;
 }
-#_96_bj {
+#_96_bo {
 	fill: rgba(225,27,34,1);
 }
-._96_bj {
+._96_bo {
 	display: none;
 	overflow: visible;
 	position: absolute;
-	width: 40px;
-	height: 39.977px;
-	left: -9.596px;
-	top: -15.905px;
+	width: 39.896px;
+	height: 39.873px;
+	left: -9.57px;
+	top: -15.863px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_97_bk {
+#_97_bp {
 	fill: rgba(225,27,34,1);
 }
-._97_bk {
+._97_bp {
 	overflow: visible;
 	position: absolute;
-	width: 20.877px;
-	height: 12.273px;
+	width: 20.823px;
+	height: 12.241px;
 	left: 0px;
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
 #SpeechTherapy {
-	opacity: 0.9;
 	position: absolute;
-	width: 148.672px;
-	height: 210.361px;
-	left: 316.242px;
-	top: 0px;
+	width: 126.9px;
+	height: 203.799px;
+	left: 324.042px;
+	top: 0.272px;
 	overflow: visible;
 }
-#_98 {
-	opacity: 0.8;
+#_22 {
+	opacity: 0.9;
 	fill: rgba(225,27,34,1);
 }
-._98 {
-	overflow: visible;
+._22 {
 	position: absolute;
-	width: 148.672px;
-	height: 210.361px;
+	overflow: visible;
+	width: 126.9px;
+	height: 196.408px;
 	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
+	top: 7.39px;
 }
 #SPEECH_THERAPY {
-	left: 39.336px;
-	top: 151.5px;
+	left: 28.45px;
+	top: 141.956px;
 	position: absolute;
 	overflow: visible;
 	width: 71px;
@@ -521,26 +526,27 @@
 }
 #_16 {
 	position: absolute;
-	width: 126.867px;
-	height: 128px;
-	left: 10.903px;
-	top: 12.544px;
-	overflow: visible;
-}
-#_3 {
-	fill: rgba(255,246,241,1);
-}
-._3 {
-	position: absolute;
-	overflow: visible;
-	width: 126.867px;
+	width: 126.9px;
 	height: 128px;
 	left: 0px;
 	top: 0px;
+	overflow: visible;
+}
+#_103 {
+	fill: rgba(255,246,241,1);
+}
+._103 {
+	overflow: visible;
+	position: absolute;
+	width: 126.9px;
+	height: 128px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
 }
 #Dialog {
 	position: absolute;
-	width: 90.432px;
+	width: 90.465px;
 	height: 86.605px;
 	left: 18.832px;
 	top: 15.385px;
@@ -548,7 +554,7 @@
 }
 #_9 {
 	position: absolute;
-	width: 90.432px;
+	width: 90.465px;
 	height: 86.605px;
 	left: 0px;
 	top: 0px;
@@ -562,7 +568,7 @@
 	position: absolute;
 	width: 58.152px;
 	height: 45.351px;
-	left: 14.006px;
+	left: 14.02px;
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
@@ -586,7 +592,7 @@
 	position: absolute;
 	width: 41.817px;
 	height: 39.485px;
-	left: 48.615px;
+	left: 48.648px;
 	top: 47.119px;
 	transform: matrix(1,0,0,1,0,0);
 }
@@ -598,7 +604,7 @@
 	position: absolute;
 	width: 29.134px;
 	height: 2.769px;
-	left: 19.28px;
+	left: 19.29px;
 	top: 17.884px;
 	transform: matrix(1,0,0,1,0,0);
 }
@@ -608,9 +614,9 @@
 ._43 {
 	overflow: visible;
 	position: absolute;
-	width: 28.99px;
+	width: 28.991px;
 	height: 2.796px;
-	left: 19.353px;
+	left: 19.363px;
 	top: 12.607px;
 	transform: matrix(1,0,0,1,0,0);
 }
@@ -620,32 +626,32 @@
 ._44 {
 	overflow: visible;
 	position: absolute;
-	width: 29.135px;
+	width: 29.136px;
 	height: 2.784px;
-	left: 19.274px;
+	left: 19.284px;
 	top: 7.34px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#ArrowDown_by {
+#ArrowDown_b {
 	position: absolute;
-	width: 20.877px;
-	height: 12.273px;
-	left: 63.897px;
-	top: 210.361px;
+	width: 20.883px;
+	height: 12.276px;
+	left: 53.009px;
+	top: 197.818px;
 	display: none;
 	overflow: visible;
 }
-#_96_bz {
+#_96_b {
 	fill: rgba(255,246,241,1);
 }
-._96_bz {
+._96_b {
 	display: none;
 	overflow: visible;
 	position: absolute;
-	width: 40px;
-	height: 39.977px;
-	left: -9.596px;
-	top: -15.905px;
+	width: 40.011px;
+	height: 39.987px;
+	left: -9.598px;
+	top: -15.909px;
 	transform: matrix(1,0,0,1,0,0);
 }
 #_97_b {
@@ -654,36 +660,41 @@
 ._97_b {
 	overflow: visible;
 	position: absolute;
-	width: 20.877px;
-	height: 12.273px;
+	width: 20.883px;
+	height: 12.276px;
 	left: 0px;
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
 #OccupationalTherapy {
-	opacity: 0.9;
 	position: absolute;
-	width: 148.672px;
-	height: 210.37px;
-	left: 474.363px;
-	top: 47.389px;
+	width: 126.9px;
+	height: 204.07px;
+	left: 484.839px;
+	top: 0px;
 	overflow: visible;
 }
-#_25_b {
+#_35 {
 	opacity: 0.9;
 	fill: rgba(255,246,241,1);
+	stroke: rgba(225,27,34,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
 }
-._25_b {
+._35 {
 	position: absolute;
 	overflow: visible;
-	width: 148.672px;
-	height: 210.37px;
+	width: 126.87px;
+	height: 204.07px;
 	left: 0px;
 	top: 0px;
 }
 #OCCUPATIONAL_THERAPY {
-	left: 13.336px;
-	top: 149.272px;
+	left: 4.9px;
+	top: 142.045px;
 	position: absolute;
 	overflow: visible;
 	width: 123px;
@@ -699,10 +710,10 @@
 }
 #_15 {
 	position: absolute;
-	width: 126.867px;
+	width: 126.9px;
 	height: 128px;
-	left: 10.704px;
-	top: 12.272px;
+	left: 0px;
+	top: 0px;
 	overflow: visible;
 }
 #_4 {
@@ -711,7 +722,7 @@
 ._4 {
 	position: absolute;
 	overflow: visible;
-	width: 126.867px;
+	width: 126.9px;
 	height: 128px;
 	left: 0px;
 	top: 0px;
@@ -720,7 +731,7 @@
 	position: absolute;
 	width: 86.728px;
 	height: 86.6px;
-	left: 20.069px;
+	left: 20.086px;
 	top: 20.7px;
 	overflow: visible;
 }
@@ -730,7 +741,7 @@
 ._46 {
 	overflow: visible;
 	position: absolute;
-	width: 86.728px;
+	width: 86.729px;
 	height: 86.6px;
 	left: 0px;
 	top: 0px;
@@ -742,7 +753,7 @@
 ._47 {
 	overflow: visible;
 	position: absolute;
-	width: 7.964px;
+	width: 7.963px;
 	height: 4.24px;
 	left: 71.163px;
 	top: 48.533px;
@@ -802,73 +813,72 @@
 ._52 {
 	overflow: visible;
 	position: absolute;
-	width: 2.874px;
+	width: 2.875px;
 	height: 2.874px;
 	left: 23.172px;
 	top: 14.425px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#ArrowDown_ce {
+#ArrowDown_cj {
 	position: absolute;
-	width: 20.877px;
-	height: 12.28px;
-	left: 63.733px;
-	top: 210.37px;
+	width: 20.883px;
+	height: 12.283px;
+	left: 53.043px;
+	top: 198.152px;
 	display: none;
 	overflow: visible;
 }
-#_96_cf {
+#_96_ck {
 	fill: rgba(225,27,34,1);
 }
-._96_cf {
+._96_ck {
 	display: none;
 	overflow: visible;
 	position: absolute;
-	width: 40px;
-	height: 40px;
-	left: -9.596px;
-	top: -15.914px;
+	width: 40.011px;
+	height: 40.01px;
+	left: -9.598px;
+	top: -15.918px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_97_cg {
+#_97_cl {
 	fill: rgba(225,27,34,1);
 }
-._97_cg {
+._97_cl {
 	overflow: visible;
 	position: absolute;
-	width: 20.877px;
-	height: 12.28px;
+	width: 20.883px;
+	height: 12.283px;
 	left: 0px;
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
 #MedicalSocialWorker {
-	opacity: 0.9;
 	position: absolute;
-	width: 148.672px;
-	height: 210.37px;
-	left: 632.484px;
-	top: 0px;
+	width: 127.368px;
+	height: 203.402px;
+	left: 648.5px;
+	top: 0.669px;
 	overflow: visible;
 }
-#_23_ci {
-	opacity: 0.8;
+#_23_cn {
+	opacity: 0.9;
 	fill: rgba(225,27,34,1);
 }
-._23_ci {
+._23_cn {
 	position: absolute;
 	overflow: visible;
-	width: 148.672px;
-	height: 210.37px;
-	left: 0px;
-	top: 0px;
+	width: 126.9px;
+	height: 199.342px;
+	left: 0.468px;
+	top: 4.059px;
 }
 #MEDICAL_SOCIAL_WORKER {
-	left: 39.766px;
-	top: 140.941px;
+	left: 29.433px;
+	top: 142px;
 	position: absolute;
 	overflow: visible;
-	width: 71px;
+	width: 69px;
 	white-space: nowrap;
 	line-height: 19px;
 	margin-top: -1.5px;
@@ -883,8 +893,8 @@
 	position: absolute;
 	width: 126.867px;
 	height: 128px;
-	left: 11.299px;
-	top: 12.941px;
+	left: 0px;
+	top: 0px;
 	overflow: visible;
 }
 #_5 {
@@ -898,11 +908,11 @@
 	left: 0px;
 	top: 0px;
 }
-#MedicalSocialWorker_cm {
+#MedicalSocialWorker_cr {
 	position: absolute;
 	width: 84.151px;
 	height: 87.386px;
-	left: 20.962px;
+	left: 20.961px;
 	top: 20.307px;
 	overflow: visible;
 }
@@ -932,25 +942,25 @@
 ._54 {
 	overflow: visible;
 	position: absolute;
-	width: 39.737px;
-	height: 87.387px;
-	left: 44.414px;
+	width: 39.736px;
+	height: 87.386px;
+	left: 44.415px;
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#ArrowDown_cq {
+#ArrowDown_cv {
 	position: absolute;
 	width: 20.877px;
 	height: 12.28px;
-	left: 64.328px;
-	top: 210.37px;
+	left: 53.029px;
+	top: 197.43px;
 	display: none;
 	overflow: visible;
 }
-#_96_cr {
+#_96_cw {
 	fill: rgba(255,246,241,1);
 }
-._96_cr {
+._96_cw {
 	display: none;
 	overflow: visible;
 	position: absolute;
@@ -960,10 +970,10 @@
 	top: -15.914px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_97_cs {
+#_97_cx {
 	fill: rgba(255,246,241,1);
 }
-._97_cs {
+._97_cx {
 	overflow: visible;
 	position: absolute;
 	width: 20.877px;
@@ -973,32 +983,37 @@
 	transform: matrix(1,0,0,1,0,0);
 }
 #HomeHealthAide {
-	opacity: 0.9;
 	position: absolute;
-	width: 148.672px;
-	height: 210.37px;
-	left: 790.604px;
-	top: 47.389px;
+	width: 126.903px;
+	height: 204.07px;
+	left: 809.082px;
+	top: 0px;
 	overflow: visible;
 }
-#_25_cu {
+#_36 {
 	opacity: 0.9;
 	fill: rgba(255,246,241,1);
+	stroke: rgba(225,27,34,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
 }
-._25_cu {
+._36 {
 	position: absolute;
 	overflow: visible;
-	width: 148.672px;
-	height: 210.37px;
-	left: 0px;
+	width: 126.87px;
+	height: 204.07px;
+	left: 0.033px;
 	top: 0px;
 }
 #HOME {
-	left: 24.336px;
-	top: 149.272px;
+	left: 34.434px;
+	top: 142px;
 	position: absolute;
 	overflow: visible;
-	width: 101px;
+	width: 59px;
 	white-space: nowrap;
 	line-height: 19px;
 	margin-top: -1.5px;
@@ -1013,14 +1028,14 @@
 	position: absolute;
 	width: 126.867px;
 	height: 128px;
-	left: 10.903px;
-	top: 12.272px;
+	left: 0px;
+	top: 0px;
 	overflow: visible;
 }
-#_4_cx {
+#_4_c {
 	fill: rgba(225,27,34,1);
 }
-._4_cx {
+._4_c {
 	position: absolute;
 	overflow: visible;
 	width: 126.867px;
@@ -1056,7 +1071,7 @@
 	position: absolute;
 	width: 41.274px;
 	height: 65.986px;
-	left: 35.913px;
+	left: 35.914px;
 	top: 8.797px;
 	transform: matrix(1,0,0,1,0,0);
 }
@@ -1108,19 +1123,19 @@
 	top: 28.486px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#ArrowDown_c {
+#ArrowDown_da {
 	position: absolute;
 	width: 20.877px;
 	height: 12.28px;
-	left: 63.932px;
-	top: 210.37px;
+	left: 53.029px;
+	top: 198.098px;
 	display: none;
 	overflow: visible;
 }
-#_96_c {
+#_96_db {
 	fill: rgba(225,27,34,1);
 }
-._96_c {
+._96_db {
 	display: none;
 	overflow: visible;
 	position: absolute;
@@ -1130,10 +1145,1141 @@
 	top: -15.914px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_97_c {
+#_97_dc {
 	fill: rgba(225,27,34,1);
 }
-._97_c {
+._97_dc {
+	overflow: visible;
+	position: absolute;
+	width: 20.877px;
+	height: 12.28px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Services_dd {
+	position: absolute;
+	width: 1097.397px;
+	height: 292.389px;
+	left: 323.741px;
+	top: 544px;
+	display: none;
+	overflow: visible;
+}
+#SkilledNursing_de {
+	opacity: 0.9;
+	position: absolute;
+	width: 148.672px;
+	height: 245px;
+	left: 158.121px;
+	top: 0px;
+	overflow: visible;
+}
+#_21_df {
+	opacity: 0.8;
+	fill: rgba(225,27,34,1);
+}
+._21_df {
+	position: absolute;
+	overflow: visible;
+	width: 148.672px;
+	height: 245px;
+	left: 0px;
+	top: 0px;
+}
+#SKILLED__NURSING_dg {
+	left: 40.336px;
+	top: 152.272px;
+	position: absolute;
+	overflow: visible;
+	width: 69px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,246,241,1);
+}
+#_12_dh {
+	position: absolute;
+	width: 126.867px;
+	height: 128px;
+	left: 10.903px;
+	top: 12.272px;
+	overflow: visible;
+}
+#_1 {
+	fill: rgba(255,246,241,1);
+}
+._1 {
+	position: absolute;
+	overflow: visible;
+	width: 126.867px;
+	height: 128px;
+	left: 0px;
+	top: 0px;
+}
+#Nurse_dj {
+	position: absolute;
+	width: 80.753px;
+	height: 98.924px;
+	left: 23.057px;
+	top: 9.538px;
+	overflow: visible;
+}
+#_7_dk {
+	position: absolute;
+	width: 80.753px;
+	height: 98.924px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_23_dl {
+	fill: rgba(225,27,34,1);
+}
+._23_dl {
+	overflow: visible;
+	position: absolute;
+	width: 14.864px;
+	height: 3.036px;
+	left: 52.979px;
+	top: 87.758px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_6_dm {
+	position: absolute;
+	width: 80.753px;
+	height: 98.924px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_24_dn {
+	fill: rgba(225,27,34,1);
+}
+._24_dn {
+	overflow: visible;
+	position: absolute;
+	width: 80.753px;
+	height: 98.924px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_25_do {
+	fill: rgba(225,27,34,1);
+}
+._25_do {
+	overflow: visible;
+	position: absolute;
+	width: 10.519px;
+	height: 4.692px;
+	left: 35.17px;
+	top: 49.457px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_26_dp {
+	fill: rgba(225,27,34,1);
+}
+._26_dp {
+	overflow: visible;
+	position: absolute;
+	width: 3.184px;
+	height: 4.098px;
+	left: 29.972px;
+	top: 38.02px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_27_dq {
+	fill: rgba(225,27,34,1);
+}
+._27_dq {
+	overflow: visible;
+	position: absolute;
+	width: 2.942px;
+	height: 4.066px;
+	left: 47.809px;
+	top: 38.047px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_28_dr {
+	fill: rgba(225,27,34,1);
+}
+._28_dr {
+	overflow: visible;
+	position: absolute;
+	width: 9.086px;
+	height: 9.144px;
+	left: 35.846px;
+	top: 5.531px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ArrowDown_ds {
+	position: absolute;
+	width: 20.314px;
+	height: 12.635px;
+	left: 64.214px;
+	top: 209.982px;
+	overflow: visible;
+}
+#_96_dt {
+	fill: rgba(255,246,241,1);
+}
+._96_dt {
+	display: none;
+	overflow: visible;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: -9.878px;
+	top: -15.71px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_97_du {
+	fill: rgba(255,246,241,1);
+}
+._97_du {
+	overflow: visible;
+	position: absolute;
+	width: 20.314px;
+	height: 12.635px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#SkilledNursing_dv {
+	opacity: 0.9;
+	position: absolute;
+	width: 148.672px;
+	height: 207.982px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_21_dw {
+	opacity: 0.8;
+	fill: rgba(225,27,34,1);
+}
+._21_dw {
+	position: absolute;
+	overflow: visible;
+	width: 148.672px;
+	height: 207.982px;
+	left: 0px;
+	top: 0px;
+}
+#SKILLED__NURSING_dx {
+	left: 40.336px;
+	top: 152.272px;
+	position: absolute;
+	overflow: visible;
+	width: 69px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,246,241,1);
+}
+#_12_dy {
+	position: absolute;
+	width: 126.867px;
+	height: 128px;
+	left: 10.902px;
+	top: 12.272px;
+	overflow: visible;
+}
+#_1_dz {
+	fill: rgba(255,246,241,1);
+}
+._1_dz {
+	position: absolute;
+	overflow: visible;
+	width: 126.867px;
+	height: 128px;
+	left: 0px;
+	top: 0px;
+}
+#Nurse_d {
+	position: absolute;
+	width: 80.753px;
+	height: 98.924px;
+	left: 23.057px;
+	top: 9.538px;
+	overflow: visible;
+}
+#_7_d {
+	position: absolute;
+	width: 80.753px;
+	height: 98.924px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_23_d {
+	fill: rgba(225,27,34,1);
+}
+._23_d {
+	overflow: visible;
+	position: absolute;
+	width: 14.864px;
+	height: 3.036px;
+	left: 52.979px;
+	top: 87.758px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_6_d {
+	position: absolute;
+	width: 80.753px;
+	height: 98.924px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_24_d {
+	fill: rgba(225,27,34,1);
+}
+._24_d {
+	overflow: visible;
+	position: absolute;
+	width: 80.753px;
+	height: 98.924px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_25_d {
+	fill: rgba(225,27,34,1);
+}
+._25_d {
+	overflow: visible;
+	position: absolute;
+	width: 10.519px;
+	height: 4.692px;
+	left: 35.17px;
+	top: 49.457px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_26_d {
+	fill: rgba(225,27,34,1);
+}
+._26_d {
+	overflow: visible;
+	position: absolute;
+	width: 3.184px;
+	height: 4.098px;
+	left: 29.972px;
+	top: 38.02px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_27_d {
+	fill: rgba(225,27,34,1);
+}
+._27_d {
+	overflow: visible;
+	position: absolute;
+	width: 2.942px;
+	height: 4.066px;
+	left: 47.809px;
+	top: 38.047px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_28_d {
+	fill: rgba(225,27,34,1);
+}
+._28_d {
+	overflow: visible;
+	position: absolute;
+	width: 9.086px;
+	height: 9.144px;
+	left: 35.846px;
+	top: 5.531px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ArrowDown_d {
+	position: absolute;
+	width: 20.314px;
+	height: 12.635px;
+	left: 64.214px;
+	top: 209.982px;
+	display: none;
+	overflow: visible;
+}
+#_96_ea {
+	fill: rgba(255,246,241,1);
+}
+._96_ea {
+	display: none;
+	overflow: visible;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: -9.878px;
+	top: -15.71px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_97_eb {
+	fill: rgba(255,246,241,1);
+}
+._97_eb {
+	overflow: visible;
+	position: absolute;
+	width: 20.314px;
+	height: 12.635px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#PhisicalTherapy_ec {
+	opacity: 0.9;
+	position: absolute;
+	width: 148.672px;
+	height: 245px;
+	left: 316.242px;
+	top: 47.389px;
+	overflow: visible;
+}
+#_24_ed {
+	opacity: 0.9;
+	fill: rgba(255,246,241,1);
+}
+._24_ed {
+	position: absolute;
+	overflow: visible;
+	width: 148.672px;
+	height: 245px;
+	left: 0px;
+	top: 0px;
+}
+#_2 {
+	fill: rgba(225,27,34,1);
+}
+._2 {
+	position: absolute;
+	overflow: visible;
+	width: 126.867px;
+	height: 128px;
+	left: 10.902px;
+	top: 12.611px;
+}
+#Physical-therapy_ef {
+	position: absolute;
+	width: 99.115px;
+	height: 100px;
+	left: 24.778px;
+	top: 22.768px;
+	overflow: visible;
+}
+#_29_eg {
+	fill: rgba(255,246,241,1);
+}
+._29_eg {
+	overflow: visible;
+	position: absolute;
+	width: 99.114px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#PHYSICAL_THERAPY_eh {
+	left: 37.155px;
+	top: 148.611px;
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(225,27,34,1);
+}
+#ArrowDown_ei {
+	position: absolute;
+	width: 20.877px;
+	height: 12.273px;
+	left: 63.535px;
+	top: 210.516px;
+	overflow: visible;
+}
+#_96_ej {
+	fill: rgba(225,27,34,1);
+}
+._96_ej {
+	display: none;
+	overflow: visible;
+	position: absolute;
+	width: 40px;
+	height: 39.977px;
+	left: -9.596px;
+	top: -15.905px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_97_ek {
+	fill: rgba(225,27,34,1);
+}
+._97_ek {
+	overflow: visible;
+	position: absolute;
+	width: 20.877px;
+	height: 12.273px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#SpeechTherapy_el {
+	opacity: 0.9;
+	position: absolute;
+	width: 148.672px;
+	height: 245px;
+	left: 474.362px;
+	top: 0px;
+	overflow: visible;
+}
+#_22_em {
+	opacity: 0.8;
+	fill: rgba(225,27,34,1);
+}
+._22_em {
+	position: absolute;
+	overflow: visible;
+	width: 148.672px;
+	height: 245px;
+	left: 0px;
+	top: 0px;
+}
+#SPEECH_THERAPY_en {
+	left: 39.336px;
+	top: 151.5px;
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	line-height: 19px;
+	margin-top: -1.5px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#_16_eo {
+	position: absolute;
+	width: 126.867px;
+	height: 128px;
+	left: 10.903px;
+	top: 12.544px;
+	overflow: visible;
+}
+#_3 {
+	fill: rgba(255,246,241,1);
+}
+._3 {
+	position: absolute;
+	overflow: visible;
+	width: 126.867px;
+	height: 128px;
+	left: 0px;
+	top: 0px;
+}
+#Dialog_eq {
+	position: absolute;
+	width: 90.432px;
+	height: 86.605px;
+	left: 18.832px;
+	top: 15.385px;
+	overflow: visible;
+}
+#_9_er {
+	position: absolute;
+	width: 90.432px;
+	height: 86.605px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_39_es {
+	fill: rgba(225,27,34,1);
+}
+._39_es {
+	overflow: visible;
+	position: absolute;
+	width: 58.152px;
+	height: 45.351px;
+	left: 14.006px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_40_et {
+	fill: rgba(225,27,34,1);
+}
+._40_et {
+	overflow: visible;
+	position: absolute;
+	width: 41.868px;
+	height: 44.163px;
+	left: 0px;
+	top: 42.443px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_41_eu {
+	fill: rgba(225,27,34,1);
+}
+._41_eu {
+	overflow: visible;
+	position: absolute;
+	width: 41.817px;
+	height: 39.485px;
+	left: 48.615px;
+	top: 47.119px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_42_ev {
+	fill: rgba(225,27,34,1);
+}
+._42_ev {
+	overflow: visible;
+	position: absolute;
+	width: 29.134px;
+	height: 2.769px;
+	left: 19.28px;
+	top: 17.884px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_43_ew {
+	fill: rgba(225,27,34,1);
+}
+._43_ew {
+	overflow: visible;
+	position: absolute;
+	width: 28.991px;
+	height: 2.796px;
+	left: 19.353px;
+	top: 12.607px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_44_ex {
+	fill: rgba(225,27,34,1);
+}
+._44_ex {
+	overflow: visible;
+	position: absolute;
+	width: 29.136px;
+	height: 2.784px;
+	left: 19.273px;
+	top: 7.34px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ArrowDown_ey {
+	position: absolute;
+	width: 20.877px;
+	height: 12.273px;
+	left: 63.897px;
+	top: 210.361px;
+	overflow: visible;
+}
+#_96_ez {
+	fill: rgba(255,246,241,1);
+}
+._96_ez {
+	display: none;
+	overflow: visible;
+	position: absolute;
+	width: 40px;
+	height: 39.977px;
+	left: -9.596px;
+	top: -15.905px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_97_e {
+	fill: rgba(255,246,241,1);
+}
+._97_e {
+	overflow: visible;
+	position: absolute;
+	width: 20.877px;
+	height: 12.273px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#OccupationalTherapy_e {
+	opacity: 0.9;
+	position: absolute;
+	width: 148.672px;
+	height: 245px;
+	left: 632.483px;
+	top: 47.389px;
+	overflow: visible;
+}
+#_25_e {
+	opacity: 0.9;
+	fill: rgba(255,246,241,1);
+}
+._25_e {
+	position: absolute;
+	overflow: visible;
+	width: 148.672px;
+	height: 245px;
+	left: 0px;
+	top: 0px;
+}
+#OCCUPATIONAL_THERAPY_e {
+	left: 13.336px;
+	top: 149.272px;
+	position: absolute;
+	overflow: visible;
+	width: 123px;
+	white-space: nowrap;
+	line-height: 19px;
+	margin-top: -1.5px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(225,27,34,1);
+}
+#_15_e {
+	position: absolute;
+	width: 126.867px;
+	height: 128px;
+	left: 10.705px;
+	top: 12.272px;
+	overflow: visible;
+}
+#_4_e {
+	fill: rgba(225,27,34,1);
+}
+._4_e {
+	position: absolute;
+	overflow: visible;
+	width: 126.867px;
+	height: 128px;
+	left: 0px;
+	top: 0px;
+}
+#TheRapist_e {
+	position: absolute;
+	width: 86.728px;
+	height: 86.6px;
+	left: 20.069px;
+	top: 20.7px;
+	overflow: visible;
+}
+#_46_e {
+	fill: rgba(255,246,241,1);
+}
+._46_e {
+	overflow: visible;
+	position: absolute;
+	width: 86.729px;
+	height: 86.6px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_47_e {
+	fill: rgba(255,246,241,1);
+}
+._47_e {
+	overflow: visible;
+	position: absolute;
+	width: 7.963px;
+	height: 4.24px;
+	left: 71.164px;
+	top: 48.533px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_48_e {
+	fill: rgba(255,246,241,1);
+}
+._48_e {
+	overflow: visible;
+	position: absolute;
+	width: 2.873px;
+	height: 2.873px;
+	left: 69.375px;
+	top: 43.298px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_49_fa {
+	fill: rgba(255,246,241,1);
+}
+._49_fa {
+	overflow: visible;
+	position: absolute;
+	width: 2.874px;
+	height: 2.874px;
+	left: 78.037px;
+	top: 43.297px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_50_fb {
+	fill: rgba(255,246,241,1);
+}
+._50_fb {
+	overflow: visible;
+	position: absolute;
+	width: 7.973px;
+	height: 4.259px;
+	left: 16.299px;
+	top: 19.641px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_51_fc {
+	fill: rgba(255,246,241,1);
+}
+._51_fc {
+	overflow: visible;
+	position: absolute;
+	width: 2.873px;
+	height: 2.873px;
+	left: 14.51px;
+	top: 14.425px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_52_fd {
+	fill: rgba(255,246,241,1);
+}
+._52_fd {
+	overflow: visible;
+	position: absolute;
+	width: 2.875px;
+	height: 2.874px;
+	left: 23.172px;
+	top: 14.425px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ArrowDown_fe {
+	position: absolute;
+	width: 20.877px;
+	height: 12.28px;
+	left: 63.733px;
+	top: 210.37px;
+	overflow: visible;
+}
+#_96_ff {
+	fill: rgba(225,27,34,1);
+}
+._96_ff {
+	display: none;
+	overflow: visible;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: -9.596px;
+	top: -15.914px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_97_fg {
+	fill: rgba(225,27,34,1);
+}
+._97_fg {
+	overflow: visible;
+	position: absolute;
+	width: 20.877px;
+	height: 12.28px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MedicalSocialWorker_fh {
+	opacity: 0.9;
+	position: absolute;
+	width: 148.672px;
+	height: 245px;
+	left: 790.604px;
+	top: 0px;
+	overflow: visible;
+}
+#_23_fi {
+	opacity: 0.8;
+	fill: rgba(225,27,34,1);
+}
+._23_fi {
+	position: absolute;
+	overflow: visible;
+	width: 148.672px;
+	height: 245px;
+	left: 0px;
+	top: 0px;
+}
+#MEDICAL_SOCIAL_WORKER_fj {
+	left: 11.767px;
+	top: 151.699px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	line-height: 19px;
+	margin-top: -1.5px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#_13_fk {
+	position: absolute;
+	width: 126.867px;
+	height: 128px;
+	left: 11.299px;
+	top: 12.941px;
+	overflow: visible;
+}
+#_5_fl {
+	fill: rgba(255,246,241,1);
+}
+._5_fl {
+	position: absolute;
+	overflow: visible;
+	width: 126.867px;
+	height: 128px;
+	left: 0px;
+	top: 0px;
+}
+#MedicalSocialWorker_fm {
+	position: absolute;
+	width: 84.151px;
+	height: 87.386px;
+	left: 20.961px;
+	top: 20.307px;
+	overflow: visible;
+}
+#_10_fn {
+	position: absolute;
+	width: 84.151px;
+	height: 87.386px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_53_fo {
+	fill: rgba(225,27,34,1);
+}
+._53_fo {
+	overflow: visible;
+	position: absolute;
+	width: 52.448px;
+	height: 75.278px;
+	left: 0px;
+	top: 12.102px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_54_fp {
+	fill: rgba(225,27,34,1);
+}
+._54_fp {
+	overflow: visible;
+	position: absolute;
+	width: 39.736px;
+	height: 87.387px;
+	left: 44.414px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ArrowDown_fq {
+	position: absolute;
+	width: 20.877px;
+	height: 12.28px;
+	left: 64.328px;
+	top: 210.37px;
+	overflow: visible;
+}
+#_96_fr {
+	fill: rgba(255,246,241,1);
+}
+._96_fr {
+	display: none;
+	overflow: visible;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: -9.596px;
+	top: -15.914px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_97_fs {
+	fill: rgba(255,246,241,1);
+}
+._97_fs {
+	overflow: visible;
+	position: absolute;
+	width: 20.877px;
+	height: 12.28px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#HomeHealthAide_ft {
+	opacity: 0.9;
+	position: absolute;
+	width: 148.672px;
+	height: 245px;
+	left: 948.725px;
+	top: 47.389px;
+	overflow: visible;
+}
+#_25_fu {
+	opacity: 0.9;
+	fill: rgba(255,246,241,1);
+}
+._25_fu {
+	position: absolute;
+	overflow: visible;
+	width: 148.672px;
+	height: 245px;
+	left: 0px;
+	top: 0px;
+}
+#HOME_fv {
+	left: 24.336px;
+	top: 149.272px;
+	position: absolute;
+	overflow: visible;
+	width: 101px;
+	white-space: nowrap;
+	line-height: 19px;
+	margin-top: -1.5px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(225,27,34,1);
+}
+#_14_fw {
+	position: absolute;
+	width: 126.867px;
+	height: 128px;
+	left: 10.903px;
+	top: 12.272px;
+	overflow: visible;
+}
+#_4_fx {
+	fill: rgba(225,27,34,1);
+}
+._4_fx {
+	position: absolute;
+	overflow: visible;
+	width: 126.867px;
+	height: 128px;
+	left: 0px;
+	top: 0px;
+}
+#HomeAide_fy {
+	position: absolute;
+	width: 77.187px;
+	height: 74.783px;
+	left: 24.84px;
+	top: 26.608px;
+	overflow: visible;
+}
+#_55_fz {
+	fill: rgba(255,246,241,1);
+}
+._55_fz {
+	overflow: visible;
+	position: absolute;
+	width: 39.955px;
+	height: 44.473px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_56_f {
+	fill: rgba(255,246,241,1);
+}
+._56_f {
+	overflow: visible;
+	position: absolute;
+	width: 41.274px;
+	height: 65.986px;
+	left: 35.913px;
+	top: 8.797px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_57_f {
+	fill: rgba(255,246,241,1);
+}
+._57_f {
+	overflow: visible;
+	position: absolute;
+	width: 23.41px;
+	height: 19.21px;
+	left: 8.273px;
+	top: 50.621px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_58_f {
+	fill: rgba(255,246,241,1);
+}
+._58_f {
+	overflow: visible;
+	position: absolute;
+	width: 7.1px;
+	height: 3.114px;
+	left: 53.001px;
+	top: 36.174px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_59_f {
+	fill: rgba(255,246,241,1);
+}
+._59_f {
+	overflow: visible;
+	position: absolute;
+	width: 2.261px;
+	height: 2.843px;
+	left: 50.982px;
+	top: 28.488px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_60_f {
+	fill: rgba(255,246,241,1);
+}
+._60_f {
+	overflow: visible;
+	position: absolute;
+	width: 2.261px;
+	height: 2.847px;
+	left: 59.839px;
+	top: 28.486px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ArrowDown_f {
+	position: absolute;
+	width: 20.877px;
+	height: 12.28px;
+	left: 63.932px;
+	top: 210.37px;
+	overflow: visible;
+}
+#_96_f {
+	fill: rgba(225,27,34,1);
+}
+._96_f {
+	display: none;
+	overflow: visible;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: -9.596px;
+	top: -15.914px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_97_f {
+	fill: rgba(225,27,34,1);
+}
+._97_f {
 	overflow: visible;
 	position: absolute;
 	width: 20.877px;
@@ -1147,10 +2293,11 @@
 	width: 1344px;
 	height: 100px;
 	left: 279px;
-	top: 21px;
+	top: 20px;
 	overflow: visible;
 }
 #Contacts {
+	opacity: 0.9;
 	position: absolute;
 	width: 936px;
 	height: 26px;
@@ -1165,28 +2312,28 @@
 .ContactsBG {
 	position: absolute;
 	overflow: visible;
-	width: 935.807px;
-	height: 26px;
+	width: 936px;
+	height: 25.427px;
 	left: 0px;
 	top: 0px;
 }
 #Language {
 	position: absolute;
-	width: 99.374px;
-	height: 26px;
-	left: 836.626px;
-	top: 0px;
+	width: 99.395px;
+	height: 25.44px;
+	left: 836.605px;
+	top: 0.56px;
 	overflow: visible;
 }
 #_2__13 {
 	position: absolute;
-	width: 99.374px;
-	height: 26px;
+	width: 99.395px;
+	height: 25.44px;
 	left: 0px;
 	top: 0px;
 	overflow: visible;
 }
-#_9_dd {
+#_9_gd {
 	fill: transparent;
 	stroke: rgba(255,255,255,1);
 	stroke-width: 2px;
@@ -1195,11 +2342,11 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._9_dd {
+._9_gd {
 	position: absolute;
 	overflow: visible;
-	width: 103.374px;
-	height: 30px;
+	width: 103.395px;
+	height: 29.44px;
 	left: 0px;
 	top: 0px;
 }
@@ -1209,15 +2356,15 @@
 .World {
 	overflow: visible;
 	position: absolute;
-	width: 18.157px;
-	height: 16.835px;
-	left: 4.911px;
-	top: 4.583px;
+	width: 16.833px;
+	height: 16.472px;
+	left: 5.358px;
+	top: 4.484px;
 	transform: matrix(1,0,0,1,0,0);
 }
 #English {
-	left: 23.935px;
-	top: 3.829px;
+	left: 23.939px;
+	top: 4.892px;
 	position: absolute;
 	overflow: visible;
 	width: 59px;
@@ -1226,50 +2373,42 @@
 	font-family: Frutiger LT Pro;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 16px;
+	font-size: 14px;
 	color: rgba(255,246,241,1);
 }
-#_1_dg {
+#_1_gg {
 	fill: rgba(255,246,241,1);
 }
-._1_dg {
+._1_gg {
 	overflow: visible;
 	position: absolute;
-	width: 11.475px;
-	height: 7.621px;
-	transform: translate(0px, 0px) matrix(1,0,0,1,83.6817,11.5839) rotate(180deg);
+	width: 11.477px;
+	height: 7.457px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,83.699,10.3558) rotate(180deg);
 	transform-origin: center;
 	left: 0px;
 	top: 0px;
 }
-#Contacts_dh {
+#Location {
 	position: absolute;
-	width: 792.805px;
-	height: 19px;
-	left: 11px;
-	top: 2.664px;
-	overflow: visible;
-}
-#_3_di {
-	position: absolute;
-	width: 155.116px;
-	height: 19px;
-	left: 637.689px;
-	top: 0px;
+	width: 138.212px;
+	height: 17px;
+	left: 651.375px;
+	top: 4.769px;
 	overflow: visible;
 }
 #Home_Health_Care {
-	left: 18.116px;
+	left: 18.212px;
 	top: 0px;
 	position: absolute;
 	overflow: visible;
-	width: 138px;
+	width: 121px;
 	white-space: nowrap;
 	text-align: left;
 	font-family: Frutiger LT Pro;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 16px;
+	font-size: 14px;
 	color: rgba(255,246,241,1);
 }
 #marker_1 {
@@ -1278,52 +2417,52 @@
 .marker_1 {
 	overflow: visible;
 	position: absolute;
-	width: 13.325px;
-	height: 15px;
+	width: 11.55px;
+	height: 14px;
 	left: 0px;
-	top: 1px;
+	top: 1.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
 #Fax_818_301-2051 {
-	left: 456.796px;
-	top: 0px;
+	left: 470.112px;
+	top: 4.769px;
 	position: absolute;
 	overflow: visible;
-	width: 144px;
+	width: 126px;
 	white-space: nowrap;
 	text-align: left;
 	font-family: Frutiger LT Pro;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 16px;
+	font-size: 14px;
 	color: rgba(255,246,241,1);
 }
 #Phone_818_396-5678 {
-	left: 254.56px;
-	top: 0px;
+	left: 268.065px;
+	top: 4.769px;
 	position: absolute;
 	overflow: visible;
-	width: 166px;
+	width: 146px;
 	white-space: nowrap;
 	text-align: left;
 	font-family: Frutiger LT Pro;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 16px;
+	font-size: 14px;
 	color: rgba(255,246,241,1);
 }
 #changingliveshhgmailcom {
-	left: 0px;
-	top: 0px;
+	left: 11px;
+	top: 4.769px;
 	position: absolute;
 	overflow: visible;
-	width: 212px;
+	width: 186px;
 	white-space: nowrap;
 	text-align: left;
 	font-family: Frutiger LT Pro;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 16px;
+	font-size: 14px;
 	color: rgba(255,246,241,1);
 }
 #Logo {
@@ -1334,7 +2473,8 @@
 	top: 0px;
 	overflow: visible;
 }
-#Logo_dp {
+#Logo_go {
+	opacity: 0.9;
 	position: absolute;
 	width: 353px;
 	height: 100px;
@@ -1356,7 +2496,7 @@
 	font-size: 28px;
 	color: rgba(255,246,241,1);
 }
-#_1_dr {
+#_1_gq {
 	opacity: 0.9;
 	position: absolute;
 	width: 100px;
@@ -1465,7 +2605,7 @@
 	position: absolute;
 	width: 8.662px;
 	height: 7.211px;
-	left: 10.222px;
+	left: 10.221px;
 	top: 38.194px;
 	transform: matrix(1,0,0,1,0,0);
 }
@@ -1475,7 +2615,7 @@
 ._69 {
 	overflow: visible;
 	position: absolute;
-	width: 8.562px;
+	width: 8.563px;
 	height: 6.476px;
 	left: 82.254px;
 	top: 39.387px;
@@ -1559,7 +2699,7 @@
 ._76 {
 	overflow: visible;
 	position: absolute;
-	width: 6.077px;
+	width: 6.078px;
 	height: 5.977px;
 	left: 33.981px;
 	top: 81.917px;
@@ -1597,7 +2737,7 @@
 	position: absolute;
 	width: 5.69px;
 	height: 5.704px;
-	left: 23.754px;
+	left: 23.753px;
 	top: 75.95px;
 	transform: matrix(1,0,0,1,0,0);
 }
@@ -1619,7 +2759,7 @@
 ._81 {
 	overflow: visible;
 	position: absolute;
-	width: 3.486px;
+	width: 3.485px;
 	height: 4.757px;
 	left: 53.244px;
 	top: 84.663px;
@@ -1643,7 +2783,7 @@
 ._83 {
 	overflow: visible;
 	position: absolute;
-	width: 4.397px;
+	width: 4.398px;
 	height: 4.78px;
 	left: 58.978px;
 	top: 83.783px;
@@ -1655,7 +2795,7 @@
 ._84 {
 	overflow: visible;
 	position: absolute;
-	width: 4.154px;
+	width: 4.153px;
 	height: 5.12px;
 	left: 67.363px;
 	top: 78.871px;
@@ -1667,9 +2807,9 @@
 ._85 {
 	overflow: visible;
 	position: absolute;
-	width: 4.977px;
+	width: 4.978px;
 	height: 4.488px;
-	left: 63.361px;
+	left: 63.36px;
 	top: 82.238px;
 	transform: matrix(1,0,0,1,0,0);
 }
@@ -1739,7 +2879,7 @@
 ._91 {
 	overflow: visible;
 	position: absolute;
-	width: 0.786px;
+	width: 0.787px;
 	height: 1.253px;
 	left: 60.359px;
 	top: 85.831px;
@@ -1769,12 +2909,12 @@
 	top: 51.272px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#SkilledNursing_eq {
+#SkilledNursing_hp {
 	position: absolute;
 	width: 1903px;
 	height: 600px;
 	left: 0px;
-	top: 953px;
+	top: 1158px;
 	overflow: visible;
 }
 #About_Us {
@@ -1814,9 +2954,9 @@
 	left: 296.776px;
 	top: 177.5px;
 	position: absolute;
-	overflow: hidden;
+	overflow: visible;
 	width: 339px;
-	height: 290px;
+	height: 321px;
 	line-height: 30px;
 	margin-top: -7px;
 	text-align: left;
@@ -1826,7 +2966,7 @@
 	font-size: 16px;
 	color: rgba(74,74,74,1);
 }
-#Button_ev {
+#Button_hu {
 	position: absolute;
 	width: 162.585px;
 	height: 45.994px;
@@ -1842,10 +2982,10 @@
 	top: 0px;
 	overflow: visible;
 }
-#_7_ex {
+#_7_hw {
 	fill: rgba(225,27,34,1);
 }
-._7_ex {
+._7_hw {
 	position: absolute;
 	overflow: visible;
 	width: 162.585px;
@@ -1853,7 +2993,7 @@
 	left: 0px;
 	top: 0px;
 }
-#Contact_ey {
+#Contact_hx {
 	left: 38.507px;
 	top: 13.905px;
 	position: absolute;
@@ -1867,12 +3007,12 @@
 	font-size: 17px;
 	color: rgba(255,255,255,1);
 }
-#PhisicalTherapy_ez {
+#PhisicalTherapy_hy {
 	position: absolute;
 	width: 1903px;
 	height: 600px;
 	left: 0px;
-	top: 1553px;
+	top: 1758px;
 	overflow: visible;
 }
 #Background {
@@ -1895,7 +3035,7 @@
 	top: 0px;
 	overflow: visible;
 }
-#PHYSICAL_THERAPY_e {
+#PHYSICAL_THERAPY_h {
 	left: 1095.157px;
 	top: 117px;
 	position: absolute;
@@ -1910,7 +3050,7 @@
 	color: rgba(255,246,241,1);
 }
 #_Restoration_of_specific_funct {
-	left: 1094.315px;
+	left: 1094.314px;
 	top: 177px;
 	position: absolute;
 	overflow: visible;
@@ -1925,7 +3065,7 @@
 	font-size: 16px;
 	color: rgba(255,246,241,1);
 }
-#Button_e {
+#Button_h {
 	position: absolute;
 	width: 162.585px;
 	height: 45.994px;
@@ -1941,10 +3081,10 @@
 	top: 0px;
 	overflow: visible;
 }
-#_7_e {
+#_7_h {
 	fill: rgba(255,246,241,1);
 }
-._7_e {
+._7_h {
 	position: absolute;
 	overflow: visible;
 	width: 162.585px;
@@ -1952,7 +3092,7 @@
 	left: 0px;
 	top: 0px;
 }
-#Contact_e {
+#Contact_h {
 	left: 38.507px;
 	top: 13.905px;
 	position: absolute;
@@ -1966,18 +3106,18 @@
 	font-size: 17px;
 	color: rgba(225,27,34,1);
 }
-#SpeechTherapy_e {
+#SpeechTherapy_h {
 	position: absolute;
 	width: 1903px;
 	height: 600px;
 	left: 0px;
-	top: 2153px;
+	top: 2358px;
 	overflow: visible;
 }
-#About_Us_e {
+#About_Us_h {
 	fill: rgba(255,246,241,1);
 }
-.About_Us_e {
+.About_Us_h {
 	position: absolute;
 	overflow: visible;
 	width: 953px;
@@ -1985,7 +3125,7 @@
 	left: 0px;
 	top: 0px;
 }
-#Image_fa {
+#Image_h {
 	position: absolute;
 	width: 952px;
 	height: 600px;
@@ -1993,7 +3133,7 @@
 	top: 0px;
 	overflow: visible;
 }
-#SPEECH_THERAPY_fb {
+#SPEECH_THERAPY_ia {
 	left: 298.084px;
 	top: 117px;
 	position: absolute;
@@ -2023,7 +3163,7 @@
 	font-size: 16px;
 	color: rgba(74,74,74,1);
 }
-#Button_fd {
+#Button_ic {
 	position: absolute;
 	width: 162.585px;
 	height: 45.994px;
@@ -2039,10 +3179,10 @@
 	top: 0px;
 	overflow: visible;
 }
-#_7_ff {
+#_7_ie {
 	fill: rgba(225,27,34,1);
 }
-._7_ff {
+._7_ie {
 	position: absolute;
 	overflow: visible;
 	width: 162.585px;
@@ -2050,7 +3190,7 @@
 	left: 0px;
 	top: 0px;
 }
-#Contact_fg {
+#Contact_if {
 	left: 38.507px;
 	top: 13.905px;
 	position: absolute;
@@ -2064,18 +3204,18 @@
 	font-size: 17px;
 	color: rgba(255,255,255,1);
 }
-#OccupationalTherapy_fh {
+#OccupationalTherapy_ig {
 	position: absolute;
 	width: 1903px;
 	height: 600px;
 	left: 0px;
-	top: 2753px;
+	top: 2958px;
 	overflow: visible;
 }
-#Background_fi {
+#Background_ih {
 	fill: rgba(225,27,34,1);
 }
-.Background_fi {
+.Background_ih {
 	overflow: visible;
 	position: absolute;
 	width: 968px;
@@ -2092,7 +3232,7 @@
 	top: 0px;
 	overflow: visible;
 }
-#OCCUPATIONAL_THERAPY_fk {
+#OCCUPATIONAL_THERAPY_ij {
 	left: 1094.802px;
 	top: 117px;
 	position: absolute;
@@ -2122,7 +3262,7 @@
 	font-size: 16px;
 	color: rgba(255,246,241,1);
 }
-#Button_fm {
+#Button_il {
 	position: absolute;
 	width: 162.585px;
 	height: 45.994px;
@@ -2138,10 +3278,10 @@
 	top: 0px;
 	overflow: visible;
 }
-#_7_fo {
+#_7_in {
 	fill: rgba(255,246,241,1);
 }
-._7_fo {
+._7_in {
 	position: absolute;
 	overflow: visible;
 	width: 162.585px;
@@ -2149,7 +3289,7 @@
 	left: 0px;
 	top: 0px;
 }
-#Contact_fp {
+#Contact_io {
 	left: 38.507px;
 	top: 13.905px;
 	position: absolute;
@@ -2163,18 +3303,18 @@
 	font-size: 17px;
 	color: rgba(225,27,34,1);
 }
-#MedicalSocialWorker_fq {
+#MedicalSocialWorker_ip {
 	position: absolute;
 	width: 1903px;
 	height: 600px;
 	left: 0px;
-	top: 3353px;
+	top: 3558px;
 	overflow: visible;
 }
-#About_Us_fr {
+#About_Us_iq {
 	fill: rgba(255,246,241,1);
 }
-.About_Us_fr {
+.About_Us_iq {
 	overflow: visible;
 	position: absolute;
 	width: 953px;
@@ -2183,7 +3323,7 @@
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Image_fs {
+#Image_ir {
 	position: absolute;
 	width: 952px;
 	height: 600px;
@@ -2191,8 +3331,8 @@
 	top: 0px;
 	overflow: visible;
 }
-#MEDICAL_SOCIAL_WORKER_ft {
-	left: 297.93px;
+#MEDICAL_SOCIAL_WORKER_is {
+	left: 297.931px;
 	top: 111.638px;
 	position: absolute;
 	overflow: visible;
@@ -2221,7 +3361,7 @@
 	font-size: 16px;
 	color: rgba(74,74,74,1);
 }
-#Button_fv {
+#Button_iu {
 	position: absolute;
 	width: 162.585px;
 	height: 45.994px;
@@ -2237,10 +3377,10 @@
 	top: 0px;
 	overflow: visible;
 }
-#_7_fx {
+#_7_iw {
 	fill: rgba(225,27,34,1);
 }
-._7_fx {
+._7_iw {
 	position: absolute;
 	overflow: visible;
 	width: 162.585px;
@@ -2248,7 +3388,7 @@
 	left: 0px;
 	top: 0px;
 }
-#Contact_fy {
+#Contact_ix {
 	left: 38.507px;
 	top: 13.905px;
 	position: absolute;
@@ -2262,18 +3402,18 @@
 	font-size: 17px;
 	color: rgba(255,255,255,1);
 }
-#HomeHealthAide_fz {
+#HomeHealthAide_iy {
 	position: absolute;
 	width: 1903px;
 	height: 600px;
 	left: 0px;
-	top: 3953px;
+	top: 4158px;
 	overflow: visible;
 }
-#Background_f {
+#Background_iz {
 	fill: rgba(225,27,34,1);
 }
-.Background_f {
+.Background_iz {
 	position: absolute;
 	overflow: visible;
 	width: 968px;
@@ -2319,7 +3459,7 @@
 	font-size: 16px;
 	color: rgba(255,246,241,1);
 }
-#Button_f {
+#Button_i {
 	position: absolute;
 	width: 162.585px;
 	height: 45.994px;
@@ -2335,10 +3475,10 @@
 	top: 0px;
 	overflow: visible;
 }
-#_7_f {
+#_7_i {
 	fill: rgba(255,246,241,1);
 }
-._7_f {
+._7_i {
 	position: absolute;
 	overflow: visible;
 	width: 162.585px;
@@ -2346,7 +3486,7 @@
 	left: 0px;
 	top: 0px;
 }
-#Contact_f {
+#Contact_i {
 	left: 38.507px;
 	top: 13.905px;
 	position: absolute;
@@ -2360,13 +3500,13 @@
 	font-size: 17px;
 	color: rgba(225,27,34,1);
 }
-#Location {
+#Location_i {
 	opacity: 0.92;
 	position: absolute;
 	width: 422px;
 	height: 128.608px;
 	left: 732.591px;
-	top: 4645.392px;
+	top: 4850.392px;
 	overflow: visible;
 }
 #Nearby_health_services_provide {
@@ -2399,7 +3539,7 @@
 	font-size: 20px;
 	color: rgba(225,27,34,1);
 }
-#Button_gb {
+#Button_ja {
 	position: absolute;
 	width: 152px;
 	height: 43px;
@@ -2415,10 +3555,10 @@
 	top: 0px;
 	overflow: visible;
 }
-#_7_gd {
+#_7_jc {
 	fill: rgba(225,27,34,1);
 }
-._7_gd {
+._7_jc {
 	position: absolute;
 	overflow: visible;
 	width: 152px;
@@ -2445,13 +3585,13 @@
 	width: 1903px;
 	height: 600px;
 	left: 0px;
-	top: 4853px;
+	top: 5058px;
 	overflow: visible;
 }
-#_22 {
+#_22_jf {
 	fill: rgba(255,246,241,1);
 }
-._22 {
+._22_jf {
 	overflow: visible;
 	position: absolute;
 	width: 1903px;
@@ -2490,19 +3630,19 @@
 	font-size: 20px;
 	color: rgba(255,0,0,1);
 }
-#Location_gj {
+#Location_ji {
 	position: absolute;
 	width: 520px;
 	height: 595px;
-	left: 1068.862px;
+	left: 1068.861px;
 	top: 90.069px;
 	display: none;
 	overflow: visible;
 }
-#_14_gk {
+#_14_jj {
 	fill: rgba(255,255,255,1);
 }
-._14_gk {
+._14_jj {
 	position: absolute;
 	overflow: visible;
 	width: 520px;
@@ -2510,7 +3650,7 @@
 	left: 0px;
 	top: 0px;
 }
-#_16_gl {
+#_16_jk {
 	fill: rgba(255,255,255,1);
 	stroke: rgba(112,112,112,1);
 	stroke-width: 1px;
@@ -2519,7 +3659,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._16_gl {
+._16_jk {
 	position: absolute;
 	overflow: visible;
 	width: 424px;
@@ -2527,7 +3667,7 @@
 	left: 48px;
 	top: 74px;
 }
-#_15_gm {
+#_15_jl {
 	fill: rgba(255,255,255,1);
 	stroke: rgba(112,112,112,1);
 	stroke-width: 1px;
@@ -2536,7 +3676,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._15_gm {
+._15_jl {
 	position: absolute;
 	overflow: visible;
 	width: 424px;
@@ -2651,7 +3791,7 @@
 	font-size: 16px;
 	color: rgba(74,74,74,1);
 }
-#Last_Name_gu {
+#Last_Name_jt {
 	left: 63px;
 	top: 171px;
 	position: absolute;
@@ -2665,7 +3805,7 @@
 	font-size: 16px;
 	color: rgba(74,74,74,1);
 }
-#Email_gv {
+#Email_ju {
 	left: 63px;
 	top: 259px;
 	position: absolute;
@@ -2679,7 +3819,7 @@
 	font-size: 16px;
 	color: rgba(74,74,74,1);
 }
-#Birthdate_gw {
+#Birthdate_jv {
 	left: 63px;
 	top: 348px;
 	position: absolute;
@@ -2693,7 +3833,7 @@
 	font-size: 16px;
 	color: rgba(74,74,74,1);
 }
-#Zip_Code_gx {
+#Zip_Code_jw {
 	left: 63px;
 	top: 438px;
 	position: absolute;
@@ -2721,7 +3861,7 @@
 	font-size: 16px;
 	color: rgba(74,74,74,1);
 }
-#First_Name_gz {
+#First_Name_jy {
 	left: 47px;
 	top: 45px;
 	position: absolute;
@@ -2735,7 +3875,7 @@
 	font-size: 16px;
 	color: rgba(74,74,74,1);
 }
-#Button_g {
+#Button_jz {
 	position: absolute;
 	width: 424px;
 	height: 44px;
@@ -2743,10 +3883,10 @@
 	top: 504px;
 	overflow: visible;
 }
-#_10_g {
+#_10_j {
 	fill: rgba(255,0,0,1);
 }
-._10_g {
+._10_j {
 	position: absolute;
 	overflow: visible;
 	width: 424px;
@@ -2754,7 +3894,7 @@
 	left: 0px;
 	top: 0px;
 }
-#View_locations_g {
+#View_locations_j {
 	left: 154px;
 	top: 11px;
 	position: absolute;
@@ -2777,7 +3917,7 @@
 	top: 0px;
 	overflow: visible;
 }
-#Button_ha {
+#Button_j {
 	position: absolute;
 	width: 162.585px;
 	height: 45.994px;
@@ -2793,10 +3933,10 @@
 	top: 0px;
 	overflow: visible;
 }
-#_7_g {
+#_7_j {
 	fill: rgba(225,27,34,1);
 }
-._7_g {
+._7_j {
 	position: absolute;
 	overflow: visible;
 	width: 162.585px;
@@ -2804,7 +3944,7 @@
 	left: 0px;
 	top: 0px;
 }
-#Contact_g {
+#Contact_j {
 	left: 38.507px;
 	top: 13.905px;
 	position: absolute;
@@ -2837,7 +3977,7 @@
 	left: 0px;
 	top: 0px;
 }
-#Contact_us_ha {
+#Contact_us_j {
 	left: 32px;
 	top: 35px;
 	position: absolute;
@@ -2865,7 +4005,7 @@
 	font-size: 16px;
 	color: rgba(255,246,241,1);
 }
-#Last_Name_hc {
+#Last_Name_kb {
 	left: 480px;
 	top: 107px;
 	position: absolute;
@@ -2879,7 +4019,7 @@
 	font-size: 16px;
 	color: rgba(255,246,241,1);
 }
-#Email_hd {
+#Email_kc {
 	left: 32px;
 	top: 202px;
 	position: absolute;
@@ -2921,7 +4061,7 @@
 	font-size: 16px;
 	color: rgba(255,246,241,1);
 }
-#_29_hg {
+#_29_kf {
 	fill: rgba(255,246,241,1);
 	stroke: rgba(255,246,241,1);
 	stroke-width: 1px;
@@ -2930,7 +4070,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._29_hg {
+._29_kf {
 	position: absolute;
 	overflow: visible;
 	width: 841px;
@@ -2952,7 +4092,7 @@
 	font-size: 16px;
 	color: rgba(225,27,34,1);
 }
-#_3_hi {
+#_3_kh {
 	fill: transparent;
 	stroke: rgba(255,246,241,1);
 	stroke-width: 1px;
@@ -2961,7 +4101,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._3_hi {
+._3_kh {
 	overflow: visible;
 	position: absolute;
 	width: 399px;
@@ -2970,7 +4110,7 @@
 	top: 172.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_6_hj {
+#_6_ki {
 	fill: transparent;
 	stroke: rgba(255,246,241,1);
 	stroke-width: 1px;
@@ -2979,7 +4119,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._6_hj {
+._6_ki {
 	overflow: visible;
 	position: absolute;
 	width: 399px;
@@ -2988,7 +4128,7 @@
 	top: 271.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_4_hk {
+#_4_kj {
 	fill: transparent;
 	stroke: rgba(255,246,241,1);
 	stroke-width: 1px;
@@ -2997,7 +4137,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._4_hk {
+._4_kj {
 	overflow: visible;
 	position: absolute;
 	width: 393px;
@@ -3006,7 +4146,7 @@
 	top: 172.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_5_hl {
+#_5_kk {
 	fill: transparent;
 	stroke: rgba(255,246,241,1);
 	stroke-width: 1px;
@@ -3015,7 +4155,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._5_hl {
+._5_kk {
 	overflow: visible;
 	position: absolute;
 	width: 393px;
@@ -3024,7 +4164,7 @@
 	top: 272.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_7_hm {
+#_7_kl {
 	fill: transparent;
 	stroke: rgba(255,246,241,1);
 	stroke-width: 1px;
@@ -3033,7 +4173,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._7_hm {
+._7_kl {
 	overflow: visible;
 	position: absolute;
 	width: 841px;
@@ -3047,13 +4187,13 @@
 	width: 1903px;
 	height: 594px;
 	left: 0px;
-	top: 5452px;
+	top: 5657px;
 	overflow: visible;
 }
-#Background_ho {
+#Background_kn {
 	fill: rgba(225,27,34,1);
 }
-.Background_ho {
+.Background_kn {
 	position: absolute;
 	overflow: visible;
 	width: 1903px;
@@ -3155,7 +4295,7 @@
 	font-size: 20px;
 	color: rgba(255,255,255,1);
 }
-#_1_hw {
+#_1_kv {
 	fill: transparent;
 	stroke: rgba(255,255,255,1);
 	stroke-width: 1px;
@@ -3164,7 +4304,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._1_hw {
+._1_kv {
 	overflow: visible;
 	position: absolute;
 	width: 1347px;
@@ -3205,7 +4345,7 @@
 	font-size: 16px;
 	color: rgba(255,255,255,1);
 }
-#_2_hz {
+#_2_ky {
 	fill: transparent;
 	stroke: rgba(255,255,255,1);
 	stroke-width: 1px;
@@ -3214,7 +4354,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._2_hz {
+._2_ky {
 	overflow: visible;
 	position: absolute;
 	width: 308px;
@@ -3223,7 +4363,7 @@
 	top: 294px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_21_h {
+#_21_kz {
 	fill: rgba(0,0,0,0);
 	stroke: rgba(255,255,255,1);
 	stroke-width: 1px;
@@ -3232,7 +4372,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._21_h {
+._21_kz {
 	overflow: visible;
 	position: absolute;
 	width: 1px;
@@ -3249,10 +4389,10 @@
 	top: 389px;
 	overflow: visible;
 }
-#_9_h {
+#_9_k {
 	fill: rgba(255,246,241,1);
 }
-._9_h {
+._9_k {
 	overflow: visible;
 	position: absolute;
 	width: 43px;
@@ -3261,10 +4401,10 @@
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_10_h {
+#_10_k {
 	fill: rgba(255,246,241,1);
 }
-._10_h {
+._10_k {
 	overflow: visible;
 	position: absolute;
 	width: 43px;
@@ -3273,10 +4413,10 @@
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_11_h {
+#_11_k {
 	fill: rgba(255,246,241,1);
 }
-._11_h {
+._11_k {
 	overflow: visible;
 	position: absolute;
 	width: 43px;
@@ -3285,10 +4425,10 @@
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_12_h {
+#_12_k {
 	fill: rgba(255,246,241,1);
 }
-._12_h {
+._12_k {
 	overflow: visible;
 	position: absolute;
 	width: 43px;
@@ -3337,10 +4477,10 @@
 	top: 10.016px;
 	overflow: visible;
 }
-#_13_h {
+#_13_k {
 	fill: rgba(255,0,0,1);
 }
-._13_h {
+._13_k {
 	overflow: visible;
 	position: absolute;
 	width: 22.965px;
@@ -3349,10 +4489,10 @@
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_14_ia {
+#_14_k {
 	fill: rgba(255,0,0,1);
 }
-._14_ia {
+._14_k {
 	overflow: visible;
 	position: absolute;
 	width: 11.479px;
@@ -3361,10 +4501,10 @@
 	top: 5.741px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_15_ib {
+#_15_la {
 	fill: rgba(255,0,0,1);
 }
-._15_ib {
+._15_la {
 	overflow: visible;
 	position: absolute;
 	width: 2.296px;
@@ -3385,7 +4525,7 @@
 	top: 12.506px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_1_id {
+#_1_lc {
 	opacity: 0.44;
 	display: none;
 	position: absolute;
@@ -3394,4 +4534,1492 @@
 	left: 955px;
 	top: 4866px;
 	overflow: visible;
+}
+#Menu_ld {
+	position: absolute;
+	width: 1903px;
+	height: 163px;
+	left: 0px;
+	top: 995px;
+	overflow: visible;
+}
+#Menu_items {
+	position: absolute;
+	width: 1903px;
+	height: 163px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#BG {
+	fill: rgba(255,246,241,1);
+}
+.BG {
+	position: absolute;
+	overflow: visible;
+	width: 1903px;
+	height: 163px;
+	left: 0px;
+	top: 0px;
+}
+#Logo_lg {
+	position: absolute;
+	width: 363px;
+	height: 100px;
+	left: 279px;
+	top: 45px;
+	overflow: visible;
+}
+#Logo_lh {
+	position: absolute;
+	width: 363px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Changing_Lives__Home_Health_Ca_li {
+	left: 124px;
+	top: 16px;
+	position: absolute;
+	overflow: visible;
+	width: 240px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(225,27,34,1);
+}
+#_1_lj {
+	opacity: 0.9;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_11_lk {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_61_ll {
+	fill: rgba(225,27,34,1);
+}
+._61_ll {
+	overflow: visible;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_62_lm {
+	fill: rgba(255,255,255,1);
+}
+._62_lm {
+	overflow: visible;
+	position: absolute;
+	width: 38.375px;
+	height: 55.094px;
+	left: 27.002px;
+	top: 21.575px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_63_ln {
+	fill: rgba(255,255,255,1);
+}
+._63_ln {
+	overflow: visible;
+	position: absolute;
+	width: 10.109px;
+	height: 10.066px;
+	left: 19.574px;
+	top: 18.05px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_64_lo {
+	fill: rgba(255,255,255,1);
+}
+._64_lo {
+	overflow: visible;
+	position: absolute;
+	width: 9.223px;
+	height: 8.055px;
+	left: 29.333px;
+	top: 12.463px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_65_lp {
+	fill: rgba(255,255,255,1);
+}
+._65_lp {
+	overflow: visible;
+	position: absolute;
+	width: 7.231px;
+	height: 7.863px;
+	left: 45.121px;
+	top: 8.35px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_66_lq {
+	fill: rgba(255,255,255,1);
+}
+._66_lq {
+	overflow: visible;
+	position: absolute;
+	width: 7.795px;
+	height: 8.511px;
+	left: 55.644px;
+	top: 9.41px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_67_lr {
+	fill: rgba(255,255,255,1);
+}
+._67_lr {
+	overflow: visible;
+	position: absolute;
+	width: 8.049px;
+	height: 6.772px;
+	left: 83.063px;
+	top: 48.599px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_68_ls {
+	fill: rgba(255,255,255,1);
+}
+._68_ls {
+	overflow: visible;
+	position: absolute;
+	width: 8.662px;
+	height: 7.211px;
+	left: 10.221px;
+	top: 38.194px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_69_lt {
+	fill: rgba(255,255,255,1);
+}
+._69_lt {
+	overflow: visible;
+	position: absolute;
+	width: 8.563px;
+	height: 6.476px;
+	left: 82.254px;
+	top: 39.387px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_70_lu {
+	fill: rgba(255,255,255,1);
+}
+._70_lu {
+	overflow: visible;
+	position: absolute;
+	width: 8.618px;
+	height: 7.324px;
+	left: 14.785px;
+	top: 29.86px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_71_lv {
+	fill: rgba(255,255,255,1);
+}
+._71_lv {
+	overflow: visible;
+	position: absolute;
+	width: 8.669px;
+	height: 7.364px;
+	left: 79.983px;
+	top: 27.24px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_72_lw {
+	fill: rgba(255,255,255,1);
+}
+._72_lw {
+	overflow: visible;
+	position: absolute;
+	width: 7.859px;
+	height: 6.578px;
+	left: 9.889px;
+	top: 48.699px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_73_lx {
+	fill: rgba(255,255,255,1);
+}
+._73_lx {
+	overflow: visible;
+	position: absolute;
+	width: 6.118px;
+	height: 9.184px;
+	left: 69.335px;
+	top: 16.048px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_74_ly {
+	fill: rgba(255,255,255,1);
+}
+._74_ly {
+	overflow: visible;
+	position: absolute;
+	width: 6.93px;
+	height: 6.196px;
+	left: 75.372px;
+	top: 22.331px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_75_lz {
+	fill: rgba(255,255,255,1);
+}
+._75_lz {
+	overflow: visible;
+	position: absolute;
+	width: 3.434px;
+	height: 7.77px;
+	left: 39.272px;
+	top: 9.419px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_76_l {
+	fill: rgba(255,255,255,1);
+}
+._76_l {
+	overflow: visible;
+	position: absolute;
+	width: 6.078px;
+	height: 5.977px;
+	left: 33.981px;
+	top: 81.917px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_77_l {
+	fill: rgba(255,255,255,1);
+}
+._77_l {
+	overflow: visible;
+	position: absolute;
+	width: 4.757px;
+	height: 4.49px;
+	left: 28.805px;
+	top: 79.937px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_78_l {
+	fill: rgba(255,255,255,1);
+}
+._78_l {
+	overflow: visible;
+	position: absolute;
+	width: 5.531px;
+	height: 5.793px;
+	left: 71.373px;
+	top: 75.958px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_79_l {
+	fill: rgba(255,255,255,1);
+}
+._79_l {
+	overflow: visible;
+	position: absolute;
+	width: 5.69px;
+	height: 5.704px;
+	left: 23.753px;
+	top: 75.95px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_80_l {
+	fill: rgba(255,255,255,1);
+}
+._80_l {
+	overflow: visible;
+	position: absolute;
+	width: 3.892px;
+	height: 5.135px;
+	left: 40.417px;
+	top: 83.872px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_81_l {
+	fill: rgba(255,255,255,1);
+}
+._81_l {
+	overflow: visible;
+	position: absolute;
+	width: 3.485px;
+	height: 4.756px;
+	left: 53.244px;
+	top: 84.663px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_82_l {
+	fill: rgba(255,255,255,1);
+}
+._82_l {
+	overflow: visible;
+	position: absolute;
+	width: 3.223px;
+	height: 4.672px;
+	left: 48.529px;
+	top: 84.955px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_83_l {
+	fill: rgba(255,255,255,1);
+}
+._83_l {
+	overflow: visible;
+	position: absolute;
+	width: 4.398px;
+	height: 4.78px;
+	left: 58.978px;
+	top: 83.783px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_84_l {
+	fill: rgba(255,255,255,1);
+}
+._84_l {
+	overflow: visible;
+	position: absolute;
+	width: 4.153px;
+	height: 5.12px;
+	left: 67.363px;
+	top: 78.871px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_85_l {
+	fill: rgba(255,255,255,1);
+}
+._85_l {
+	overflow: visible;
+	position: absolute;
+	width: 4.978px;
+	height: 4.488px;
+	left: 63.36px;
+	top: 82.238px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_86_ma {
+	fill: rgba(255,255,255,1);
+}
+._86_ma {
+	overflow: visible;
+	position: absolute;
+	width: 0.281px;
+	height: 0.281px;
+	left: 44.892px;
+	top: 8.624px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_87_mb {
+	fill: rgba(255,255,255,1);
+}
+._87_mb {
+	overflow: visible;
+	position: absolute;
+	width: 0.281px;
+	height: 0.281px;
+	left: 39.852px;
+	top: 83.61px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_88_mc {
+	fill: rgba(225,27,34,1);
+}
+._88_mc {
+	overflow: visible;
+	position: absolute;
+	width: 33.854px;
+	height: 50.619px;
+	left: 29.3px;
+	top: 23.835px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_89_md {
+	fill: rgba(225,27,34,1);
+}
+._89_md {
+	overflow: visible;
+	position: absolute;
+	width: 1.702px;
+	height: 1.379px;
+	left: 17.942px;
+	top: 31.887px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_90_me {
+	fill: rgba(225,27,34,1);
+}
+._90_me {
+	overflow: visible;
+	position: absolute;
+	width: 3.061px;
+	height: 3.009px;
+	left: 29.617px;
+	top: 80.523px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_91_mf {
+	fill: rgba(225,27,34,1);
+}
+._91_mf {
+	overflow: visible;
+	position: absolute;
+	width: 0.787px;
+	height: 1.253px;
+	left: 60.359px;
+	top: 85.831px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_92_mg {
+	fill: rgba(255,255,255,1);
+}
+._92_mg {
+	overflow: visible;
+	position: absolute;
+	width: 17.182px;
+	height: 14.945px;
+	left: 43.181px;
+	top: 48.983px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_93_mh {
+	fill: rgba(225,27,34,1);
+}
+._93_mh {
+	overflow: visible;
+	position: absolute;
+	width: 12.477px;
+	height: 9.937px;
+	left: 45.405px;
+	top: 51.272px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Services_mi {
+	position: absolute;
+	width: 1903px;
+	height: 144.306px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#SkilledNursing_mj {
+	position: absolute;
+	width: 933px;
+	height: 100px;
+	left: 720.133px;
+	top: 44.306px;
+	overflow: visible;
+}
+#SkilledNursing_mk {
+	position: absolute;
+	width: 128px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_21_ml {
+	fill: rgba(255,246,241,1);
+	stroke: rgba(225,27,34,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._21_ml {
+	position: absolute;
+	overflow: visible;
+	width: 128px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+}
+#_98_mm {
+	fill: rgba(225,27,34,1);
+	stroke: rgba(225,27,34,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._98_mm {
+	overflow: visible;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 44px;
+	top: 17.262px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Skilled_Nursing {
+	left: 22px;
+	top: 67.07px;
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	white-space: nowrap;
+	line-height: 16px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(225,27,34,1);
+}
+#SkilledNursing_mo {
+	position: absolute;
+	width: 128px;
+	height: 100px;
+	left: 161px;
+	top: 0px;
+	overflow: visible;
+}
+#_21_mp {
+	fill: rgba(255,246,241,1);
+	stroke: rgba(225,27,34,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._21_mp {
+	position: absolute;
+	overflow: visible;
+	width: 128px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+}
+#_98_mq {
+	fill: rgba(225,27,34,1);
+	stroke: rgba(225,27,34,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._98_mq {
+	overflow: visible;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 44px;
+	top: 17.262px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Phisical_Therapy {
+	left: 19px;
+	top: 67.07px;
+	position: absolute;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	line-height: 16px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(225,27,34,1);
+}
+#SkilledNursing_ms {
+	position: absolute;
+	width: 128px;
+	height: 100px;
+	left: 322px;
+	top: 0px;
+	overflow: visible;
+}
+#_21_mt {
+	fill: rgba(255,246,241,1);
+	stroke: rgba(225,27,34,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._21_mt {
+	position: absolute;
+	overflow: visible;
+	width: 128px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+}
+#_98_mu {
+	fill: rgba(225,27,34,1);
+	stroke: rgba(225,27,34,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._98_mu {
+	overflow: visible;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 44px;
+	top: 17.262px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Speech_Therapy {
+	left: 20px;
+	top: 67.07px;
+	position: absolute;
+	overflow: visible;
+	width: 89px;
+	white-space: nowrap;
+	line-height: 16px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(225,27,34,1);
+}
+#SkilledNursing_mw {
+	position: absolute;
+	width: 128px;
+	height: 100px;
+	left: 483px;
+	top: 0px;
+	overflow: visible;
+}
+#_21_mx {
+	fill: rgba(255,246,241,1);
+	stroke: rgba(225,27,34,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._21_mx {
+	position: absolute;
+	overflow: visible;
+	width: 128px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+}
+#_98_my {
+	fill: rgba(225,27,34,1);
+	stroke: rgba(225,27,34,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._98_my {
+	overflow: visible;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 44px;
+	top: 17.262px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Occupational_Therapy {
+	left: 3px;
+	top: 67.07px;
+	position: absolute;
+	overflow: visible;
+	width: 123px;
+	white-space: nowrap;
+	line-height: 16px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(225,27,34,1);
+}
+#SkilledNursing_m {
+	position: absolute;
+	width: 128px;
+	height: 100px;
+	left: 644px;
+	top: 0px;
+	overflow: visible;
+}
+#_21_m {
+	fill: rgba(255,246,241,1);
+	stroke: rgba(225,27,34,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._21_m {
+	position: absolute;
+	overflow: visible;
+	width: 128px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+}
+#_98_m {
+	fill: rgba(225,27,34,1);
+	stroke: rgba(225,27,34,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._98_m {
+	overflow: visible;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 44px;
+	top: 17.262px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Social_Worker {
+	left: 26px;
+	top: 67.07px;
+	position: absolute;
+	overflow: visible;
+	width: 77px;
+	white-space: nowrap;
+	line-height: 16px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(225,27,34,1);
+}
+#SkilledNursing_na {
+	position: absolute;
+	width: 128px;
+	height: 100px;
+	left: 805px;
+	top: 0px;
+	overflow: visible;
+}
+#_21_na {
+	fill: rgba(255,246,241,1);
+	stroke: rgba(225,27,34,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._21_na {
+	position: absolute;
+	overflow: visible;
+	width: 128px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+}
+#_98_na {
+	fill: rgba(225,27,34,1);
+	stroke: rgba(225,27,34,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._98_na {
+	overflow: visible;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 44px;
+	top: 17.262px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Home_Aide {
+	left: 33px;
+	top: 67.07px;
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	line-height: 16px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(225,27,34,1);
+}
+#SkilledNursing_nb {
+	position: absolute;
+	width: 25.07px;
+	height: 30.712px;
+	left: 771.904px;
+	top: 64.529px;
+	overflow: visible;
+}
+#Nurse_m {
+	position: absolute;
+	width: 25.07px;
+	height: 30.712px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_7_na {
+	position: absolute;
+	width: 25.07px;
+	height: 30.712px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_23_nb {
+	fill: rgba(255,246,241,1);
+}
+._23_nb {
+	overflow: visible;
+	position: absolute;
+	width: 4.615px;
+	height: 0.943px;
+	left: 16.448px;
+	top: 27.245px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_6_nc {
+	position: absolute;
+	width: 25.07px;
+	height: 30.712px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_24_nd {
+	fill: rgba(255,246,241,1);
+}
+._24_nd {
+	overflow: visible;
+	position: absolute;
+	width: 25.07px;
+	height: 30.712px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_25_ne {
+	fill: rgba(255,246,241,1);
+}
+._25_ne {
+	overflow: visible;
+	position: absolute;
+	width: 3.266px;
+	height: 1.457px;
+	left: 10.919px;
+	top: 15.354px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_26_nf {
+	fill: rgba(255,246,241,1);
+}
+._26_nf {
+	overflow: visible;
+	position: absolute;
+	width: 0.988px;
+	height: 1.272px;
+	left: 9.305px;
+	top: 11.803px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_27_ng {
+	fill: rgba(255,246,241,1);
+}
+._27_ng {
+	overflow: visible;
+	position: absolute;
+	width: 0.914px;
+	height: 1.262px;
+	left: 14.843px;
+	top: 11.812px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_28_nh {
+	fill: rgba(255,246,241,1);
+}
+._28_nh {
+	overflow: visible;
+	position: absolute;
+	width: 2.821px;
+	height: 2.839px;
+	left: 11.129px;
+	top: 1.717px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#PhisicalTherapy_ni {
+	position: absolute;
+	width: 27.035px;
+	height: 26.908px;
+	left: 932.051px;
+	top: 67.398px;
+	overflow: visible;
+}
+#_29_nj {
+	fill: rgba(255,246,241,1);
+}
+._29_nj {
+	overflow: visible;
+	position: absolute;
+	width: 27.035px;
+	height: 26.908px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#SpeechTherapy_nk {
+	position: absolute;
+	width: 27.159px;
+	height: 26.001px;
+	left: 1092.059px;
+	top: 67.305px;
+	overflow: visible;
+}
+#_9_nl {
+	position: absolute;
+	width: 27.159px;
+	height: 26.001px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_39_nm {
+	fill: rgba(255,246,241,1);
+}
+._39_nm {
+	overflow: visible;
+	position: absolute;
+	width: 17.458px;
+	height: 13.615px;
+	left: 4.209px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_40_nn {
+	fill: rgba(255,246,241,1);
+}
+._40_nn {
+	overflow: visible;
+	position: absolute;
+	width: 12.569px;
+	height: 13.259px;
+	left: 0px;
+	top: 12.742px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_41_no {
+	fill: rgba(255,246,241,1);
+}
+._41_no {
+	overflow: visible;
+	position: absolute;
+	width: 12.554px;
+	height: 11.854px;
+	left: 14.605px;
+	top: 14.146px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_42_np {
+	fill: rgba(255,246,241,1);
+}
+._42_np {
+	overflow: visible;
+	position: absolute;
+	width: 8.747px;
+	height: 0.831px;
+	left: 5.792px;
+	top: 5.369px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_43_nq {
+	fill: rgba(255,246,241,1);
+}
+._43_nq {
+	overflow: visible;
+	position: absolute;
+	width: 8.704px;
+	height: 0.839px;
+	left: 5.813px;
+	top: 3.785px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_44_nr {
+	fill: rgba(255,246,241,1);
+}
+._44_nr {
+	overflow: visible;
+	position: absolute;
+	width: 8.747px;
+	height: 0.836px;
+	left: 5.789px;
+	top: 2.204px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#OccupationalTherapy_ns {
+	position: absolute;
+	width: 25.893px;
+	height: 25.758px;
+	left: 1254.661px;
+	top: 68.652px;
+	overflow: visible;
+}
+#TheRapist_nt {
+	position: absolute;
+	width: 25.893px;
+	height: 25.758px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_46_nu {
+	fill: rgba(255,246,241,1);
+}
+._46_nu {
+	overflow: visible;
+	position: absolute;
+	width: 25.893px;
+	height: 25.758px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_47_nv {
+	fill: rgba(255,246,241,1);
+}
+._47_nv {
+	overflow: visible;
+	position: absolute;
+	width: 2.349px;
+	height: 1.251px;
+	left: 21.302px;
+	top: 14.442px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_48_nw {
+	fill: rgba(255,246,241,1);
+}
+._48_nw {
+	overflow: visible;
+	position: absolute;
+	width: 0.847px;
+	height: 0.847px;
+	left: 20.721px;
+	top: 12.882px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_49_nx {
+	fill: rgba(255,246,241,1);
+}
+._49_nx {
+	overflow: visible;
+	position: absolute;
+	width: 0.848px;
+	height: 0.848px;
+	left: 23.33px;
+	top: 12.882px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_50_ny {
+	fill: rgba(255,246,241,1);
+}
+._50_ny {
+	overflow: visible;
+	position: absolute;
+	width: 2.352px;
+	height: 1.256px;
+	left: 4.872px;
+	top: 5.844px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_51_nz {
+	fill: rgba(255,246,241,1);
+}
+._51_nz {
+	overflow: visible;
+	position: absolute;
+	width: 0.848px;
+	height: 0.847px;
+	left: 4.334px;
+	top: 4.255px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_52_n {
+	fill: rgba(255,246,241,1);
+}
+._52_n {
+	overflow: visible;
+	position: absolute;
+	width: 0.848px;
+	height: 0.848px;
+	left: 6.921px;
+	top: 4.255px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MedicalSocialWorker_n {
+	position: absolute;
+	width: 27.082px;
+	height: 27.082px;
+	left: 1414.703px;
+	top: 68.282px;
+	overflow: visible;
+}
+#MedicalSocialWorker_oa {
+	position: absolute;
+	width: 27.082px;
+	height: 27.082px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_10_n {
+	position: absolute;
+	width: 27.082px;
+	height: 27.082px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_53_n {
+	fill: rgba(255,246,241,1);
+}
+._53_n {
+	overflow: visible;
+	position: absolute;
+	width: 17.755px;
+	height: 22.982px;
+	left: 0px;
+	top: 4.097px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_54_n {
+	fill: rgba(255,246,241,1);
+}
+._54_n {
+	overflow: visible;
+	position: absolute;
+	width: 13.452px;
+	height: 27.082px;
+	left: 13.63px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#HomeHealthAide_n {
+	position: absolute;
+	width: 27.843px;
+	height: 26.976px;
+	left: 1575.391px;
+	top: 67.044px;
+	overflow: visible;
+}
+#HomeAide_n {
+	position: absolute;
+	width: 27.843px;
+	height: 26.976px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_55_n {
+	fill: rgba(255,246,241,1);
+}
+._55_n {
+	overflow: visible;
+	position: absolute;
+	width: 14.413px;
+	height: 16.043px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_56_n {
+	fill: rgba(255,246,241,1);
+}
+._56_n {
+	overflow: visible;
+	position: absolute;
+	width: 14.888px;
+	height: 23.803px;
+	left: 12.955px;
+	top: 3.173px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_57_oa {
+	fill: rgba(255,246,241,1);
+}
+._57_oa {
+	overflow: visible;
+	position: absolute;
+	width: 8.444px;
+	height: 6.929px;
+	left: 2.984px;
+	top: 18.26px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_58_ob {
+	fill: rgba(255,246,241,1);
+}
+._58_ob {
+	overflow: visible;
+	position: absolute;
+	width: 2.561px;
+	height: 1.123px;
+	left: 19.119px;
+	top: 13.049px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_59_oc {
+	fill: rgba(255,246,241,1);
+}
+._59_oc {
+	overflow: visible;
+	position: absolute;
+	width: 0.816px;
+	height: 1.026px;
+	left: 18.391px;
+	top: 10.276px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_60_od {
+	fill: rgba(255,246,241,1);
+}
+._60_od {
+	overflow: visible;
+	position: absolute;
+	width: 0.815px;
+	height: 1.027px;
+	left: 21.586px;
+	top: 10.276px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Contacts_oe {
+	position: absolute;
+	width: 1903px;
+	height: 26px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#ContactsBG_of {
+	opacity: 0.9;
+	fill: rgba(225,27,34,1);
+}
+.ContactsBG_of {
+	position: absolute;
+	overflow: visible;
+	width: 1903px;
+	height: 25.427px;
+	left: 0px;
+	top: 0px;
+}
+#Language_og {
+	position: absolute;
+	width: 99.395px;
+	height: 25.44px;
+	left: 1549.605px;
+	top: 0.56px;
+	overflow: visible;
+}
+#_2__19 {
+	position: absolute;
+	width: 99.395px;
+	height: 25.44px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_9_oi {
+	fill: transparent;
+}
+._9_oi {
+	position: absolute;
+	overflow: visible;
+	width: 99.395px;
+	height: 25.44px;
+	left: 0px;
+	top: 0px;
+}
+#World_oj {
+	fill: rgba(255,246,241,1);
+}
+.World_oj {
+	overflow: visible;
+	position: absolute;
+	width: 16.833px;
+	height: 16.472px;
+	left: 5.359px;
+	top: 4.484px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#English_ok {
+	left: 23.939px;
+	top: 4.892px;
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(255,246,241,1);
+}
+#_1_ol {
+	fill: rgba(255,246,241,1);
+}
+._1_ol {
+	overflow: visible;
+	position: absolute;
+	width: 11.477px;
+	height: 7.457px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,83.699,10.3558) rotate(180deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Location_om {
+	position: absolute;
+	width: 138.212px;
+	height: 17px;
+	left: 1364.376px;
+	top: 4.769px;
+	overflow: visible;
+}
+#Home_Health_Care_on {
+	left: 18.212px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 121px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(255,246,241,1);
+}
+#marker_1_oo {
+	fill: rgba(255,246,241,1);
+}
+.marker_1_oo {
+	overflow: visible;
+	position: absolute;
+	width: 11.55px;
+	height: 14px;
+	left: 0px;
+	top: 1.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Fax_818_301-2051_op {
+	left: 1183.112px;
+	top: 4.769px;
+	position: absolute;
+	overflow: visible;
+	width: 126px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(255,246,241,1);
+}
+#Phone_818_396-5678_oq {
+	left: 981.066px;
+	top: 4.769px;
+	position: absolute;
+	overflow: visible;
+	width: 146px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(255,246,241,1);
+}
+#changingliveshhgmailcom_or {
+	left: 724px;
+	top: 4.769px;
+	position: absolute;
+	overflow: visible;
+	width: 186px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(255,246,241,1);
+}
+#_15_os {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._15_os {
+	display: none;
+	overflow: visible;
+	position: absolute;
+	width: 1968px;
+	height: 1px;
+	left: 16.5px;
+	top: 497.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_16_ot {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._16_ot {
+	display: none;
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 927px;
+	left: 951.5px;
+	top: 20.5px;
+	transform: matrix(1,0,0,1,0,0);
 }
