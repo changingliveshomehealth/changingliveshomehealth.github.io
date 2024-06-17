@@ -1,7 +1,3 @@
-html {
-	scroll-behavior: smooth;
-  }
-
 .mediaViewInfo {
 	--web-view-name: Changing Lives Home Health Care;
 	--web-view-id: Changing_Lives_Home_Health_Care;
@@ -38,22 +34,10 @@ html {
 	top: 0px;
 	overflow: visible;
 }
-#ID1 {
+#BannerVideo {
 	fill: transparent;
 }
-.ID1 {
-	overflow: hidden;
-	position: absolute;
-	width: 1822.672px;
-	height: 953px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#ID1_n {
-	fill: transparent;
-}
-.ID1_n {
+.BannerVideo {
 	overflow: hidden;
 	position: absolute;
 	width: 1903px;
@@ -62,139 +46,7 @@ html {
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_27 {
-	opacity: 0.22;
-	fill: rgba(0,0,0,1);
-}
-._27 {
-	display: none;
-	position: absolute;
-	overflow: visible;
-	width: 1903px;
-	height: 913px;
-	left: 0px;
-	top: 0px;
-}
-#Text {
-	position: absolute;
-	width: 801px;
-	height: 254.094px;
-	left: 550.992px;
-	top: 264.296px;
-	overflow: visible;
-}
-#_28 {
-	opacity: 0.8;
-	fill: rgba(225,27,34,1);
-}
-._28 {
-	position: absolute;
-	overflow: visible;
-	width: 800px;
-	height: 185px;
-	left: 0px;
-	top: 0.483px;
-}
-#Button {
-	opacity: 0.9;
-	position: absolute;
-	width: 163px;
-	height: 45.994px;
-	left: 318.708px;
-	top: 208.099px;
-	overflow: visible;
-}
-#_1__1 {
-	opacity: 0.8;
-	position: absolute;
-	width: 162.585px;
-	height: 45.994px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_7 {
-	fill: rgba(225,27,34,1);
-}
-._7 {
-	position: absolute;
-	overflow: visible;
-	width: 162.585px;
-	height: 45.994px;
-	left: 0px;
-	top: 0px;
-}
-#Contact {
-	left: 0px;
-	top: 13.905px;
-	position: absolute;
-	overflow: visible;
-	width: 164px;
-	white-space: nowrap;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 17px;
-	color: rgba(255,255,255,1);
-}
-#_20 {
-	opacity: 0.8;
-	fill: rgba(225,27,34,1);
-}
-._20 {
-	display: none;
-	position: absolute;
-	overflow: visible;
-	width: 799.711px;
-	height: 77px;
-	left: 0px;
-	top: -2.45px;
-}
-#Changing_Lives_Home_Health {
-	left: 0px;
-	top: 0px;
-	position: absolute;
-	overflow: visible;
-	width: 802px;
-	white-space: nowrap;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 55px;
-	color: rgba(255,246,241,1);
-}
-#_26 {
-	opacity: 0.8;
-	fill: rgba(225,27,34,1);
-}
-._26 {
-	display: none;
-	position: absolute;
-	overflow: visible;
-	width: 799.711px;
-	height: 111px;
-	left: 0px;
-	top: 74.55px;
-}
-#Changing_Lives_Home_Health_is_ {
-	left: 0px;
-	top: 89.55px;
-	position: absolute;
-	overflow: visible;
-	width: 801px;
-	height: 96px;
-	line-height: 30px;
-	margin-top: -7px;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(255,246,241,1);
-}
-#Services {
+#BannerServices {
 	position: absolute;
 	width: 935.985px;
 	height: 204.07px;
@@ -202,7 +54,7 @@ html {
 	top: 563.93px;
 	overflow: visible;
 }
-#SkilledNursing {
+#BannerServicesSN {
 	position: absolute;
 	width: 126.904px;
 	height: 204.07px;
@@ -210,11 +62,11 @@ html {
 	top: 0px;
 	overflow: visible;
 }
-#_21 {
+#BannerServicesSNBackground {
 	opacity: 0.9;
 	fill: rgba(225,27,34,1);
 }
-._21 {
+.BannerServicesSNBackground {
 	position: absolute;
 	overflow: visible;
 	width: 126.87px;
@@ -222,12 +74,46 @@ html {
 	left: 0.034px;
 	top: 2px;
 }
-#SKILLED__NURSING {
-	left: 29.433px;
+#BannerServicesSNArrowDown {
+	position: absolute;
+	width: 20.314px;
+	height: 12.635px;
+	left: 53.312px;
+	top: 197.71px;
+	display: none;
+	overflow: visible;
+}
+#BannerServicesSNArrowDownC2 {
+	fill: rgba(255,246,241,1);
+}
+.BannerServicesSNArrowDownC2 {
+	display: none;
+	overflow: visible;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: -9.878px;
+	top: -15.71px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BannerServicesSNArrowDownC1 {
+	fill: rgba(255,246,241,1);
+}
+.BannerServicesSNArrowDownC1 {
+	overflow: visible;
+	position: absolute;
+	width: 20.314px;
+	height: 12.635px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BannerServicesSNTText {
+	left: 34.433px;
 	top: 142px;
 	position: absolute;
 	overflow: visible;
-	width: 69px;
+	width: 59px;
 	white-space: nowrap;
 	text-align: center;
 	font-family: Frutiger LT Pro;
@@ -236,18 +122,10 @@ html {
 	font-size: 16px;
 	color: rgba(255,246,241,1);
 }
-#_12 {
-	position: absolute;
-	width: 126.867px;
-	height: 128px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_98 {
+#BannerServicesSNTogotypeBackgr {
 	fill: rgba(255,246,241,1);
 }
-._98 {
+.BannerServicesSNTogotypeBackgr {
 	overflow: visible;
 	position: absolute;
 	width: 126.867px;
@@ -256,7 +134,7 @@ html {
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Nurse {
+#BannerServicesSNLogotype {
 	position: absolute;
 	width: 80.753px;
 	height: 98.924px;
@@ -264,7 +142,7 @@ html {
 	top: 9.538px;
 	overflow: visible;
 }
-#_7_ {
+#_7 {
 	position: absolute;
 	width: 80.753px;
 	height: 98.924px;
@@ -316,10 +194,10 @@ html {
 	top: 49.457px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_26_bb {
+#_26 {
 	fill: rgba(225,27,34,1);
 }
-._26_bb {
+._26 {
 	overflow: visible;
 	position: absolute;
 	width: 3.184px;
@@ -328,10 +206,10 @@ html {
 	top: 38.02px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_27_bc {
+#_27 {
 	fill: rgba(225,27,34,1);
 }
-._27_bc {
+._27 {
 	overflow: visible;
 	position: absolute;
 	width: 2.942px;
@@ -340,10 +218,10 @@ html {
 	top: 38.047px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_28_bd {
+#_28 {
 	fill: rgba(225,27,34,1);
 }
-._28_bd {
+._28 {
 	overflow: visible;
 	position: absolute;
 	width: 9.086px;
@@ -352,41 +230,7 @@ html {
 	top: 5.531px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#ArrowDown {
-	position: absolute;
-	width: 20.314px;
-	height: 12.635px;
-	left: 53.312px;
-	top: 197.71px;
-	display: none;
-	overflow: visible;
-}
-#_96 {
-	fill: rgba(255,246,241,1);
-}
-._96 {
-	display: none;
-	overflow: visible;
-	position: absolute;
-	width: 40px;
-	height: 40px;
-	left: -9.878px;
-	top: -15.71px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_97 {
-	fill: rgba(255,246,241,1);
-}
-._97 {
-	overflow: visible;
-	position: absolute;
-	width: 20.314px;
-	height: 12.635px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#PhisicalTherapy {
+#BannerServicesPT {
 	position: absolute;
 	width: 127.065px;
 	height: 204.07px;
@@ -394,7 +238,7 @@ html {
 	top: 0px;
 	overflow: visible;
 }
-#_34 {
+#BannerServicesPTBackground {
 	opacity: 0.9;
 	fill: rgba(255,246,241,1);
 	stroke: rgba(225,27,34,1);
@@ -404,7 +248,7 @@ html {
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._34 {
+.BannerServicesPTBackground {
 	position: absolute;
 	overflow: visible;
 	width: 126.87px;
@@ -412,53 +256,7 @@ html {
 	left: 0px;
 	top: 0px;
 }
-#_102 {
-	fill: rgba(225,27,34,1);
-}
-._102 {
-	overflow: visible;
-	position: absolute;
-	width: 126.536px;
-	height: 128px;
-	left: 0.53px;
-	top: 0.339px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#Physical-therapy {
-	position: absolute;
-	width: 98.784px;
-	height: 100px;
-	left: 14.406px;
-	top: 10.496px;
-	overflow: visible;
-}
-#_29 {
-	fill: rgba(255,246,241,1);
-}
-._29 {
-	overflow: visible;
-	position: absolute;
-	width: 98.784px;
-	height: 100px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#PHYSICAL_THERAPY {
-	left: 26.797px;
-	top: 142.339px;
-	position: absolute;
-	overflow: visible;
-	width: 75px;
-	white-space: nowrap;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 16px;
-	color: rgba(225,27,34,1);
-}
-#ArrowDown_bn {
+#BannerServicesPTArrowDown {
 	position: absolute;
 	width: 20.823px;
 	height: 12.241px;
@@ -467,10 +265,10 @@ html {
 	display: none;
 	overflow: visible;
 }
-#_96_bo {
+#BannerServicesPTArrowDownC2 {
 	fill: rgba(225,27,34,1);
 }
-._96_bo {
+.BannerServicesPTArrowDownC2 {
 	display: none;
 	overflow: visible;
 	position: absolute;
@@ -480,10 +278,10 @@ html {
 	top: -15.863px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_97_bp {
+#BannerServicesPTArrowDownC1 {
 	fill: rgba(225,27,34,1);
 }
-._97_bp {
+.BannerServicesPTArrowDownC1 {
 	overflow: visible;
 	position: absolute;
 	width: 20.823px;
@@ -492,7 +290,53 @@ html {
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#SpeechTherapy {
+#BannerServicesPTText {
+	left: 32.797px;
+	top: 142.339px;
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(225,27,34,1);
+}
+#BannerServicesPTLogotypeBackgr {
+	fill: rgba(225,27,34,1);
+}
+.BannerServicesPTLogotypeBackgr {
+	overflow: visible;
+	position: absolute;
+	width: 126.536px;
+	height: 128px;
+	left: 0.53px;
+	top: 0.339px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BannerServicesPTLogotype {
+	position: absolute;
+	width: 98.784px;
+	height: 100px;
+	left: 14.406px;
+	top: 10.496px;
+	overflow: visible;
+}
+#BannerServicesPTLogotypeC1 {
+	fill: rgba(255,246,241,1);
+}
+.BannerServicesPTLogotypeC1 {
+	overflow: visible;
+	position: absolute;
+	width: 98.784px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BannerServicesST {
 	position: absolute;
 	width: 126.9px;
 	height: 203.799px;
@@ -500,11 +344,11 @@ html {
 	top: 0.272px;
 	overflow: visible;
 }
-#_22 {
+#BannerServicesSTBackground {
 	opacity: 0.9;
 	fill: rgba(225,27,34,1);
 }
-._22 {
+.BannerServicesSTBackground {
 	position: absolute;
 	overflow: visible;
 	width: 126.9px;
@@ -512,131 +356,7 @@ html {
 	left: 0px;
 	top: 7.39px;
 }
-#SPEECH_THERAPY {
-	left: 28.45px;
-	top: 141.956px;
-	position: absolute;
-	overflow: visible;
-	width: 71px;
-	white-space: nowrap;
-	line-height: 19px;
-	margin-top: -1.5px;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(255,255,255,1);
-}
-#_16 {
-	position: absolute;
-	width: 126.9px;
-	height: 128px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_103 {
-	fill: rgba(255,246,241,1);
-}
-._103 {
-	overflow: visible;
-	position: absolute;
-	width: 126.9px;
-	height: 128px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#Dialog {
-	position: absolute;
-	width: 90.465px;
-	height: 86.605px;
-	left: 18.832px;
-	top: 15.385px;
-	overflow: visible;
-}
-#_9 {
-	position: absolute;
-	width: 90.465px;
-	height: 86.605px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_39 {
-	fill: rgba(225,27,34,1);
-}
-._39 {
-	overflow: visible;
-	position: absolute;
-	width: 58.152px;
-	height: 45.351px;
-	left: 14.02px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_40 {
-	fill: rgba(225,27,34,1);
-}
-._40 {
-	overflow: visible;
-	position: absolute;
-	width: 41.868px;
-	height: 44.163px;
-	left: 0px;
-	top: 42.443px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_41 {
-	fill: rgba(225,27,34,1);
-}
-._41 {
-	overflow: visible;
-	position: absolute;
-	width: 41.817px;
-	height: 39.485px;
-	left: 48.648px;
-	top: 47.119px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_42 {
-	fill: rgba(225,27,34,1);
-}
-._42 {
-	overflow: visible;
-	position: absolute;
-	width: 29.134px;
-	height: 2.769px;
-	left: 19.291px;
-	top: 17.884px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_43 {
-	fill: rgba(225,27,34,1);
-}
-._43 {
-	overflow: visible;
-	position: absolute;
-	width: 28.99px;
-	height: 2.796px;
-	left: 19.363px;
-	top: 12.607px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_44 {
-	fill: rgba(225,27,34,1);
-}
-._44 {
-	overflow: visible;
-	position: absolute;
-	width: 29.135px;
-	height: 2.784px;
-	left: 19.284px;
-	top: 7.34px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#ArrowDown_b {
+#BannerServicesSTArrowDown {
 	position: absolute;
 	width: 20.883px;
 	height: 12.276px;
@@ -645,10 +365,10 @@ html {
 	display: none;
 	overflow: visible;
 }
-#_96_b {
+#BannerServicesSTArrowDownC2 {
 	fill: rgba(255,246,241,1);
 }
-._96_b {
+.BannerServicesSTArrowDownC2 {
 	display: none;
 	overflow: visible;
 	position: absolute;
@@ -658,10 +378,10 @@ html {
 	top: -15.909px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_97_b {
+#BannerServicesSTArrowDownC1 {
 	fill: rgba(255,246,241,1);
 }
-._97_b {
+.BannerServicesSTArrowDownC1 {
 	overflow: visible;
 	position: absolute;
 	width: 20.883px;
@@ -670,7 +390,115 @@ html {
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#OccupationalTherapy {
+#BannerServicesSTText {
+	left: 33.45px;
+	top: 141.956px;
+	position: absolute;
+	overflow: visible;
+	width: 61px;
+	white-space: nowrap;
+	line-height: 19px;
+	margin-top: -1.5px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#BannerServicesSTLogotypeBackgr {
+	fill: rgba(255,246,241,1);
+}
+.BannerServicesSTLogotypeBackgr {
+	overflow: visible;
+	position: absolute;
+	width: 126.9px;
+	height: 128px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BannerServicesSTLogotype {
+	position: absolute;
+	width: 90.465px;
+	height: 86.605px;
+	left: 18.832px;
+	top: 15.385px;
+	overflow: visible;
+}
+#BannerServicesSTLogotypeC6 {
+	fill: rgba(225,27,34,1);
+}
+.BannerServicesSTLogotypeC6 {
+	overflow: visible;
+	position: absolute;
+	width: 58.152px;
+	height: 45.351px;
+	left: 14.02px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BannerServicesSTLogotypeC5 {
+	fill: rgba(225,27,34,1);
+}
+.BannerServicesSTLogotypeC5 {
+	overflow: visible;
+	position: absolute;
+	width: 41.868px;
+	height: 44.163px;
+	left: 0px;
+	top: 42.443px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BannerServicesSTLogotypeC4 {
+	fill: rgba(225,27,34,1);
+}
+.BannerServicesSTLogotypeC4 {
+	overflow: visible;
+	position: absolute;
+	width: 41.817px;
+	height: 39.485px;
+	left: 48.648px;
+	top: 47.119px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BannerServicesSTLogotypeC3 {
+	fill: rgba(225,27,34,1);
+}
+.BannerServicesSTLogotypeC3 {
+	overflow: visible;
+	position: absolute;
+	width: 29.134px;
+	height: 2.769px;
+	left: 19.291px;
+	top: 17.884px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BannerServicesSTLogotypeC2 {
+	fill: rgba(225,27,34,1);
+}
+.BannerServicesSTLogotypeC2 {
+	overflow: visible;
+	position: absolute;
+	width: 28.99px;
+	height: 2.796px;
+	left: 19.363px;
+	top: 12.607px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BannerServicesSTLogotypeC1 {
+	fill: rgba(225,27,34,1);
+}
+.BannerServicesSTLogotypeC1 {
+	overflow: visible;
+	position: absolute;
+	width: 29.135px;
+	height: 2.784px;
+	left: 19.284px;
+	top: 7.34px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BannerServicesOT {
 	position: absolute;
 	width: 126.9px;
 	height: 204.07px;
@@ -678,7 +506,7 @@ html {
 	top: 0px;
 	overflow: visible;
 }
-#_35 {
+#BannerServicesOTBackground {
 	opacity: 0.9;
 	fill: rgba(255,246,241,1);
 	stroke: rgba(225,27,34,1);
@@ -688,7 +516,7 @@ html {
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._35 {
+.BannerServicesOTBackground {
 	position: absolute;
 	overflow: visible;
 	width: 126.87px;
@@ -696,134 +524,7 @@ html {
 	left: 0px;
 	top: 0px;
 }
-#OCCUPATIONAL_THERAPY {
-	left: 4.9px;
-	top: 142.045px;
-	position: absolute;
-	overflow: visible;
-	width: 123px;
-	white-space: nowrap;
-	line-height: 19px;
-	margin-top: -1.5px;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 16px;
-	color: rgba(225,27,34,1);
-}
-#_15 {
-	position: absolute;
-	width: 126.9px;
-	height: 128px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_4 {
-	fill: rgba(225,27,34,1);
-}
-._4 {
-	position: absolute;
-	overflow: visible;
-	width: 126.9px;
-	height: 128px;
-	left: 0px;
-	top: 0px;
-}
-#TheRapist {
-	position: absolute;
-	width: 86.728px;
-	height: 86.6px;
-	left: 20.086px;
-	top: 20.7px;
-	overflow: visible;
-}
-#_46 {
-	fill: rgba(255,246,241,1);
-}
-._46 {
-	overflow: visible;
-	position: absolute;
-	width: 86.728px;
-	height: 86.6px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_47 {
-	fill: rgba(255,246,241,1);
-}
-._47 {
-	overflow: visible;
-	position: absolute;
-	width: 7.964px;
-	height: 4.24px;
-	left: 71.163px;
-	top: 48.533px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_48 {
-	fill: rgba(255,246,241,1);
-}
-._48 {
-	overflow: visible;
-	position: absolute;
-	width: 2.873px;
-	height: 2.873px;
-	left: 69.375px;
-	top: 43.298px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_49 {
-	fill: rgba(255,246,241,1);
-}
-._49 {
-	overflow: visible;
-	position: absolute;
-	width: 2.874px;
-	height: 2.874px;
-	left: 78.037px;
-	top: 43.297px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_50 {
-	fill: rgba(255,246,241,1);
-}
-._50 {
-	overflow: visible;
-	position: absolute;
-	width: 7.973px;
-	height: 4.259px;
-	left: 16.299px;
-	top: 19.641px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_51 {
-	fill: rgba(255,246,241,1);
-}
-._51 {
-	overflow: visible;
-	position: absolute;
-	width: 2.873px;
-	height: 2.873px;
-	left: 14.51px;
-	top: 14.425px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_52 {
-	fill: rgba(255,246,241,1);
-}
-._52 {
-	overflow: visible;
-	position: absolute;
-	width: 2.874px;
-	height: 2.874px;
-	left: 23.172px;
-	top: 14.425px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#ArrowDown_cj {
+#BannerServicesOTArrowDown {
 	position: absolute;
 	width: 20.883px;
 	height: 12.283px;
@@ -832,10 +533,10 @@ html {
 	display: none;
 	overflow: visible;
 }
-#_96_ck {
+#BannerServicesOTArrowDownC2 {
 	fill: rgba(225,27,34,1);
 }
-._96_ck {
+.BannerServicesOTArrowDownC2 {
 	display: none;
 	overflow: visible;
 	position: absolute;
@@ -845,10 +546,10 @@ html {
 	top: -15.918px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_97_cl {
+#BannerServicesOTArrowDownC1 {
 	fill: rgba(225,27,34,1);
 }
-._97_cl {
+.BannerServicesOTArrowDownC1 {
 	overflow: visible;
 	position: absolute;
 	width: 20.883px;
@@ -857,7 +558,126 @@ html {
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#MedicalSocialWorker {
+#BannerServicesOTText {
+	left: 16.9px;
+	top: 142.045px;
+	position: absolute;
+	overflow: visible;
+	width: 99px;
+	white-space: nowrap;
+	line-height: 19px;
+	margin-top: -1.5px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(225,27,34,1);
+}
+#BannerServicesOTLogotypeBackgr {
+	fill: rgba(225,27,34,1);
+}
+.BannerServicesOTLogotypeBackgr {
+	position: absolute;
+	overflow: visible;
+	width: 126.9px;
+	height: 128px;
+	left: 0px;
+	top: 0px;
+}
+#BannerServicesOTLogotype {
+	position: absolute;
+	width: 86.728px;
+	height: 86.6px;
+	left: 20.086px;
+	top: 20.7px;
+	overflow: visible;
+}
+#BannerServicesOTLogotypeC7 {
+	fill: rgba(255,246,241,1);
+}
+.BannerServicesOTLogotypeC7 {
+	overflow: visible;
+	position: absolute;
+	width: 86.728px;
+	height: 86.6px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BannerServicesOTLogotypeC6 {
+	fill: rgba(255,246,241,1);
+}
+.BannerServicesOTLogotypeC6 {
+	overflow: visible;
+	position: absolute;
+	width: 7.964px;
+	height: 4.24px;
+	left: 71.163px;
+	top: 48.533px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BannerServicesOTLogotypeC5 {
+	fill: rgba(255,246,241,1);
+}
+.BannerServicesOTLogotypeC5 {
+	overflow: visible;
+	position: absolute;
+	width: 2.873px;
+	height: 2.873px;
+	left: 69.375px;
+	top: 43.298px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BannerServicesOTLogotypeC4 {
+	fill: rgba(255,246,241,1);
+}
+.BannerServicesOTLogotypeC4 {
+	overflow: visible;
+	position: absolute;
+	width: 2.874px;
+	height: 2.874px;
+	left: 78.037px;
+	top: 43.298px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BannerServicesOTLogotypeC3 {
+	fill: rgba(255,246,241,1);
+}
+.BannerServicesOTLogotypeC3 {
+	overflow: visible;
+	position: absolute;
+	width: 7.973px;
+	height: 4.259px;
+	left: 16.299px;
+	top: 19.641px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BannerServicesOTLogotypeC2 {
+	fill: rgba(255,246,241,1);
+}
+.BannerServicesOTLogotypeC2 {
+	overflow: visible;
+	position: absolute;
+	width: 2.873px;
+	height: 2.873px;
+	left: 14.51px;
+	top: 14.425px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BannerServicesOTLogotypeC1 {
+	fill: rgba(255,246,241,1);
+}
+.BannerServicesOTLogotypeC1 {
+	overflow: visible;
+	position: absolute;
+	width: 2.874px;
+	height: 2.874px;
+	left: 23.172px;
+	top: 14.425px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BannerServicesMSV {
 	position: absolute;
 	width: 127.368px;
 	height: 203.402px;
@@ -865,11 +685,11 @@ html {
 	top: 0.669px;
 	overflow: visible;
 }
-#_23_cn {
+#BannerServicesMSVBackground {
 	opacity: 0.9;
 	fill: rgba(225,27,34,1);
 }
-._23_cn {
+.BannerServicesMSVBackground {
 	position: absolute;
 	overflow: visible;
 	width: 126.9px;
@@ -877,12 +697,46 @@ html {
 	left: 0.468px;
 	top: 4.059px;
 }
-#MEDICAL_SOCIAL_WORKER {
-	left: 29.433px;
+#BannerServicesMSVArrowDown {
+	position: absolute;
+	width: 20.877px;
+	height: 12.28px;
+	left: 53.029px;
+	top: 197.43px;
+	display: none;
+	overflow: visible;
+}
+#BannerServicesMSVArrowDownC2 {
+	fill: rgba(255,246,241,1);
+}
+.BannerServicesMSVArrowDownC2 {
+	display: none;
+	overflow: visible;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: -9.596px;
+	top: -15.914px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BannerServicesMSVArrowDownC1 {
+	fill: rgba(255,246,241,1);
+}
+.BannerServicesMSVArrowDownC1 {
+	overflow: visible;
+	position: absolute;
+	width: 20.877px;
+	height: 12.28px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BannerServicesMSVText {
+	left: 10.433px;
 	top: 142px;
 	position: absolute;
 	overflow: visible;
-	width: 69px;
+	width: 107px;
 	white-space: nowrap;
 	line-height: 19px;
 	margin-top: -1.5px;
@@ -893,18 +747,10 @@ html {
 	font-size: 16px;
 	color: rgba(255,255,255,1);
 }
-#_13 {
-	position: absolute;
-	width: 126.867px;
-	height: 128px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_5 {
+#BannerServicesMSVLogotypeBackg {
 	fill: rgba(255,246,241,1);
 }
-._5 {
+.BannerServicesMSVLogotypeBackg {
 	position: absolute;
 	overflow: visible;
 	width: 126.867px;
@@ -912,7 +758,7 @@ html {
 	left: 0px;
 	top: 0px;
 }
-#MedicalSocialWorker_cr {
+#BannerServicesMSVLogotype {
 	position: absolute;
 	width: 84.151px;
 	height: 87.386px;
@@ -920,18 +766,10 @@ html {
 	top: 20.307px;
 	overflow: visible;
 }
-#_10 {
-	position: absolute;
-	width: 84.151px;
-	height: 87.386px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_53 {
+#BannerServicesMSVLogotypeC2 {
 	fill: rgba(225,27,34,1);
 }
-._53 {
+.BannerServicesMSVLogotypeC2 {
 	overflow: visible;
 	position: absolute;
 	width: 52.448px;
@@ -940,10 +778,10 @@ html {
 	top: 12.102px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_54 {
+#BannerServicesMSVLogotypeC1 {
 	fill: rgba(225,27,34,1);
 }
-._54 {
+.BannerServicesMSVLogotypeC1 {
 	overflow: visible;
 	position: absolute;
 	width: 39.737px;
@@ -952,41 +790,7 @@ html {
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#ArrowDown_cv {
-	position: absolute;
-	width: 20.877px;
-	height: 12.28px;
-	left: 53.029px;
-	top: 197.43px;
-	display: none;
-	overflow: visible;
-}
-#_96_cw {
-	fill: rgba(255,246,241,1);
-}
-._96_cw {
-	display: none;
-	overflow: visible;
-	position: absolute;
-	width: 40px;
-	height: 40px;
-	left: -9.596px;
-	top: -15.914px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_97_cx {
-	fill: rgba(255,246,241,1);
-}
-._97_cx {
-	overflow: visible;
-	position: absolute;
-	width: 20.877px;
-	height: 12.28px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#HomeHealthAide {
+#BannerServicesHHA {
 	position: absolute;
 	width: 126.903px;
 	height: 204.07px;
@@ -994,7 +798,7 @@ html {
 	top: 0px;
 	overflow: visible;
 }
-#_36 {
+#BannerServicesHHABackground {
 	opacity: 0.9;
 	fill: rgba(255,246,241,1);
 	stroke: rgba(225,27,34,1);
@@ -1004,7 +808,7 @@ html {
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._36 {
+.BannerServicesHHABackground {
 	position: absolute;
 	overflow: visible;
 	width: 126.87px;
@@ -1012,122 +816,7 @@ html {
 	left: 0.032px;
 	top: 0px;
 }
-#HOME {
-	left: 34.433px;
-	top: 142px;
-	position: absolute;
-	overflow: visible;
-	width: 59px;
-	white-space: nowrap;
-	line-height: 19px;
-	margin-top: -1.5px;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 16px;
-	color: rgba(225,27,34,1);
-}
-#_14 {
-	position: absolute;
-	width: 126.867px;
-	height: 128px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_4_c {
-	fill: rgba(225,27,34,1);
-}
-._4_c {
-	position: absolute;
-	overflow: visible;
-	width: 126.867px;
-	height: 128px;
-	left: 0px;
-	top: 0px;
-}
-#HomeAide {
-	position: absolute;
-	width: 77.187px;
-	height: 74.783px;
-	left: 24.84px;
-	top: 26.608px;
-	overflow: visible;
-}
-#_55 {
-	fill: rgba(255,246,241,1);
-}
-._55 {
-	overflow: visible;
-	position: absolute;
-	width: 39.955px;
-	height: 44.473px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_56 {
-	fill: rgba(255,246,241,1);
-}
-._56 {
-	overflow: visible;
-	position: absolute;
-	width: 41.274px;
-	height: 65.986px;
-	left: 35.913px;
-	top: 8.797px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_57 {
-	fill: rgba(255,246,241,1);
-}
-._57 {
-	overflow: visible;
-	position: absolute;
-	width: 23.41px;
-	height: 19.21px;
-	left: 8.274px;
-	top: 50.621px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_58 {
-	fill: rgba(255,246,241,1);
-}
-._58 {
-	overflow: visible;
-	position: absolute;
-	width: 7.1px;
-	height: 3.114px;
-	left: 53.002px;
-	top: 36.174px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_59 {
-	fill: rgba(255,246,241,1);
-}
-._59 {
-	overflow: visible;
-	position: absolute;
-	width: 2.261px;
-	height: 2.843px;
-	left: 50.982px;
-	top: 28.488px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_60 {
-	fill: rgba(255,246,241,1);
-}
-._60 {
-	overflow: visible;
-	position: absolute;
-	width: 2.261px;
-	height: 2.847px;
-	left: 59.84px;
-	top: 28.486px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#ArrowDown_da {
+#BannerServicesHHAArrowDown {
 	position: absolute;
 	width: 20.877px;
 	height: 12.28px;
@@ -1136,23 +825,23 @@ html {
 	display: none;
 	overflow: visible;
 }
-#_96_db {
+#BannerServicesHHAArrowDownC2 {
 	fill: rgba(225,27,34,1);
 }
-._96_db {
+.BannerServicesHHAArrowDownC2 {
 	display: none;
 	overflow: visible;
 	position: absolute;
 	width: 40px;
 	height: 40px;
-	left: -9.595px;
+	left: -9.596px;
 	top: -15.914px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_97_dc {
+#BannerServicesHHAArrowDownC1 {
 	fill: rgba(225,27,34,1);
 }
-._97_dc {
+.BannerServicesHHAArrowDownC1 {
 	overflow: visible;
 	position: absolute;
 	width: 20.877px;
@@ -1161,685 +850,12 @@ html {
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Services_dd {
-	position: absolute;
-	width: 1097.397px;
-	height: 292.389px;
-	left: 323.741px;
-	top: 544px;
-	display: none;
-	overflow: visible;
-}
-#SkilledNursing_de {
-	opacity: 0.9;
-	position: absolute;
-	width: 148.672px;
-	height: 245px;
-	left: 158.121px;
-	top: 0px;
-	overflow: visible;
-}
-#_21_df {
-	opacity: 0.8;
-	fill: rgba(225,27,34,1);
-}
-._21_df {
+#BannerServicesHHAText {
+	left: 19.433px;
+	top: 142px;
 	position: absolute;
 	overflow: visible;
-	width: 148.672px;
-	height: 245px;
-	left: 0px;
-	top: 0px;
-}
-#SKILLED__NURSING_dg {
-	left: 40.336px;
-	top: 152.272px;
-	position: absolute;
-	overflow: visible;
-	width: 69px;
-	white-space: nowrap;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(255,246,241,1);
-}
-#_12_dh {
-	position: absolute;
-	width: 126.867px;
-	height: 128px;
-	left: 10.903px;
-	top: 12.272px;
-	overflow: visible;
-}
-#_1 {
-	fill: rgba(255,246,241,1);
-}
-._1 {
-	position: absolute;
-	overflow: visible;
-	width: 126.867px;
-	height: 128px;
-	left: 0px;
-	top: 0px;
-}
-#Nurse_dj {
-	position: absolute;
-	width: 80.753px;
-	height: 98.924px;
-	left: 23.057px;
-	top: 9.538px;
-	overflow: visible;
-}
-#_7_dk {
-	position: absolute;
-	width: 80.753px;
-	height: 98.924px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_23_dl {
-	fill: rgba(225,27,34,1);
-}
-._23_dl {
-	overflow: visible;
-	position: absolute;
-	width: 14.864px;
-	height: 3.036px;
-	left: 52.979px;
-	top: 87.758px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_6_dm {
-	position: absolute;
-	width: 80.753px;
-	height: 98.924px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_24_dn {
-	fill: rgba(225,27,34,1);
-}
-._24_dn {
-	overflow: visible;
-	position: absolute;
-	width: 80.753px;
-	height: 98.924px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_25_do {
-	fill: rgba(225,27,34,1);
-}
-._25_do {
-	overflow: visible;
-	position: absolute;
-	width: 10.519px;
-	height: 4.692px;
-	left: 35.17px;
-	top: 49.457px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_26_dp {
-	fill: rgba(225,27,34,1);
-}
-._26_dp {
-	overflow: visible;
-	position: absolute;
-	width: 3.184px;
-	height: 4.098px;
-	left: 29.972px;
-	top: 38.02px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_27_dq {
-	fill: rgba(225,27,34,1);
-}
-._27_dq {
-	overflow: visible;
-	position: absolute;
-	width: 2.942px;
-	height: 4.066px;
-	left: 47.809px;
-	top: 38.047px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_28_dr {
-	fill: rgba(225,27,34,1);
-}
-._28_dr {
-	overflow: visible;
-	position: absolute;
-	width: 9.086px;
-	height: 9.144px;
-	left: 35.846px;
-	top: 5.531px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#ArrowDown_ds {
-	position: absolute;
-	width: 20.314px;
-	height: 12.635px;
-	left: 64.214px;
-	top: 209.982px;
-	overflow: visible;
-}
-#_96_dt {
-	fill: rgba(255,246,241,1);
-}
-._96_dt {
-	display: none;
-	overflow: visible;
-	position: absolute;
-	width: 40px;
-	height: 40px;
-	left: -9.878px;
-	top: -15.71px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_97_du {
-	fill: rgba(255,246,241,1);
-}
-._97_du {
-	overflow: visible;
-	position: absolute;
-	width: 20.314px;
-	height: 12.635px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#SkilledNursing_dv {
-	opacity: 0.9;
-	position: absolute;
-	width: 148.672px;
-	height: 207.982px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_21_dw {
-	opacity: 0.8;
-	fill: rgba(225,27,34,1);
-}
-._21_dw {
-	position: absolute;
-	overflow: visible;
-	width: 148.672px;
-	height: 207.982px;
-	left: 0px;
-	top: 0px;
-}
-#SKILLED__NURSING_dx {
-	left: 40.336px;
-	top: 152.272px;
-	position: absolute;
-	overflow: visible;
-	width: 69px;
-	white-space: nowrap;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(255,246,241,1);
-}
-#_12_dy {
-	position: absolute;
-	width: 126.867px;
-	height: 128px;
-	left: 10.903px;
-	top: 12.272px;
-	overflow: visible;
-}
-#_1_dz {
-	fill: rgba(255,246,241,1);
-}
-._1_dz {
-	position: absolute;
-	overflow: visible;
-	width: 126.867px;
-	height: 128px;
-	left: 0px;
-	top: 0px;
-}
-#Nurse_d {
-	position: absolute;
-	width: 80.753px;
-	height: 98.924px;
-	left: 23.057px;
-	top: 9.538px;
-	overflow: visible;
-}
-#_7_d {
-	position: absolute;
-	width: 80.753px;
-	height: 98.924px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_23_d {
-	fill: rgba(225,27,34,1);
-}
-._23_d {
-	overflow: visible;
-	position: absolute;
-	width: 14.864px;
-	height: 3.036px;
-	left: 52.979px;
-	top: 87.758px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_6_d {
-	position: absolute;
-	width: 80.753px;
-	height: 98.924px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_24_d {
-	fill: rgba(225,27,34,1);
-}
-._24_d {
-	overflow: visible;
-	position: absolute;
-	width: 80.753px;
-	height: 98.924px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_25_d {
-	fill: rgba(225,27,34,1);
-}
-._25_d {
-	overflow: visible;
-	position: absolute;
-	width: 10.519px;
-	height: 4.692px;
-	left: 35.17px;
-	top: 49.457px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_26_d {
-	fill: rgba(225,27,34,1);
-}
-._26_d {
-	overflow: visible;
-	position: absolute;
-	width: 3.184px;
-	height: 4.098px;
-	left: 29.972px;
-	top: 38.02px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_27_d {
-	fill: rgba(225,27,34,1);
-}
-._27_d {
-	overflow: visible;
-	position: absolute;
-	width: 2.942px;
-	height: 4.066px;
-	left: 47.809px;
-	top: 38.047px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_28_d {
-	fill: rgba(225,27,34,1);
-}
-._28_d {
-	overflow: visible;
-	position: absolute;
-	width: 9.086px;
-	height: 9.144px;
-	left: 35.846px;
-	top: 5.531px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#ArrowDown_d {
-	position: absolute;
-	width: 20.314px;
-	height: 12.635px;
-	left: 64.214px;
-	top: 209.982px;
-	display: none;
-	overflow: visible;
-}
-#_96_ea {
-	fill: rgba(255,246,241,1);
-}
-._96_ea {
-	display: none;
-	overflow: visible;
-	position: absolute;
-	width: 40px;
-	height: 40px;
-	left: -9.878px;
-	top: -15.71px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_97_eb {
-	fill: rgba(255,246,241,1);
-}
-._97_eb {
-	overflow: visible;
-	position: absolute;
-	width: 20.314px;
-	height: 12.635px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#PhisicalTherapy_ec {
-	opacity: 0.9;
-	position: absolute;
-	width: 148.672px;
-	height: 245px;
-	left: 316.242px;
-	top: 47.389px;
-	overflow: visible;
-}
-#_24_ed {
-	opacity: 0.9;
-	fill: rgba(255,246,241,1);
-}
-._24_ed {
-	position: absolute;
-	overflow: visible;
-	width: 148.672px;
-	height: 245px;
-	left: 0px;
-	top: 0px;
-}
-#_2 {
-	fill: rgba(225,27,34,1);
-}
-._2 {
-	position: absolute;
-	overflow: visible;
-	width: 126.867px;
-	height: 128px;
-	left: 10.903px;
-	top: 12.611px;
-}
-#Physical-therapy_ef {
-	position: absolute;
-	width: 99.115px;
-	height: 100px;
-	left: 24.779px;
-	top: 22.768px;
-	overflow: visible;
-}
-#_29_eg {
-	fill: rgba(255,246,241,1);
-}
-._29_eg {
-	overflow: visible;
-	position: absolute;
-	width: 99.115px;
-	height: 100px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#PHYSICAL_THERAPY_eh {
-	left: 37.155px;
-	top: 148.611px;
-	position: absolute;
-	overflow: visible;
-	width: 75px;
-	white-space: nowrap;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 16px;
-	color: rgba(225,27,34,1);
-}
-#ArrowDown_ei {
-	position: absolute;
-	width: 20.877px;
-	height: 12.273px;
-	left: 63.535px;
-	top: 210.516px;
-	overflow: visible;
-}
-#_96_ej {
-	fill: rgba(225,27,34,1);
-}
-._96_ej {
-	display: none;
-	overflow: visible;
-	position: absolute;
-	width: 40px;
-	height: 39.977px;
-	left: -9.596px;
-	top: -15.905px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_97_ek {
-	fill: rgba(225,27,34,1);
-}
-._97_ek {
-	overflow: visible;
-	position: absolute;
-	width: 20.877px;
-	height: 12.273px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#SpeechTherapy_el {
-	opacity: 0.9;
-	position: absolute;
-	width: 148.672px;
-	height: 245px;
-	left: 474.363px;
-	top: 0px;
-	overflow: visible;
-}
-#_22_em {
-	opacity: 0.8;
-	fill: rgba(225,27,34,1);
-}
-._22_em {
-	position: absolute;
-	overflow: visible;
-	width: 148.672px;
-	height: 245px;
-	left: 0px;
-	top: 0px;
-}
-#SPEECH_THERAPY_en {
-	left: 39.336px;
-	top: 151.5px;
-	position: absolute;
-	overflow: visible;
-	width: 71px;
-	white-space: nowrap;
-	line-height: 19px;
-	margin-top: -1.5px;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(255,255,255,1);
-}
-#_16_eo {
-	position: absolute;
-	width: 126.867px;
-	height: 128px;
-	left: 10.903px;
-	top: 12.544px;
-	overflow: visible;
-}
-#_3 {
-	fill: rgba(255,246,241,1);
-}
-._3 {
-	position: absolute;
-	overflow: visible;
-	width: 126.867px;
-	height: 128px;
-	left: 0px;
-	top: 0px;
-}
-#Dialog_eq {
-	position: absolute;
-	width: 90.432px;
-	height: 86.605px;
-	left: 18.832px;
-	top: 15.385px;
-	overflow: visible;
-}
-#_9_er {
-	position: absolute;
-	width: 90.432px;
-	height: 86.605px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_39_es {
-	fill: rgba(225,27,34,1);
-}
-._39_es {
-	overflow: visible;
-	position: absolute;
-	width: 58.152px;
-	height: 45.351px;
-	left: 14.005px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_40_et {
-	fill: rgba(225,27,34,1);
-}
-._40_et {
-	overflow: visible;
-	position: absolute;
-	width: 41.868px;
-	height: 44.163px;
-	left: 0px;
-	top: 42.443px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_41_eu {
-	fill: rgba(225,27,34,1);
-}
-._41_eu {
-	overflow: visible;
-	position: absolute;
-	width: 41.817px;
-	height: 39.485px;
-	left: 48.614px;
-	top: 47.119px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_42_ev {
-	fill: rgba(225,27,34,1);
-}
-._42_ev {
-	overflow: visible;
-	position: absolute;
-	width: 29.134px;
-	height: 2.769px;
-	left: 19.28px;
-	top: 17.884px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_43_ew {
-	fill: rgba(225,27,34,1);
-}
-._43_ew {
-	overflow: visible;
-	position: absolute;
-	width: 28.99px;
-	height: 2.796px;
-	left: 19.353px;
-	top: 12.607px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_44_ex {
-	fill: rgba(225,27,34,1);
-}
-._44_ex {
-	overflow: visible;
-	position: absolute;
-	width: 29.135px;
-	height: 2.784px;
-	left: 19.274px;
-	top: 7.34px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#ArrowDown_ey {
-	position: absolute;
-	width: 20.877px;
-	height: 12.273px;
-	left: 63.897px;
-	top: 210.361px;
-	overflow: visible;
-}
-#_96_ez {
-	fill: rgba(255,246,241,1);
-}
-._96_ez {
-	display: none;
-	overflow: visible;
-	position: absolute;
-	width: 40px;
-	height: 39.977px;
-	left: -9.596px;
-	top: -15.905px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_97_e {
-	fill: rgba(255,246,241,1);
-}
-._97_e {
-	overflow: visible;
-	position: absolute;
-	width: 20.877px;
-	height: 12.273px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#OccupationalTherapy_e {
-	opacity: 0.9;
-	position: absolute;
-	width: 148.672px;
-	height: 245px;
-	left: 632.484px;
-	top: 47.389px;
-	overflow: visible;
-}
-#_25_e {
-	opacity: 0.9;
-	fill: rgba(255,246,241,1);
-}
-._25_e {
-	position: absolute;
-	overflow: visible;
-	width: 148.672px;
-	height: 245px;
-	left: 0px;
-	top: 0px;
-}
-#OCCUPATIONAL_THERAPY_e {
-	left: 13.336px;
-	top: 149.272px;
-	position: absolute;
-	overflow: visible;
-	width: 123px;
+	width: 89px;
 	white-space: nowrap;
 	line-height: 19px;
 	margin-top: -1.5px;
@@ -1850,18 +866,10 @@ html {
 	font-size: 16px;
 	color: rgba(225,27,34,1);
 }
-#_15_e {
-	position: absolute;
-	width: 126.867px;
-	height: 128px;
-	left: 10.704px;
-	top: 12.272px;
-	overflow: visible;
-}
-#_4_e {
+#BannerServicesHHALogotypeBackg {
 	fill: rgba(225,27,34,1);
 }
-._4_e {
+.BannerServicesHHALogotypeBackg {
 	position: absolute;
 	overflow: visible;
 	width: 126.867px;
@@ -1869,317 +877,7 @@ html {
 	left: 0px;
 	top: 0px;
 }
-#TheRapist_e {
-	position: absolute;
-	width: 86.728px;
-	height: 86.6px;
-	left: 20.069px;
-	top: 20.7px;
-	overflow: visible;
-}
-#_46_e {
-	fill: rgba(255,246,241,1);
-}
-._46_e {
-	overflow: visible;
-	position: absolute;
-	width: 86.728px;
-	height: 86.6px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_47_e {
-	fill: rgba(255,246,241,1);
-}
-._47_e {
-	overflow: visible;
-	position: absolute;
-	width: 7.964px;
-	height: 4.24px;
-	left: 71.163px;
-	top: 48.533px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_48_e {
-	fill: rgba(255,246,241,1);
-}
-._48_e {
-	overflow: visible;
-	position: absolute;
-	width: 2.873px;
-	height: 2.873px;
-	left: 69.375px;
-	top: 43.298px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_49_fa {
-	fill: rgba(255,246,241,1);
-}
-._49_fa {
-	overflow: visible;
-	position: absolute;
-	width: 2.874px;
-	height: 2.874px;
-	left: 78.037px;
-	top: 43.297px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_50_fb {
-	fill: rgba(255,246,241,1);
-}
-._50_fb {
-	overflow: visible;
-	position: absolute;
-	width: 7.973px;
-	height: 4.259px;
-	left: 16.299px;
-	top: 19.641px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_51_fc {
-	fill: rgba(255,246,241,1);
-}
-._51_fc {
-	overflow: visible;
-	position: absolute;
-	width: 2.873px;
-	height: 2.873px;
-	left: 14.51px;
-	top: 14.425px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_52_fd {
-	fill: rgba(255,246,241,1);
-}
-._52_fd {
-	overflow: visible;
-	position: absolute;
-	width: 2.874px;
-	height: 2.874px;
-	left: 23.172px;
-	top: 14.425px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#ArrowDown_fe {
-	position: absolute;
-	width: 20.877px;
-	height: 12.28px;
-	left: 63.733px;
-	top: 210.37px;
-	overflow: visible;
-}
-#_96_ff {
-	fill: rgba(225,27,34,1);
-}
-._96_ff {
-	display: none;
-	overflow: visible;
-	position: absolute;
-	width: 40px;
-	height: 40px;
-	left: -9.596px;
-	top: -15.914px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_97_fg {
-	fill: rgba(225,27,34,1);
-}
-._97_fg {
-	overflow: visible;
-	position: absolute;
-	width: 20.877px;
-	height: 12.28px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#MedicalSocialWorker_fh {
-	opacity: 0.9;
-	position: absolute;
-	width: 148.672px;
-	height: 245px;
-	left: 790.604px;
-	top: 0px;
-	overflow: visible;
-}
-#_23_fi {
-	opacity: 0.8;
-	fill: rgba(225,27,34,1);
-}
-._23_fi {
-	position: absolute;
-	overflow: visible;
-	width: 148.672px;
-	height: 245px;
-	left: 0px;
-	top: 0px;
-}
-#MEDICAL_SOCIAL_WORKER_fj {
-	left: 11.767px;
-	top: 151.699px;
-	position: absolute;
-	overflow: visible;
-	width: 127px;
-	white-space: nowrap;
-	line-height: 19px;
-	margin-top: -1.5px;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(255,255,255,1);
-}
-#_13_fk {
-	position: absolute;
-	width: 126.867px;
-	height: 128px;
-	left: 11.299px;
-	top: 12.941px;
-	overflow: visible;
-}
-#_5_fl {
-	fill: rgba(255,246,241,1);
-}
-._5_fl {
-	position: absolute;
-	overflow: visible;
-	width: 126.867px;
-	height: 128px;
-	left: 0px;
-	top: 0px;
-}
-#MedicalSocialWorker_fm {
-	position: absolute;
-	width: 84.151px;
-	height: 87.386px;
-	left: 20.962px;
-	top: 20.307px;
-	overflow: visible;
-}
-#_10_fn {
-	position: absolute;
-	width: 84.151px;
-	height: 87.386px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_53_fo {
-	fill: rgba(225,27,34,1);
-}
-._53_fo {
-	overflow: visible;
-	position: absolute;
-	width: 52.448px;
-	height: 75.278px;
-	left: 0px;
-	top: 12.102px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_54_fp {
-	fill: rgba(225,27,34,1);
-}
-._54_fp {
-	overflow: visible;
-	position: absolute;
-	width: 39.737px;
-	height: 87.387px;
-	left: 44.414px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#ArrowDown_fq {
-	position: absolute;
-	width: 20.877px;
-	height: 12.28px;
-	left: 64.328px;
-	top: 210.37px;
-	overflow: visible;
-}
-#_96_fr {
-	fill: rgba(255,246,241,1);
-}
-._96_fr {
-	display: none;
-	overflow: visible;
-	position: absolute;
-	width: 40px;
-	height: 40px;
-	left: -9.596px;
-	top: -15.914px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_97_fs {
-	fill: rgba(255,246,241,1);
-}
-._97_fs {
-	overflow: visible;
-	position: absolute;
-	width: 20.877px;
-	height: 12.28px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#HomeHealthAide_ft {
-	opacity: 0.9;
-	position: absolute;
-	width: 148.672px;
-	height: 245px;
-	left: 948.725px;
-	top: 47.389px;
-	overflow: visible;
-}
-#_25_fu {
-	opacity: 0.9;
-	fill: rgba(255,246,241,1);
-}
-._25_fu {
-	position: absolute;
-	overflow: visible;
-	width: 148.672px;
-	height: 245px;
-	left: 0px;
-	top: 0px;
-}
-#HOME_fv {
-	left: 24.336px;
-	top: 149.272px;
-	position: absolute;
-	overflow: visible;
-	width: 101px;
-	white-space: nowrap;
-	line-height: 19px;
-	margin-top: -1.5px;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 16px;
-	color: rgba(225,27,34,1);
-}
-#_14_fw {
-	position: absolute;
-	width: 126.867px;
-	height: 128px;
-	left: 10.903px;
-	top: 12.272px;
-	overflow: visible;
-}
-#_4_fx {
-	fill: rgba(225,27,34,1);
-}
-._4_fx {
-	position: absolute;
-	overflow: visible;
-	width: 126.867px;
-	height: 128px;
-	left: 0px;
-	top: 0px;
-}
-#HomeAide_fy {
+#BannerServicesHHALogotype {
 	position: absolute;
 	width: 77.187px;
 	height: 74.783px;
@@ -2187,10 +885,10 @@ html {
 	top: 26.608px;
 	overflow: visible;
 }
-#_55_fz {
+#BannerServicesHHALogotypeC6 {
 	fill: rgba(255,246,241,1);
 }
-._55_fz {
+.BannerServicesHHALogotypeC6 {
 	overflow: visible;
 	position: absolute;
 	width: 39.955px;
@@ -2199,10 +897,10 @@ html {
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_56_f {
+#BannerServicesHHALogotypeC5 {
 	fill: rgba(255,246,241,1);
 }
-._56_f {
+.BannerServicesHHALogotypeC5 {
 	overflow: visible;
 	position: absolute;
 	width: 41.274px;
@@ -2211,10 +909,10 @@ html {
 	top: 8.797px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_57_f {
+#BannerServicesHHALogotypeC4 {
 	fill: rgba(255,246,241,1);
 }
-._57_f {
+.BannerServicesHHALogotypeC4 {
 	overflow: visible;
 	position: absolute;
 	width: 23.41px;
@@ -2223,10 +921,10 @@ html {
 	top: 50.621px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_58_f {
+#BannerServicesHHALogotypeC3 {
 	fill: rgba(255,246,241,1);
 }
-._58_f {
+.BannerServicesHHALogotypeC3 {
 	overflow: visible;
 	position: absolute;
 	width: 7.1px;
@@ -2235,10 +933,10 @@ html {
 	top: 36.174px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_59_f {
+#BannerServicesHHALogotypeC2 {
 	fill: rgba(255,246,241,1);
 }
-._59_f {
+.BannerServicesHHALogotypeC2 {
 	overflow: visible;
 	position: absolute;
 	width: 2.261px;
@@ -2247,10 +945,10 @@ html {
 	top: 28.488px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_60_f {
+#BannerServicesHHALogotypeC1 {
 	fill: rgba(255,246,241,1);
 }
-._60_f {
+.BannerServicesHHALogotypeC1 {
 	overflow: visible;
 	position: absolute;
 	width: 2.261px;
@@ -2259,116 +957,152 @@ html {
 	top: 28.486px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#ArrowDown_f {
+#BannerMessage {
 	position: absolute;
-	width: 20.877px;
-	height: 12.28px;
-	left: 63.932px;
-	top: 210.37px;
+	width: 801px;
+	height: 252.704px;
+	left: 550.992px;
+	top: 264.296px;
 	overflow: visible;
 }
-#_96_f {
+#BannerMessageBackground {
+	opacity: 0.8;
 	fill: rgba(225,27,34,1);
 }
-._96_f {
-	display: none;
-	overflow: visible;
+.BannerMessageBackground {
 	position: absolute;
-	width: 40px;
-	height: 40px;
-	left: -9.596px;
-	top: -15.914px;
-	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	width: 800px;
+	height: 185px;
+	left: 0px;
+	top: 0.483px;
 }
-#_97_f {
+#BannerMessageButton {
+	opacity: 0.9;
+	position: absolute;
+	width: 163px;
+	height: 45px;
+	left: 319.008px;
+	top: 207.704px;
+	overflow: visible;
+}
+#BannerMessageButtonBackground {
+	opacity: 0.9;
 	fill: rgba(225,27,34,1);
 }
-._97_f {
-	overflow: visible;
+.BannerMessageButtonBackground {
 	position: absolute;
-	width: 20.877px;
-	height: 12.28px;
+	overflow: visible;
+	width: 162px;
+	height: 45px;
 	left: 0px;
 	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
 }
-#Menu {
+#BannerMessageButtonText {
+	left: 0px;
+	top: 12.5px;
 	position: absolute;
-	width: 1344px;
-	height: 100px;
-	left: 279px;
-	top: 20px;
 	overflow: visible;
+	width: 164px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
 }
-#Contacts {
+#BannerMessageCaption {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 802px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 55px;
+	color: rgba(255,246,241,1);
+}
+#BannerMessageMainText {
+	left: 0px;
+	top: 89.55px;
+	position: absolute;
+	overflow: visible;
+	width: 801px;
+	height: 96px;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,246,241,1);
+}
+#BannerContacts {
 	opacity: 0.9;
 	position: absolute;
 	width: 936px;
-	height: 26px;
-	left: 408px;
-	top: 23.927px;
+	height: 28px;
+	left: 687px;
+	top: 43px;
 	overflow: visible;
 }
-#ContactsBG {
+#BannerContactsBackground {
 	opacity: 0.9;
 	fill: rgba(225,27,34,1);
 }
-.ContactsBG {
+.BannerContactsBackground {
 	position: absolute;
 	overflow: visible;
 	width: 936px;
 	height: 25.427px;
 	left: 0px;
-	top: 0px;
+	top: 0.927px;
 }
-#Language {
+#BannerContactsLanguage {
 	position: absolute;
-	width: 99.395px;
-	height: 25.44px;
-	left: 836.605px;
-	top: 0.56px;
-	overflow: visible;
-}
-#_2__13 {
-	position: absolute;
-	width: 99.395px;
-	height: 25.44px;
-	left: 0px;
+	width: 101px;
+	height: 28px;
+	left: 835px;
 	top: 0px;
 	overflow: visible;
 }
-#_9_gd {
+#BannerLanguageFrame {
 	fill: transparent;
-	stroke: rgba(255,255,255,1);
+	stroke: rgba(255,246,241,1);
 	stroke-width: 2px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._9_gd {
+.BannerLanguageFrame {
 	position: absolute;
 	overflow: visible;
-	width: 103.395px;
-	height: 29.44px;
+	width: 101px;
+	height: 28px;
 	left: 0px;
 	top: 0px;
 }
-#World {
+#BannerLanguageWorldPicture {
 	fill: rgba(255,246,241,1);
 }
-.World {
+.BannerLanguageWorldPicture {
 	overflow: visible;
 	position: absolute;
 	width: 16.833px;
 	height: 16.472px;
-	left: 5.359px;
-	top: 4.484px;
+	left: 6.964px;
+	top: 5.971px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#English {
-	left: 23.94px;
-	top: 4.892px;
+#BannerLanguageText {
+	left: 25.545px;
+	top: 6.38px;
 	position: absolute;
 	overflow: visible;
 	width: 59px;
@@ -2380,28 +1114,28 @@ html {
 	font-size: 14px;
 	color: rgba(255,246,241,1);
 }
-#_1_gg {
+#BannerLanguagePictureArrowDown {
 	fill: rgba(255,246,241,1);
 }
-._1_gg {
+.BannerLanguagePictureArrowDown {
 	overflow: visible;
 	position: absolute;
 	width: 11.477px;
 	height: 7.457px;
-	transform: translate(0px, 0px) matrix(1,0,0,1,83.699,10.3558) rotate(180deg);
+	transform: translate(1.605px, 1.488px) matrix(1,0,0,1,83.699,10.3558) rotate(180deg);
 	transform-origin: center;
 	left: 0px;
 	top: 0px;
 }
-#Location {
+#BannerContactsLocation {
 	position: absolute;
 	width: 138.212px;
 	height: 17px;
 	left: 651.375px;
-	top: 4.769px;
+	top: 5.696px;
 	overflow: visible;
 }
-#Home_Health_Care {
+#BannerContactsLocationText {
 	left: 18.212px;
 	top: 0px;
 	position: absolute;
@@ -2415,10 +1149,10 @@ html {
 	font-size: 14px;
 	color: rgba(255,246,241,1);
 }
-#marker_1 {
+#BannerContactsLocationPicture {
 	fill: rgba(255,246,241,1);
 }
-.marker_1 {
+.BannerContactsLocationPicture {
 	overflow: visible;
 	position: absolute;
 	width: 11.55px;
@@ -2427,9 +1161,9 @@ html {
 	top: 1.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Fax_818_301-2051 {
+#BannerContactsFax {
 	left: 470.112px;
-	top: 4.769px;
+	top: 5.696px;
 	position: absolute;
 	overflow: visible;
 	width: 126px;
@@ -2441,9 +1175,9 @@ html {
 	font-size: 14px;
 	color: rgba(255,246,241,1);
 }
-#Phone_818_396-5678 {
+#BannerContactsPhone {
 	left: 268.066px;
-	top: 4.769px;
+	top: 5.696px;
 	position: absolute;
 	overflow: visible;
 	width: 146px;
@@ -2455,9 +1189,9 @@ html {
 	font-size: 14px;
 	color: rgba(255,246,241,1);
 }
-#changingliveshhgmailcom {
+#BannerContactsEmail {
 	left: 11px;
-	top: 4.769px;
+	top: 5.696px;
 	position: absolute;
 	overflow: visible;
 	width: 186px;
@@ -2469,24 +1203,15 @@ html {
 	font-size: 14px;
 	color: rgba(255,246,241,1);
 }
-#Logo {
+#BannerLogotype {
 	position: absolute;
 	width: 353px;
 	height: 100px;
-	left: 0px;
-	top: 0px;
+	left: 279px;
+	top: 20px;
 	overflow: visible;
 }
-#Logo_go {
-	opacity: 0.9;
-	position: absolute;
-	width: 353px;
-	height: 100px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#Changing_Lives__Home_Health_Ca {
+#BannerLogotypeText {
 	left: 114px;
 	top: 16px;
 	position: absolute;
@@ -2500,7 +1225,7 @@ html {
 	font-size: 28px;
 	color: rgba(255,246,241,1);
 }
-#_1_gq {
+#BannerLogotypePicture {
 	opacity: 0.9;
 	position: absolute;
 	width: 100px;
@@ -2509,18 +1234,10 @@ html {
 	top: 0px;
 	overflow: visible;
 }
-#_11 {
-	position: absolute;
-	width: 100px;
-	height: 100px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_61 {
+#BannerLogotypePictureC33 {
 	fill: rgba(225,27,34,1);
 }
-._61 {
+.BannerLogotypePictureC33 {
 	overflow: visible;
 	position: absolute;
 	width: 100px;
@@ -2529,10 +1246,10 @@ html {
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_62 {
+#BannerLogotypePictureC32 {
 	fill: rgba(255,255,255,1);
 }
-._62 {
+.BannerLogotypePictureC32 {
 	overflow: visible;
 	position: absolute;
 	width: 38.375px;
@@ -2541,10 +1258,10 @@ html {
 	top: 21.575px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_63 {
+#BannerLogotypePictureC31 {
 	fill: rgba(255,255,255,1);
 }
-._63 {
+.BannerLogotypePictureC31 {
 	overflow: visible;
 	position: absolute;
 	width: 10.109px;
@@ -2553,10 +1270,10 @@ html {
 	top: 18.05px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_64 {
+#BannerLogotypePictureC30 {
 	fill: rgba(255,255,255,1);
 }
-._64 {
+.BannerLogotypePictureC30 {
 	overflow: visible;
 	position: absolute;
 	width: 9.223px;
@@ -2565,10 +1282,10 @@ html {
 	top: 12.463px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_65 {
+#BannerLogotypePictureC29 {
 	fill: rgba(255,255,255,1);
 }
-._65 {
+.BannerLogotypePictureC29 {
 	overflow: visible;
 	position: absolute;
 	width: 7.231px;
@@ -2577,10 +1294,10 @@ html {
 	top: 8.35px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_66 {
+#BannerLogotypePictureC28 {
 	fill: rgba(255,255,255,1);
 }
-._66 {
+.BannerLogotypePictureC28 {
 	overflow: visible;
 	position: absolute;
 	width: 7.795px;
@@ -2589,10 +1306,10 @@ html {
 	top: 9.41px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_67 {
+#BannerLogotypePictureC27 {
 	fill: rgba(255,255,255,1);
 }
-._67 {
+.BannerLogotypePictureC27 {
 	overflow: visible;
 	position: absolute;
 	width: 8.049px;
@@ -2601,10 +1318,10 @@ html {
 	top: 48.599px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_68 {
+#BannerLogotypePictureC26 {
 	fill: rgba(255,255,255,1);
 }
-._68 {
+.BannerLogotypePictureC26 {
 	overflow: visible;
 	position: absolute;
 	width: 8.662px;
@@ -2613,10 +1330,10 @@ html {
 	top: 38.194px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_69 {
+#BannerLogotypePictureC25 {
 	fill: rgba(255,255,255,1);
 }
-._69 {
+.BannerLogotypePictureC25 {
 	overflow: visible;
 	position: absolute;
 	width: 8.562px;
@@ -2625,10 +1342,10 @@ html {
 	top: 39.387px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_70 {
+#BannerLogotypePictureC24 {
 	fill: rgba(255,255,255,1);
 }
-._70 {
+.BannerLogotypePictureC24 {
 	overflow: visible;
 	position: absolute;
 	width: 8.618px;
@@ -2637,10 +1354,10 @@ html {
 	top: 29.86px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_71 {
+#BannerLogotypePictureC23 {
 	fill: rgba(255,255,255,1);
 }
-._71 {
+.BannerLogotypePictureC23 {
 	overflow: visible;
 	position: absolute;
 	width: 8.669px;
@@ -2649,10 +1366,10 @@ html {
 	top: 27.24px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_72 {
+#BannerLogotypePictureC22 {
 	fill: rgba(255,255,255,1);
 }
-._72 {
+.BannerLogotypePictureC22 {
 	overflow: visible;
 	position: absolute;
 	width: 7.859px;
@@ -2661,10 +1378,10 @@ html {
 	top: 48.699px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_73 {
+#BannerLogotypePictureC21 {
 	fill: rgba(255,255,255,1);
 }
-._73 {
+.BannerLogotypePictureC21 {
 	overflow: visible;
 	position: absolute;
 	width: 6.118px;
@@ -2673,10 +1390,10 @@ html {
 	top: 16.048px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_74 {
+#BannerLogotypePictureC20 {
 	fill: rgba(255,255,255,1);
 }
-._74 {
+.BannerLogotypePictureC20 {
 	overflow: visible;
 	position: absolute;
 	width: 6.93px;
@@ -2685,10 +1402,10 @@ html {
 	top: 22.331px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_75 {
+#BannerLogotypePictureC19 {
 	fill: rgba(255,255,255,1);
 }
-._75 {
+.BannerLogotypePictureC19 {
 	overflow: visible;
 	position: absolute;
 	width: 3.434px;
@@ -2697,10 +1414,10 @@ html {
 	top: 9.419px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_76 {
+#BannerLogotypePictureC18 {
 	fill: rgba(255,255,255,1);
 }
-._76 {
+.BannerLogotypePictureC18 {
 	overflow: visible;
 	position: absolute;
 	width: 6.078px;
@@ -2709,10 +1426,10 @@ html {
 	top: 81.917px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_77 {
+#BannerLogotypePictureC17 {
 	fill: rgba(255,255,255,1);
 }
-._77 {
+.BannerLogotypePictureC17 {
 	overflow: visible;
 	position: absolute;
 	width: 4.757px;
@@ -2721,10 +1438,10 @@ html {
 	top: 79.937px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_78 {
+#BannerLogotypePictureC16 {
 	fill: rgba(255,255,255,1);
 }
-._78 {
+.BannerLogotypePictureC16 {
 	overflow: visible;
 	position: absolute;
 	width: 5.531px;
@@ -2733,10 +1450,10 @@ html {
 	top: 75.958px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_79 {
+#BannerLogotypePictureC15 {
 	fill: rgba(255,255,255,1);
 }
-._79 {
+.BannerLogotypePictureC15 {
 	overflow: visible;
 	position: absolute;
 	width: 5.69px;
@@ -2745,10 +1462,10 @@ html {
 	top: 75.95px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_80 {
+#BannerLogotypePictureC14 {
 	fill: rgba(255,255,255,1);
 }
-._80 {
+.BannerLogotypePictureC14 {
 	overflow: visible;
 	position: absolute;
 	width: 3.892px;
@@ -2757,10 +1474,10 @@ html {
 	top: 83.872px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_81 {
+#BannerLogotypePictureC13 {
 	fill: rgba(255,255,255,1);
 }
-._81 {
+.BannerLogotypePictureC13 {
 	overflow: visible;
 	position: absolute;
 	width: 3.485px;
@@ -2769,10 +1486,10 @@ html {
 	top: 84.663px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_82 {
+#BannerLogotypePictureC12 {
 	fill: rgba(255,255,255,1);
 }
-._82 {
+.BannerLogotypePictureC12 {
 	overflow: visible;
 	position: absolute;
 	width: 3.223px;
@@ -2781,10 +1498,10 @@ html {
 	top: 84.955px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_83 {
+#BannerLogotypePictureC11 {
 	fill: rgba(255,255,255,1);
 }
-._83 {
+.BannerLogotypePictureC11 {
 	overflow: visible;
 	position: absolute;
 	width: 4.397px;
@@ -2793,10 +1510,10 @@ html {
 	top: 83.783px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_84 {
+#BannerLogotypePictureC10 {
 	fill: rgba(255,255,255,1);
 }
-._84 {
+.BannerLogotypePictureC10 {
 	overflow: visible;
 	position: absolute;
 	width: 4.154px;
@@ -2805,10 +1522,10 @@ html {
 	top: 78.871px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_85 {
+#BannerLogotypePictureC9 {
 	fill: rgba(255,255,255,1);
 }
-._85 {
+.BannerLogotypePictureC9 {
 	overflow: visible;
 	position: absolute;
 	width: 4.977px;
@@ -2817,10 +1534,10 @@ html {
 	top: 82.238px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_86 {
+#BannerLogotypePictureC8 {
 	fill: rgba(255,255,255,1);
 }
-._86 {
+.BannerLogotypePictureC8 {
 	overflow: visible;
 	position: absolute;
 	width: 0.281px;
@@ -2829,10 +1546,10 @@ html {
 	top: 8.624px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_87 {
+#BannerLogotypePictureC7 {
 	fill: rgba(255,255,255,1);
 }
-._87 {
+.BannerLogotypePictureC7 {
 	overflow: visible;
 	position: absolute;
 	width: 0.281px;
@@ -2841,10 +1558,10 @@ html {
 	top: 83.61px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_88 {
+#BannerLogotypePictureC6 {
 	fill: rgba(225,27,34,1);
 }
-._88 {
+.BannerLogotypePictureC6 {
 	overflow: visible;
 	position: absolute;
 	width: 33.854px;
@@ -2853,10 +1570,10 @@ html {
 	top: 23.835px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_89 {
+#BannerLogotypePictureC5 {
 	fill: rgba(225,27,34,1);
 }
-._89 {
+.BannerLogotypePictureC5 {
 	overflow: visible;
 	position: absolute;
 	width: 1.702px;
@@ -2865,10 +1582,10 @@ html {
 	top: 31.887px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_90 {
+#BannerLogotypePictureC4 {
 	fill: rgba(225,27,34,1);
 }
-._90 {
+.BannerLogotypePictureC4 {
 	overflow: visible;
 	position: absolute;
 	width: 3.061px;
@@ -2877,10 +1594,10 @@ html {
 	top: 80.523px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_91 {
+#BannerLogotypePictureC3 {
 	fill: rgba(225,27,34,1);
 }
-._91 {
+.BannerLogotypePictureC3 {
 	overflow: visible;
 	position: absolute;
 	width: 0.786px;
@@ -2889,10 +1606,10 @@ html {
 	top: 85.831px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_92 {
+#BannerLogotypePictureC2 {
 	fill: rgba(255,255,255,1);
 }
-._92 {
+.BannerLogotypePictureC2 {
 	overflow: visible;
 	position: absolute;
 	width: 17.182px;
@@ -2901,10 +1618,10 @@ html {
 	top: 48.983px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_93 {
+#BannerLogotypePictureC1 {
 	fill: rgba(225,27,34,1);
 }
-._93 {
+.BannerLogotypePictureC1 {
 	overflow: visible;
 	position: absolute;
 	width: 12.477px;
@@ -2913,1294 +1630,7 @@ html {
 	top: 51.272px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#SkilledNursing_hp {
-	position: absolute;
-	width: 1903px;
-	height: 600px;
-	left: 0px;
-	top: 1158px;
-	overflow: visible;
-}
-#About_Us {
-	fill: rgba(255,246,241,1);
-}
-.About_Us {
-	position: absolute;
-	overflow: visible;
-	width: 953px;
-	height: 600px;
-	left: 0px;
-	top: 0px;
-}
-#Image {
-	position: absolute;
-	width: 950px;
-	height: 600px;
-	left: 953px;
-	top: 0px;
-	overflow: visible;
-}
-#SKILLED_NURSING {
-	left: 297.089px;
-	top: 117px;
-	position: absolute;
-	overflow: visible;
-	width: 169px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	color: rgba(225,27,34,1);
-}
-#_Wound_care__Medication_manage {
-	left: 296.776px;
-	top: 177.5px;
-	position: absolute;
-	overflow: visible;
-	width: 339px;
-	height: 321px;
-	line-height: 30px;
-	margin-top: -7px;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(74,74,74,1);
-}
-#Button_hu {
-	position: absolute;
-	width: 162.585px;
-	height: 45.994px;
-	left: 296.776px;
-	top: 504px;
-	overflow: visible;
-}
-#_1__5 {
-	position: absolute;
-	width: 162.585px;
-	height: 45.994px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_7_hw {
-	fill: rgba(225,27,34,1);
-}
-._7_hw {
-	position: absolute;
-	overflow: visible;
-	width: 162.585px;
-	height: 45.994px;
-	left: 0px;
-	top: 0px;
-}
-#Contact_hx {
-	left: 38.507px;
-	top: 13.905px;
-	position: absolute;
-	overflow: visible;
-	width: 86px;
-	white-space: nowrap;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 17px;
-	color: rgba(255,255,255,1);
-}
-#PhisicalTherapy_hy {
-	position: absolute;
-	width: 1903px;
-	height: 600px;
-	left: 0px;
-	top: 1758px;
-	overflow: visible;
-}
-#Background {
-	fill: rgba(225,27,34,1);
-}
-.Background {
-	overflow: visible;
-	position: absolute;
-	width: 968px;
-	height: 600px;
-	left: 935px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#ID33 {
-	position: absolute;
-	width: 952px;
-	height: 600px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#PHYSICAL_THERAPY_h {
-	left: 1095.157px;
-	top: 117px;
-	position: absolute;
-	overflow: visible;
-	width: 187px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	color: rgba(255,246,241,1);
-}
-#_Restoration_of_specific_funct {
-	left: 1094.315px;
-	top: 177px;
-	position: absolute;
-	overflow: visible;
-	width: 312px;
-	height: 267px;
-	line-height: 30px;
-	margin-top: -7px;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(255,246,241,1);
-}
-#Button_h {
-	position: absolute;
-	width: 162.585px;
-	height: 45.994px;
-	left: 1095.301px;
-	top: 480px;
-	overflow: visible;
-}
-#_1__6 {
-	position: absolute;
-	width: 162.585px;
-	height: 45.994px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_7_h {
-	fill: rgba(255,246,241,1);
-}
-._7_h {
-	position: absolute;
-	overflow: visible;
-	width: 162.585px;
-	height: 45.994px;
-	left: 0px;
-	top: 0px;
-}
-#Contact_h {
-	left: 38.507px;
-	top: 13.905px;
-	position: absolute;
-	overflow: visible;
-	width: 86px;
-	white-space: nowrap;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 17px;
-	color: rgba(225,27,34,1);
-}
-#SpeechTherapy_h {
-	position: absolute;
-	width: 1903px;
-	height: 600px;
-	left: 0px;
-	top: 2358px;
-	overflow: visible;
-}
-#About_Us_h {
-	fill: rgba(255,246,241,1);
-}
-.About_Us_h {
-	position: absolute;
-	overflow: visible;
-	width: 953px;
-	height: 600px;
-	left: 0px;
-	top: 0px;
-}
-#Image_h {
-	position: absolute;
-	width: 952px;
-	height: 600px;
-	left: 951px;
-	top: 0px;
-	overflow: visible;
-}
-#SPEECH_THERAPY_ia {
-	left: 298.084px;
-	top: 117px;
-	position: absolute;
-	overflow: visible;
-	width: 166px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	color: rgba(225,27,34,1);
-}
-#_Assistance_in_regaining__spee {
-	left: 297.327px;
-	top: 177px;
-	position: absolute;
-	overflow: visible;
-	width: 528px;
-	height: 243px;
-	line-height: 30px;
-	margin-top: -7px;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(74,74,74,1);
-}
-#Button_ic {
-	position: absolute;
-	width: 162.585px;
-	height: 45.994px;
-	left: 298.088px;
-	top: 456px;
-	overflow: visible;
-}
-#_1__7 {
-	position: absolute;
-	width: 162.585px;
-	height: 45.994px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_7_ie {
-	fill: rgba(225,27,34,1);
-}
-._7_ie {
-	position: absolute;
-	overflow: visible;
-	width: 162.585px;
-	height: 45.994px;
-	left: 0px;
-	top: 0px;
-}
-#Contact_if {
-	left: 38.507px;
-	top: 13.905px;
-	position: absolute;
-	overflow: visible;
-	width: 86px;
-	white-space: nowrap;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 17px;
-	color: rgba(255,255,255,1);
-}
-#OccupationalTherapy_ig {
-	position: absolute;
-	width: 1903px;
-	height: 600px;
-	left: 0px;
-	top: 2958px;
-	overflow: visible;
-}
-#Background_ih {
-	fill: rgba(225,27,34,1);
-}
-.Background_ih {
-	overflow: visible;
-	position: absolute;
-	width: 968px;
-	height: 600px;
-	left: 935px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#ID5 {
-	position: absolute;
-	width: 952px;
-	height: 600px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#OCCUPATIONAL_THERAPY_ij {
-	left: 1094.802px;
-	top: 117px;
-	position: absolute;
-	overflow: visible;
-	width: 242px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	color: rgba(255,246,241,1);
-}
-#_Therapeutic_exercises_for____ {
-	left: 1091.075px;
-	top: 177px;
-	position: absolute;
-	overflow: visible;
-	width: 528px;
-	height: 155px;
-	line-height: 30px;
-	margin-top: -7px;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(255,246,241,1);
-}
-#Button_il {
-	position: absolute;
-	width: 162.585px;
-	height: 45.994px;
-	left: 1095.301px;
-	top: 368px;
-	overflow: visible;
-}
-#_1__8 {
-	position: absolute;
-	width: 162.585px;
-	height: 45.994px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_7_in {
-	fill: rgba(255,246,241,1);
-}
-._7_in {
-	position: absolute;
-	overflow: visible;
-	width: 162.585px;
-	height: 45.994px;
-	left: 0px;
-	top: 0px;
-}
-#Contact_io {
-	left: 38.507px;
-	top: 13.905px;
-	position: absolute;
-	overflow: visible;
-	width: 86px;
-	white-space: nowrap;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 17px;
-	color: rgba(225,27,34,1);
-}
-#MedicalSocialWorker_ip {
-	position: absolute;
-	width: 1903px;
-	height: 600px;
-	left: 0px;
-	top: 3558px;
-	overflow: visible;
-}
-#About_Us_iq {
-	fill: rgba(255,246,241,1);
-}
-.About_Us_iq {
-	overflow: visible;
-	position: absolute;
-	width: 953px;
-	height: 600px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#Image_ir {
-	position: absolute;
-	width: 952px;
-	height: 600px;
-	left: 951px;
-	top: 0px;
-	overflow: visible;
-}
-#MEDICAL_SOCIAL_WORKER_is {
-	left: 297.93px;
-	top: 111.638px;
-	position: absolute;
-	overflow: visible;
-	width: 252px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	color: rgba(225,27,34,1);
-}
-#_Assisting_in_claiming_financi {
-	left: 297.327px;
-	top: 172px;
-	position: absolute;
-	overflow: visible;
-	width: 528px;
-	height: 176px;
-	line-height: 30px;
-	margin-top: -7px;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(74,74,74,1);
-}
-#Button_iu {
-	position: absolute;
-	width: 162.585px;
-	height: 45.994px;
-	left: 298.088px;
-	top: 384.362px;
-	overflow: visible;
-}
-#_1__9 {
-	position: absolute;
-	width: 162.585px;
-	height: 45.994px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_7_iw {
-	fill: rgba(225,27,34,1);
-}
-._7_iw {
-	position: absolute;
-	overflow: visible;
-	width: 162.585px;
-	height: 45.994px;
-	left: 0px;
-	top: 0px;
-}
-#Contact_ix {
-	left: 38.507px;
-	top: 13.905px;
-	position: absolute;
-	overflow: visible;
-	width: 86px;
-	white-space: nowrap;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 17px;
-	color: rgba(255,255,255,1);
-}
-#HomeHealthAide_iy {
-	position: absolute;
-	width: 1903px;
-	height: 600px;
-	left: 0px;
-	top: 4158px;
-	overflow: visible;
-}
-#Background_iz {
-	fill: rgba(225,27,34,1);
-}
-.Background_iz {
-	position: absolute;
-	overflow: visible;
-	width: 968px;
-	height: 600px;
-	left: 935px;
-	top: 0px;
-}
-#ID7 {
-	position: absolute;
-	width: 952px;
-	height: 600px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#HOME_HEALTH_AIDE {
-	left: 1095.113px;
-	top: 117px;
-	position: absolute;
-	overflow: visible;
-	width: 191px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	color: rgba(255,246,241,1);
-}
-#_Personal_Care {
-	left: 1091.075px;
-	top: 178px;
-	position: absolute;
-	overflow: visible;
-	width: 528px;
-	height: 31px;
-	line-height: 30px;
-	margin-top: -7px;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(255,246,241,1);
-}
-#Button_i {
-	position: absolute;
-	width: 162.585px;
-	height: 45.994px;
-	left: 1095.301px;
-	top: 246px;
-	overflow: visible;
-}
-#_1__10 {
-	position: absolute;
-	width: 162.585px;
-	height: 45.994px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_7_i {
-	fill: rgba(255,246,241,1);
-}
-._7_i {
-	position: absolute;
-	overflow: visible;
-	width: 162.585px;
-	height: 45.995px;
-	left: 0px;
-	top: 0px;
-}
-#Contact_i {
-	left: 38.507px;
-	top: 13.905px;
-	position: absolute;
-	overflow: visible;
-	width: 86px;
-	white-space: nowrap;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 17px;
-	color: rgba(225,27,34,1);
-}
-#Location_i {
-	opacity: 0.92;
-	position: absolute;
-	width: 1903px;
-	height: 299px;
-	left: 0px;
-	top: 5359px;
-	overflow: visible;
-}
-#_37 {
-	fill: rgba(225,27,34,1);
-}
-._37 {
-	position: absolute;
-	overflow: visible;
-	width: 1903px;
-	height: 299px;
-	left: 0px;
-	top: 0px;
-}
-#_20_i {
-	position: absolute;
-	width: 422px;
-	height: 128.608px;
-	left: 740.5px;
-	top: 85.196px;
-	overflow: visible;
-}
-#Nearby_health_services_provide {
-	left: 0px;
-	top: 40.639px;
-	position: absolute;
-	overflow: visible;
-	width: 423px;
-	white-space: nowrap;
-	line-height: 31px;
-	margin-top: -7.5px;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 16px;
-	color: rgba(255,246,241,1);
-}
-#Find_a_location {
-	left: 142px;
-	top: 0px;
-	position: absolute;
-	overflow: visible;
-	width: 139px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	color: rgba(255,246,241,1);
-}
-#Button_jc {
-	position: absolute;
-	width: 152px;
-	height: 43px;
-	left: 135px;
-	top: 85.608px;
-	overflow: visible;
-}
-#_1__4 {
-	position: absolute;
-	width: 152px;
-	height: 43px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_7_je {
-	fill: rgba(255,246,241,1);
-}
-._7_je {
-	position: absolute;
-	overflow: visible;
-	width: 152px;
-	height: 43px;
-	left: 0px;
-	top: 0px;
-}
-#View_locations {
-	left: 24px;
-	top: 12px;
-	position: absolute;
-	overflow: visible;
-	width: 109px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(225,27,34,1);
-}
-#ContactUs {
-	position: absolute;
-	width: 1903px;
-	height: 600px;
-	left: 0px;
-	top: 5658px;
-	overflow: visible;
-}
-#_22_jh {
-	fill: rgba(255,246,241,1);
-}
-._22_jh {
-	overflow: visible;
-	position: absolute;
-	width: 1903px;
-	height: 600px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#BG {
-	fill: rgba(255,246,241,1);
-}
-.BG {
-	position: absolute;
-	overflow: visible;
-	width: 1903px;
-	height: 600px;
-	left: 0px;
-	top: 0px;
-}
-#Contact_us {
-	position: absolute;
-	width: 842px;
-	height: 457px;
-	left: 529px;
-	top: 74px;
-	overflow: visible;
-}
-#Contact_us_jk {
-	left: 0px;
-	top: 0px;
-	position: absolute;
-	overflow: visible;
-	width: 138px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 28px;
-	color: rgba(225,27,34,1);
-}
-#First_name {
-	left: 0px;
-	top: 68px;
-	position: absolute;
-	overflow: visible;
-	width: 87px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(225,27,34,1);
-}
-#Last_Name {
-	left: 448px;
-	top: 72px;
-	position: absolute;
-	overflow: visible;
-	width: 87px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(225,27,34,1);
-}
-#Email {
-	left: 0px;
-	top: 167px;
-	position: absolute;
-	overflow: visible;
-	width: 51px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(225,27,34,1);
-}
-#Phone {
-	left: 448px;
-	top: 167px;
-	position: absolute;
-	overflow: visible;
-	width: 48px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(225,27,34,1);
-}
-#How_Can_We_Help_You {
-	left: 0px;
-	top: 266px;
-	position: absolute;
-	overflow: visible;
-	width: 178px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(225,27,34,1);
-}
-#_29_jq {
-	fill: rgba(225,27,34,1);
-	stroke: rgba(255,246,241,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-._29_jq {
-	position: absolute;
-	overflow: visible;
-	width: 841px;
-	height: 41px;
-	left: 1px;
-	top: 416px;
-}
-#Submit {
-	left: 399px;
-	top: 426px;
-	position: absolute;
-	overflow: visible;
-	width: 53px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(255,246,241,1);
-}
-#_3_js {
-	fill: transparent;
-	stroke: rgba(225,27,34,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-._3_js {
-	overflow: visible;
-	position: absolute;
-	width: 399px;
-	height: 1px;
-	left: 0.5px;
-	top: 137.5px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_6_jt {
-	fill: transparent;
-	stroke: rgba(225,27,34,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-._6_jt {
-	overflow: visible;
-	position: absolute;
-	width: 399px;
-	height: 1px;
-	left: 0.5px;
-	top: 236.5px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_4_ju {
-	fill: transparent;
-	stroke: rgba(225,27,34,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-._4_ju {
-	overflow: visible;
-	position: absolute;
-	width: 393px;
-	height: 1px;
-	left: 448.5px;
-	top: 137.5px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_5_jv {
-	fill: transparent;
-	stroke: rgba(225,27,34,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-._5_jv {
-	overflow: visible;
-	position: absolute;
-	width: 393px;
-	height: 1px;
-	left: 448px;
-	top: 237.5px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_7_jw {
-	fill: transparent;
-	stroke: rgba(225,27,34,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-._7_jw {
-	overflow: visible;
-	position: absolute;
-	width: 841px;
-	height: 1px;
-	left: 0.5px;
-	top: 385px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#Footer {
-	position: absolute;
-	width: 1903px;
-	height: 594px;
-	left: 0px;
-	top: 6258px;
-	overflow: visible;
-}
-#Background_jy {
-	fill: rgba(225,27,34,1);
-}
-.Background_jy {
-	position: absolute;
-	overflow: visible;
-	width: 1903px;
-	height: 594px;
-	left: 0px;
-	top: 0px;
-}
-#Compliance_Information________ {
-	left: 1011px;
-	top: 515px;
-	position: absolute;
-	overflow: visible;
-	width: 616px;
-	white-space: nowrap;
-	text-align: right;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(255,255,255,1);
-}
-#_Copyright_2023_All_Rights_Res {
-	left: 279px;
-	top: 515px;
-	position: absolute;
-	overflow: visible;
-	width: 274px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(255,255,255,1);
-}
-#ID805_E_Wilson_Ave_Unit_B_Glen {
-	left: 299.06px;
-	top: 232px;
-	position: absolute;
-	overflow: visible;
-	width: 175px;
-	white-space: nowrap;
-	line-height: 40px;
-	margin-top: -12px;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 16px;
-	color: rgba(255,255,255,1);
-}
-#A_Medicare_Certified__Home_Hea {
-	left: 299.015px;
-	top: 124px;
-	position: absolute;
-	overflow: visible;
-	width: 201px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	color: rgba(255,255,255,1);
-}
-#chaps-1024x704 {
-	position: absolute;
-	width: 260px;
-	height: 174px;
-	left: 821.5px;
-	top: 190px;
-	overflow: visible;
-}
-#CHAP_Accredited {
-	left: 871.495px;
-	top: 117px;
-	position: absolute;
-	overflow: visible;
-	width: 162px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	color: rgba(255,255,255,1);
-}
-#Opening_Hours {
-	left: 1282.611px;
-	top: 117px;
-	position: absolute;
-	overflow: visible;
-	width: 144px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	color: rgba(255,255,255,1);
-}
-#_1_j {
-	fill: transparent;
-	stroke: rgba(255,255,255,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-._1_j {
-	overflow: visible;
-	position: absolute;
-	width: 1347px;
-	height: 1px;
-	left: 278.5px;
-	top: 465.5px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#Monday__Friday_1000AM_to_500PM {
-	left: 1282.23px;
-	top: 200px;
-	position: absolute;
-	overflow: visible;
-	width: 197px;
-	height: 64px;
-	line-height: 40px;
-	margin-top: -12px;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 16px;
-	color: rgba(255,255,255,1);
-}
-#On-Call_Nurse_Available_by_Tel {
-	left: 1281.633px;
-	top: 326px;
-	position: absolute;
-	overflow: visible;
-	width: 274px;
-	white-space: nowrap;
-	line-height: 40px;
-	margin-top: -12px;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 16px;
-	color: rgba(255,255,255,1);
-}
-#_2_j {
-	fill: transparent;
-	stroke: rgba(255,255,255,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-._2_j {
-	overflow: visible;
-	position: absolute;
-	width: 308px;
-	height: 1px;
-	left: 1281.343px;
-	top: 294px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_21_ka {
-	fill: rgba(0,0,0,0);
-	stroke: rgba(255,255,255,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-._21_ka {
-	overflow: visible;
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	left: 1586px;
-	top: 395px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#Social_network {
-	position: absolute;
-	width: 208px;
-	height: 43px;
-	left: 299.001px;
-	top: 389px;
-	overflow: visible;
-}
-#_9_kc {
-	fill: rgba(255,246,241,1);
-}
-._9_kc {
-	overflow: visible;
-	position: absolute;
-	width: 43px;
-	height: 43px;
-	left: 110px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_10_kd {
-	fill: rgba(255,246,241,1);
-}
-._10_kd {
-	overflow: visible;
-	position: absolute;
-	width: 43px;
-	height: 43px;
-	left: 55px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_11_ke {
-	fill: rgba(255,246,241,1);
-}
-._11_ke {
-	overflow: visible;
-	position: absolute;
-	width: 43px;
-	height: 43px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_12_kf {
-	fill: rgba(255,246,241,1);
-}
-._12_kf {
-	overflow: visible;
-	position: absolute;
-	width: 43px;
-	height: 43px;
-	left: 165px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#in {
-	left: 122px;
-	top: 3px;
-	position: absolute;
-	overflow: visible;
-	width: 21px;
-	white-space: nowrap;
-	line-height: 40px;
-	margin-top: -8px;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 24px;
-	color: rgba(254,0,0,1);
-}
-#f {
-	left: 17px;
-	top: 6px;
-	position: absolute;
-	overflow: visible;
-	width: 10px;
-	white-space: nowrap;
-	line-height: 40px;
-	margin-top: -8px;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 24px;
-	color: rgba(254,0,0,1);
-}
-#instagram {
-	position: absolute;
-	width: 22.965px;
-	height: 22.968px;
-	left: 175.018px;
-	top: 10.016px;
-	overflow: visible;
-}
-#_13_kj {
-	fill: rgba(255,0,0,1);
-}
-._13_kj {
-	overflow: visible;
-	position: absolute;
-	width: 22.965px;
-	height: 22.968px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_14_kk {
-	fill: rgba(255,0,0,1);
-}
-._14_kk {
-	overflow: visible;
-	position: absolute;
-	width: 11.479px;
-	height: 11.479px;
-	left: 5.745px;
-	top: 5.741px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_15_kl {
-	fill: rgba(255,0,0,1);
-}
-._15_kl {
-	overflow: visible;
-	position: absolute;
-	width: 2.296px;
-	height: 2.296px;
-	left: 16.078px;
-	top: 4.592px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#twitter {
-	fill: rgba(255,0,0,1);
-}
-.twitter {
-	overflow: visible;
-	position: absolute;
-	width: 18.568px;
-	height: 18.988px;
-	left: 67.216px;
-	top: 12.506px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_1_kn {
-	opacity: 0.44;
-	display: none;
-	position: absolute;
-	width: 948px;
-	height: 578px;
-	left: 955px;
-	top: 4866px;
-	overflow: visible;
-}
-#Menu_ko {
+#MainMenu {
 	position: absolute;
 	width: 1903px;
 	height: 163px;
@@ -4208,18 +1638,10 @@ html {
 	top: 995px;
 	overflow: visible;
 }
-#Menu_items {
-	position: absolute;
-	width: 1903px;
-	height: 163px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#BG_kq {
+#MainMenuBackground {
 	fill: rgba(255,246,241,1);
 }
-.BG_kq {
+.MainMenuBackground {
 	position: absolute;
 	overflow: visible;
 	width: 1903px;
@@ -4227,7 +1649,7 @@ html {
 	left: 0px;
 	top: 0px;
 }
-#Logo_kr {
+#MainMenuLogotype {
 	position: absolute;
 	width: 363px;
 	height: 100px;
@@ -4235,15 +1657,7 @@ html {
 	top: 45px;
 	overflow: visible;
 }
-#Logo_ks {
-	position: absolute;
-	width: 363px;
-	height: 100px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#Changing_Lives__Home_Health_Ca_kt {
+#MainMenuLogotypeText {
 	left: 124px;
 	top: 16px;
 	position: absolute;
@@ -4257,7 +1671,7 @@ html {
 	font-size: 28px;
 	color: rgba(225,27,34,1);
 }
-#_1_ku {
+#MainMenuLogotypePicture {
 	opacity: 0.9;
 	position: absolute;
 	width: 100px;
@@ -4266,18 +1680,10 @@ html {
 	top: 0px;
 	overflow: visible;
 }
-#_11_kv {
-	position: absolute;
-	width: 100px;
-	height: 100px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_61_kw {
+#MainMenuLogotypePictureC34 {
 	fill: rgba(225,27,34,1);
 }
-._61_kw {
+.MainMenuLogotypePictureC34 {
 	overflow: visible;
 	position: absolute;
 	width: 100px;
@@ -4286,10 +1692,10 @@ html {
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_62_kx {
+#MainMenuLogotypePictureC33 {
 	fill: rgba(255,255,255,1);
 }
-._62_kx {
+.MainMenuLogotypePictureC33 {
 	overflow: visible;
 	position: absolute;
 	width: 38.375px;
@@ -4298,10 +1704,10 @@ html {
 	top: 21.575px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_63_ky {
+#MainMenuLogotypePictureC32 {
 	fill: rgba(255,255,255,1);
 }
-._63_ky {
+.MainMenuLogotypePictureC32 {
 	overflow: visible;
 	position: absolute;
 	width: 10.109px;
@@ -4310,10 +1716,10 @@ html {
 	top: 18.05px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_64_kz {
+#MainMenuLogotypePictureC31 {
 	fill: rgba(255,255,255,1);
 }
-._64_kz {
+.MainMenuLogotypePictureC31 {
 	overflow: visible;
 	position: absolute;
 	width: 9.223px;
@@ -4322,10 +1728,10 @@ html {
 	top: 12.463px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_65_k {
+#MainMenuLogotypePictureC30 {
 	fill: rgba(255,255,255,1);
 }
-._65_k {
+.MainMenuLogotypePictureC30 {
 	overflow: visible;
 	position: absolute;
 	width: 7.231px;
@@ -4334,22 +1740,22 @@ html {
 	top: 8.35px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_66_k {
+#MainMenuLogotypePictureC29 {
 	fill: rgba(255,255,255,1);
 }
-._66_k {
+.MainMenuLogotypePictureC29 {
 	overflow: visible;
 	position: absolute;
 	width: 7.795px;
 	height: 8.511px;
-	left: 55.643px;
+	left: 55.644px;
 	top: 9.41px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_67_k {
+#MainMenuLogotypePictureC28 {
 	fill: rgba(255,255,255,1);
 }
-._67_k {
+.MainMenuLogotypePictureC28 {
 	overflow: visible;
 	position: absolute;
 	width: 8.049px;
@@ -4358,10 +1764,10 @@ html {
 	top: 48.599px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_68_k {
+#MainMenuLogotypePictureC27 {
 	fill: rgba(255,255,255,1);
 }
-._68_k {
+.MainMenuLogotypePictureC27 {
 	overflow: visible;
 	position: absolute;
 	width: 8.662px;
@@ -4370,10 +1776,10 @@ html {
 	top: 38.194px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_69_k {
+#MainMenuLogotypePictureC26 {
 	fill: rgba(255,255,255,1);
 }
-._69_k {
+.MainMenuLogotypePictureC26 {
 	overflow: visible;
 	position: absolute;
 	width: 8.562px;
@@ -4382,10 +1788,10 @@ html {
 	top: 39.387px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_70_k {
+#MainMenuLogotypePictureC25 {
 	fill: rgba(255,255,255,1);
 }
-._70_k {
+.MainMenuLogotypePictureC25 {
 	overflow: visible;
 	position: absolute;
 	width: 8.618px;
@@ -4394,10 +1800,10 @@ html {
 	top: 29.86px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_71_k {
+#MainMenuLogotypePictureC24 {
 	fill: rgba(255,255,255,1);
 }
-._71_k {
+.MainMenuLogotypePictureC24 {
 	overflow: visible;
 	position: absolute;
 	width: 8.669px;
@@ -4406,10 +1812,10 @@ html {
 	top: 27.24px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_72_k {
+#MainMenuLogotypePictureC23 {
 	fill: rgba(255,255,255,1);
 }
-._72_k {
+.MainMenuLogotypePictureC23 {
 	overflow: visible;
 	position: absolute;
 	width: 7.859px;
@@ -4418,10 +1824,10 @@ html {
 	top: 48.699px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_73_k {
+#MainMenuLogotypePictureC22 {
 	fill: rgba(255,255,255,1);
 }
-._73_k {
+.MainMenuLogotypePictureC22 {
 	overflow: visible;
 	position: absolute;
 	width: 6.118px;
@@ -4430,10 +1836,10 @@ html {
 	top: 16.048px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_74_k {
+#MainMenuLogotypePictureC21 {
 	fill: rgba(255,255,255,1);
 }
-._74_k {
+.MainMenuLogotypePictureC21 {
 	overflow: visible;
 	position: absolute;
 	width: 6.93px;
@@ -4442,10 +1848,10 @@ html {
 	top: 22.331px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_75_la {
+#MainMenuLogotypePictureC20 {
 	fill: rgba(255,255,255,1);
 }
-._75_la {
+.MainMenuLogotypePictureC20 {
 	overflow: visible;
 	position: absolute;
 	width: 3.434px;
@@ -4454,10 +1860,10 @@ html {
 	top: 9.419px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_76_lb {
+#MainMenuLogotypePictureC19 {
 	fill: rgba(255,255,255,1);
 }
-._76_lb {
+.MainMenuLogotypePictureC19 {
 	overflow: visible;
 	position: absolute;
 	width: 6.078px;
@@ -4466,10 +1872,10 @@ html {
 	top: 81.917px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_77_lc {
+#MainMenuLogotypePictureC18 {
 	fill: rgba(255,255,255,1);
 }
-._77_lc {
+.MainMenuLogotypePictureC18 {
 	overflow: visible;
 	position: absolute;
 	width: 4.757px;
@@ -4478,10 +1884,10 @@ html {
 	top: 79.937px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_78_ld {
+#MainMenuLogotypePictureC17 {
 	fill: rgba(255,255,255,1);
 }
-._78_ld {
+.MainMenuLogotypePictureC17 {
 	overflow: visible;
 	position: absolute;
 	width: 5.531px;
@@ -4490,10 +1896,10 @@ html {
 	top: 75.958px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_79_le {
+#MainMenuLogotypePictureC16 {
 	fill: rgba(255,255,255,1);
 }
-._79_le {
+.MainMenuLogotypePictureC16 {
 	overflow: visible;
 	position: absolute;
 	width: 5.69px;
@@ -4502,10 +1908,10 @@ html {
 	top: 75.95px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_80_lf {
+#MainMenuLogotypePictureC15 {
 	fill: rgba(255,255,255,1);
 }
-._80_lf {
+.MainMenuLogotypePictureC15 {
 	overflow: visible;
 	position: absolute;
 	width: 3.892px;
@@ -4514,22 +1920,22 @@ html {
 	top: 83.872px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_81_lg {
+#MainMenuLogotypePictureC14 {
 	fill: rgba(255,255,255,1);
 }
-._81_lg {
+.MainMenuLogotypePictureC14 {
 	overflow: visible;
 	position: absolute;
 	width: 3.485px;
-	height: 4.756px;
+	height: 4.757px;
 	left: 53.244px;
 	top: 84.663px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_82_lh {
+#MainMenuLogotypePictureC13 {
 	fill: rgba(255,255,255,1);
 }
-._82_lh {
+.MainMenuLogotypePictureC13 {
 	overflow: visible;
 	position: absolute;
 	width: 3.223px;
@@ -4538,10 +1944,10 @@ html {
 	top: 84.955px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_83_li {
+#MainMenuLogotypePictureC12 {
 	fill: rgba(255,255,255,1);
 }
-._83_li {
+.MainMenuLogotypePictureC12 {
 	overflow: visible;
 	position: absolute;
 	width: 4.397px;
@@ -4550,10 +1956,10 @@ html {
 	top: 83.783px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_84_lj {
+#MainMenuLogotypePictureC11 {
 	fill: rgba(255,255,255,1);
 }
-._84_lj {
+.MainMenuLogotypePictureC11 {
 	overflow: visible;
 	position: absolute;
 	width: 4.154px;
@@ -4562,10 +1968,10 @@ html {
 	top: 78.871px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_85_lk {
+#MainMenuLogotypePictureC10 {
 	fill: rgba(255,255,255,1);
 }
-._85_lk {
+.MainMenuLogotypePictureC10 {
 	overflow: visible;
 	position: absolute;
 	width: 4.977px;
@@ -4574,10 +1980,10 @@ html {
 	top: 82.238px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_86_ll {
+#MainMenuLogotypePictureC9 {
 	fill: rgba(255,255,255,1);
 }
-._86_ll {
+.MainMenuLogotypePictureC9 {
 	overflow: visible;
 	position: absolute;
 	width: 0.281px;
@@ -4586,10 +1992,10 @@ html {
 	top: 8.624px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_87_lm {
+#MainMenuLogotypePictureC8 {
 	fill: rgba(255,255,255,1);
 }
-._87_lm {
+.MainMenuLogotypePictureC8 {
 	overflow: visible;
 	position: absolute;
 	width: 0.281px;
@@ -4598,10 +2004,10 @@ html {
 	top: 83.61px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_88_ln {
+#MainMenuLogotypePictureC7 {
 	fill: rgba(225,27,34,1);
 }
-._88_ln {
+.MainMenuLogotypePictureC7 {
 	overflow: visible;
 	position: absolute;
 	width: 33.854px;
@@ -4610,10 +2016,10 @@ html {
 	top: 23.835px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_89_lo {
+#MainMenuLogotypePictureC6 {
 	fill: rgba(225,27,34,1);
 }
-._89_lo {
+.MainMenuLogotypePictureC6 {
 	overflow: visible;
 	position: absolute;
 	width: 1.702px;
@@ -4622,10 +2028,10 @@ html {
 	top: 31.887px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_90_lp {
+#MainMenuLogotypePictureC5 {
 	fill: rgba(225,27,34,1);
 }
-._90_lp {
+.MainMenuLogotypePictureC5 {
 	overflow: visible;
 	position: absolute;
 	width: 3.061px;
@@ -4634,10 +2040,10 @@ html {
 	top: 80.523px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_91_lq {
+#MainMenuLogotypePictureC4 {
 	fill: rgba(225,27,34,1);
 }
-._91_lq {
+.MainMenuLogotypePictureC4 {
 	overflow: visible;
 	position: absolute;
 	width: 0.786px;
@@ -4646,10 +2052,10 @@ html {
 	top: 85.831px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_92_lr {
+#MainMenuLogotypePictureC3 {
 	fill: rgba(255,255,255,1);
 }
-._92_lr {
+.MainMenuLogotypePictureC3 {
 	overflow: visible;
 	position: absolute;
 	width: 17.182px;
@@ -4658,43 +2064,27 @@ html {
 	top: 48.983px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_93_ls {
+#MainMenuLogotypePictureC2 {
 	fill: rgba(225,27,34,1);
 }
-._93_ls {
+.MainMenuLogotypePictureC2 {
 	overflow: visible;
 	position: absolute;
 	width: 12.477px;
-	height: 9.937px;
+	height: 9.936px;
 	left: 45.405px;
 	top: 51.272px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Services_lt {
+#MainMenuServices {
 	position: absolute;
-	width: 1903px;
-	height: 144.306px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#SkilledNursing_lu {
-	position: absolute;
-	width: 939.368px;
+	width: 933px;
 	height: 100px;
-	left: 720.133px;
+	left: 687px;
 	top: 44.306px;
 	overflow: visible;
 }
-#SkilledNursing_lv {
-	position: absolute;
-	width: 939.368px;
-	height: 100px;
-	left: 0px;
-	top: 0px;
-	overflow: hidden;
-}
-#SkilledNursing_lw {
+#MainMenuServicesSN {
 	position: absolute;
 	width: 128px;
 	height: 100px;
@@ -4702,7 +2092,7 @@ html {
 	top: 0px;
 	overflow: visible;
 }
-#_21_lx {
+#MainMenuServicesSNBackground {
 	fill: rgba(255,246,241,1);
 	stroke: rgba(225,27,34,1);
 	stroke-width: 1px;
@@ -4711,7 +2101,7 @@ html {
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._21_lx {
+.MainMenuServicesSNBackground {
 	position: absolute;
 	overflow: visible;
 	width: 128px;
@@ -4719,7 +2109,7 @@ html {
 	left: 0px;
 	top: 0px;
 }
-#_98_ly {
+#MainMenuServicesSNPictureBackg {
 	fill: rgba(225,27,34,1);
 	stroke: rgba(225,27,34,1);
 	stroke-width: 1px;
@@ -4728,7 +2118,7 @@ html {
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._98_ly {
+.MainMenuServicesSNPictureBackg {
 	overflow: visible;
 	position: absolute;
 	width: 40px;
@@ -4737,7 +2127,7 @@ html {
 	top: 17.262px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Skilled_Nursing {
+#MainMenuServicesSNText {
 	left: 22px;
 	top: 67.07px;
 	position: absolute;
@@ -4753,7 +2143,87 @@ html {
 	font-size: 12px;
 	color: rgba(225,27,34,1);
 }
-#SkilledNursing_l {
+#MainMenuServicesSNPicture {
+	position: absolute;
+	width: 25.07px;
+	height: 30.712px;
+	left: 51.771px;
+	top: 20.223px;
+	overflow: visible;
+}
+#MainMenuServicesSNPictureC6 {
+	fill: rgba(255,246,241,1);
+}
+.MainMenuServicesSNPictureC6 {
+	overflow: visible;
+	position: absolute;
+	width: 4.615px;
+	height: 0.943px;
+	left: 16.448px;
+	top: 27.245px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MainMenuServicesSNPictureC5 {
+	fill: rgba(255,246,241,1);
+}
+.MainMenuServicesSNPictureC5 {
+	overflow: visible;
+	position: absolute;
+	width: 25.07px;
+	height: 30.712px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MainMenuServicesSNPictureC4 {
+	fill: rgba(255,246,241,1);
+}
+.MainMenuServicesSNPictureC4 {
+	overflow: visible;
+	position: absolute;
+	width: 3.266px;
+	height: 1.457px;
+	left: 10.919px;
+	top: 15.354px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MainMenuServicesSNPictureC3 {
+	fill: rgba(255,246,241,1);
+}
+.MainMenuServicesSNPictureC3 {
+	overflow: visible;
+	position: absolute;
+	width: 0.988px;
+	height: 1.272px;
+	left: 9.305px;
+	top: 11.803px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MainMenuServicesSNPictureC2 {
+	fill: rgba(255,246,241,1);
+}
+.MainMenuServicesSNPictureC2 {
+	overflow: visible;
+	position: absolute;
+	width: 0.913px;
+	height: 1.262px;
+	left: 14.843px;
+	top: 11.812px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MainMenuServicesSNPictureC1 {
+	fill: rgba(255,246,241,1);
+}
+.MainMenuServicesSNPictureC1 {
+	overflow: visible;
+	position: absolute;
+	width: 2.821px;
+	height: 2.839px;
+	left: 11.129px;
+	top: 1.717px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MainMenuServicesPT {
 	position: absolute;
 	width: 128px;
 	height: 100px;
@@ -4761,7 +2231,7 @@ html {
 	top: 0px;
 	overflow: visible;
 }
-#_21_l {
+#MainMenuServicesPTBackground {
 	fill: rgba(255,246,241,1);
 	stroke: rgba(225,27,34,1);
 	stroke-width: 1px;
@@ -4770,7 +2240,7 @@ html {
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._21_l {
+.MainMenuServicesPTBackground {
 	position: absolute;
 	overflow: visible;
 	width: 128px;
@@ -4778,7 +2248,7 @@ html {
 	left: 0px;
 	top: 0px;
 }
-#_98_l {
+#MainMenuServicesPTPictureBackg {
 	fill: rgba(225,27,34,1);
 	stroke: rgba(225,27,34,1);
 	stroke-width: 1px;
@@ -4787,7 +2257,7 @@ html {
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._98_l {
+.MainMenuServicesPTPictureBackg {
 	overflow: visible;
 	position: absolute;
 	width: 40px;
@@ -4796,7 +2266,7 @@ html {
 	top: 17.262px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Phisical_Therapy {
+#MainMenuServicesPTText {
 	left: 19px;
 	top: 67.07px;
 	position: absolute;
@@ -4812,7 +2282,27 @@ html {
 	font-size: 12px;
 	color: rgba(225,27,34,1);
 }
-#SkilledNursing_ma {
+#MainMenuServicesPTPicture {
+	position: absolute;
+	width: 27.035px;
+	height: 26.908px;
+	left: 50.918px;
+	top: 23.092px;
+	overflow: visible;
+}
+#MainMenuServicesPTPictureC1 {
+	fill: rgba(255,246,241,1);
+}
+.MainMenuServicesPTPictureC1 {
+	overflow: visible;
+	position: absolute;
+	width: 27.035px;
+	height: 26.908px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MainMenuServicesST {
 	position: absolute;
 	width: 128px;
 	height: 100px;
@@ -4820,7 +2310,7 @@ html {
 	top: 0px;
 	overflow: visible;
 }
-#_21_ma {
+#MainMenuServicesSTBackground {
 	fill: rgba(255,246,241,1);
 	stroke: rgba(225,27,34,1);
 	stroke-width: 1px;
@@ -4829,7 +2319,7 @@ html {
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._21_ma {
+.MainMenuServicesSTBackground {
 	position: absolute;
 	overflow: visible;
 	width: 128px;
@@ -4837,7 +2327,7 @@ html {
 	left: 0px;
 	top: 0px;
 }
-#_98_ma {
+#MainMenuServicesSTPictureBackg {
 	fill: rgba(225,27,34,1);
 	stroke: rgba(225,27,34,1);
 	stroke-width: 1px;
@@ -4846,7 +2336,7 @@ html {
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._98_ma {
+.MainMenuServicesSTPictureBackg {
 	overflow: visible;
 	position: absolute;
 	width: 40px;
@@ -4855,7 +2345,7 @@ html {
 	top: 17.262px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Speech_Therapy {
+#MainMenuServicesSTText {
 	left: 20px;
 	top: 67.07px;
 	position: absolute;
@@ -4871,7 +2361,87 @@ html {
 	font-size: 12px;
 	color: rgba(225,27,34,1);
 }
-#SkilledNursing_mb {
+#MainMenuServicesSTPicture {
+	position: absolute;
+	width: 27.159px;
+	height: 26.001px;
+	left: 49.925px;
+	top: 22.999px;
+	overflow: visible;
+}
+#MainMenuServicesSTPictureC6 {
+	fill: rgba(255,246,241,1);
+}
+.MainMenuServicesSTPictureC6 {
+	overflow: visible;
+	position: absolute;
+	width: 17.458px;
+	height: 13.615px;
+	left: 4.209px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MainMenuServicesSTPictureC5 {
+	fill: rgba(255,246,241,1);
+}
+.MainMenuServicesSTPictureC5 {
+	overflow: visible;
+	position: absolute;
+	width: 12.57px;
+	height: 13.259px;
+	left: 0px;
+	top: 12.742px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MainMenuServicesSTPictureC4 {
+	fill: rgba(255,246,241,1);
+}
+.MainMenuServicesSTPictureC4 {
+	overflow: visible;
+	position: absolute;
+	width: 12.554px;
+	height: 11.854px;
+	left: 14.605px;
+	top: 14.146px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MainMenuServicesSTPictureC3 {
+	fill: rgba(255,246,241,1);
+}
+.MainMenuServicesSTPictureC3 {
+	overflow: visible;
+	position: absolute;
+	width: 8.747px;
+	height: 0.831px;
+	left: 5.791px;
+	top: 5.369px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MainMenuServicesSTPictureC2 {
+	fill: rgba(255,246,241,1);
+}
+.MainMenuServicesSTPictureC2 {
+	overflow: visible;
+	position: absolute;
+	width: 8.703px;
+	height: 0.839px;
+	left: 5.813px;
+	top: 3.785px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MainMenuServicesSTPictureC1 {
+	fill: rgba(255,246,241,1);
+}
+.MainMenuServicesSTPictureC1 {
+	overflow: visible;
+	position: absolute;
+	width: 8.747px;
+	height: 0.836px;
+	left: 5.789px;
+	top: 2.204px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MainMenuServicesOT {
 	position: absolute;
 	width: 128px;
 	height: 100px;
@@ -4879,7 +2449,7 @@ html {
 	top: 0px;
 	overflow: visible;
 }
-#_21_mb {
+#MainMenuServicesOTBackground {
 	fill: rgba(255,246,241,1);
 	stroke: rgba(225,27,34,1);
 	stroke-width: 1px;
@@ -4888,7 +2458,7 @@ html {
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._21_mb {
+.MainMenuServicesOTBackground {
 	position: absolute;
 	overflow: visible;
 	width: 128px;
@@ -4896,7 +2466,7 @@ html {
 	left: 0px;
 	top: 0px;
 }
-#_98_mb {
+#MainMenuServicesOTPictureBackg {
 	fill: rgba(225,27,34,1);
 	stroke: rgba(225,27,34,1);
 	stroke-width: 1px;
@@ -4905,7 +2475,7 @@ html {
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._98_mb {
+.MainMenuServicesOTPictureBackg {
 	overflow: visible;
 	position: absolute;
 	width: 40px;
@@ -4914,7 +2484,7 @@ html {
 	top: 17.262px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Occupational_Therapy {
+#MainMenuServicesOTPictureText {
 	left: 3px;
 	top: 67.07px;
 	position: absolute;
@@ -4930,7 +2500,99 @@ html {
 	font-size: 12px;
 	color: rgba(225,27,34,1);
 }
-#SkilledNursing_mc {
+#MainMenuServicesOTPicture {
+	position: absolute;
+	width: 25.893px;
+	height: 25.758px;
+	left: 51.528px;
+	top: 24.346px;
+	overflow: visible;
+}
+#MainMenuServicesOTPictureC7 {
+	fill: rgba(255,246,241,1);
+}
+.MainMenuServicesOTPictureC7 {
+	overflow: visible;
+	position: absolute;
+	width: 25.893px;
+	height: 25.758px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MainMenuServicesOTPictureC6 {
+	fill: rgba(255,246,241,1);
+}
+.MainMenuServicesOTPictureC6 {
+	overflow: visible;
+	position: absolute;
+	width: 2.349px;
+	height: 1.251px;
+	left: 21.302px;
+	top: 14.442px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MainMenuServicesOTPictureC5 {
+	fill: rgba(255,246,241,1);
+}
+.MainMenuServicesOTPictureC5 {
+	overflow: visible;
+	position: absolute;
+	width: 0.847px;
+	height: 0.847px;
+	left: 20.721px;
+	top: 12.882px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MainMenuServicesOTPictureC4 {
+	fill: rgba(255,246,241,1);
+}
+.MainMenuServicesOTPictureC4 {
+	overflow: visible;
+	position: absolute;
+	width: 0.848px;
+	height: 0.848px;
+	left: 23.329px;
+	top: 12.882px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MainMenuServicesOTPictureC3 {
+	fill: rgba(255,246,241,1);
+}
+.MainMenuServicesOTPictureC3 {
+	overflow: visible;
+	position: absolute;
+	width: 2.352px;
+	height: 1.256px;
+	left: 4.872px;
+	top: 5.844px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MainMenuServicesOTPictureC2 {
+	fill: rgba(255,246,241,1);
+}
+.MainMenuServicesOTPictureC2 {
+	overflow: visible;
+	position: absolute;
+	width: 0.847px;
+	height: 0.848px;
+	left: 4.334px;
+	top: 4.255px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MainMenuServicesOTPictureC1 {
+	fill: rgba(255,246,241,1);
+}
+.MainMenuServicesOTPictureC1 {
+	overflow: visible;
+	position: absolute;
+	width: 0.848px;
+	height: 0.848px;
+	left: 6.921px;
+	top: 4.255px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MainMenuServicesMSW {
 	position: absolute;
 	width: 128px;
 	height: 100px;
@@ -4938,7 +2600,7 @@ html {
 	top: 0px;
 	overflow: visible;
 }
-#_21_md {
+#MainMenuServicesMSWBackground {
 	fill: rgba(255,246,241,1);
 	stroke: rgba(225,27,34,1);
 	stroke-width: 1px;
@@ -4947,7 +2609,7 @@ html {
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._21_md {
+.MainMenuServicesMSWBackground {
 	position: absolute;
 	overflow: visible;
 	width: 128px;
@@ -4955,7 +2617,7 @@ html {
 	left: 0px;
 	top: 0px;
 }
-#_98_me {
+#MainMenuServicesMSWPictureBack {
 	fill: rgba(225,27,34,1);
 	stroke: rgba(225,27,34,1);
 	stroke-width: 1px;
@@ -4964,7 +2626,7 @@ html {
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._98_me {
+.MainMenuServicesMSWPictureBack {
 	overflow: visible;
 	position: absolute;
 	width: 40px;
@@ -4973,7 +2635,7 @@ html {
 	top: 17.262px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Social_Worker {
+#MainMenuServicesMSWText {
 	left: 26px;
 	top: 67.07px;
 	position: absolute;
@@ -4989,7 +2651,39 @@ html {
 	font-size: 12px;
 	color: rgba(225,27,34,1);
 }
-#SkilledNursing_mg {
+#MainMenuServicesMSWPicture {
+	position: absolute;
+	width: 27.082px;
+	height: 27.082px;
+	left: 50.57px;
+	top: 23.975px;
+	overflow: visible;
+}
+#MainMenuServicesMSWPictureC2 {
+	fill: rgba(255,246,241,1);
+}
+.MainMenuServicesMSWPictureC2 {
+	overflow: visible;
+	position: absolute;
+	width: 17.755px;
+	height: 22.982px;
+	left: 0px;
+	top: 4.097px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MainMenuServicesMSWPictureC1 {
+	fill: rgba(255,246,241,1);
+}
+.MainMenuServicesMSWPictureC1 {
+	overflow: visible;
+	position: absolute;
+	width: 13.452px;
+	height: 27.082px;
+	left: 13.63px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MainMenuServicesHHA {
 	position: absolute;
 	width: 128px;
 	height: 100px;
@@ -4997,7 +2691,7 @@ html {
 	top: 0px;
 	overflow: visible;
 }
-#_21_mh {
+#MainMenuServicesHHABackground {
 	fill: rgba(255,246,241,1);
 	stroke: rgba(225,27,34,1);
 	stroke-width: 1px;
@@ -5006,7 +2700,7 @@ html {
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._21_mh {
+.MainMenuServicesHHABackground {
 	position: absolute;
 	overflow: visible;
 	width: 128px;
@@ -5014,7 +2708,7 @@ html {
 	left: 0px;
 	top: 0px;
 }
-#_98_mi {
+#MainMenuServicesHHAPictureBack {
 	fill: rgba(225,27,34,1);
 	stroke: rgba(225,27,34,1);
 	stroke-width: 1px;
@@ -5023,7 +2717,7 @@ html {
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._98_mi {
+.MainMenuServicesHHAPictureBack {
 	overflow: visible;
 	position: absolute;
 	width: 40px;
@@ -5032,7 +2726,7 @@ html {
 	top: 17.262px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Home_Aide {
+#MainMenuServicesHHAText {
 	left: 33px;
 	top: 67.07px;
 	position: absolute;
@@ -5048,386 +2742,18 @@ html {
 	font-size: 12px;
 	color: rgba(225,27,34,1);
 }
-#SkilledNursing_mk {
-	position: absolute;
-	width: 25.07px;
-	height: 30.712px;
-	left: 771.903px;
-	top: 64.529px;
-	overflow: visible;
-}
-#Nurse_ml {
-	position: absolute;
-	width: 25.07px;
-	height: 30.712px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_7_mm {
-	position: absolute;
-	width: 25.07px;
-	height: 30.712px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_23_mn {
-	fill: rgba(255,246,241,1);
-}
-._23_mn {
-	overflow: visible;
-	position: absolute;
-	width: 4.615px;
-	height: 0.943px;
-	left: 16.448px;
-	top: 27.245px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_6_mo {
-	position: absolute;
-	width: 25.07px;
-	height: 30.712px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_24_mp {
-	fill: rgba(255,246,241,1);
-}
-._24_mp {
-	overflow: visible;
-	position: absolute;
-	width: 25.07px;
-	height: 30.712px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_25_mq {
-	fill: rgba(255,246,241,1);
-}
-._25_mq {
-	overflow: visible;
-	position: absolute;
-	width: 3.266px;
-	height: 1.457px;
-	left: 10.919px;
-	top: 15.354px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_26_mr {
-	fill: rgba(255,246,241,1);
-}
-._26_mr {
-	overflow: visible;
-	position: absolute;
-	width: 0.988px;
-	height: 1.272px;
-	left: 9.305px;
-	top: 11.803px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_27_ms {
-	fill: rgba(255,246,241,1);
-}
-._27_ms {
-	overflow: visible;
-	position: absolute;
-	width: 0.913px;
-	height: 1.262px;
-	left: 14.843px;
-	top: 11.812px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_28_mt {
-	fill: rgba(255,246,241,1);
-}
-._28_mt {
-	overflow: visible;
-	position: absolute;
-	width: 2.821px;
-	height: 2.839px;
-	left: 11.129px;
-	top: 1.717px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#PhisicalTherapy_mu {
-	position: absolute;
-	width: 27.035px;
-	height: 26.908px;
-	left: 932.05px;
-	top: 67.398px;
-	overflow: visible;
-}
-#_29_mv {
-	fill: rgba(255,246,241,1);
-}
-._29_mv {
-	overflow: visible;
-	position: absolute;
-	width: 27.035px;
-	height: 26.908px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#SpeechTherapy_mw {
-	position: absolute;
-	width: 27.159px;
-	height: 26.001px;
-	left: 1092.058px;
-	top: 67.305px;
-	overflow: visible;
-}
-#_9_mx {
-	position: absolute;
-	width: 27.159px;
-	height: 26.001px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_39_my {
-	fill: rgba(255,246,241,1);
-}
-._39_my {
-	overflow: visible;
-	position: absolute;
-	width: 17.458px;
-	height: 13.615px;
-	left: 4.209px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_40_mz {
-	fill: rgba(255,246,241,1);
-}
-._40_mz {
-	overflow: visible;
-	position: absolute;
-	width: 12.57px;
-	height: 13.259px;
-	left: 0px;
-	top: 12.742px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_41_m {
-	fill: rgba(255,246,241,1);
-}
-._41_m {
-	overflow: visible;
-	position: absolute;
-	width: 12.554px;
-	height: 11.854px;
-	left: 14.605px;
-	top: 14.146px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_42_m {
-	fill: rgba(255,246,241,1);
-}
-._42_m {
-	overflow: visible;
-	position: absolute;
-	width: 8.747px;
-	height: 0.831px;
-	left: 5.791px;
-	top: 5.369px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_43_m {
-	fill: rgba(255,246,241,1);
-}
-._43_m {
-	overflow: visible;
-	position: absolute;
-	width: 8.703px;
-	height: 0.839px;
-	left: 5.813px;
-	top: 3.785px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_44_m {
-	fill: rgba(255,246,241,1);
-}
-._44_m {
-	overflow: visible;
-	position: absolute;
-	width: 8.747px;
-	height: 0.836px;
-	left: 5.789px;
-	top: 2.204px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#OccupationalTherapy_m {
-	position: absolute;
-	width: 25.893px;
-	height: 25.758px;
-	left: 1254.66px;
-	top: 68.652px;
-	overflow: visible;
-}
-#TheRapist_m {
-	position: absolute;
-	width: 25.893px;
-	height: 25.758px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_46_m {
-	fill: rgba(255,246,241,1);
-}
-._46_m {
-	overflow: visible;
-	position: absolute;
-	width: 25.893px;
-	height: 25.758px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_47_m {
-	fill: rgba(255,246,241,1);
-}
-._47_m {
-	overflow: visible;
-	position: absolute;
-	width: 2.349px;
-	height: 1.251px;
-	left: 21.302px;
-	top: 14.442px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_48_m {
-	fill: rgba(255,246,241,1);
-}
-._48_m {
-	overflow: visible;
-	position: absolute;
-	width: 0.847px;
-	height: 0.847px;
-	left: 20.721px;
-	top: 12.882px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_49_m {
-	fill: rgba(255,246,241,1);
-}
-._49_m {
-	overflow: visible;
-	position: absolute;
-	width: 0.848px;
-	height: 0.848px;
-	left: 23.329px;
-	top: 12.882px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_50_na {
-	fill: rgba(255,246,241,1);
-}
-._50_na {
-	overflow: visible;
-	position: absolute;
-	width: 2.352px;
-	height: 1.256px;
-	left: 4.872px;
-	top: 5.844px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_51_nb {
-	fill: rgba(255,246,241,1);
-}
-._51_nb {
-	overflow: visible;
-	position: absolute;
-	width: 0.847px;
-	height: 0.847px;
-	left: 4.334px;
-	top: 4.255px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_52_nc {
-	fill: rgba(255,246,241,1);
-}
-._52_nc {
-	overflow: visible;
-	position: absolute;
-	width: 0.848px;
-	height: 0.848px;
-	left: 6.921px;
-	top: 4.255px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#MedicalSocialWorker_nd {
-	position: absolute;
-	width: 27.082px;
-	height: 27.082px;
-	left: 1414.702px;
-	top: 68.282px;
-	overflow: visible;
-}
-#MedicalSocialWorker_ne {
-	position: absolute;
-	width: 27.082px;
-	height: 27.082px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_10_nf {
-	position: absolute;
-	width: 27.082px;
-	height: 27.082px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_53_ng {
-	fill: rgba(255,246,241,1);
-}
-._53_ng {
-	overflow: visible;
-	position: absolute;
-	width: 17.755px;
-	height: 22.982px;
-	left: 0px;
-	top: 4.097px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_54_nh {
-	fill: rgba(255,246,241,1);
-}
-._54_nh {
-	overflow: visible;
-	position: absolute;
-	width: 13.452px;
-	height: 27.082px;
-	left: 13.63px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#HomeHealthAide_ni {
+#MainMenuServicesHHAPicture {
 	position: absolute;
 	width: 27.843px;
 	height: 26.976px;
-	left: 1575.39px;
-	top: 67.044px;
+	left: 50.258px;
+	top: 22.738px;
 	overflow: visible;
 }
-#HomeAide_nj {
-	position: absolute;
-	width: 27.843px;
-	height: 26.976px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_55_nk {
+#MainMenuServicesHHAPictureC6 {
 	fill: rgba(255,246,241,1);
 }
-._55_nk {
+.MainMenuServicesHHAPictureC6 {
 	overflow: visible;
 	position: absolute;
 	width: 14.413px;
@@ -5436,10 +2762,10 @@ html {
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_56_nl {
+#MainMenuServicesHHAPictureC5 {
 	fill: rgba(255,246,241,1);
 }
-._56_nl {
+.MainMenuServicesHHAPictureC5 {
 	overflow: visible;
 	position: absolute;
 	width: 14.889px;
@@ -5448,10 +2774,10 @@ html {
 	top: 3.173px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_57_nm {
+#MainMenuServicesHHAPictureC4 {
 	fill: rgba(255,246,241,1);
 }
-._57_nm {
+.MainMenuServicesHHAPictureC4 {
 	overflow: visible;
 	position: absolute;
 	width: 8.445px;
@@ -5460,10 +2786,10 @@ html {
 	top: 18.26px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_58_nn {
+#MainMenuServicesHHAPictureC3 {
 	fill: rgba(255,246,241,1);
 }
-._58_nn {
+.MainMenuServicesHHAPictureC3 {
 	overflow: visible;
 	position: absolute;
 	width: 2.561px;
@@ -5472,10 +2798,10 @@ html {
 	top: 13.049px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_59_no {
+#MainMenuServicesHHAPictureC2 {
 	fill: rgba(255,246,241,1);
 }
-._59_no {
+.MainMenuServicesHHAPictureC2 {
 	overflow: visible;
 	position: absolute;
 	width: 0.816px;
@@ -5484,10 +2810,10 @@ html {
 	top: 10.276px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_60_np {
+#MainMenuServicesHHAPictureC1 {
 	fill: rgba(255,246,241,1);
 }
-._60_np {
+.MainMenuServicesHHAPictureC1 {
 	overflow: visible;
 	position: absolute;
 	width: 0.816px;
@@ -5496,19 +2822,19 @@ html {
 	top: 10.276px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Contacts_nq {
+#MainMenuHeader {
 	position: absolute;
 	width: 1903px;
-	height: 26px;
+	height: 25.44px;
 	left: 0px;
 	top: 0px;
 	overflow: visible;
 }
-#ContactsBG_nr {
+#ContactsBG {
 	opacity: 0.9;
 	fill: rgba(225,27,34,1);
 }
-.ContactsBG_nr {
+.ContactsBG {
 	position: absolute;
 	overflow: visible;
 	width: 1903px;
@@ -5516,47 +2842,46 @@ html {
 	left: 0px;
 	top: 0px;
 }
-#Language_ns {
+#MainMenuHeaderLanguage {
 	position: absolute;
 	width: 99.395px;
 	height: 25.44px;
-	left: 1549.605px;
-	top: 0.56px;
-	overflow: visible;
-}
-#_2__19 {
-	position: absolute;
-	width: 99.395px;
-	height: 25.44px;
-	left: 0px;
+	left: 1523.605px;
 	top: 0px;
 	overflow: visible;
 }
-#_9_nu {
+#MainMenuHeaderLanguageFrame {
 	fill: transparent;
+	stroke: rgba(255,246,241,1);
+	stroke-width: 2px;
+	stroke-linejoin: round;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+	height: 22px;
 }
-._9_nu {
+.MainMenuHeaderLanguageFrame {
 	position: absolute;
 	overflow: visible;
 	width: 99.395px;
-	height: 25.44px;
+	height: 22px;
 	left: 0px;
-	top: 0px;
+	top: 2px;
 }
-#World_nv {
+#MainMenuHeaderLanguageWorldPic {
 	fill: rgba(255,246,241,1);
 }
-.World_nv {
+.MainMenuHeaderLanguageWorldPic {
 	overflow: visible;
 	position: absolute;
 	width: 16.833px;
 	height: 16.472px;
-	left: 5.358px;
+	left: 5.359px;
 	top: 4.484px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#English_nw {
-	left: 23.939px;
+#MainMenuHeaderLanguageText {
+	left: 23.94px;
 	top: 4.892px;
 	position: absolute;
 	overflow: visible;
@@ -5569,10 +2894,10 @@ html {
 	font-size: 14px;
 	color: rgba(255,246,241,1);
 }
-#_1_nx {
+#MainMenuHeaderLanguageArrowDow {
 	fill: rgba(255,246,241,1);
 }
-._1_nx {
+.MainMenuHeaderLanguageArrowDow {
 	overflow: visible;
 	position: absolute;
 	width: 11.477px;
@@ -5582,15 +2907,15 @@ html {
 	left: 0px;
 	top: 0px;
 }
-#Location_ny {
+#MainMenuHeaderLocation {
 	position: absolute;
 	width: 138.212px;
 	height: 17px;
-	left: 1364.375px;
-	top: 4.769px;
+	left: 1338.375px;
+	top: 4.209px;
 	overflow: visible;
 }
-#Home_Health_Care_nz {
+#MainMenuHeaderLocationText {
 	left: 18.212px;
 	top: 0px;
 	position: absolute;
@@ -5604,10 +2929,10 @@ html {
 	font-size: 14px;
 	color: rgba(255,246,241,1);
 }
-#marker_1_n {
+#MainMenuHeaderLocationMarker {
 	fill: rgba(255,246,241,1);
 }
-.marker_1_n {
+.MainMenuHeaderLocationMarker {
 	overflow: visible;
 	position: absolute;
 	width: 11.55px;
@@ -5616,9 +2941,9 @@ html {
 	top: 1.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Fax_818_301-2051_n {
-	left: 1183.112px;
-	top: 4.769px;
+#MainMenuHeaderFax {
+	left: 1157.112px;
+	top: 4.209px;
 	position: absolute;
 	overflow: visible;
 	width: 126px;
@@ -5630,9 +2955,9 @@ html {
 	font-size: 14px;
 	color: rgba(255,246,241,1);
 }
-#Phone_818_396-5678_n {
-	left: 981.065px;
-	top: 4.769px;
+#MainMenuHeaderPhone {
+	left: 955.065px;
+	top: 4.209px;
 	position: absolute;
 	overflow: visible;
 	width: 146px;
@@ -5644,9 +2969,9 @@ html {
 	font-size: 14px;
 	color: rgba(255,246,241,1);
 }
-#changingliveshhgmailcom_n {
-	left: 724px;
-	top: 4.769px;
+#MainMenuHeaderEmail {
+	left: 698px;
+	top: 4.209px;
 	position: absolute;
 	overflow: visible;
 	width: 186px;
@@ -5658,45 +2983,550 @@ html {
 	font-size: 14px;
 	color: rgba(255,246,241,1);
 }
-#_15_n {
-	fill: transparent;
-	stroke: rgba(112,112,112,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
+#BlockSN {
+	position: absolute;
+	width: 1903px;
+	height: 600px;
+	left: 0px;
+	top: 1158px;
+	overflow: visible;
 }
-._15_n {
-	display: none;
+#BlockSNBackground {
+	fill: rgba(255,246,241,1);
+}
+.BlockSNBackground {
+	position: absolute;
+	overflow: visible;
+	width: 953px;
+	height: 600px;
+	left: 0px;
+	top: 0px;
+}
+#BlockSNImage {
+	position: absolute;
+	width: 950px;
+	height: 600px;
+	left: 953px;
+	top: 0px;
+	overflow: visible;
+}
+#BlockSNCaption {
+	left: 297.089px;
+	top: 117px;
+	position: absolute;
+	overflow: visible;
+	width: 169px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(225,27,34,1);
+}
+#BlockSNMainText {
+	left: 296.776px;
+	top: 177.5px;
+	position: absolute;
+	overflow: visible;
+	width: 339px;
+	height: 321px;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(74,74,74,1);
+}
+#BlockSNButton {
+	position: absolute;
+	width: 162.585px;
+	height: 45.994px;
+	left: 296.776px;
+	top: 504px;
+	overflow: visible;
+}
+#BlockSNButtonBackground {
+	fill: rgba(225,27,34,1);
+}
+.BlockSNButtonBackground {
+	position: absolute;
+	overflow: visible;
+	width: 162.585px;
+	height: 45.994px;
+	left: 0px;
+	top: 0px;
+}
+#BlockSNButtonText {
+	left: 38.507px;
+	top: 13.905px;
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+}
+#BlockPT {
+	position: absolute;
+	width: 1903px;
+	height: 600px;
+	left: 0px;
+	top: 1758px;
+	overflow: visible;
+}
+#BlockPTBackground {
+	fill: rgba(225,27,34,1);
+}
+.BlockPTBackground {
 	overflow: visible;
 	position: absolute;
-	width: 1968px;
-	height: 1px;
-	left: 16.5px;
-	top: 497.5px;
+	width: 968px;
+	height: 600px;
+	left: 935px;
+	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_16_n {
-	fill: transparent;
-	stroke: rgba(112,112,112,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
+#BlockPTImage {
+	position: absolute;
+	width: 952px;
+	height: 600px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
 }
-._16_n {
-	display: none;
+#BlockPTCaption {
+	left: 1095.157px;
+	top: 117px;
+	position: absolute;
+	overflow: visible;
+	width: 187px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,246,241,1);
+}
+#BlockPTMainText {
+	left: 1094.315px;
+	top: 177px;
+	position: absolute;
+	overflow: visible;
+	width: 312px;
+	height: 267px;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,246,241,1);
+}
+#BlockPTButton {
+	position: absolute;
+	width: 162.585px;
+	height: 45.994px;
+	left: 1095.301px;
+	top: 480px;
+	overflow: visible;
+}
+#BlockPTButtonBackground {
+	fill: rgba(255,246,241,1);
+}
+.BlockPTButtonBackground {
+	position: absolute;
+	overflow: visible;
+	width: 162.585px;
+	height: 45.994px;
+	left: 0px;
+	top: 0px;
+}
+#BlockPTButtonText {
+	left: 38.507px;
+	top: 13.905px;
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(225,27,34,1);
+}
+#BlockST {
+	position: absolute;
+	width: 1903px;
+	height: 600px;
+	left: 0px;
+	top: 2358px;
+	overflow: visible;
+}
+#BlockSTBackground {
+	fill: rgba(255,246,241,1);
+}
+.BlockSTBackground {
+	position: absolute;
+	overflow: visible;
+	width: 953px;
+	height: 600px;
+	left: 0px;
+	top: 0px;
+}
+#BlockSTImage {
+	position: absolute;
+	width: 952px;
+	height: 600px;
+	left: 951px;
+	top: 0px;
+	overflow: visible;
+}
+#BlockSTCaption {
+	left: 298.084px;
+	top: 117px;
+	position: absolute;
+	overflow: visible;
+	width: 166px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(225,27,34,1);
+}
+#BlockSTMainText {
+	left: 297.327px;
+	top: 177px;
+	position: absolute;
+	overflow: visible;
+	width: 528px;
+	height: 243px;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(74,74,74,1);
+}
+#BlockSTButton {
+	position: absolute;
+	width: 162.585px;
+	height: 45.994px;
+	left: 298.088px;
+	top: 456px;
+	overflow: visible;
+}
+#BlockSTButtonBackground {
+	fill: rgba(225,27,34,1);
+}
+.BlockSTButtonBackground {
+	position: absolute;
+	overflow: visible;
+	width: 162.585px;
+	height: 45.994px;
+	left: 0px;
+	top: 0px;
+}
+#BlockSTButtonText {
+	left: 38.507px;
+	top: 13.905px;
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+}
+#BlockOT {
+	position: absolute;
+	width: 1903px;
+	height: 600px;
+	left: 0px;
+	top: 2958px;
+	overflow: visible;
+}
+#BlockOTBackground {
+	fill: rgba(225,27,34,1);
+}
+.BlockOTBackground {
 	overflow: visible;
 	position: absolute;
-	width: 1px;
-	height: 927px;
-	left: 951.5px;
-	top: 20.5px;
+	width: 968px;
+	height: 600px;
+	left: 935px;
+	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Career {
+#BlockOTImage {
+	position: absolute;
+	width: 952px;
+	height: 600px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#BlockOTCaption {
+	left: 1094.802px;
+	top: 117px;
+	position: absolute;
+	overflow: visible;
+	width: 242px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,246,241,1);
+}
+#BlockOTMainText {
+	left: 1091.075px;
+	top: 177px;
+	position: absolute;
+	overflow: visible;
+	width: 528px;
+	height: 155px;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,246,241,1);
+}
+#BlockOTButton {
+	position: absolute;
+	width: 162.585px;
+	height: 45.994px;
+	left: 1095.301px;
+	top: 368px;
+	overflow: visible;
+}
+#BlockOTButtonBackground {
+	fill: rgba(255,246,241,1);
+}
+.BlockOTButtonBackground {
+	position: absolute;
+	overflow: visible;
+	width: 162.585px;
+	height: 45.994px;
+	left: 0px;
+	top: 0px;
+}
+#BlockOTButtonText {
+	left: 38.507px;
+	top: 13.905px;
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(225,27,34,1);
+}
+#BlockMSW {
+	position: absolute;
+	width: 1903px;
+	height: 600px;
+	left: 0px;
+	top: 3558px;
+	overflow: visible;
+}
+#BlockMSWBackground {
+	fill: rgba(255,246,241,1);
+}
+.BlockMSWBackground {
+	overflow: visible;
+	position: absolute;
+	width: 953px;
+	height: 600px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BlockMSWImage {
+	position: absolute;
+	width: 952px;
+	height: 600px;
+	left: 951px;
+	top: 0px;
+	overflow: visible;
+}
+#BlockMSWCaption {
+	left: 297.93px;
+	top: 111.638px;
+	position: absolute;
+	overflow: visible;
+	width: 252px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(225,27,34,1);
+}
+#BlockMSWMainText {
+	left: 297.327px;
+	top: 172px;
+	position: absolute;
+	overflow: visible;
+	width: 528px;
+	height: 176px;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(74,74,74,1);
+}
+#BlockMSWButton {
+	position: absolute;
+	width: 162.585px;
+	height: 45.994px;
+	left: 298.088px;
+	top: 384.362px;
+	overflow: visible;
+}
+#BlockMSWButtonBackground {
+	fill: rgba(225,27,34,1);
+}
+.BlockMSWButtonBackground {
+	position: absolute;
+	overflow: visible;
+	width: 162.585px;
+	height: 45.994px;
+	left: 0px;
+	top: 0px;
+}
+#BlockMSWButtonText {
+	left: 38.507px;
+	top: 13.905px;
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+}
+#BlockHHA {
+	position: absolute;
+	width: 1903px;
+	height: 600px;
+	left: 0px;
+	top: 4158px;
+	overflow: visible;
+}
+#BlockHHABackground {
+	fill: rgba(225,27,34,1);
+}
+.BlockHHABackground {
+	position: absolute;
+	overflow: visible;
+	width: 968px;
+	height: 600px;
+	left: 935px;
+	top: 0px;
+}
+#BlockHHAImage {
+	position: absolute;
+	width: 952px;
+	height: 600px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#BlockHHACaption {
+	left: 1095.113px;
+	top: 117px;
+	position: absolute;
+	overflow: visible;
+	width: 191px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,246,241,1);
+}
+#BlockHHAMainText {
+	left: 1091.075px;
+	top: 178px;
+	position: absolute;
+	overflow: visible;
+	width: 528px;
+	height: 31px;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,246,241,1);
+}
+#BlockHHAButton {
+	position: absolute;
+	width: 162.585px;
+	height: 45.994px;
+	left: 1095.301px;
+	top: 246px;
+	overflow: visible;
+}
+#BlockHHAButtonBackground {
+	fill: rgba(255,246,241,1);
+}
+.BlockHHAButtonBackground {
+	position: absolute;
+	overflow: visible;
+	width: 162.585px;
+	height: 45.995px;
+	left: 0px;
+	top: 0px;
+}
+#BlockHHAButtonText {
+	left: 38.507px;
+	top: 13.905px;
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(225,27,34,1);
+}
+#BlockCareer {
 	position: absolute;
 	width: 1903px;
 	height: 600px;
@@ -5704,10 +3534,10 @@ html {
 	top: 4759px;
 	overflow: visible;
 }
-#_22_n {
+#BlockCareerBackground {
 	fill: rgba(255,246,241,1);
 }
-._22_n {
+.BlockCareerBackground {
 	overflow: visible;
 	position: absolute;
 	width: 1903px;
@@ -5716,7 +3546,7 @@ html {
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#We_have_openings_for__-Registe {
+#BlockCareerMainText {
 	left: 298.325px;
 	top: 181.072px;
 	position: absolute;
@@ -5732,7 +3562,7 @@ html {
 	font-size: 16px;
 	color: rgba(74,74,74,1);
 }
-#Career_Opportunities {
+#BlockCareerCaption {
 	left: 299.019px;
 	top: 117px;
 	position: absolute;
@@ -5746,285 +3576,7 @@ html {
 	font-size: 20px;
 	color: rgba(255,0,0,1);
 }
-#Location_oa {
-	position: absolute;
-	width: 520px;
-	height: 595px;
-	left: 1068.862px;
-	top: 90.069px;
-	display: none;
-	overflow: visible;
-}
-#_14_ob {
-	fill: rgba(255,255,255,1);
-}
-._14_ob {
-	position: absolute;
-	overflow: visible;
-	width: 520px;
-	height: 595px;
-	left: 0px;
-	top: 0px;
-}
-#_16_oc {
-	fill: rgba(255,255,255,1);
-	stroke: rgba(112,112,112,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-._16_oc {
-	position: absolute;
-	overflow: visible;
-	width: 424px;
-	height: 43px;
-	left: 48px;
-	top: 74px;
-}
-#_15_od {
-	fill: rgba(255,255,255,1);
-	stroke: rgba(112,112,112,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-._15_od {
-	position: absolute;
-	overflow: visible;
-	width: 424px;
-	height: 43px;
-	left: 48px;
-	top: 161px;
-}
-#_17 {
-	fill: rgba(255,255,255,1);
-	stroke: rgba(112,112,112,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-._17 {
-	position: absolute;
-	overflow: visible;
-	width: 424px;
-	height: 43px;
-	left: 48px;
-	top: 250px;
-}
-#_18 {
-	fill: rgba(255,255,255,1);
-	stroke: rgba(112,112,112,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-._18 {
-	position: absolute;
-	overflow: visible;
-	width: 424px;
-	height: 43px;
-	left: 48px;
-	top: 340px;
-}
-#_19 {
-	fill: rgba(255,255,255,1);
-	stroke: rgba(112,112,112,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-._19 {
-	position: absolute;
-	overflow: visible;
-	width: 424px;
-	height: 43px;
-	left: 47px;
-	top: 429px;
-}
-#Last_Name_oh {
-	left: 47px;
-	top: 133px;
-	position: absolute;
-	overflow: visible;
-	width: 76px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(74,74,74,1);
-}
-#Email_oi {
-	left: 47px;
-	top: 221px;
-	position: absolute;
-	overflow: visible;
-	width: 39px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(74,74,74,1);
-}
-#Birthdate {
-	left: 47px;
-	top: 310px;
-	position: absolute;
-	overflow: visible;
-	width: 65px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(74,74,74,1);
-}
-#Zip_Code {
-	left: 47px;
-	top: 400px;
-	position: absolute;
-	overflow: visible;
-	width: 65px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(74,74,74,1);
-}
-#Last_Name_ol {
-	left: 63px;
-	top: 171px;
-	position: absolute;
-	overflow: visible;
-	width: 76px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(74,74,74,1);
-}
-#Email_om {
-	left: 63px;
-	top: 259px;
-	position: absolute;
-	overflow: visible;
-	width: 39px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(74,74,74,1);
-}
-#Birthdate_on {
-	left: 63px;
-	top: 348px;
-	position: absolute;
-	overflow: visible;
-	width: 65px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(74,74,74,1);
-}
-#Zip_Code_oo {
-	left: 63px;
-	top: 438px;
-	position: absolute;
-	overflow: visible;
-	width: 65px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(74,74,74,1);
-}
-#First_Name {
-	left: 63px;
-	top: 83px;
-	position: absolute;
-	overflow: visible;
-	width: 77px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(74,74,74,1);
-}
-#First_Name_oq {
-	left: 47px;
-	top: 45px;
-	position: absolute;
-	overflow: visible;
-	width: 77px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(74,74,74,1);
-}
-#Button_or {
-	position: absolute;
-	width: 424px;
-	height: 44px;
-	left: 47px;
-	top: 504px;
-	overflow: visible;
-}
-#_10_os {
-	fill: rgba(255,0,0,1);
-}
-._10_os {
-	position: absolute;
-	overflow: visible;
-	width: 424px;
-	height: 44px;
-	left: 0px;
-	top: 0px;
-}
-#View_locations_ot {
-	left: 154px;
-	top: 11px;
-	position: absolute;
-	overflow: visible;
-	width: 118px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	color: rgba(255,255,255,1);
-}
-#career {
+#BlockCareerImage {
 	position: absolute;
 	width: 952px;
 	height: 600px;
@@ -6032,7 +3584,7 @@ html {
 	top: 0px;
 	overflow: visible;
 }
-#Button_ov {
+#BlockCareerButton {
 	position: absolute;
 	width: 162.585px;
 	height: 45.994px;
@@ -6040,18 +3592,10 @@ html {
 	top: 439.145px;
 	overflow: visible;
 }
-#_1__11 {
-	position: absolute;
-	width: 162.585px;
-	height: 45.994px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#_7_ox {
+#BlockCareerButtonBackground {
 	fill: rgba(225,27,34,1);
 }
-._7_ox {
+.BlockCareerButtonBackground {
 	position: absolute;
 	overflow: visible;
 	width: 162.585px;
@@ -6059,7 +3603,7 @@ html {
 	left: 0px;
 	top: 0px;
 }
-#Contact_oy {
+#BlockCareerButtonText {
 	left: 38.507px;
 	top: 13.905px;
 	position: absolute;
@@ -6073,112 +3617,134 @@ html {
 	font-size: 17px;
 	color: rgba(255,255,255,1);
 }
-#Contact_us_oz {
+#BlockLocation {
+	opacity: 0.92;
 	position: absolute;
-	width: 909px;
-	height: 522px;
-	left: 972px;
-	top: 48px;
-	display: none;
+	width: 1903px;
+	height: 213px;
+	left: 0px;
+	top: 5359px;
 	overflow: visible;
 }
-#_30 {
+#BlockLocationBackground {
 	fill: rgba(225,27,34,1);
 }
-._30 {
+.BlockLocationBackground {
 	position: absolute;
 	overflow: visible;
-	width: 909px;
-	height: 522px;
+	width: 1903px;
+	height: 213px;
 	left: 0px;
 	top: 0px;
 }
-#Contact_us_o {
-	left: 32px;
-	top: 35px;
+#BlockLocationMainText {
+	left: 740.5px;
+	top: 82.834px;
 	position: absolute;
 	overflow: visible;
-	width: 138px;
+	width: 423px;
 	white-space: nowrap;
+	line-height: 31px;
+	margin-top: -7.5px;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: Segoe UI;
 	font-style: normal;
-	font-weight: normal;
-	font-size: 28px;
-	color: rgba(255,246,241,1);
-}
-#First_name_o {
-	left: 32px;
-	top: 103px;
-	position: absolute;
-	overflow: visible;
-	width: 87px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 16px;
 	color: rgba(255,246,241,1);
 }
-#Last_Name_o {
-	left: 480px;
-	top: 107px;
+#BlockLocationCaption {
+	left: 882.5px;
+	top: 42.196px;
 	position: absolute;
 	overflow: visible;
-	width: 87px;
+	width: 139px;
 	white-space: nowrap;
 	text-align: left;
 	font-family: Frutiger LT Pro;
 	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
+	font-weight: bold;
+	font-size: 20px;
 	color: rgba(255,246,241,1);
 }
-#Email_o {
-	left: 32px;
-	top: 202px;
+#BlockLocationButton {
 	position: absolute;
+	width: 152px;
+	height: 43px;
+	left: 875.5px;
+	top: 127.804px;
 	overflow: visible;
-	width: 51px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(255,246,241,1);
 }
-#Phone_o {
-	left: 480px;
-	top: 202px;
+#BlockLocationButtonBackground {
 	position: absolute;
+	width: 152px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
 	overflow: visible;
-	width: 48px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(255,246,241,1);
 }
-#How_Can_We_Help_You_o {
-	left: 32px;
-	top: 301px;
-	position: absolute;
-	overflow: visible;
-	width: 178px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(255,246,241,1);
-}
-#_29_o {
+#_7_i {
 	fill: rgba(255,246,241,1);
+}
+._7_i {
+	position: absolute;
+	overflow: visible;
+	width: 152px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+}
+#BlockLocationButtonText {
+	left: 24px;
+	top: 12px;
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(225,27,34,1);
+}
+#BlockContactUs {
+	position: absolute;
+	width: 1903px;
+	height: 600px;
+	left: 0px;
+	top: 5658px;
+	overflow: visible;
+}
+#BlockContactUsBackground {
+	fill: rgba(255,246,241,1);
+}
+.BlockContactUsBackground {
+	position: absolute;
+	overflow: visible;
+	width: 1903px;
+	height: 600px;
+	left: 0px;
+	top: 0px;
+}
+#BlockContactUsForm {
+	position: absolute;
+	width: 842px;
+	height: 457px;
+	left: 529px;
+	top: 74px;
+	overflow: visible;
+}
+#BlockContactUsFormButton {
+	position: absolute;
+	width: 841px;
+	height: 41px;
+	left: 1px;
+	top: 416px;
+	overflow: visible;
+}
+#BlockContactUsFormButtonBackgr {
+	fill: rgba(225,27,34,1);
 	stroke: rgba(255,246,241,1);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
@@ -6186,17 +3752,17 @@ html {
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._29_o {
+.BlockContactUsFormButtonBackgr {
 	position: absolute;
 	overflow: visible;
 	width: 841px;
 	height: 41px;
-	left: 33px;
-	top: 451px;
+	left: 0px;
+	top: 0px;
 }
-#Submit_o {
-	left: 431px;
-	top: 461px;
+#BlockContactUsFormButtonText {
+	left: 398px;
+	top: 10px;
 	position: absolute;
 	overflow: visible;
 	width: 53px;
@@ -6206,95 +3772,643 @@ html {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: rgba(225,27,34,1);
+	color: rgba(255,246,241,1);
 }
-#_3_o {
+#BlockContactUsFormCanWeHelpEdi {
 	fill: transparent;
-	stroke: rgba(255,246,241,1);
+	stroke: rgba(225,27,34,1);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._3_o {
-	overflow: visible;
-	position: absolute;
-	width: 399px;
-	height: 1px;
-	left: 32.5px;
-	top: 172.5px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_6_pa {
-	fill: transparent;
-	stroke: rgba(255,246,241,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-._6_pa {
-	overflow: visible;
-	position: absolute;
-	width: 399px;
-	height: 1px;
-	left: 32.5px;
-	top: 271.5px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_4_pb {
-	fill: transparent;
-	stroke: rgba(255,246,241,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-._4_pb {
-	overflow: visible;
-	position: absolute;
-	width: 393px;
-	height: 1px;
-	left: 480.5px;
-	top: 172.5px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_5_pc {
-	fill: transparent;
-	stroke: rgba(255,246,241,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-._5_pc {
-	overflow: visible;
-	position: absolute;
-	width: 393px;
-	height: 1px;
-	left: 480px;
-	top: 272.5px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#_7_pd {
-	fill: transparent;
-	stroke: rgba(255,246,241,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-._7_pd {
+.BlockContactUsFormCanWeHelpEdi {
 	overflow: visible;
 	position: absolute;
 	width: 841px;
 	height: 1px;
-	left: 32.5px;
-	top: 420px;
+	left: 0.5px;
+	top: 385px;
 	transform: matrix(1,0,0,1,0,0);
+}
+#BlockContactUsFormCanWeHelpTex {
+	left: 0px;
+	top: 266px;
+	position: absolute;
+	overflow: visible;
+	width: 178px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(225,27,34,1);
+}
+#BlockContactUsFormPhoneEditFie {
+	fill: transparent;
+	stroke: rgba(225,27,34,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.BlockContactUsFormPhoneEditFie {
+	overflow: visible;
+	position: absolute;
+	width: 393px;
+	height: 1px;
+	left: 448px;
+	top: 237.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BlockContactUsFormPhoneText {
+	left: 448px;
+	top: 167px;
+	position: absolute;
+	overflow: visible;
+	width: 48px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(225,27,34,1);
+}
+#BlockContactUsFormEmailEditFie {
+	fill: transparent;
+	stroke: rgba(225,27,34,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.BlockContactUsFormEmailEditFie {
+	overflow: visible;
+	position: absolute;
+	width: 399px;
+	height: 1px;
+	left: 0.5px;
+	top: 236.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BlockContactUsFormEmailText {
+	left: 0px;
+	top: 167px;
+	position: absolute;
+	overflow: visible;
+	width: 51px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(225,27,34,1);
+}
+#BlockContactUsFormLastNameEdit {
+	fill: transparent;
+	stroke: rgba(225,27,34,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.BlockContactUsFormLastNameEdit {
+	overflow: visible;
+	position: absolute;
+	width: 393px;
+	height: 1px;
+	left: 448.5px;
+	top: 137.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BlockContactUsFormLastNameText {
+	left: 448px;
+	top: 72px;
+	position: absolute;
+	overflow: visible;
+	width: 87px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(225,27,34,1);
+}
+#BlockContactUsFormFirstNameEdi {
+	fill: transparent;
+	stroke: rgba(225,27,34,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.BlockContactUsFormFirstNameEdi {
+	overflow: visible;
+	position: absolute;
+	width: 399px;
+	height: 1px;
+	left: 0.5px;
+	top: 137.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BlockContactUsFormFirstNameTex {
+	left: 0px;
+	top: 68px;
+	position: absolute;
+	overflow: visible;
+	width: 87px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(225,27,34,1);
+}
+#BlockContactUsFormCaption {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 138px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(225,27,34,1);
+}
+#BlockFooter {
+	position: absolute;
+	width: 1903px;
+	height: 594px;
+	left: 0px;
+	top: 6258px;
+	overflow: visible;
+}
+#BlockFooterBackground {
+	fill: rgba(225,27,34,1);
+}
+.BlockFooterBackground {
+	position: absolute;
+	overflow: visible;
+	width: 1903px;
+	height: 594px;
+	left: 0px;
+	top: 0px;
+}
+#BlockFooterChap {
+	position: absolute;
+	width: 260px;
+	height: 247px;
+	left: 821.5px;
+	top: 117px;
+	overflow: visible;
+}
+#BlockFooterChapIcon {
+	position: absolute;
+	width: 260px;
+	height: 174px;
+	left: 0px;
+	top: 73px;
+	overflow: visible;
+}
+#BlockFooterChapCaption {
+	left: 49.995px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 162px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#BlockFooterCopyright {
+	position: absolute;
+	width: 1347.5px;
+	height: 91.5px;
+	left: 278.5px;
+	top: 465.5px;
+	overflow: visible;
+}
+#BlockFooterCopyrightMainText {
+	left: 732.5px;
+	top: 49.5px;
+	position: absolute;
+	overflow: visible;
+	width: 616px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#BlockFooterCopyrightCaption {
+	left: 0.5px;
+	top: 49.5px;
+	position: absolute;
+	overflow: visible;
+	width: 274px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#BlockFooterCopyrightSplitter {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.BlockFooterCopyrightSplitter {
+	overflow: visible;
+	position: absolute;
+	width: 1347px;
+	height: 1px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BlockFooterAddress {
+	position: absolute;
+	width: 200px;
+	height: 209px;
+	left: 299.015px;
+	top: 124px;
+	overflow: visible;
+}
+#BlockFooterAddressMainText {
+	left: 0.044px;
+	top: 108px;
+	position: absolute;
+	overflow: visible;
+	width: 175px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -12px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#BlockFooterAddressCaption {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 201px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#BlockFooterOpeningHours {
+	position: absolute;
+	width: 308px;
+	height: 270px;
+	left: 1281.343px;
+	top: 117px;
+	overflow: visible;
+}
+#BlockFooterOpeningHoursCaption {
+	left: 1.268px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 144px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#BlockFooterOpeningHoursMainTex {
+	left: 0.29px;
+	top: 209px;
+	position: absolute;
+	overflow: visible;
+	width: 274px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -12px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#BlockFooterOpeningHoursSplitte {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.BlockFooterOpeningHoursSplitte {
+	overflow: visible;
+	position: absolute;
+	width: 308px;
+	height: 1px;
+	left: 0px;
+	top: 177px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BlockFooterOpeningHoursMainTex_j {
+	left: 0.887px;
+	top: 83px;
+	position: absolute;
+	overflow: visible;
+	width: 197px;
+	height: 64px;
+	line-height: 40px;
+	margin-top: -12px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#BlockFooterSNButtons {
+	position: absolute;
+	width: 208px;
+	height: 43px;
+	left: 299.001px;
+	top: 389px;
+	overflow: visible;
+}
+#BlockFooterSNButtonsLinkedIn {
+	position: absolute;
+	width: 43px;
+	height: 43px;
+	left: 110px;
+	top: 0px;
+	overflow: visible;
+}
+#BlockFooterSNButtonsLinkedInBa {
+	fill: rgba(255,246,241,1);
+}
+.BlockFooterSNButtonsLinkedInBa {
+	overflow: visible;
+	position: absolute;
+	width: 43px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BlockFooterSNButtonsLinkedInIc {
+	left: 12px;
+	top: 3px;
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -8px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(254,0,0,1);
+}
+#BlockFooterSNButtonsFacebook {
+	position: absolute;
+	width: 43px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#BlockFooterSNButtonsFacebookBa {
+	fill: rgba(255,246,241,1);
+}
+.BlockFooterSNButtonsFacebookBa {
+	overflow: visible;
+	position: absolute;
+	width: 43px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BlockFooterSNButtonsFacebookIc {
+	left: 17px;
+	top: 6px;
+	position: absolute;
+	overflow: visible;
+	width: 10px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -8px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(254,0,0,1);
+}
+#BlockFooterSNButtonsInstagram {
+	position: absolute;
+	width: 43px;
+	height: 43px;
+	left: 165px;
+	top: 0px;
+	overflow: visible;
+}
+#BlockFooterSNButtonsInstagramB {
+	fill: rgba(255,246,241,1);
+}
+.BlockFooterSNButtonsInstagramB {
+	overflow: visible;
+	position: absolute;
+	width: 43px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BlockFooterSNButtonsInstagramC {
+	fill: rgba(255,0,0,1);
+}
+.BlockFooterSNButtonsInstagramC {
+	overflow: visible;
+	position: absolute;
+	width: 22.965px;
+	height: 22.968px;
+	left: 10.018px;
+	top: 10.016px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BlockFooterSNButtonsInstagramC_kg {
+	fill: rgba(255,0,0,1);
+}
+.BlockFooterSNButtonsInstagramC_kg {
+	overflow: visible;
+	position: absolute;
+	width: 11.479px;
+	height: 11.479px;
+	left: 15.763px;
+	top: 15.757px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BlockFooterSNButtonsInstagramC_kh {
+	fill: rgba(255,0,0,1);
+}
+.BlockFooterSNButtonsInstagramC_kh {
+	overflow: visible;
+	position: absolute;
+	width: 2.296px;
+	height: 2.296px;
+	left: 26.096px;
+	top: 14.608px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BlockFooterSNButtonsTwitter {
+	position: absolute;
+	width: 43px;
+	height: 43px;
+	left: 55px;
+	top: 0px;
+	overflow: visible;
+}
+#BlockFooterSNButtonsTwitterBac {
+	fill: rgba(255,246,241,1);
+}
+.BlockFooterSNButtonsTwitterBac {
+	overflow: visible;
+	position: absolute;
+	width: 43px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BlockFooterSNButtonsTwitterIco {
+	fill: rgba(255,0,0,1);
+}
+.BlockFooterSNButtonsTwitterIco {
+	overflow: visible;
+	position: absolute;
+	width: 18.568px;
+	height: 18.988px;
+	left: 12.216px;
+	top: 12.506px;
+	transform: matrix(1,0,0,1,0,0);
+}
+
+.MainMenuBackground{
+	display: none;
+}
+.ContactsBG{
+	display: none;
+}
+.navbar__items__wrap {
+	margin-top: 2px;
+}
+
+.navbar__nav {
+	display: flex;
+	align-items:flex-end;
+	opacity: 0;
+	background-color: rgba(225,27,34,1);
+}
+
+.MainMenuServices{
+	position: absolute;
+	top: 1040px;
+	left: 687px;
+	opacity: 1;
+}
+.MainMenuLogotype{
+	position: absolute;
+	left: 279px;
+	top: 1040px;
+	opacity: 1;
+}
+
+
+
+.contacts_fixed {	
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	opacity: 1;
+	animation: fixedMenu 0s forwards;
+}
+
+
+.logo_fixed {	
+	position: fixed;
+	top: 45px;
+	left: 279px;
+	width: 100%;
+	opacity: 1;
+	animation: fixedLogo 0s forwards;
+}
+.services_fixed {	
+	position: fixed;
+	top: 45px;
+	left: 687px;
+	width: 100%;
+	opacity: 1;
+	animation: fixedLogo 0s forwards;
+}
+
+.wrapper__logoserv{
+	width: 100%;
+	opacity: 0;
+	background-color: rgba(255,246,241,1);
+}
+.wrapper_fixed {	
+	position: fixed;
+	top: 26px;
+	left: 0;
+	width: 100%;
+	opacity: 1;
+	animation: fixedLogo 0s forwards;
+}
+
+@keyframes fixedMenu {
+	0% {height: 0;}
+	100% {height: 26px;}
+}
+
+@keyframes fixedLogo {
+	0% {height: 0;}
+	100% {height: 138px;}
 }
