@@ -7,7 +7,14 @@
 }
 :root {
 	--web-view-ids: Changing_Lives_Home_Health_Care;
+	--size-of-header: 158px;
 }
+
+html {
+	scroll-behavior: smooth;
+  }
+
+
 * {
 	margin: 0;
 	padding: 0;
