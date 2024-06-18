@@ -1,5 +1,4 @@
 
-
 window.onscroll = () => {
 	const contacts = document.querySelector('.navbar__nav');
 	const services = document.querySelector('.MainMenuServices');
@@ -26,9 +25,5 @@ window.onscroll = () => {
 		wrapper.classList.remove('wrapper_fixed');
 	}
 
-
-	console.log(y);
-
-
-
 }
+

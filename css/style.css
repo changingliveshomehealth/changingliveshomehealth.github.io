@@ -7,8 +7,11 @@
 }
 :root {
 	--web-view-ids: Changing_Lives_Home_Health_Care;
-	--size-of-header: 158px;
+	--size-of-header: 164px;
+	--header-margin: -164px;
 }
+
+
 
 html {
 	scroll-behavior: smooth;
@@ -3723,6 +3726,9 @@ html {
 	top: 5500px;
 	overflow: visible;
 }
+
+
+
 #BlockContactUsBackground {
 	fill: rgba(255,246,241,1);
 }
@@ -4418,4 +4424,12 @@ html {
 @keyframes fixedLogo {
 	0% {height: 0;}
 	100% {height: 138px;}
+}
+
+#BlockContactUsTop, #BlockSNTop, #BlockSTTop, #BlockPTTop, #BlockOTTop, #BlockMSWTop, #BlockHHATop, #BlockCareerTop, #BlockLocationTop, #BlockFooterTop{    
+	display: block;
+	content: "";
+	margin-top: var(--header-margin);
+	height: var(--size-of-header);
+	visibility: hidden;
 }
