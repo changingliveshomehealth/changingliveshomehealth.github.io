@@ -9,8 +9,44 @@
 	--web-view-ids: Changing_Lives_Home_Health_Care;
 	--size-of-header: 164px;
 	--header-margin: -164px;
+	--main-color: #FF1C24;
+	--main-color-light: #FFF6F1;
+
+	--text-color: #FF1C24;
+	--text-color-light: #FFF6F1;
+
+	--button-color: #FF1C24;
+	--button-color-hover: #E0141B;
+	--button-color-active: #B61016;
+
+	--button-color-light: #FFF6F1;
+	--button-color-light-hover: #f1f1f1;
+	--button-color-light-active: #fff;
 }
 
+.button_background{ 
+	fill: var(--button-color);
+}
+
+.button_background:hover{
+	fill: var(--button-color-hover);
+}
+
+.button_background:active{
+	fill: var(--button-color-active);
+}
+
+.button_light{
+	fill: var(--button-color-light);
+}
+
+.button_light:hover{
+	fill: var(--button-color-light-hover);
+}
+
+.button_light:active{
+	fill: var(--button-color-light-active);
+}
 
 
 html {
@@ -84,15 +120,7 @@ html {
 	left: 0.034px;
 	top: 2px;
 }
-#BannerServicesSNArrowDown {
-	position: absolute;
-	width: 20.314px;
-	height: 12.635px;
-	left: 53.312px;
-	top: 197.71px;
-	display: none;
-	overflow: visible;
-}
+
 #BannerServicesSNArrowDownC2 {
 	fill: rgba(255,246,241,1);
 }
@@ -996,9 +1024,9 @@ html {
 	top: 207.704px;
 	overflow: visible;
 }
+
 #BannerMessageButtonBackground {
 	opacity: 0.9;
-	fill: rgba(225,27,34,1);
 }
 .BannerMessageButtonBackground {
 	position: absolute;
@@ -2139,19 +2167,8 @@ html {
 }
 #MainMenuServicesSNText {
 	left: 22px;
-	top: 67.07px;
-	position: absolute;
-	overflow: visible;
 	width: 85px;
-	white-space: nowrap;
-	line-height: 16px;
-	margin-top: -2px;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 12px;
-	color: rgba(225,27,34,1);
+
 }
 #MainMenuServicesSNPicture {
 	position: absolute;
@@ -2278,19 +2295,8 @@ html {
 }
 #MainMenuServicesPTText {
 	left: 19px;
-	top: 67.07px;
-	position: absolute;
-	overflow: visible;
 	width: 91px;
-	white-space: nowrap;
-	line-height: 16px;
-	margin-top: -2px;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 12px;
-	color: rgba(225,27,34,1);
+
 }
 #MainMenuServicesPTPicture {
 	position: absolute;
@@ -2357,19 +2363,8 @@ html {
 }
 #MainMenuServicesSTText {
 	left: 20px;
-	top: 67.07px;
-	position: absolute;
-	overflow: visible;
 	width: 89px;
-	white-space: nowrap;
-	line-height: 16px;
-	margin-top: -2px;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 12px;
-	color: rgba(225,27,34,1);
+
 }
 #MainMenuServicesSTPicture {
 	position: absolute;
@@ -2496,19 +2491,7 @@ html {
 }
 #MainMenuServicesOTPictureText {
 	left: 3px;
-	top: 67.07px;
-	position: absolute;
-	overflow: visible;
 	width: 123px;
-	white-space: nowrap;
-	line-height: 16px;
-	margin-top: -2px;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 12px;
-	color: rgba(225,27,34,1);
 }
 #MainMenuServicesOTPicture {
 	position: absolute;
@@ -2647,19 +2630,7 @@ html {
 }
 #MainMenuServicesMSWText {
 	left: 26px;
-	top: 67.07px;
-	position: absolute;
-	overflow: visible;
 	width: 77px;
-	white-space: nowrap;
-	line-height: 16px;
-	margin-top: -2px;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 12px;
-	color: rgba(225,27,34,1);
 }
 #MainMenuServicesMSWPicture {
 	position: absolute;
@@ -2738,19 +2709,7 @@ html {
 }
 #MainMenuServicesHHAText {
 	left: 33px;
-	top: 67.07px;
-	position: absolute;
-	overflow: visible;
 	width: 63px;
-	white-space: nowrap;
-	line-height: 16px;
-	margin-top: -2px;
-	text-align: center;
-	font-family: Frutiger LT Pro;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 12px;
-	color: rgba(225,27,34,1);
 }
 #MainMenuServicesHHAPicture {
 	position: absolute;
@@ -3059,7 +3018,6 @@ html {
 	overflow: visible;
 }
 #BlockSNButtonBackground {
-	fill: rgba(225,27,34,1);
 }
 .BlockSNButtonBackground {
 	position: absolute;
@@ -3150,7 +3108,7 @@ html {
 	overflow: visible;
 }
 #BlockPTButtonBackground {
-	fill: rgba(255,246,241,1);
+
 }
 .BlockPTButtonBackground {
 	position: absolute;
@@ -3240,7 +3198,6 @@ html {
 	overflow: visible;
 }
 #BlockSTButtonBackground {
-	fill: rgba(225,27,34,1);
 }
 .BlockSTButtonBackground {
 	position: absolute;
@@ -3331,7 +3288,6 @@ html {
 	overflow: visible;
 }
 #BlockOTButtonBackground {
-	fill: rgba(255,246,241,1);
 }
 .BlockOTButtonBackground {
 	position: absolute;
@@ -3422,7 +3378,6 @@ html {
 	overflow: visible;
 }
 #BlockMSWButtonBackground {
-	fill: rgba(225,27,34,1);
 }
 .BlockMSWButtonBackground {
 	position: absolute;
@@ -3512,7 +3467,6 @@ html {
 	overflow: visible;
 }
 #BlockHHAButtonBackground {
-	fill: rgba(255,246,241,1);
 }
 .BlockHHAButtonBackground {
 	position: absolute;
@@ -3603,7 +3557,6 @@ html {
 	overflow: visible;
 }
 #BlockCareerButtonBackground {
-	fill: rgba(225,27,34,1);
 }
 .BlockCareerButtonBackground {
 	position: absolute;
@@ -3694,7 +3647,6 @@ html {
 	overflow: visible;
 }
 #_7_i {
-	fill: rgba(255,246,241,1);
 }
 ._7_i {
 	position: absolute;
@@ -3757,7 +3709,6 @@ html {
 	overflow: visible;
 }
 #BlockContactUsFormButtonBackgr {
-	fill: rgba(225,27,34,1);
 	stroke: rgba(255,246,241,1);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
@@ -4210,7 +4161,7 @@ html {
 	width: 21px;
 	white-space: nowrap;
 	line-height: 40px;
-	margin-top: -8px;
+	margin-top: -4px;
 	text-align: left;
 	font-family: Segoe UI;
 	font-style: normal;
@@ -4246,7 +4197,7 @@ html {
 	width: 10px;
 	white-space: nowrap;
 	line-height: 40px;
-	margin-top: -8px;
+	margin-top: -4px;
 	text-align: left;
 	font-family: Segoe UI;
 	font-style: normal;
@@ -4382,6 +4333,7 @@ html {
 	width: 100%;
 	opacity: 1;
 	animation: fixedMenu 0s forwards;
+	z-index: 10;
 }
 
 
@@ -4406,7 +4358,10 @@ html {
 	width: 100%;
 	opacity: 0;
 	background-color: rgba(255,246,241,1);
+	z-index: 10;
 }
+
+
 .wrapper_fixed {	
 	position: fixed;
 	top: 26px;
@@ -4426,10 +4381,286 @@ html {
 	100% {height: 138px;}
 }
 
-#BlockContactUsTop, #BlockSNTop, #BlockSTTop, #BlockPTTop, #BlockOTTop, #BlockMSWTop, #BlockHHATop, #BlockCareerTop, #BlockLocationTop, #BlockFooterTop{    
+#BlockSNTop, 
+#BlockSTTop, 
+#BlockPTTop, 
+#BlockOTTop, 
+#BlockMSWTop, 
+#BlockHHATop, 
+#BlockCareerTop, 
+#BlockLocationTop, 
+#BlockContactUsTop, 
+#BlockFooterTop{    
 	display: block;
 	content: "";
 	margin-top: var(--header-margin);
 	height: var(--size-of-header);
 	visibility: hidden;
+}
+
+
+
+#BannerServicesSNArrowDown {
+	position: absolute;
+	width: 20.314px;
+	height: 12.635px;
+	left: 53.312px;
+	top: 177.71px;
+	display: none;
+	overflow: visible;
+}
+
+#BannerServicesSN:hover a #BannerServicesSNArrowDown,
+#BannerServicesPT:hover a #BannerServicesPTArrowDown,
+#BannerServicesST:hover a #BannerServicesSTArrowDown,
+#BannerServicesOT:hover a #BannerServicesOTArrowDown,
+#BannerServicesMSV:hover a #BannerServicesMSVArrowDown,
+#BannerServicesHHA:hover a #BannerServicesHHAArrowDown
+{
+	display: block;
+	animation-duration: 0.5s;
+	animation-name: arrowDown;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+#BannerServicesSN:hover a #BannerServicesSNBackground,
+#BannerServicesPT:hover a #BannerServicesPTBackground,
+#BannerServicesST:hover a #BannerServicesSTBackground,
+#BannerServicesOT:hover a #BannerServicesOTBackground,
+#BannerServicesMSV:hover a #BannerServicesMSVBackground,
+#BannerServicesHHA:hover a #BannerServicesHHABackground
+{
+	animation-duration: 0.5s;
+	animation-name: rolloutService;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
+}
+
+
+
+@keyframes rolloutService {
+	from {
+		height: 202.07px;
+	}
+
+	to {
+		height: 222.07px;
+	}
+}
+
+@keyframes arrowDown {
+	from {		
+		top: 177.71px;
+	}
+
+	to {
+		top: 197.71px;
+	}
+}
+
+
+.popup {
+	position: absolute;
+	width: 1903px;
+	height: 600px;
+	left: 0px;
+	overflow: visible;
+	background-color: #0000009d;
+	opacity: 1;
+	display: none;
+	z-index: 9;
+}
+
+.popupText {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: var(--text-color-light);
+}
+
+#contactUsFirstName {
+	overflow: visible;
+	position: absolute;
+	width: 399px;
+	height: 40px;
+	top: 97.5px;
+	background-color: transparent;
+	border-bottom: 1px solid var(--main-color);
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color:  var(--main-color);
+}
+#contactUsFirstName:focus{
+	outline: transparent;
+}
+
+#contactUsLastName {
+	overflow: visible;
+	position: absolute;
+	width: 393px;
+	height: 40px;
+	left: 448.5px;
+	top: 97.5px;
+	background-color: transparent;
+	border-bottom: 1px solid var(--main-color);
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color:  var(--main-color);
+}
+#contactUsLastName:focus{
+	outline: transparent;
+}
+
+#contactUsEmail {
+	overflow: visible;
+	position: absolute;
+	width: 393px;
+	height: 40px;
+	top: 196.5px;
+	background-color: transparent;
+	border-bottom: 1px solid var(--main-color);
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: var(--main-color);
+}
+#contactUsEmail:focus{
+	outline: transparent;
+}
+
+#contactUsPhone {
+	overflow: visible;
+	position: absolute;
+	width: 393px;
+	height: 40px;
+	left: 448.5px;
+	top: 196.5px;
+	background-color: transparent;
+	border-bottom: 1px solid var(--main-color);
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: var(--main-color);
+}
+#contactUsPhone:focus{
+	outline: transparent;
+}
+
+#contactUsCanWeHelp {
+	overflow: visible;
+	position: absolute;
+	width: 841px;
+	height: 80px;
+	top: 305px;
+	background-color: transparent;
+	border-bottom: 1px solid var(--main-color);
+	white-space: nowrap;
+	text-align: left;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: var(--main-color);
+}
+#contactUsCanWeHelp:focus{
+	outline: transparent;
+}
+
+.MainMenuServiceBackground {
+	fill: var(--main-color);
+	stroke: var(--main-color-light);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;	
+}
+.MainMenuService:hover a svg .MainMenuServiceBackground {
+	fill: var(--main-color-light);
+	stroke: var(--main-color);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;	
+}
+
+.MMSPBackgroundWrapper {
+	overflow: visible;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 44px;
+	top: 17.262px;
+	transform: matrix(1,0,0,1,0,0);
+}
+
+.MainMenuServicePictureBackground {
+	fill: var(--main-color-light);
+	stroke: var(--main-color-light);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+	overflow: visible;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 44px;
+	top: 17.262px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.MainMenuService:hover a .MMSPBackgroundWrapper .MainMenuServicePictureBackground {
+	fill: var(--main-color);
+	stroke: var(--main-color-light);
+}
+
+.MainMenuServicesText{
+	color: var(--main-color-light);
+	top: 67.07px;
+	position: absolute;
+	overflow: visible;
+	white-space: nowrap;
+	line-height: 16px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: Frutiger LT Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.MainMenuService:hover a .MainMenuServicesText{
+	color: var(--main-color);
+}
+
+.contour{
+	fill: var(--main-color);
+}
+
+.MainMenuService:hover a .MainMenuServicesPicture .contour{
+	fill: var(--main-color-light);
 }

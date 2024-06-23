@@ -24,6 +24,16 @@ window.onscroll = () => {
 		logo.classList.remove('logo_fixed');	
 		wrapper.classList.remove('wrapper_fixed');
 	}
-
 }
+
+function openPopup() {
+	var popup = document.querySelector('.popup');
+	popup.style.display = 'block';
+}
+
+function closePopup() {
+	var popup = document.querySelector('.popup');
+	popup.style.display = 'none';
+}
+
 
