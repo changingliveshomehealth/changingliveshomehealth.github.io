@@ -1136,9 +1136,13 @@ html {
 	stroke-linecap: butt;
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
-	height: 54px;
+	height: 50px;
 }
 
+.locale-change{
+	text-decoration: none;
+	color: var(--button-color-light)
+}
 
 .BannerLanguageFrame {
 	overflow: visible;
@@ -1160,7 +1164,7 @@ html {
 	top: 5.971px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#BannerLanguageText {
+#BannerLanguageFirstText {
 	
 	left: 25.545px;
 	top: 6.38px;
@@ -1177,10 +1181,10 @@ html {
 	z-index: 2;
 }
 
-#BannerLanguageTextDrop {
+#BannerLanguageSecondText {
 	display: block;
 	left: 28px;
-	top: 30px;
+	top: 29px;
 	position: absolute;
 	overflow: visible;
 	width: 59px;
@@ -1195,27 +1199,31 @@ html {
 	z-index: 2;
 }
 
-#BannerLanguageUsPic {
+
+#BannerLanguageFirstPic {
 	display: block;
 	opacity: 0;
 	margin-top: -30px;
 	margin-left: 4px;
 	height: 24px;
 	width: 24px;
+	border-radius: 10px 0px 0px 0px;
 	z-index: 2;
 }
 
-#BannerLanguageSpainPic {
+#BannerLanguageSecondPic {
 	display: block;
 	opacity: 0;
+	margin-top: -2px;
 	margin-left: 4px;
 	height: 24px;
 	width: 24px;
+	border-radius: 0px 0px 0px 10px;
 	z-index: 2;
 }
-#BannerContactsLanguage:hover #BannerLanguageTextDrop,
-#BannerContactsLanguage:hover #BannerLanguageUsPic,
-#BannerContactsLanguage:hover #BannerLanguageSpainPic
+#BannerContactsLanguage:hover #BannerLanguageSecondText,
+#BannerContactsLanguage:hover #BannerLanguageFirstPic,
+#BannerContactsLanguage:hover #BannerLanguageSecondPic
 {
 	opacity: 1;
 }
@@ -4785,3 +4793,34 @@ html {
 .MainMenuService:hover a .MainMenuServicesPicture .contour{
 	fill: var(--main-color-light);
 }
+
+.ButtonContactUs a div{
+	left: 38.507px;
+	top: 13.905px;
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: var(--white-color);
+}
+
+.ButtonContactUsLight a div{
+	left: 38.507px;
+	top: 13.905px;
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: var(--main-color);
+}
+
