@@ -459,8 +459,24 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesSTText {
-	left: 23.45px;
+	left: 35px;
 	top: 141.956px;
+	position: absolute;
+	overflow: visible;
+	width: 61px;
+	white-space: nowrap;
+	line-height: 19px;
+	margin-top: -1.5px;
+	text-align: center;
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: var(--white-color);
+}
+#BannerServicesSTText2 {
+	left: 20px;
+	top: 160px;
 	position: absolute;
 	overflow: visible;
 	width: 61px;
@@ -628,7 +644,7 @@ html {
 }
 #BannerServicesOTText {
 	left: 14px;
-	top: 141px;
+	top: 142px;
 	position: absolute;
 	overflow: visible;
 	width: 99px;
@@ -2271,7 +2287,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesSNText {
-	left: 22px;
+	left: 6px;
 	width: 85px;
 
 }
@@ -2467,7 +2483,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesSTText {
-	left: 20px;
+	left: 8px;
 	width: 89px;
 
 }
@@ -2813,7 +2829,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesHHAText {
-	left: 33px;
+	left: 14px;
 	width: 63px;
 }
 #MainMenuServicesHHAPicture {
@@ -2958,12 +2974,14 @@ html {
 	stroke-linecap: butt;
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
-	height: 44px;
+	height: 50px;
 }
+
 
 #MMLanguageUsPic {
 	display: block;
 	opacity: 0;
+	border-radius: 10px 0px 0px 0px;
 	margin-top: -26px;
 	margin-left: 4px;
 	height: 24px;
@@ -2974,7 +2992,8 @@ html {
 #MMLanguageSpainPic {
 	display: block;
 	opacity: 0;
-	margin-top: -6px;
+	border-radius: 0px 0px 0px 10px;
+	margin-top: -2px;
 	margin-left: 4px;
 	height: 24px;
 	width: 24px;
@@ -3022,7 +3041,7 @@ html {
 #MainMenuHeaderLanguageTextDrop {
 	opacity: 0;
 	left: 26px;
-	top: 24px;
+	top: 29px;
 	position: absolute;
 	overflow: visible;
 	width: 59px;
@@ -3097,7 +3116,7 @@ html {
 	color: var(--main-color-light);
 }
 #MainMenuHeaderPhone {
-	left: 955.065px;
+	left: 940px;
 	top: 4.209px;
 	position: absolute;
 	overflow: visible;
@@ -3758,7 +3777,7 @@ html {
 	top: 0px;
 }
 #BlockLocationMainText {
-	left: 740.5px;
+	left: 680px;
 	top: 82.834px;
 	position: absolute;
 	overflow: visible;
@@ -3774,7 +3793,7 @@ html {
 	color: var(--main-color-light);
 }
 #BlockLocationCaption {
-	left: 882.5px;
+	left: 840px;
 	top: 42.196px;
 	position: absolute;
 	overflow: visible;
@@ -4125,11 +4144,11 @@ html {
 	overflow: visible;
 }
 #BlockFooterCopyrightMainText {
-	left: 732.5px;
+	left: 550px;
 	top: 49.5px;
 	position: absolute;
 	overflow: visible;
-	width: 616px;
+	width: 800px;
 	white-space: nowrap;
 	text-align: right;
 	font-family: var(--main-font);

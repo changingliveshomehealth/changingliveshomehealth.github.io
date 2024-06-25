@@ -603,7 +603,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesOTText {
-	left: 16.9px;
+	left: 14px;
 	top: 142.045px;
 	position: absolute;
 	overflow: visible;
@@ -2934,12 +2934,13 @@ html {
 	stroke-linecap: butt;
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
-	height: 44px;
+	height: 48px;
 }
 
 #MMLanguageUsPic {
 	display: block;
 	opacity: 0;
+	border-radius: 10px 0px 0px 0px;
 	margin-top: -26px;
 	margin-left: 4px;
 	height: 24px;
@@ -2950,7 +2951,8 @@ html {
 #MMLanguageSpainPic {
 	display: block;
 	opacity: 0;
-	margin-top: -6px;
+	border-radius: 0px 0px 0px 10px;
+	margin-top: -2px;
 	margin-left: 4px;
 	height: 24px;
 	width: 24px;
@@ -2998,7 +3000,7 @@ html {
 #MainMenuHeaderLanguageTextDrop {
 	opacity: 0;
 	left: 26px;
-	top: 24px;
+	top: 29px;
 	position: absolute;
 	overflow: visible;
 	width: 59px;
