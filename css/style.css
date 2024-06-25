@@ -9,19 +9,25 @@
 	--web-view-ids: Changing_Lives_Home_Health_Care;
 	--size-of-header: 164px;
 	--header-margin: -164px;
+
+	--main-font: Frutiger LT Pro;
+
 	--main-color: #FF1C24;
 	--main-color-light: #FFF6F1;
 
 	--text-color: #FF1C24;
 	--text-color-light: #FFF6F1;
+	--text-color-dark: #4A4A4A;
 
 	--button-color: #FF1C24;
 	--button-color-hover: #E0141B;
 	--button-color-active: #B61016;
 
 	--button-color-light: #FFF6F1;
-	--button-color-light-hover: #f1f1f1;
-	--button-color-light-active: #fff;
+	--button-color-light-hover: #F1F1F1;
+	--button-color-light-active: #FFF;
+
+	--white-color: #FFF;
 }
 
 .button_background{ 
@@ -64,7 +70,7 @@ html {
 	position: absolute;
 	width: 1903px;
 	height: 6694px;
-	background-color: rgba(255,246,241,1);
+	background-color: var(--main-color-light);
 	overflow: hidden;
 	--web-view-name: Changing Lives Home Health Care;
 	--web-view-id: Changing_Lives_Home_Health_Care;
@@ -110,7 +116,7 @@ html {
 }
 #BannerServicesSNBackground {
 	opacity: 0.9;
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerServicesSNBackground {
 	position: absolute;
@@ -122,7 +128,7 @@ html {
 }
 
 #BannerServicesSNArrowDownC2 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerServicesSNArrowDownC2 {
 	display: none;
@@ -135,7 +141,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesSNArrowDownC1 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerServicesSNArrowDownC1 {
 	overflow: visible;
@@ -154,14 +160,14 @@ html {
 	width: 59px;
 	white-space: nowrap;
 	text-align: center;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 }
 #BannerServicesSNTogotypeBackgr {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerServicesSNTogotypeBackgr {
 	overflow: visible;
@@ -189,7 +195,7 @@ html {
 	overflow: visible;
 }
 #_23 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 ._23 {
 	overflow: visible;
@@ -209,7 +215,7 @@ html {
 	overflow: visible;
 }
 #_24 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 ._24 {
 	overflow: visible;
@@ -221,7 +227,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #_25 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 ._25 {
 	overflow: visible;
@@ -233,7 +239,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #_26 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 ._26 {
 	overflow: visible;
@@ -245,7 +251,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #_27 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 ._27 {
 	overflow: visible;
@@ -257,7 +263,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #_28 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 ._28 {
 	overflow: visible;
@@ -278,8 +284,8 @@ html {
 }
 #BannerServicesPTBackground {
 	opacity: 0.9;
-	fill: rgba(255,246,241,1);
-	stroke: rgba(225,27,34,1);
+	fill: var(--main-color-light);
+	stroke: var(--main-color);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -304,7 +310,7 @@ html {
 	overflow: visible;
 }
 #BannerServicesPTArrowDownC2 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerServicesPTArrowDownC2 {
 	display: none;
@@ -317,7 +323,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesPTArrowDownC1 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerServicesPTArrowDownC1 {
 	overflow: visible;
@@ -336,14 +342,14 @@ html {
 	width: 63px;
 	white-space: nowrap;
 	text-align: center;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
-	color: rgba(225,27,34,1);
+	color: var(--main-color);
 }
 #BannerServicesPTLogotypeBackgr {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerServicesPTLogotypeBackgr {
 	overflow: visible;
@@ -363,7 +369,7 @@ html {
 	overflow: visible;
 }
 #BannerServicesPTLogotypeC1 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerServicesPTLogotypeC1 {
 	overflow: visible;
@@ -384,7 +390,7 @@ html {
 }
 #BannerServicesSTBackground {
 	opacity: 0.9;
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerServicesSTBackground {
 	position: absolute;
@@ -404,7 +410,7 @@ html {
 	overflow: visible;
 }
 #BannerServicesSTArrowDownC2 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerServicesSTArrowDownC2 {
 	display: none;
@@ -417,7 +423,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesSTArrowDownC1 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerServicesSTArrowDownC1 {
 	overflow: visible;
@@ -438,14 +444,14 @@ html {
 	line-height: 19px;
 	margin-top: -1.5px;
 	text-align: center;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: rgba(255,255,255,1);
+	color: var(--white-color);
 }
 #BannerServicesSTLogotypeBackgr {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerServicesSTLogotypeBackgr {
 	overflow: visible;
@@ -465,7 +471,7 @@ html {
 	overflow: visible;
 }
 #BannerServicesSTLogotypeC6 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerServicesSTLogotypeC6 {
 	overflow: visible;
@@ -477,7 +483,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesSTLogotypeC5 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerServicesSTLogotypeC5 {
 	overflow: visible;
@@ -489,7 +495,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesSTLogotypeC4 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerServicesSTLogotypeC4 {
 	overflow: visible;
@@ -501,7 +507,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesSTLogotypeC3 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerServicesSTLogotypeC3 {
 	overflow: visible;
@@ -513,7 +519,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesSTLogotypeC2 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerServicesSTLogotypeC2 {
 	overflow: visible;
@@ -525,7 +531,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesSTLogotypeC1 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerServicesSTLogotypeC1 {
 	overflow: visible;
@@ -546,8 +552,8 @@ html {
 }
 #BannerServicesOTBackground {
 	opacity: 0.9;
-	fill: rgba(255,246,241,1);
-	stroke: rgba(225,27,34,1);
+	fill: var(--main-color-light);
+	stroke: var(--main-color);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -572,7 +578,7 @@ html {
 	overflow: visible;
 }
 #BannerServicesOTArrowDownC2 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerServicesOTArrowDownC2 {
 	display: none;
@@ -585,7 +591,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesOTArrowDownC1 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerServicesOTArrowDownC1 {
 	overflow: visible;
@@ -606,14 +612,14 @@ html {
 	line-height: 19px;
 	margin-top: -1.5px;
 	text-align: center;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
-	color: rgba(225,27,34,1);
+	color: var(--main-color);
 }
 #BannerServicesOTLogotypeBackgr {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerServicesOTLogotypeBackgr {
 	position: absolute;
@@ -632,7 +638,7 @@ html {
 	overflow: visible;
 }
 #BannerServicesOTLogotypeC7 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerServicesOTLogotypeC7 {
 	overflow: visible;
@@ -644,7 +650,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesOTLogotypeC6 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerServicesOTLogotypeC6 {
 	overflow: visible;
@@ -656,7 +662,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesOTLogotypeC5 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerServicesOTLogotypeC5 {
 	overflow: visible;
@@ -668,7 +674,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesOTLogotypeC4 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerServicesOTLogotypeC4 {
 	overflow: visible;
@@ -680,7 +686,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesOTLogotypeC3 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerServicesOTLogotypeC3 {
 	overflow: visible;
@@ -692,7 +698,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesOTLogotypeC2 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerServicesOTLogotypeC2 {
 	overflow: visible;
@@ -704,7 +710,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesOTLogotypeC1 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerServicesOTLogotypeC1 {
 	overflow: visible;
@@ -725,7 +731,7 @@ html {
 }
 #BannerServicesMSVBackground {
 	opacity: 0.9;
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerServicesMSVBackground {
 	position: absolute;
@@ -745,7 +751,7 @@ html {
 	overflow: visible;
 }
 #BannerServicesMSVArrowDownC2 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerServicesMSVArrowDownC2 {
 	display: none;
@@ -758,7 +764,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesMSVArrowDownC1 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerServicesMSVArrowDownC1 {
 	overflow: visible;
@@ -779,14 +785,14 @@ html {
 	line-height: 19px;
 	margin-top: -1.5px;
 	text-align: center;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: rgba(255,255,255,1);
+	color: var(--white-color);
 }
 #BannerServicesMSVLogotypeBackg {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerServicesMSVLogotypeBackg {
 	position: absolute;
@@ -805,7 +811,7 @@ html {
 	overflow: visible;
 }
 #BannerServicesMSVLogotypeC2 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerServicesMSVLogotypeC2 {
 	overflow: visible;
@@ -817,7 +823,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesMSVLogotypeC1 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerServicesMSVLogotypeC1 {
 	overflow: visible;
@@ -838,8 +844,8 @@ html {
 }
 #BannerServicesHHABackground {
 	opacity: 0.9;
-	fill: rgba(255,246,241,1);
-	stroke: rgba(225,27,34,1);
+	fill: var(--main-color-light);
+	stroke: var(--main-color);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -864,7 +870,7 @@ html {
 	overflow: visible;
 }
 #BannerServicesHHAArrowDownC2 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerServicesHHAArrowDownC2 {
 	display: none;
@@ -877,7 +883,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesHHAArrowDownC1 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerServicesHHAArrowDownC1 {
 	overflow: visible;
@@ -898,14 +904,14 @@ html {
 	line-height: 19px;
 	margin-top: -1.5px;
 	text-align: center;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
-	color: rgba(225,27,34,1);
+	color: var(--main-color);
 }
 #BannerServicesHHALogotypeBackg {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerServicesHHALogotypeBackg {
 	position: absolute;
@@ -924,7 +930,7 @@ html {
 	overflow: visible;
 }
 #BannerServicesHHALogotypeC6 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerServicesHHALogotypeC6 {
 	overflow: visible;
@@ -936,7 +942,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesHHALogotypeC5 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerServicesHHALogotypeC5 {
 	overflow: visible;
@@ -948,7 +954,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesHHALogotypeC4 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerServicesHHALogotypeC4 {
 	overflow: visible;
@@ -960,7 +966,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesHHALogotypeC3 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerServicesHHALogotypeC3 {
 	overflow: visible;
@@ -972,7 +978,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesHHALogotypeC2 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerServicesHHALogotypeC2 {
 	overflow: visible;
@@ -984,7 +990,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerServicesHHALogotypeC1 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerServicesHHALogotypeC1 {
 	overflow: visible;
@@ -1005,7 +1011,7 @@ html {
 }
 #BannerMessageBackground {
 	opacity: 0.8;
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerMessageBackground {
 	position: absolute;
@@ -1044,11 +1050,11 @@ html {
 	width: 164px;
 	white-space: nowrap;
 	text-align: center;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 17px;
-	color: rgba(255,255,255,1);
+	color: var(--white-color);
 }
 #BannerMessageCaption {
 	left: 0px;
@@ -1058,11 +1064,11 @@ html {
 	width: 802px;
 	white-space: nowrap;
 	text-align: center;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 55px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 }
 #BannerMessageMainText {
 	left: 0px;
@@ -1074,11 +1080,11 @@ html {
 	line-height: 30px;
 	margin-top: -7px;
 	text-align: center;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 }
 #BannerContacts {
 	opacity: 0.9;
@@ -1092,7 +1098,7 @@ html {
 }
 #BannerContactsBackground {
 	opacity: 0.9;
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerContactsBackground {
 	position: absolute;
@@ -1113,7 +1119,7 @@ html {
 }
 #BannerLanguageFrame {
 	fill:transparent;
-	stroke: rgba(255,246,241,1);
+	stroke: var(--main-color-light);
 	stroke-width: 2px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -1124,7 +1130,7 @@ html {
 
 #BannerContactsLanguage:hover .BannerLanguageFrame #BannerLanguageFrame {
 	fill: var(--main-color);
-	stroke: rgba(255,246,241,1);
+	stroke: var(--main-color-light);
 	stroke-width: 2px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -1143,7 +1149,7 @@ html {
 	z-index: 1;
 }
 #BannerLanguageWorldPicture {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerLanguageWorldPicture {
 	overflow: visible;
@@ -1163,11 +1169,11 @@ html {
 	width: 59px;
 	white-space: nowrap;
 	text-align: center;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 	z-index: 2;
 }
 
@@ -1180,11 +1186,11 @@ html {
 	width: 59px;
 	white-space: nowrap;
 	text-align: center;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 	opacity: 0;
 	z-index: 2;
 }
@@ -1220,7 +1226,7 @@ html {
 
 
 #BannerLanguagePictureArrowDown {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerLanguagePictureArrowDown {
 	overflow: visible;
@@ -1248,14 +1254,14 @@ html {
 	width: 121px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 }
 #BannerContactsLocationPicture {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BannerContactsLocationPicture {
 	overflow: visible;
@@ -1274,11 +1280,11 @@ html {
 	width: 126px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 }
 #BannerContactsPhone {
 	left: 268.066px;
@@ -1288,11 +1294,11 @@ html {
 	width: 146px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 }
 #BannerContactsEmail {
 	left: 11px;
@@ -1302,11 +1308,11 @@ html {
 	width: 186px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 }
 #BannerLogotype {
 	position: absolute;
@@ -1324,11 +1330,11 @@ html {
 	width: 240px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 28px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 }
 #BannerLogotypePicture {
 	opacity: 0.9;
@@ -1340,7 +1346,7 @@ html {
 	overflow: visible;
 }
 #BannerLogotypePictureC33 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerLogotypePictureC33 {
 	overflow: visible;
@@ -1352,7 +1358,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC32 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC32 {
 	overflow: visible;
@@ -1364,7 +1370,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC31 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC31 {
 	overflow: visible;
@@ -1376,7 +1382,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC30 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC30 {
 	overflow: visible;
@@ -1388,7 +1394,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC29 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC29 {
 	overflow: visible;
@@ -1400,7 +1406,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC28 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC28 {
 	overflow: visible;
@@ -1412,7 +1418,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC27 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC27 {
 	overflow: visible;
@@ -1424,7 +1430,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC26 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC26 {
 	overflow: visible;
@@ -1436,7 +1442,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC25 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC25 {
 	overflow: visible;
@@ -1448,7 +1454,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC24 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC24 {
 	overflow: visible;
@@ -1460,7 +1466,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC23 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC23 {
 	overflow: visible;
@@ -1472,7 +1478,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC22 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC22 {
 	overflow: visible;
@@ -1484,7 +1490,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC21 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC21 {
 	overflow: visible;
@@ -1496,7 +1502,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC20 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC20 {
 	overflow: visible;
@@ -1508,7 +1514,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC19 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC19 {
 	overflow: visible;
@@ -1520,7 +1526,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC18 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC18 {
 	overflow: visible;
@@ -1532,7 +1538,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC17 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC17 {
 	overflow: visible;
@@ -1544,7 +1550,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC16 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC16 {
 	overflow: visible;
@@ -1556,7 +1562,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC15 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC15 {
 	overflow: visible;
@@ -1568,7 +1574,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC14 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC14 {
 	overflow: visible;
@@ -1580,7 +1586,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC13 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC13 {
 	overflow: visible;
@@ -1592,7 +1598,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC12 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC12 {
 	overflow: visible;
@@ -1604,7 +1610,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC11 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC11 {
 	overflow: visible;
@@ -1616,7 +1622,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC10 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC10 {
 	overflow: visible;
@@ -1628,7 +1634,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC9 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC9 {
 	overflow: visible;
@@ -1640,7 +1646,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC8 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC8 {
 	overflow: visible;
@@ -1652,7 +1658,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC7 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC7 {
 	overflow: visible;
@@ -1664,7 +1670,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC6 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerLogotypePictureC6 {
 	overflow: visible;
@@ -1676,7 +1682,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC5 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerLogotypePictureC5 {
 	overflow: visible;
@@ -1688,7 +1694,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC4 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerLogotypePictureC4 {
 	overflow: visible;
@@ -1700,7 +1706,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC3 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerLogotypePictureC3 {
 	overflow: visible;
@@ -1712,7 +1718,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC2 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .BannerLogotypePictureC2 {
 	overflow: visible;
@@ -1724,7 +1730,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BannerLogotypePictureC1 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BannerLogotypePictureC1 {
 	overflow: visible;
@@ -1744,7 +1750,7 @@ html {
 	overflow: visible;
 }
 #MainMenuBackground {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuBackground {
 	position: absolute;
@@ -1770,11 +1776,11 @@ html {
 	width: 240px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 28px;
-	color: rgba(225,27,34,1);
+	color: var(--main-color);
 }
 #MainMenuLogotypePicture {
 	opacity: 0.9;
@@ -1786,7 +1792,7 @@ html {
 	overflow: visible;
 }
 #MainMenuLogotypePictureC34 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .MainMenuLogotypePictureC34 {
 	overflow: visible;
@@ -1798,7 +1804,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC33 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC33 {
 	overflow: visible;
@@ -1810,7 +1816,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC32 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC32 {
 	overflow: visible;
@@ -1822,7 +1828,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC31 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC31 {
 	overflow: visible;
@@ -1834,7 +1840,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC30 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC30 {
 	overflow: visible;
@@ -1846,7 +1852,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC29 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC29 {
 	overflow: visible;
@@ -1858,7 +1864,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC28 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC28 {
 	overflow: visible;
@@ -1870,7 +1876,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC27 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC27 {
 	overflow: visible;
@@ -1882,7 +1888,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC26 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC26 {
 	overflow: visible;
@@ -1894,7 +1900,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC25 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC25 {
 	overflow: visible;
@@ -1906,7 +1912,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC24 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC24 {
 	overflow: visible;
@@ -1918,7 +1924,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC23 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC23 {
 	overflow: visible;
@@ -1930,7 +1936,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC22 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC22 {
 	overflow: visible;
@@ -1942,7 +1948,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC21 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC21 {
 	overflow: visible;
@@ -1954,7 +1960,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC20 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC20 {
 	overflow: visible;
@@ -1966,7 +1972,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC19 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC19 {
 	overflow: visible;
@@ -1978,7 +1984,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC18 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC18 {
 	overflow: visible;
@@ -1990,7 +1996,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC17 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC17 {
 	overflow: visible;
@@ -2002,7 +2008,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC16 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC16 {
 	overflow: visible;
@@ -2014,7 +2020,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC15 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC15 {
 	overflow: visible;
@@ -2026,7 +2032,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC14 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC14 {
 	overflow: visible;
@@ -2038,7 +2044,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC13 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC13 {
 	overflow: visible;
@@ -2050,7 +2056,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC12 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC12 {
 	overflow: visible;
@@ -2062,7 +2068,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC11 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC11 {
 	overflow: visible;
@@ -2074,7 +2080,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC10 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC10 {
 	overflow: visible;
@@ -2086,7 +2092,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC9 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC9 {
 	overflow: visible;
@@ -2098,7 +2104,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC8 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC8 {
 	overflow: visible;
@@ -2110,7 +2116,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC7 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .MainMenuLogotypePictureC7 {
 	overflow: visible;
@@ -2122,7 +2128,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC6 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .MainMenuLogotypePictureC6 {
 	overflow: visible;
@@ -2134,7 +2140,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC5 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .MainMenuLogotypePictureC5 {
 	overflow: visible;
@@ -2146,7 +2152,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC4 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .MainMenuLogotypePictureC4 {
 	overflow: visible;
@@ -2158,7 +2164,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC3 {
-	fill: rgba(255,255,255,1);
+	fill: var(--white-color);
 }
 .MainMenuLogotypePictureC3 {
 	overflow: visible;
@@ -2170,7 +2176,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuLogotypePictureC2 {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .MainMenuLogotypePictureC2 {
 	overflow: visible;
@@ -2198,8 +2204,8 @@ html {
 	overflow: visible;
 }
 #MainMenuServicesSNBackground {
-	fill: rgba(255,246,241,1);
-	stroke: rgba(225,27,34,1);
+	fill: var(--main-color-light);
+	stroke: var(--main-color);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -2215,8 +2221,8 @@ html {
 	top: 0px;
 }
 #MainMenuServicesSNPictureBackg {
-	fill: rgba(225,27,34,1);
-	stroke: rgba(225,27,34,1);
+	fill: var(--main-color);
+	stroke: var(--main-color);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -2246,7 +2252,7 @@ html {
 	overflow: visible;
 }
 #MainMenuServicesSNPictureC6 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesSNPictureC6 {
 	overflow: visible;
@@ -2258,7 +2264,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesSNPictureC5 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesSNPictureC5 {
 	overflow: visible;
@@ -2270,7 +2276,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesSNPictureC4 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesSNPictureC4 {
 	overflow: visible;
@@ -2282,7 +2288,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesSNPictureC3 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesSNPictureC3 {
 	overflow: visible;
@@ -2294,7 +2300,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesSNPictureC2 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesSNPictureC2 {
 	overflow: visible;
@@ -2306,7 +2312,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesSNPictureC1 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesSNPictureC1 {
 	overflow: visible;
@@ -2326,8 +2332,8 @@ html {
 	overflow: visible;
 }
 #MainMenuServicesPTBackground {
-	fill: rgba(255,246,241,1);
-	stroke: rgba(225,27,34,1);
+	fill: var(--main-color-light);
+	stroke: var(--main-color);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -2343,8 +2349,8 @@ html {
 	top: 0px;
 }
 #MainMenuServicesPTPictureBackg {
-	fill: rgba(225,27,34,1);
-	stroke: rgba(225,27,34,1);
+	fill: var(--main-color);
+	stroke: var(--main-color);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -2374,7 +2380,7 @@ html {
 	overflow: visible;
 }
 #MainMenuServicesPTPictureC1 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesPTPictureC1 {
 	overflow: visible;
@@ -2394,8 +2400,8 @@ html {
 	overflow: visible;
 }
 #MainMenuServicesSTBackground {
-	fill: rgba(255,246,241,1);
-	stroke: rgba(225,27,34,1);
+	fill: var(--main-color-light);
+	stroke: var(--main-color);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -2411,8 +2417,8 @@ html {
 	top: 0px;
 }
 #MainMenuServicesSTPictureBackg {
-	fill: rgba(225,27,34,1);
-	stroke: rgba(225,27,34,1);
+	fill: var(--main-color);
+	stroke: var(--main-color);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -2442,7 +2448,7 @@ html {
 	overflow: visible;
 }
 #MainMenuServicesSTPictureC6 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesSTPictureC6 {
 	overflow: visible;
@@ -2454,7 +2460,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesSTPictureC5 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesSTPictureC5 {
 	overflow: visible;
@@ -2466,7 +2472,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesSTPictureC4 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesSTPictureC4 {
 	overflow: visible;
@@ -2478,7 +2484,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesSTPictureC3 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesSTPictureC3 {
 	overflow: visible;
@@ -2490,7 +2496,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesSTPictureC2 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesSTPictureC2 {
 	overflow: visible;
@@ -2502,7 +2508,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesSTPictureC1 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesSTPictureC1 {
 	overflow: visible;
@@ -2522,8 +2528,8 @@ html {
 	overflow: visible;
 }
 #MainMenuServicesOTBackground {
-	fill: rgba(255,246,241,1);
-	stroke: rgba(225,27,34,1);
+	fill: var(--main-color-light);
+	stroke: var(--main-color);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -2539,8 +2545,8 @@ html {
 	top: 0px;
 }
 #MainMenuServicesOTPictureBackg {
-	fill: rgba(225,27,34,1);
-	stroke: rgba(225,27,34,1);
+	fill: var(--main-color);
+	stroke: var(--main-color);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -2569,7 +2575,7 @@ html {
 	overflow: visible;
 }
 #MainMenuServicesOTPictureC7 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesOTPictureC7 {
 	overflow: visible;
@@ -2581,7 +2587,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesOTPictureC6 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesOTPictureC6 {
 	overflow: visible;
@@ -2593,7 +2599,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesOTPictureC5 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesOTPictureC5 {
 	overflow: visible;
@@ -2605,7 +2611,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesOTPictureC4 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesOTPictureC4 {
 	overflow: visible;
@@ -2617,7 +2623,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesOTPictureC3 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesOTPictureC3 {
 	overflow: visible;
@@ -2629,7 +2635,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesOTPictureC2 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesOTPictureC2 {
 	overflow: visible;
@@ -2641,7 +2647,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesOTPictureC1 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesOTPictureC1 {
 	overflow: visible;
@@ -2661,8 +2667,8 @@ html {
 	overflow: visible;
 }
 #MainMenuServicesMSWBackground {
-	fill: rgba(255,246,241,1);
-	stroke: rgba(225,27,34,1);
+	fill: var(--main-color-light);
+	stroke: var(--main-color);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -2678,8 +2684,8 @@ html {
 	top: 0px;
 }
 #MainMenuServicesMSWPictureBack {
-	fill: rgba(225,27,34,1);
-	stroke: rgba(225,27,34,1);
+	fill: var(--main-color);
+	stroke: var(--main-color);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -2708,7 +2714,7 @@ html {
 	overflow: visible;
 }
 #MainMenuServicesMSWPictureC2 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesMSWPictureC2 {
 	overflow: visible;
@@ -2720,7 +2726,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesMSWPictureC1 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesMSWPictureC1 {
 	overflow: visible;
@@ -2740,8 +2746,8 @@ html {
 	overflow: visible;
 }
 #MainMenuServicesHHABackground {
-	fill: rgba(255,246,241,1);
-	stroke: rgba(225,27,34,1);
+	fill: var(--main-color-light);
+	stroke: var(--main-color);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -2757,8 +2763,8 @@ html {
 	top: 0px;
 }
 #MainMenuServicesHHAPictureBack {
-	fill: rgba(225,27,34,1);
-	stroke: rgba(225,27,34,1);
+	fill: var(--main-color);
+	stroke: var(--main-color);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -2787,7 +2793,7 @@ html {
 	overflow: visible;
 }
 #MainMenuServicesHHAPictureC6 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesHHAPictureC6 {
 	overflow: visible;
@@ -2799,7 +2805,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesHHAPictureC5 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesHHAPictureC5 {
 	overflow: visible;
@@ -2811,7 +2817,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesHHAPictureC4 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesHHAPictureC4 {
 	overflow: visible;
@@ -2823,7 +2829,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesHHAPictureC3 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesHHAPictureC3 {
 	overflow: visible;
@@ -2835,7 +2841,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesHHAPictureC2 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesHHAPictureC2 {
 	overflow: visible;
@@ -2847,7 +2853,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #MainMenuServicesHHAPictureC1 {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuServicesHHAPictureC1 {
 	overflow: visible;
@@ -2868,7 +2874,7 @@ html {
 }
 #ContactsBG {
 	opacity: 0.9;
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .ContactsBG {
 	position: absolute;
@@ -2891,7 +2897,7 @@ html {
 
 #MainMenuHeaderLanguageFrame {
 	fill: transparent;
-	stroke: rgba(255,246,241,1);
+	stroke: var(--main-color-light);
 	stroke-width: 2px;
 	stroke-linejoin: round;
 	stroke-linecap: butt;
@@ -2914,7 +2920,7 @@ html {
 
 #MainMenuHeaderLanguage:hover #MainMenuHeaderLanguageFrame {
 	fill: var(--main-color);
-	stroke: rgba(255,246,241,1);
+	stroke: var(--main-color-light);
 	stroke-width: 2px;
 	stroke-linejoin: round;
 	stroke-linecap: butt;
@@ -2955,7 +2961,7 @@ html {
 
 
 #MainMenuHeaderLanguageWorldPic {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuHeaderLanguageWorldPic {
 	overflow: visible;
@@ -2974,11 +2980,11 @@ html {
 	width: 59px;
 	white-space: nowrap;
 	text-align: center;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 }
 
 #MainMenuHeaderLanguageTextDrop {
@@ -2990,15 +2996,15 @@ html {
 	width: 59px;
 	white-space: nowrap;
 	text-align: center;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 }
 
 #MainMenuHeaderLanguageArrowDow {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuHeaderLanguageArrowDow {
 	overflow: visible;
@@ -3026,14 +3032,14 @@ html {
 	width: 121px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 }
 #MainMenuHeaderLocationMarker {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .MainMenuHeaderLocationMarker {
 	overflow: visible;
@@ -3052,11 +3058,11 @@ html {
 	width: 126px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 }
 #MainMenuHeaderPhone {
 	left: 955.065px;
@@ -3066,11 +3072,11 @@ html {
 	width: 146px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 }
 #MainMenuHeaderEmail {
 	left: 698px;
@@ -3080,11 +3086,11 @@ html {
 	width: 186px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 }
 #BlockSN {
 	position: absolute;
@@ -3095,7 +3101,7 @@ html {
 	overflow: visible;
 }
 #BlockSNBackground {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BlockSNBackground {
 	position: absolute;
@@ -3121,11 +3127,11 @@ html {
 	width: 169px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
-	color: rgba(225,27,34,1);
+	color: var(--main-color);
 }
 #BlockSNMainText {
 	left: 296.776px;
@@ -3137,11 +3143,11 @@ html {
 	line-height: 30px;
 	margin-top: -7px;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: rgba(74,74,74,1);
+	color: var(--text-color-dark);
 }
 #BlockSNButton {
 	position: absolute;
@@ -3150,8 +3156,6 @@ html {
 	left: 296.776px;
 	top: 504px;
 	overflow: visible;
-}
-#BlockSNButtonBackground {
 }
 .BlockSNButtonBackground {
 	position: absolute;
@@ -3169,11 +3173,11 @@ html {
 	width: 86px;
 	white-space: nowrap;
 	text-align: center;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 17px;
-	color: rgba(255,255,255,1);
+	color: var(--white-color);
 }
 #BlockPT {
 	position: absolute;
@@ -3184,7 +3188,7 @@ html {
 	overflow: visible;
 }
 #BlockPTBackground {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BlockPTBackground {
 	overflow: visible;
@@ -3211,11 +3215,11 @@ html {
 	width: 187px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 }
 #BlockPTMainText {
 	left: 1094.315px;
@@ -3227,11 +3231,11 @@ html {
 	line-height: 30px;
 	margin-top: -7px;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 }
 #BlockPTButton {
 	position: absolute;
@@ -3240,9 +3244,6 @@ html {
 	left: 1095.301px;
 	top: 480px;
 	overflow: visible;
-}
-#BlockPTButtonBackground {
-
 }
 .BlockPTButtonBackground {
 	position: absolute;
@@ -3260,11 +3261,11 @@ html {
 	width: 86px;
 	white-space: nowrap;
 	text-align: center;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 17px;
-	color: rgba(225,27,34,1);
+	color: var(--main-color);
 }
 #BlockST {
 	position: absolute;
@@ -3275,7 +3276,7 @@ html {
 	overflow: visible;
 }
 #BlockSTBackground {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BlockSTBackground {
 	position: absolute;
@@ -3301,11 +3302,11 @@ html {
 	width: 166px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
-	color: rgba(225,27,34,1);
+	color: var(--main-color);
 }
 #BlockSTMainText {
 	left: 297.327px;
@@ -3317,11 +3318,11 @@ html {
 	line-height: 30px;
 	margin-top: -7px;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: rgba(74,74,74,1);
+	color: var(--text-color-dark);
 }
 #BlockSTButton {
 	position: absolute;
@@ -3330,8 +3331,6 @@ html {
 	left: 298.088px;
 	top: 456px;
 	overflow: visible;
-}
-#BlockSTButtonBackground {
 }
 .BlockSTButtonBackground {
 	position: absolute;
@@ -3349,11 +3348,11 @@ html {
 	width: 86px;
 	white-space: nowrap;
 	text-align: center;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 17px;
-	color: rgba(255,255,255,1);
+	color: var(--white-color);
 }
 #BlockOT {
 	position: absolute;
@@ -3364,7 +3363,7 @@ html {
 	overflow: visible;
 }
 #BlockOTBackground {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BlockOTBackground {
 	overflow: visible;
@@ -3391,11 +3390,11 @@ html {
 	width: 242px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 }
 #BlockOTMainText {
 	left: 1091.075px;
@@ -3407,11 +3406,11 @@ html {
 	line-height: 30px;
 	margin-top: -7px;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 }
 #BlockOTButton {
 	position: absolute;
@@ -3420,8 +3419,6 @@ html {
 	left: 1095.301px;
 	top: 368px;
 	overflow: visible;
-}
-#BlockOTButtonBackground {
 }
 .BlockOTButtonBackground {
 	position: absolute;
@@ -3439,11 +3436,11 @@ html {
 	width: 86px;
 	white-space: nowrap;
 	text-align: center;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 17px;
-	color: rgba(225,27,34,1);
+	color: var(--main-color);
 }
 #BlockMSW {
 	position: absolute;
@@ -3454,7 +3451,7 @@ html {
 	overflow: visible;
 }
 #BlockMSWBackground {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BlockMSWBackground {
 	overflow: visible;
@@ -3481,11 +3478,11 @@ html {
 	width: 252px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
-	color: rgba(225,27,34,1);
+	color: var(--main-color);
 }
 #BlockMSWMainText {
 	left: 297.327px;
@@ -3497,11 +3494,11 @@ html {
 	line-height: 30px;
 	margin-top: -7px;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: rgba(74,74,74,1);
+	color: var(--text-color-dark);
 }
 #BlockMSWButton {
 	position: absolute;
@@ -3510,8 +3507,6 @@ html {
 	left: 298.088px;
 	top: 384.362px;
 	overflow: visible;
-}
-#BlockMSWButtonBackground {
 }
 .BlockMSWButtonBackground {
 	position: absolute;
@@ -3529,11 +3524,11 @@ html {
 	width: 86px;
 	white-space: nowrap;
 	text-align: center;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 17px;
-	color: rgba(255,255,255,1);
+	color: var(--white-color);
 }
 #BlockHHA {
 	position: absolute;
@@ -3544,7 +3539,7 @@ html {
 	overflow: visible;
 }
 #BlockHHABackground {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BlockHHABackground {
 	position: absolute;
@@ -3570,11 +3565,11 @@ html {
 	width: 191px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 }
 #BlockHHAMainText {
 	left: 1091.075px;
@@ -3586,11 +3581,11 @@ html {
 	line-height: 30px;
 	margin-top: -7px;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 }
 #BlockHHAButton {
 	position: absolute;
@@ -3599,8 +3594,6 @@ html {
 	left: 1095.301px;
 	top: 246px;
 	overflow: visible;
-}
-#BlockHHAButtonBackground {
 }
 .BlockHHAButtonBackground {
 	position: absolute;
@@ -3618,11 +3611,11 @@ html {
 	width: 86px;
 	white-space: nowrap;
 	text-align: center;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 17px;
-	color: rgba(225,27,34,1);
+	color: var(--main-color);
 }
 #BlockCareer {
 	position: absolute;
@@ -3633,7 +3626,7 @@ html {
 	overflow: visible;
 }
 #BlockCareerBackground {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BlockCareerBackground {
 	overflow: visible;
@@ -3654,11 +3647,11 @@ html {
 	line-height: 31px;
 	margin-top: -7.5px;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: rgba(74,74,74,1);
+	color: var(--text-color-dark);
 }
 #BlockCareerCaption {
 	left: 299.019px;
@@ -3668,11 +3661,11 @@ html {
 	width: 199px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Segoe UI;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
-	color: rgba(255,0,0,1);
+	color: var(--main-color);
 }
 #BlockCareerImage {
 	position: absolute;
@@ -3690,8 +3683,6 @@ html {
 	top: 439.145px;
 	overflow: visible;
 }
-#BlockCareerButtonBackground {
-}
 .BlockCareerButtonBackground {
 	position: absolute;
 	overflow: visible;
@@ -3708,11 +3699,11 @@ html {
 	width: 86px;
 	white-space: nowrap;
 	text-align: center;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 17px;
-	color: rgba(255,255,255,1);
+	color: var(--white-color);
 }
 #BlockLocation {
 	opacity: 0.92;
@@ -3724,7 +3715,7 @@ html {
 	overflow: visible;
 }
 #BlockLocationBackground {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BlockLocationBackground {
 	position: absolute;
@@ -3744,11 +3735,11 @@ html {
 	line-height: 31px;
 	margin-top: -7.5px;
 	text-align: left;
-	font-family: Segoe UI;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 }
 #BlockLocationCaption {
 	left: 882.5px;
@@ -3758,11 +3749,11 @@ html {
 	width: 139px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 }
 #BlockLocationButton {
 	position: absolute;
@@ -3780,8 +3771,6 @@ html {
 	top: 0px;
 	overflow: visible;
 }
-#_7_i {
-}
 ._7_i {
 	position: absolute;
 	overflow: visible;
@@ -3798,11 +3787,11 @@ html {
 	width: 109px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: rgba(225,27,34,1);
+	color: var(--main-color);
 }
 #BlockContactUs {
 	position: absolute;
@@ -3816,7 +3805,7 @@ html {
 
 
 #BlockContactUsBackground {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BlockContactUsBackground {
 	position: absolute;
@@ -3843,7 +3832,7 @@ html {
 	overflow: visible;
 }
 #BlockContactUsFormButtonBackgr {
-	stroke: rgba(255,246,241,1);
+	stroke: var(--main-color-light);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -3866,15 +3855,15 @@ html {
 	width: 53px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: rgba(255,246,241,1);
+	color: var(--main-color-light);
 }
 #BlockContactUsFormCanWeHelpEdi {
 	fill: transparent;
-	stroke: rgba(225,27,34,1);
+	stroke: var(--main-color);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -3898,15 +3887,15 @@ html {
 	width: 178px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: rgba(225,27,34,1);
+	color: var(--main-color);
 }
 #BlockContactUsFormPhoneEditFie {
 	fill: transparent;
-	stroke: rgba(225,27,34,1);
+	stroke: var(--main-color);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -3930,15 +3919,15 @@ html {
 	width: 48px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: rgba(225,27,34,1);
+	color: var(--main-color);
 }
 #BlockContactUsFormEmailEditFie {
 	fill: transparent;
-	stroke: rgba(225,27,34,1);
+	stroke: var(--main-color);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -3962,15 +3951,15 @@ html {
 	width: 51px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: rgba(225,27,34,1);
+	color: var(--main-color);
 }
 #BlockContactUsFormLastNameEdit {
 	fill: transparent;
-	stroke: rgba(225,27,34,1);
+	stroke: var(--main-color);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -3994,15 +3983,15 @@ html {
 	width: 87px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: rgba(225,27,34,1);
+	color: var(--main-color);
 }
 #BlockContactUsFormFirstNameEdi {
 	fill: transparent;
-	stroke: rgba(225,27,34,1);
+	stroke: var(--main-color);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -4026,11 +4015,11 @@ html {
 	width: 87px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: rgba(225,27,34,1);
+	color: var(--main-color);
 }
 #BlockContactUsFormCaption {
 	left: 0px;
@@ -4040,11 +4029,11 @@ html {
 	width: 138px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 28px;
-	color: rgba(225,27,34,1);
+	color: var(--main-color);
 }
 #BlockFooter {
 	position: absolute;
@@ -4055,7 +4044,7 @@ html {
 	overflow: visible;
 }
 #BlockFooterBackground {
-	fill: rgba(225,27,34,1);
+	fill: var(--main-color);
 }
 .BlockFooterBackground {
 	position: absolute;
@@ -4089,11 +4078,11 @@ html {
 	width: 162px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Segoe UI;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
-	color: rgba(255,255,255,1);
+	color: var(--white-color);
 }
 #BlockFooterCopyright {
 	position: absolute;
@@ -4111,11 +4100,11 @@ html {
 	width: 616px;
 	white-space: nowrap;
 	text-align: right;
-	font-family: Segoe UI;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: rgba(255,255,255,1);
+	color: var(--white-color);
 }
 #BlockFooterCopyrightCaption {
 	left: 0.5px;
@@ -4125,15 +4114,15 @@ html {
 	width: 274px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Segoe UI;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: rgba(255,255,255,1);
+	color: var(--white-color);
 }
 #BlockFooterCopyrightSplitter {
 	fill: transparent;
-	stroke: rgba(255,255,255,1);
+	stroke: var(--white-color);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -4167,11 +4156,11 @@ html {
 	line-height: 40px;
 	margin-top: -12px;
 	text-align: left;
-	font-family: Segoe UI;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
-	color: rgba(255,255,255,1);
+	color: var(--white-color);
 }
 #BlockFooterAddressCaption {
 	left: 0px;
@@ -4181,11 +4170,11 @@ html {
 	width: 201px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Segoe UI;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
-	color: rgba(255,255,255,1);
+	color: var(--white-color);
 }
 #BlockFooterOpeningHours {
 	position: absolute;
@@ -4203,11 +4192,11 @@ html {
 	width: 144px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Segoe UI;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
-	color: rgba(255,255,255,1);
+	color: var(--white-color);
 }
 #BlockFooterOpeningHoursMainTex {
 	left: 0.29px;
@@ -4219,15 +4208,15 @@ html {
 	line-height: 40px;
 	margin-top: -12px;
 	text-align: left;
-	font-family: Segoe UI;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
-	color: rgba(255,255,255,1);
+	color: var(--white-color);
 }
 #BlockFooterOpeningHoursSplitte {
 	fill: transparent;
-	stroke: rgba(255,255,255,1);
+	stroke: var(--white-color);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -4253,11 +4242,11 @@ html {
 	line-height: 40px;
 	margin-top: -12px;
 	text-align: left;
-	font-family: Segoe UI;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
-	color: rgba(255,255,255,1);
+	color: var(--white-color);
 }
 #BlockFooterSNButtons {
 	position: absolute;
@@ -4276,7 +4265,7 @@ html {
 	overflow: visible;
 }
 #BlockFooterSNButtonsLinkedInBa {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BlockFooterSNButtonsLinkedInBa {
 	overflow: visible;
@@ -4297,11 +4286,11 @@ html {
 	line-height: 40px;
 	margin-top: -4px;
 	text-align: left;
-	font-family: Segoe UI;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 24px;
-	color: rgba(254,0,0,1);
+	color: var(--main-color);
 }
 #BlockFooterSNButtonsFacebook {
 	position: absolute;
@@ -4312,7 +4301,7 @@ html {
 	overflow: visible;
 }
 #BlockFooterSNButtonsFacebookBa {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BlockFooterSNButtonsFacebookBa {
 	overflow: visible;
@@ -4333,11 +4322,11 @@ html {
 	line-height: 40px;
 	margin-top: -4px;
 	text-align: left;
-	font-family: Segoe UI;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 24px;
-	color: rgba(254,0,0,1);
+	color: var(--main-color);
 }
 #BlockFooterSNButtonsInstagram {
 	position: absolute;
@@ -4348,7 +4337,7 @@ html {
 	overflow: visible;
 }
 #BlockFooterSNButtonsInstagramB {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BlockFooterSNButtonsInstagramB {
 	overflow: visible;
@@ -4360,7 +4349,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BlockFooterSNButtonsInstagramC {
-	fill: rgba(255,0,0,1);
+	fill: var(--main-color);
 }
 .BlockFooterSNButtonsInstagramC {
 	overflow: visible;
@@ -4372,7 +4361,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BlockFooterSNButtonsInstagramC_kg {
-	fill: rgba(255,0,0,1);
+	fill: var(--main-color);
 }
 .BlockFooterSNButtonsInstagramC_kg {
 	overflow: visible;
@@ -4384,7 +4373,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BlockFooterSNButtonsInstagramC_kh {
-	fill: rgba(255,0,0,1);
+	fill: var(--main-color);
 }
 .BlockFooterSNButtonsInstagramC_kh {
 	overflow: visible;
@@ -4404,7 +4393,7 @@ html {
 	overflow: visible;
 }
 #BlockFooterSNButtonsTwitterBac {
-	fill: rgba(255,246,241,1);
+	fill: var(--main-color-light);
 }
 .BlockFooterSNButtonsTwitterBac {
 	overflow: visible;
@@ -4416,7 +4405,7 @@ html {
 	transform: matrix(1,0,0,1,0,0);
 }
 #BlockFooterSNButtonsTwitterIco {
-	fill: rgba(255,0,0,1);
+	fill: var(--main-color);
 }
 .BlockFooterSNButtonsTwitterIco {
 	overflow: visible;
@@ -4442,7 +4431,7 @@ html {
 	display: flex;
 	align-items:flex-end;
 	opacity: 0;
-	background-color: rgba(225,27,34,1);
+	background-color: var(--main-color);
 }
 
 .MainMenuServices{
@@ -4457,8 +4446,6 @@ html {
 	top: 1040px;
 	opacity: 1;
 }
-
-
 
 .contacts_fixed {	
 	position: fixed;
@@ -4491,7 +4478,7 @@ html {
 .wrapper__logoserv{
 	width: 100%;
 	opacity: 0;
-	background-color: rgba(255,246,241,1);
+	background-color: var(--main-color-light);
 	z-index: 10;
 }
 
@@ -4613,7 +4600,7 @@ html {
 	transform: translate(-50%, -50%);
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
@@ -4630,7 +4617,7 @@ html {
 	border-bottom: 1px solid var(--main-color);
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
@@ -4651,7 +4638,7 @@ html {
 	border-bottom: 1px solid var(--main-color);
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
@@ -4671,7 +4658,7 @@ html {
 	border-bottom: 1px solid var(--main-color);
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
@@ -4692,7 +4679,7 @@ html {
 	border-bottom: 1px solid var(--main-color);
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
@@ -4712,7 +4699,7 @@ html {
 	border-bottom: 1px solid var(--main-color);
 	white-space: nowrap;
 	text-align: left;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
@@ -4781,7 +4768,7 @@ html {
 	line-height: 16px;
 	margin-top: -2px;
 	text-align: center;
-	font-family: Frutiger LT Pro;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 12px;
