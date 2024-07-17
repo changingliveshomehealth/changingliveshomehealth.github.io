@@ -254,6 +254,7 @@
 	left: 0px;
 	top: 0px;
 	overflow: visible;
+	z-index: 9999;
 }
 #_38 {
 	fill: rgba(255,246,241,1);
