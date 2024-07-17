@@ -1,10 +1,10 @@
 
+@media screen and (max-width: 430px) {
 
-
-@media screen and (max-width: 800px) {
 	#Changing_Lives_Home_Health_Care {
 		display: none;
 	}
+
 
 	.mediaViewInfo {
 		--web-view-name: Mobile;
@@ -15,6 +15,26 @@
 	}
 	:root {
 		--web-view-ids: Mobile;
+			
+		--main-font: Frutiger LT Pro;
+		
+		--main-color: #FF1C24;
+		--main-color-light: #FFF6F1;
+	
+		--text-color: #FF1C24;
+		--text-color-light: #FFF6F1;
+		--text-color-dark: #4A4A4A;
+	
+		--button-color: #FF1C24;
+		--button-color-hover: #E0141B;
+		--button-color-active: #B61016;
+	
+		--button-color-light: #FFF6F1;
+		--button-color-light-hover: #F1F1F1;
+		--button-color-light-active: #FFF;
+	
+		--white-color: #FFF;
+	
 	}
 	* {
 		margin: 0;
@@ -25,7 +45,7 @@
 	#Mobile {
 		position: absolute;
 		width: 430px;
-		height: 5907px;
+		height: 5783px;
 		background-color: rgba(74,74,74,1);
 		overflow: hidden;
 		--web-view-name: Mobile;
@@ -56,21 +76,9 @@
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#BG_p {
-		fill: rgba(255,246,241,1);
-	}
-	.BG_p {
-		overflow: visible;
-		position: absolute;
-		width: 430px;
-		height: 436px;
-		left: 0px;
-		top: 490px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#BG_q {
 		fill: rgba(225,27,34,1);
 	}
-	.BG_q {
+	.BG_p {
 		overflow: visible;
 		position: absolute;
 		width: 430px;
@@ -79,10 +87,10 @@
 		top: 1798px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	#BG_r {
+	#BG_q {
 		fill: rgba(255,246,241,1);
 	}
-	.BG_r {
+	.BG_q {
 		overflow: visible;
 		position: absolute;
 		width: 430px;
@@ -91,8 +99,20 @@
 		top: 1362px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	#BG_s {
+	#BG_r {
 		fill: rgba(225,27,34,1);
+	}
+	.BG_r {
+		overflow: visible;
+		position: absolute;
+		width: 430px;
+		height: 436px;
+		left: 0px;
+		top: 2670px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#BG_s {
+		fill: rgba(255,246,241,1);
 	}
 	.BG_s {
 		overflow: visible;
@@ -100,7 +120,7 @@
 		width: 430px;
 		height: 436px;
 		left: 0px;
-		top: 2670px;
+		top: 2234px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#BG_t {
@@ -112,25 +132,13 @@
 		width: 430px;
 		height: 436px;
 		left: 0px;
-		top: 2234px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#BG_u {
-		fill: rgba(255,246,241,1);
-	}
-	.BG_u {
-		overflow: visible;
-		position: absolute;
-		width: 430px;
-		height: 436px;
-		left: 0px;
 		top: 3106px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	#BG_v {
+	#BG_u {
 		fill: rgba(225,27,34,1);
 	}
-	.BG_v {
+	.BG_u {
 		overflow: visible;
 		position: absolute;
 		width: 430px;
@@ -139,10 +147,10 @@
 		top: 3542px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	#BG_w {
+	#BG_v {
 		fill: rgba(255,246,241,1);
 	}
-	.BG_w {
+	.BG_v {
 		overflow: visible;
 		position: absolute;
 		width: 430px;
@@ -151,8 +159,104 @@
 		top: 3978px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	#Menu {
+	#Banner {
 		position: absolute;
+		width: 829px;
+		height: 434px;
+		left: -108px;
+		top: 56px;
+		overflow: visible;
+	}
+	#_2 {
+		position: absolute;
+		width: 829px;
+		height: 434px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#BannerMessage {
+		position: absolute;
+		width: 316.064px;
+		height: 262.031px;
+		left: 164.968px;
+		top: 85.985px;
+		overflow: visible;
+	}
+	#BannerMessageBackground {
+		fill: rgba(225,27,34,1);
+	}
+	.BannerMessageBackground {
+		position: absolute;
+		overflow: visible;
+		width: 316.064px;
+		height: 191.404px;
+		left: 0px;
+		top: 0px;
+	}
+	#BannerMessageButton {
+		position: absolute;
+		width: 228px;
+		height: 45px;
+		left: 44.032px;
+		top: 217.031px;
+		overflow: visible;
+	}
+	#BannerMessageButtonBackground {
+		fill: rgba(225,27,34,1);
+	}
+	.BannerMessageButtonBackground {
+		position: absolute;
+		overflow: visible;
+		width: 228px;
+		height: 45px;
+		left: 0px;
+		top: 0px;
+	}
+	#BannerMessageButtonText {
+		left: 3px;
+		top: 12.5px;
+		position: absolute;
+		overflow: visible;
+		width: 223px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Frutiger LT Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(255,255,255,1);
+	}
+	#BannerMessageCaption {
+		left: 6.532px;
+		top: 5.8px;
+		position: absolute;
+		overflow: visible;
+		width: 304px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Frutiger LT Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(255,246,241,1);
+	}
+	#BannerMessageMainText {
+		left: 6.468px;
+		top: 47px;
+		position: absolute;
+		overflow: visible;
+		width: 304.129px;
+		height: 133.5081329345703px;
+		text-align: center;
+		font-family: Frutiger LT Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(255,246,241,1);
+	}
+	#Menu {
+		position: fixed;
 		width: 430px;
 		height: 60px;
 		left: 0px;
@@ -161,12 +265,6 @@
 	}
 	#_38 {
 		fill: rgba(255,246,241,1);
-		stroke: rgba(112,112,112,1);
-		stroke-width: 1px;
-		stroke-linejoin: miter;
-		stroke-linecap: butt;
-		stroke-miterlimit: 4;
-		shape-rendering: auto;
 	}
 	._38 {
 		position: absolute;
@@ -238,67 +336,12 @@
 		top: 16px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	#Search {
-		position: absolute;
-		width: 18.5px;
-		height: 19.5px;
-		left: 339px;
-		top: 20px;
-		overflow: visible;
-	}
-	#_6 {
-		fill: transparent;
-		stroke: rgba(255,0,0,1);
-		stroke-width: 3px;
-		stroke-linejoin: miter;
-		stroke-linecap: butt;
-		stroke-miterlimit: 4;
-		shape-rendering: auto;
-	}
-	._6 {
-		position: absolute;
-		overflow: visible;
-		width: 16px;
-		height: 16px;
-		left: 0px;
-		top: 0px;
-	}
-	#_18 {
-		fill: transparent;
-		stroke: rgba(255,0,0,1);
-		stroke-width: 4px;
-		stroke-linejoin: miter;
-		stroke-linecap: butt;
-		stroke-miterlimit: 4;
-		shape-rendering: auto;
-	}
-	._18 {
-		overflow: visible;
-		position: absolute;
-		width: 9.829px;
-		height: 9.828px;
-		left: 11.5px;
-		top: 12.5px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#BannerContactsLocationPicture {
-		fill: rgba(255,0,0,1);
-	}
-	.BannerContactsLocationPicture {
-		overflow: visible;
-		position: absolute;
-		width: 16.228px;
-		height: 21.201px;
-		left: 302.772px;
-		top: 18.299px;
-		transform: matrix(1,0,0,1,0,0);
-	}
 	#BannerLogotype {
 		position: absolute;
 		width: 212px;
 		height: 50.419px;
-		left: 23px;
-		top: 5.29px;
+		left: 24px;
+		top: 4.79px;
 		overflow: visible;
 	}
 	#BannerLogotypeText {
@@ -720,119 +763,101 @@
 		top: 25.851px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	#_20 {
+	#Language {
 		position: absolute;
-		width: 819.841px;
-		height: 428.787px;
-		left: -134.22px;
-		top: 60px;
+		width: 101px;
+		height: 28px;
+		left: 252px;
+		top: 16px;
 		overflow: visible;
 	}
-	#BannerVideo {
+	#BannerLanguageFrame {
 		fill: transparent;
+		stroke: rgba(255,0,0,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
 	}
-	.BannerVideo {
-		overflow: hidden;
+	.BannerLanguageFrame {
 		position: absolute;
-		width: 819.842px;
-		height: 428.787px;
+		overflow: visible;
+		width: 101px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+	}
+	#BannerLanguageWorldPicture {
+		fill: rgba(255,0,0,1);
+	}
+	.BannerLanguageWorldPicture {
+		overflow: visible;
+		position: absolute;
+		width: 16.833px;
+		height: 16.472px;
+		left: 6.964px;
+		top: 5.971px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#BannerLanguageText {
+		display: none;
+		left: 25.545px;
+		top: 6.38px;
+		position: absolute;
+		overflow: visible;
+		width: 59px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Frutiger LT Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(255,0,0,1);
+	}
+	#BannerLanguagePictureArrowDown {
+		fill: rgba(255,0,0,1);
+	}
+	.BannerLanguagePictureArrowDown {
+		overflow: visible;
+		position: absolute;
+		width: 11.477px;
+		height: 7.457px;
+		transform: translate(1.605px, 1.488px) matrix(1,0,0,1,83.699,10.3558) rotate(180deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#BlockSN {
+		position: absolute;
+		width: 430px;
+		height: 436px;
+		left: 0px;
+		top: 490px;
+		overflow: visible;
+	}
+	#BG_ch {
+		fill: rgba(255,246,241,1);
+	}
+	.BG_ch {
+		overflow: visible;
+		position: absolute;
+		width: 430px;
+		height: 436px;
 		left: 0px;
 		top: 0px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	#BannerMessage {
+	#SN {
 		position: absolute;
-		width: 303.129px;
-		height: 254.702px;
-		left: 210.655px;
-		top: 87.043px;
-		overflow: visible;
-	}
-	#BannerMessageBackground {
-		opacity: 0.8;
-		fill: rgba(225,27,34,1);
-	}
-	.BannerMessageBackground {
-		position: absolute;
-		overflow: visible;
-		width: 303.129px;
-		height: 192.353px;
-		left: 0px;
-		top: 0.419px;
-	}
-	#BannerMessageButton {
-		opacity: 0.9;
-		position: absolute;
-		width: 162.58px;
-		height: 35.059px;
-		left: 70.274px;
-		top: 219.643px;
-		overflow: visible;
-	}
-	#BannerMessageButtonBackground {
-		opacity: 0.9;
-		fill: rgba(225,27,34,1);
-	}
-	.BannerMessageButtonBackground {
-		position: absolute;
-		overflow: visible;
-		width: 162.58px;
-		height: 35.059px;
-		left: 0px;
-		top: 0px;
-	}
-	#BannerMessageButtonText {
-		left: 2.19px;
-		top: 8.54px;
-		position: absolute;
-		overflow: visible;
-		width: 159px;
-		white-space: nowrap;
-		text-align: center;
-		font-family: Frutiger LT Pro;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 17px;
-		color: rgba(255,255,255,1);
-	}
-	#BannerMessageCaption {
-		left: 0px;
-		top: 0px;
-		position: absolute;
-		overflow: visible;
-		width: 304px;
-		white-space: nowrap;
-		text-align: center;
-		font-family: Frutiger LT Pro;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 20px;
-		color: rgba(255,246,241,1);
-	}
-	#BannerMessageMainText {
-		left: 0px;
-		top: 47.634px;
-		position: absolute;
-		overflow: visible;
-		width: 304.129px;
-		height: 134.73297119140625px;
-		text-align: center;
-		font-family: Frutiger LT Pro;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 16px;
-		color: rgba(255,246,241,1);
-	}
-	#BlockSN {
-		position: absolute;
-		width: 338px;
-		height: 407.733px;
-		left: 92px;
-		top: 504.134px;
+		width: 228px;
+		height: 400px;
+		left: 101px;
+		top: 18.764px;
 		overflow: visible;
 	}
 	#BlockSNCaption {
-		left: 7.424px;
+		left: 30px;
 		top: 0px;
 		position: absolute;
 		overflow: visible;
@@ -847,11 +872,11 @@
 	}
 	#BlockSNMainText {
 		left: 0px;
-		top: 47.315px;
+		top: 40.738px;
 		position: absolute;
-		overflow: visible;
-		width: 339px;
-		height: 321px;
+		overflow: hidden;
+		width: 229px;
+		height: 313.2672119140625px;
 		line-height: 30px;
 		margin-top: -7px;
 		text-align: left;
@@ -863,10 +888,10 @@
 	}
 	#BlockSNButton {
 		position: absolute;
-		width: 162.585px;
+		width: 228px;
 		height: 45.994px;
 		left: 0px;
-		top: 361.738px;
+		top: 354.006px;
 		overflow: visible;
 	}
 	#BlockSNButtonBackground {
@@ -875,13 +900,13 @@
 	.BlockSNButtonBackground {
 		position: absolute;
 		overflow: visible;
-		width: 162.585px;
+		width: 228px;
 		height: 45.994px;
 		left: 0px;
 		top: 0px;
 	}
 	#BlockSNButtonText {
-		left: 38.507px;
+		left: 70.974px;
 		top: 13.905px;
 		position: absolute;
 		overflow: visible;
@@ -896,14 +921,14 @@
 	}
 	#_22 {
 		position: absolute;
-		width: 311px;
-		height: 408.994px;
-		left: 89.314px;
-		top: 939.503px;
+		width: 353px;
+		height: 335.401px;
+		left: 38.5px;
+		top: 985.097px;
 		overflow: visible;
 	}
 	#BlockPTCaption {
-		left: 0.842px;
+		left: 83.5px;
 		top: 0px;
 		position: absolute;
 		overflow: visible;
@@ -918,11 +943,11 @@
 	}
 	#BlockPTMainText {
 		left: 0px;
-		top: 60px;
+		top: 55px;
 		position: absolute;
 		overflow: visible;
-		width: 312px;
-		height: 267px;
+		width: 354px;
+		height: 234.4061279296875px;
 		line-height: 30px;
 		margin-top: -7px;
 		text-align: left;
@@ -934,10 +959,10 @@
 	}
 	#BlockPTButton {
 		position: absolute;
-		width: 162.585px;
+		width: 228px;
 		height: 45.994px;
-		left: 0.987px;
-		top: 363px;
+		left: 62.5px;
+		top: 289.406px;
 		overflow: visible;
 	}
 	#BlockPTButtonBackground {
@@ -946,13 +971,13 @@
 	.BlockPTButtonBackground {
 		position: absolute;
 		overflow: visible;
-		width: 162.585px;
+		width: 228px;
 		height: 45.994px;
 		left: 0px;
 		top: 0px;
 	}
 	#BlockPTButtonText {
-		left: 38.507px;
+		left: 70.974px;
 		top: 13.905px;
 		position: absolute;
 		overflow: visible;
@@ -967,14 +992,14 @@
 	}
 	#_21 {
 		position: absolute;
-		width: 527px;
-		height: 384.994px;
+		width: 302px;
+		height: 379.994px;
 		left: 90.301px;
 		top: 1387.503px;
 		overflow: visible;
 	}
 	#BlockSTCaption {
-		left: 0.758px;
+		left: 42.199px;
 		top: 0px;
 		position: absolute;
 		overflow: visible;
@@ -992,7 +1017,7 @@
 		top: 60px;
 		position: absolute;
 		overflow: visible;
-		width: 528px;
+		width: 303px;
 		height: 243px;
 		line-height: 30px;
 		margin-top: -7px;
@@ -1005,10 +1030,10 @@
 	}
 	#BlockSTButton {
 		position: absolute;
-		width: 162.585px;
+		width: 228px;
 		height: 45.994px;
-		left: 0.762px;
-		top: 339px;
+		left: 10.699px;
+		top: 334px;
 		overflow: visible;
 	}
 	#BlockSTButtonBackground {
@@ -1017,13 +1042,13 @@
 	.BlockSTButtonBackground {
 		position: absolute;
 		overflow: visible;
-		width: 162.585px;
+		width: 228px;
 		height: 45.994px;
 		left: 0px;
 		top: 0px;
 	}
 	#BlockSTButtonText {
-		left: 38.507px;
+		left: 70.974px;
 		top: 13.905px;
 		position: absolute;
 		overflow: visible;
@@ -1038,14 +1063,14 @@
 	}
 	#_23 {
 		position: absolute;
-		width: 339.699px;
+		width: 256.452px;
 		height: 296.994px;
-		left: 90.301px;
+		left: 101px;
 		top: 1867.503px;
 		overflow: visible;
 	}
 	#BlockOTCaption {
-		left: 3.727px;
+		left: 8.575px;
 		top: 0px;
 		position: absolute;
 		overflow: visible;
@@ -1059,11 +1084,11 @@
 		color: rgba(255,246,241,1);
 	}
 	#BlockOTMainText {
-		left: 0px;
+		left: 4.849px;
 		top: 60px;
 		position: absolute;
 		overflow: visible;
-		width: 340.699px;
+		width: 252.604px;
 		height: 155px;
 		line-height: 30px;
 		margin-top: -7px;
@@ -1076,9 +1101,9 @@
 	}
 	#BlockOTButton {
 		position: absolute;
-		width: 162.585px;
+		width: 228px;
 		height: 45.994px;
-		left: 4.226px;
+		left: 0px;
 		top: 251px;
 		overflow: visible;
 	}
@@ -1088,13 +1113,13 @@
 	.BlockOTButtonBackground {
 		position: absolute;
 		overflow: visible;
-		width: 162.585px;
+		width: 228px;
 		height: 45.994px;
 		left: 0px;
 		top: 0px;
 	}
 	#BlockOTButtonText {
-		left: 38.507px;
+		left: 70.974px;
 		top: 13.905px;
 		position: absolute;
 		overflow: visible;
@@ -1108,8 +1133,8 @@
 		color: rgba(225,27,34,1);
 	}
 	#BlockMSWCaption {
-		left: 90.905px;
-		top: 2292.641px;
+		left: 89.5px;
+		top: 2280px;
 		position: absolute;
 		overflow: visible;
 		width: 252px;
@@ -1122,11 +1147,11 @@
 		color: rgba(225,27,34,1);
 	}
 	#BlockMSWMainText {
-		left: 90.301px;
-		top: 2353.003px;
+		left: 84.151px;
+		top: 2352px;
 		position: absolute;
 		overflow: visible;
-		width: 528px;
+		width: 262.699px;
 		height: 176px;
 		line-height: 30px;
 		margin-top: -7px;
@@ -1139,9 +1164,9 @@
 	}
 	#BlockMSWButton {
 		position: absolute;
-		width: 162.585px;
+		width: 228px;
 		height: 45.994px;
-		left: 91.063px;
+		left: 101px;
 		top: 2565.365px;
 		overflow: visible;
 	}
@@ -1151,13 +1176,13 @@
 	.BlockMSWButtonBackground {
 		position: absolute;
 		overflow: visible;
-		width: 162.585px;
+		width: 228px;
 		height: 45.994px;
 		left: 0px;
 		top: 0px;
 	}
 	#BlockMSWButtonText {
-		left: 38.507px;
+		left: 70.974px;
 		top: 13.905px;
 		position: absolute;
 		overflow: visible;
@@ -1172,14 +1197,14 @@
 	}
 	#_24 {
 		position: absolute;
-		width: 527px;
-		height: 174.994px;
-		left: 91.063px;
-		top: 2800.503px;
+		width: 228px;
+		height: 175.497px;
+		left: 101px;
+		top: 2800px;
 		overflow: visible;
 	}
 	#BlockHHACaption {
-		left: 4.038px;
+		left: 19px;
 		top: 0px;
 		position: absolute;
 		overflow: visible;
@@ -1193,11 +1218,11 @@
 		color: rgba(255,246,241,1);
 	}
 	#BlockHHAMainText {
-		left: 0px;
-		top: 61px;
+		left: 53px;
+		top: 65px;
 		position: absolute;
 		overflow: visible;
-		width: 528px;
+		width: 124px;
 		height: 31px;
 		line-height: 30px;
 		margin-top: -7px;
@@ -1210,10 +1235,10 @@
 	}
 	#BlockHHAButton {
 		position: absolute;
-		width: 162.585px;
+		width: 228px;
 		height: 45.994px;
-		left: 4.226px;
-		top: 129px;
+		left: 0px;
+		top: 129.503px;
 		overflow: visible;
 	}
 	#BlockHHAButtonBackground {
@@ -1222,13 +1247,13 @@
 	.BlockHHAButtonBackground {
 		position: absolute;
 		overflow: visible;
-		width: 162.585px;
+		width: 228px;
 		height: 45.994px;
 		left: 0px;
 		top: 0px;
 	}
 	#BlockHHAButtonText {
-		left: 38.507px;
+		left: 70.974px;
 		top: 13.905px;
 		position: absolute;
 		overflow: visible;
@@ -1243,18 +1268,18 @@
 	}
 	#_25 {
 		position: absolute;
-		width: 523px;
-		height: 368.139px;
-		left: 90.301px;
-		top: 3139.931px;
+		width: 228px;
+		height: 363px;
+		left: 101px;
+		top: 3141px;
 		overflow: visible;
 	}
 	#BlockCareerMainText {
-		left: 0px;
-		top: 64.072px;
+		left: 15.151px;
+		top: 63.003px;
 		position: absolute;
 		overflow: visible;
-		width: 524px;
+		width: 198.699px;
 		height: 221px;
 		line-height: 31px;
 		margin-top: -7.5px;
@@ -1266,7 +1291,7 @@
 		color: rgba(74,74,74,1);
 	}
 	#BlockCareerCaption {
-		left: 0.694px;
+		left: 15px;
 		top: 0px;
 		position: absolute;
 		overflow: visible;
@@ -1281,10 +1306,10 @@
 	}
 	#BlockCareerButton {
 		position: absolute;
-		width: 162.585px;
+		width: 228px;
 		height: 45.994px;
-		left: 0.754px;
-		top: 322.145px;
+		left: 0px;
+		top: 317.005px;
 		overflow: visible;
 	}
 	#BlockCareerButtonBackground {
@@ -1293,13 +1318,13 @@
 	.BlockCareerButtonBackground {
 		position: absolute;
 		overflow: visible;
-		width: 162.585px;
+		width: 228px;
 		height: 45.994px;
 		left: 0px;
 		top: 0px;
 	}
 	#BlockCareerButtonText {
-		left: 38.507px;
+		left: 70.974px;
 		top: 13.905px;
 		position: absolute;
 		overflow: visible;
@@ -1312,21 +1337,21 @@
 		font-size: 17px;
 		color: rgba(255,255,255,1);
 	}
-	#BG_dl {
+	#BG_dn {
 		fill: rgba(225,27,34,1);
 	}
-	.BG_dl {
+	.BG_dn {
 		overflow: visible;
 		position: absolute;
 		width: 430px;
-		height: 1062.622px;
+		height: 934.424px;
 		left: 0px;
 		top: 4850px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#BlockLocationMainText {
 		left: 90px;
-		top: 3734px;
+		top: 3713.471px;
 		position: absolute;
 		overflow: visible;
 		width: 251px;
@@ -1342,7 +1367,7 @@
 	}
 	#BlockLocationCaption {
 		left: 150px;
-		top: 3695.696px;
+		top: 3675.167px;
 		position: absolute;
 		overflow: visible;
 		width: 139px;
@@ -1359,7 +1384,7 @@
 		width: 152px;
 		height: 43px;
 		left: 139px;
-		top: 3822.362px;
+		top: 3801.833px;
 		overflow: visible;
 	}
 	#BlockLocationButtonBackground {
@@ -1619,19 +1644,19 @@
 	#BlockFooterAddress {
 		position: absolute;
 		width: 200px;
-		height: 138px;
-		left: 61.241px;
-		top: 4890.5px;
+		height: 136px;
+		left: 115px;
+		top: 4881px;
 		overflow: visible;
 	}
 	#BlockFooterAddressMainText {
-		left: 0px;
-		top: 75px;
+		left: 13px;
+		top: 73px;
 		position: absolute;
 		overflow: visible;
 		width: 175px;
 		white-space: nowrap;
-		text-align: left;
+		text-align: center;
 		font-family: Segoe UI;
 		font-style: normal;
 		font-weight: bold;
@@ -1645,187 +1670,19 @@
 		overflow: visible;
 		width: 201px;
 		white-space: nowrap;
-		text-align: left;
+		text-align: center;
 		font-family: Segoe UI;
 		font-style: normal;
 		font-weight: bold;
 		font-size: 20px;
 		color: rgba(255,255,255,1);
 	}
-	#BlockFooterSNButtons {
-		position: absolute;
-		width: 208px;
-		height: 43px;
-		left: 103px;
-		top: 5329.5px;
-		overflow: visible;
-	}
-	#BlockFooterSNButtonsLinkedIn {
-		position: absolute;
-		width: 43px;
-		height: 43px;
-		left: 110px;
-		top: 0px;
-		overflow: visible;
-	}
-	#BlockFooterSNButtonsLinkedInBa {
-		fill: rgba(255,246,241,1);
-	}
-	.BlockFooterSNButtonsLinkedInBa {
-		overflow: visible;
-		position: absolute;
-		width: 43px;
-		height: 43px;
-		left: 0px;
-		top: 0px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#BlockFooterSNButtonsLinkedInIc {
-		left: 12px;
-		top: 3px;
-		position: absolute;
-		overflow: visible;
-		width: 21px;
-		white-space: nowrap;
-		line-height: 40px;
-		margin-top: -8px;
-		text-align: left;
-		font-family: Segoe UI;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 24px;
-		color: rgba(254,0,0,1);
-	}
-	#BlockFooterSNButtonsFacebook {
-		position: absolute;
-		width: 43px;
-		height: 43px;
-		left: 0px;
-		top: 0px;
-		overflow: visible;
-	}
-	#BlockFooterSNButtonsFacebookBa {
-		fill: rgba(255,246,241,1);
-	}
-	.BlockFooterSNButtonsFacebookBa {
-		overflow: visible;
-		position: absolute;
-		width: 43px;
-		height: 43px;
-		left: 0px;
-		top: 0px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#BlockFooterSNButtonsFacebookIc {
-		left: 17px;
-		top: 6px;
-		position: absolute;
-		overflow: visible;
-		width: 10px;
-		white-space: nowrap;
-		line-height: 40px;
-		margin-top: -8px;
-		text-align: left;
-		font-family: Segoe UI;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 24px;
-		color: rgba(254,0,0,1);
-	}
-	#BlockFooterSNButtonsInstagram {
-		position: absolute;
-		width: 43px;
-		height: 43px;
-		left: 165px;
-		top: 0px;
-		overflow: visible;
-	}
-	#BlockFooterSNButtonsInstagramB {
-		fill: rgba(255,246,241,1);
-	}
-	.BlockFooterSNButtonsInstagramB {
-		overflow: visible;
-		position: absolute;
-		width: 43px;
-		height: 43px;
-		left: 0px;
-		top: 0px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#BlockFooterSNButtonsInstagramC {
-		fill: rgba(255,0,0,1);
-	}
-	.BlockFooterSNButtonsInstagramC {
-		overflow: visible;
-		position: absolute;
-		width: 22.965px;
-		height: 22.968px;
-		left: 10.018px;
-		top: 10.016px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#BlockFooterSNButtonsInstagramC_ek {
-		fill: rgba(255,0,0,1);
-	}
-	.BlockFooterSNButtonsInstagramC_ek {
-		overflow: visible;
-		position: absolute;
-		width: 11.479px;
-		height: 11.479px;
-		left: 15.763px;
-		top: 15.757px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#BlockFooterSNButtonsInstagramC_el {
-		fill: rgba(255,0,0,1);
-	}
-	.BlockFooterSNButtonsInstagramC_el {
-		overflow: visible;
-		position: absolute;
-		width: 2.296px;
-		height: 2.296px;
-		left: 26.096px;
-		top: 14.608px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#BlockFooterSNButtonsTwitter {
-		position: absolute;
-		width: 43px;
-		height: 43px;
-		left: 55px;
-		top: 0px;
-		overflow: visible;
-	}
-	#BlockFooterSNButtonsTwitterBac {
-		fill: rgba(255,246,241,1);
-	}
-	.BlockFooterSNButtonsTwitterBac {
-		overflow: visible;
-		position: absolute;
-		width: 43px;
-		height: 43px;
-		left: 0px;
-		top: 0px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#BlockFooterSNButtonsTwitterIco {
-		fill: rgba(255,0,0,1);
-	}
-	.BlockFooterSNButtonsTwitterIco {
-		overflow: visible;
-		position: absolute;
-		width: 18.568px;
-		height: 18.988px;
-		left: 12.216px;
-		top: 12.506px;
-		transform: matrix(1,0,0,1,0,0);
-	}
 	#BlockFooterChap {
 		position: absolute;
 		width: 260px;
 		height: 247px;
-		left: 77px;
-		top: 5423px;
+		left: 85px;
+		top: 5277px;
 		overflow: visible;
 	}
 	#BlockFooterChapIcon {
@@ -1852,14 +1709,14 @@
 	}
 	#BlockFooterOpeningHours {
 		position: absolute;
-		width: 309.018px;
-		height: 196px;
-		left: 60.491px;
-		top: 5079px;
+		width: 308px;
+		height: 200px;
+		left: 61px;
+		top: 5047px;
 		overflow: visible;
 	}
 	#BlockFooterOpeningHoursCaption {
-		left: 1.018px;
+		left: 81.991px;
 		top: 0px;
 		position: absolute;
 		overflow: visible;
@@ -1873,13 +1730,13 @@
 		color: rgba(255,255,255,1);
 	}
 	#BlockFooterOpeningHoursMainTex {
-		left: 0px;
-		top: 154px;
+		left: 16.491px;
+		top: 158px;
 		position: absolute;
 		overflow: visible;
-		width: 274px;
+		width: 275px;
 		white-space: nowrap;
-		text-align: left;
+		text-align: center;
 		font-family: Segoe UI;
 		font-style: normal;
 		font-weight: bold;
@@ -1900,18 +1757,18 @@
 		position: absolute;
 		width: 308px;
 		height: 1px;
-		left: 1.018px;
-		top: 133px;
+		left: 0px;
+		top: 132px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	#BlockFooterOpeningHoursMainTex_ew {
-		left: 0px;
+	#BlockFooterOpeningHoursMainTex_ej {
+		left: 55.491px;
 		top: 48px;
 		position: absolute;
 		overflow: visible;
 		width: 197px;
 		height: 64px;
-		text-align: left;
+		text-align: center;
 		font-family: Segoe UI;
 		font-style: normal;
 		font-weight: bold;
@@ -1919,8 +1776,8 @@
 		color: rgba(255,255,255,1);
 	}
 	#BlockFooterCopyrightCaption {
-		left: 80px;
-		top: 5870px;
+		left: 79px;
+		top: 5747px;
 		position: absolute;
 		overflow: visible;
 		width: 274px;
@@ -1933,8 +1790,8 @@
 		color: rgba(255,255,255,1);
 	}
 	#BlockFooterCopyrightMainText {
-		left: 84px;
-		top: 5708px;
+		left: 92px;
+		top: 5581px;
 		position: absolute;
 		overflow: visible;
 		width: 247px;
@@ -1946,7 +1803,7 @@
 		font-size: 16px;
 		color: rgba(255,255,255,1);
 	}
-	#BlockFooterOpeningHoursSplitte_ez {
+	#BlockFooterOpeningHoursSplitte_em {
 		fill: transparent;
 		stroke: rgba(255,255,255,1);
 		stroke-width: 1px;
@@ -1955,16 +1812,16 @@
 		stroke-miterlimit: 4;
 		shape-rendering: auto;
 	}
-	.BlockFooterOpeningHoursSplitte_ez {
+	.BlockFooterOpeningHoursSplitte_em {
 		overflow: visible;
 		position: absolute;
 		width: 308px;
 		height: 1px;
 		left: 62px;
-		top: 5853px;
+		top: 5728px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	#BlockFooterOpeningHoursSplitte_e {
+	#BlockFooterOpeningHoursSplitte_en {
 		fill: transparent;
 		stroke: rgba(255,255,255,1);
 		stroke-width: 1px;
@@ -1973,20 +1830,118 @@
 		stroke-miterlimit: 4;
 		shape-rendering: auto;
 	}
-	.BlockFooterOpeningHoursSplitte_e {
+	.BlockFooterOpeningHoursSplitte_en {
 		overflow: visible;
 		position: absolute;
 		width: 308px;
 		height: 1px;
 		left: 60px;
-		top: 5689px;
+		top: 5564px;
 		transform: matrix(1,0,0,1,0,0);
 	}
+	
+	#BannerLanguageFirstPic {
+		display: block;
+		opacity: 0;
+		margin-top: 1px;
+		margin-left: 4px;
+		height: 24px;
+		width: 24px;
+		border-radius: 10px 0px 0px 0px;
+		z-index: 2;
+	}
+	
+	#BannerLanguageSecondPic {
+		display: block;
+		opacity: 0;
+		margin-top: -2px;
+		margin-left: 4px;
+		height: 24px;
+		width: 24px;
+		border-radius: 0px 0px 0px 10px;
+		z-index: 2;
+	}
+	#Language:hover #BannerLanguageSecondText,
+	#Language:hover #BannerLanguageFirstPic,
+	#Language:hover #BannerLanguageSecondPic
+	{
+		opacity: 1;
+	}
+	#Language:hover .BannerLanguageWorldPicture
+	{
+		opacity: 0;
+	}
+	
+	#BannerLanguageFirstText {
+			
+		left: 25.545px;
+		top: 6.38px;
+		position: absolute;
+		overflow: visible;
+		width: 59px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: var(--main-font);
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: var(--main-color-light);
+		z-index: 2;
+	}
+	
+	#BannerLanguageSecondText {
+		display: block;
+		left: 28px;
+		top: 29px;
+		position: absolute;
+		overflow: visible;
+		width: 59px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: var(--main-font);
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: var(--main-color-light);
+		opacity: 0;
+		z-index: 2;
+	}
+	
+	.locale-change{
+		text-decoration: none;
+		color: rgba(225,27,34,1);
+		font-family: Frutiger LT Pro;
+	}
+	
+	#Language:hover .BannerLanguageFrame #BannerLanguageFrame {
+		fill: var(--main-color-light);
+		stroke: var(--main-color);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+		height: 50px;
+	}
+	
+	.BannerLanguageFrame {
+		overflow: visible;
+		width: 101px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		z-index: 1;
+	}
+	
+	#HamburgerBG {
+		fill: rgba(255,246,241,1);
+	}
+	
 
 }
 
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 430px) {
 
 	#Mobile {
 		display: none;
