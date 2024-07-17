@@ -27,6 +27,8 @@
 
 	--white-color: #FFF;
 
+
+	--main-width: 430px;
 }
 * {
 	margin: 0;
@@ -36,7 +38,7 @@
 }
 #Mobile {
 	position: absolute;
-	width: 430px;
+	width: var(--main-width);
 	height: 5783px;
 	background-color: rgba(74,74,74,1);
 	overflow: hidden;
@@ -61,7 +63,7 @@
 .BG {
 	overflow: visible;
 	position: absolute;
-	width: 430px;
+	width: var(--main-width);
 	height: 436px;
 	left: 0px;
 	top: 926px;
@@ -73,7 +75,7 @@
 .BG_p {
 	overflow: visible;
 	position: absolute;
-	width: 430px;
+	width: var(--main-width);
 	height: 436px;
 	left: 0px;
 	top: 1798px;
@@ -85,7 +87,7 @@
 .BG_q {
 	overflow: visible;
 	position: absolute;
-	width: 430px;
+	width: var(--main-width);
 	height: 436px;
 	left: 0px;
 	top: 1362px;
@@ -97,7 +99,7 @@
 .BG_r {
 	overflow: visible;
 	position: absolute;
-	width: 430px;
+	width: var(--main-width);
 	height: 436px;
 	left: 0px;
 	top: 2670px;
@@ -109,7 +111,7 @@
 .BG_s {
 	overflow: visible;
 	position: absolute;
-	width: 430px;
+	width: var(--main-width);
 	height: 436px;
 	left: 0px;
 	top: 2234px;
@@ -121,7 +123,7 @@
 .BG_t {
 	overflow: visible;
 	position: absolute;
-	width: 430px;
+	width: var(--main-width);
 	height: 436px;
 	left: 0px;
 	top: 3106px;
@@ -133,7 +135,7 @@
 .BG_u {
 	overflow: visible;
 	position: absolute;
-	width: 430px;
+	width: var(--main-width);
 	height: 436px;
 	left: 0px;
 	top: 3542px;
@@ -145,7 +147,7 @@
 .BG_v {
 	overflow: visible;
 	position: absolute;
-	width: 430px;
+	width: var(--main-width);
 	height: 872px;
 	left: 0px;
 	top: 3978px;
@@ -249,7 +251,7 @@
 }
 #Menu {
 	position: fixed;
-	width: 430px;
+	width: var(--main-width);
 	height: 60px;
 	left: 0px;
 	top: 0px;
@@ -262,7 +264,7 @@
 ._38 {
 	position: absolute;
 	overflow: visible;
-	width: 430px;
+	width: var(--main-width);
 	height: 60px;
 	left: 0px;
 	top: 0px;
@@ -823,7 +825,7 @@
 }
 #BlockSN {
 	position: absolute;
-	width: 430px;
+	width: var(--main-width);
 	height: 436px;
 	left: 0px;
 	top: 490px;
@@ -835,7 +837,7 @@
 .BG_ch {
 	overflow: visible;
 	position: absolute;
-	width: 430px;
+	width: var(--main-width);
 	height: 436px;
 	left: 0px;
 	top: 0px;
@@ -1336,7 +1338,7 @@
 .BG_dn {
 	overflow: visible;
 	position: absolute;
-	width: 430px;
+	width: var(--main-width);
 	height: 934.424px;
 	left: 0px;
 	top: 4850px;
