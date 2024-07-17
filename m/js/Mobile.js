@@ -7,6 +7,16 @@
  * Code subject to change.
  **/
 
+
+
+
+
+
+
+
+
+
+
 if (window.console==null) { window["console"] = { log : function() {} } }; // some browsers do not set console
 
 var Application = function() {
@@ -2834,3 +2844,13 @@ var Application = function() {
 }
 
 window.application = new Application();
+
+function openPopup() {
+	var popup = document.querySelector('.popup');
+	popup.style.display = 'block';
+}
+
+function closePopup() {
+	var popup = document.querySelector('.popup');
+	popup.style.display = 'none';
+}
