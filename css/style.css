@@ -277,8 +277,9 @@ nav {
   align-items: center;
   width: 100%;
   padding-top: 60px;
-
-  background-size: 100%;
+  background-image: url("../img/MobileBannerBG.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #bannerImage {
@@ -293,7 +294,7 @@ nav {
   padding: 0 24px 12px 24px;
 
 
-  background-color: var(--main-color);
+  background-color: var(--main-color-transparent);
   border-radius: 25px;
 }
 
