@@ -79,8 +79,17 @@ input[type="text"] {
 	height: 100%;
 }
 
+#FooterLeftText {
+	padding-left: 50%;
+}
+
+#FooterRightText {
+	padding-right: 30%;
+}
+
+
 #Footer .Sub {
-    padding-top: 64px;
+    padding-top: 44px;
 }
 
 #Footer .MainText span {
@@ -1804,7 +1813,7 @@ input[type="text"] {
 
 	#MainMenuLogotypeText {
 		left: 124px;
-		top: -30px;
+		top: 30px;
 		position: absolute;
 		width: 240px;
 		white-space: nowrap;
@@ -1823,7 +1832,7 @@ input[type="text"] {
 		background-color: var(--main-color);
 		border: 1px solid var(--main-color);
 		border-radius: 50%;
-		top: -50px;
+		top: 2px;
 	}
 
 
@@ -2956,6 +2965,17 @@ input[type="text"] {
 		z-index: 1;
 	}
 
+	.MainMenuHeaderLanguageFrame2 {
+		margin-top: 3px;
+		
+	}
+
+	#MainMenuHeaderLanguageFrame2 {
+		fill: transparent;
+		stroke: var(--main-color-light);		
+		stroke-width: 1.5px;
+		height: 22px;
+	}
 
 
 	#BannerHeaderLanguageFrame {
@@ -2979,6 +2999,17 @@ input[type="text"] {
 
 
 	#MainMenuHeaderLanguage:hover #MainMenuHeaderLanguageFrame {
+		fill: var(--main-color);
+		stroke: var(--main-color-light);
+		stroke-width: 2px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+		height: 48px;
+	}
+
+	#MainMenuHeaderLanguage:hover #MainMenuHeaderLanguageFrame2 {
 		fill: var(--main-color);
 		stroke: var(--main-color-light);
 		stroke-width: 2px;
@@ -3171,7 +3202,6 @@ input[type="text"] {
 		margin-top: 26px;
 		opacity: 0;
 		background-color: var(--main-color-light);
-		z-index: 2;
 	}
 
 
