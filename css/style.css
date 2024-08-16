@@ -1816,13 +1816,23 @@ input[type="text"] {
 		color: var(--main-color);
 	}
 
+	#MainMenuLogotypePictureOutline {
+		position: absolute;
+		width: 112px;
+		height: 112px;
+		background-color: var(--main-color);
+		border: 1px solid var(--main-color);
+		border-radius: 50%;
+		top: -50px;
+	}
+
+
 	#MainMenuLogotypePicture {
 		opacity: 1;
 		position: absolute;
 		width: 110px;
 		height: 110px;
 		left: 0px;
-		top: -50px;
 		background-color: var(--main-color-light);
 		border: 5px solid var(--main-color-light);
 		border-radius: 50%;
@@ -2249,25 +2259,28 @@ input[type="text"] {
 
 	.MainMenuService {
 		display: flex;
-		flex-direction: row;
-		justify-content: center;		
+		flex-direction: row;		
 		align-items: center;
 		width: 140px;
 		height: 48px;
 		background-color: var(--main-color);
-		border-radius: 20px;
+		border-radius: 30px;
 		text-align: center;
 	}
 
 	.MainMenuServicesPicture {
 		position: relative;
-		width: 27.035px;
-		height: 26.908px;	
+		width: 44px;
+		height: 44px;
+		background-color: var(--main-color-light);
+		border: var(--main-color-light) solid;
+		border-radius: 50% 0 0 50%;	
+		left: 2px;
 		z-index: 1;
 	}
 
 	.MainMenuServicesPicture .contour {
-		fill: var(--main-color-light);
+		fill: var(--main-color);
 	}
 
 
@@ -2278,6 +2291,7 @@ input[type="text"] {
 		font-size: 12px;
 		text-align: start;
 		padding-left: 12px;
+		width: 82px;
 		
 	}
 
@@ -2293,6 +2307,8 @@ input[type="text"] {
 		top: 20.223px;
 		overflow: visible;
 	}
+
+
 	#MainMenuServicesSNPictureC6 {
 		fill: var(--main-color-light);
 	}
@@ -2301,7 +2317,7 @@ input[type="text"] {
 		position: absolute;
 		width: 4.615px;
 		height: 0.943px;
-		left: 16.448px;
+		left: 21.448px;
 		top: 27.245px;
 		transform: matrix(1,0,0,1,0,0);
 	}
@@ -2309,13 +2325,10 @@ input[type="text"] {
 		fill: var(--main-color-light);
 	}
 	.MainMenuServicesSNPictureC5 {
-		overflow: visible;
 		position: absolute;
 		width: 25.07px;
 		height: 30.712px;
-		left: 0px;
-		top: 0px;
-		transform: matrix(1,0,0,1,0,0);
+		left: 5px;
 	}
 	#MainMenuServicesSNPictureC4 {
 		fill: var(--main-color-light);
@@ -2325,7 +2338,7 @@ input[type="text"] {
 		position: absolute;
 		width: 3.266px;
 		height: 1.457px;
-		left: 10.919px;
+		left: 15.919px;
 		top: 15.354px;
 		transform: matrix(1,0,0,1,0,0);
 	}
@@ -2337,7 +2350,7 @@ input[type="text"] {
 		position: absolute;
 		width: 0.988px;
 		height: 1.272px;
-		left: 9.305px;
+		left: 14.305px;
 		top: 11.803px;
 		transform: matrix(1,0,0,1,0,0);
 	}
@@ -2349,7 +2362,7 @@ input[type="text"] {
 		position: absolute;
 		width: 0.913px;
 		height: 1.262px;
-		left: 14.843px;
+		left: 19.843px;
 		top: 11.812px;
 		transform: matrix(1,0,0,1,0,0);
 	}
@@ -2361,7 +2374,7 @@ input[type="text"] {
 		position: absolute;
 		width: 2.821px;
 		height: 2.839px;
-		left: 11.129px;
+		left: 16.129px;
 		top: 1.717px;
 		transform: matrix(1,0,0,1,0,0);
 	}
@@ -2420,8 +2433,8 @@ input[type="text"] {
 		position: absolute;
 		width: 27.035px;
 		height: 26.908px;
-		left: 0px;
-		top: 0px;
+		left: 4px;
+		top: 4px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#MainMenuServicesST {
@@ -2488,8 +2501,8 @@ input[type="text"] {
 		position: absolute;
 		width: 17.458px;
 		height: 13.615px;
-		left: 4.209px;
-		top: 0px;
+		left: 8.209px;
+		top: 4px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#MainMenuServicesSTPictureC5 {
@@ -2500,8 +2513,8 @@ input[type="text"] {
 		position: absolute;
 		width: 12.57px;
 		height: 13.259px;
-		left: 0px;
-		top: 12.742px;
+		left: 4px;
+		top: 16.742px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#MainMenuServicesSTPictureC4 {
@@ -2512,8 +2525,8 @@ input[type="text"] {
 		position: absolute;
 		width: 12.554px;
 		height: 11.854px;
-		left: 14.605px;
-		top: 14.146px;
+		left: 18.605px;
+		top: 18.146px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#MainMenuServicesSTPictureC3 {
@@ -2524,8 +2537,8 @@ input[type="text"] {
 		position: absolute;
 		width: 8.747px;
 		height: 0.831px;
-		left: 5.791px;
-		top: 5.369px;
+		left: 9.791px;
+		top: 10.369px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#MainMenuServicesSTPictureC2 {
@@ -2536,8 +2549,8 @@ input[type="text"] {
 		position: absolute;
 		width: 8.703px;
 		height: 0.839px;
-		left: 5.813px;
-		top: 3.785px;
+		left: 9.813px;
+		top: 7.785px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#MainMenuServicesSTPictureC1 {
@@ -2548,8 +2561,8 @@ input[type="text"] {
 		position: absolute;
 		width: 8.747px;
 		height: 0.836px;
-		left: 5.789px;
-		top: 2.204px;
+		left: 9.789px;
+		top: 6.204px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#MainMenuServicesOT {
@@ -2615,8 +2628,8 @@ input[type="text"] {
 		position: absolute;
 		width: 25.893px;
 		height: 25.758px;
-		left: 0px;
-		top: 0px;
+		left: 4px;
+		top: 4px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#MainMenuServicesOTPictureC6 {
@@ -2627,8 +2640,8 @@ input[type="text"] {
 		position: absolute;
 		width: 2.349px;
 		height: 1.251px;
-		left: 21.302px;
-		top: 14.442px;
+		left: 25.302px;
+		top: 18.442px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#MainMenuServicesOTPictureC5 {
@@ -2639,8 +2652,8 @@ input[type="text"] {
 		position: absolute;
 		width: 0.847px;
 		height: 0.847px;
-		left: 20.721px;
-		top: 12.882px;
+		left: 24.721px;
+		top: 16.882px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#MainMenuServicesOTPictureC4 {
@@ -2651,8 +2664,8 @@ input[type="text"] {
 		position: absolute;
 		width: 0.848px;
 		height: 0.848px;
-		left: 23.329px;
-		top: 12.882px;
+		left: 27.329px;
+		top: 16.882px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#MainMenuServicesOTPictureC3 {
@@ -2663,8 +2676,8 @@ input[type="text"] {
 		position: absolute;
 		width: 2.352px;
 		height: 1.256px;
-		left: 4.872px;
-		top: 5.844px;
+		left: 8.872px;
+		top: 9.844px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#MainMenuServicesOTPictureC2 {
@@ -2675,8 +2688,8 @@ input[type="text"] {
 		position: absolute;
 		width: 0.847px;
 		height: 0.848px;
-		left: 4.334px;
-		top: 4.255px;
+		left: 8.334px;
+		top: 8.255px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#MainMenuServicesOTPictureC1 {
@@ -2687,8 +2700,8 @@ input[type="text"] {
 		position: absolute;
 		width: 0.848px;
 		height: 0.848px;
-		left: 6.921px;
-		top: 4.255px;
+		left: 10.921px;
+		top: 8.255px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#MainMenuServicesMSW {
@@ -2742,8 +2755,8 @@ input[type="text"] {
 		position: absolute;
 		width: 27.082px;
 		height: 27.082px;
-		left: 50.57px;
-		top: 23.975px;
+		left: 52.57px;
+		top: 25.975px;
 		overflow: visible;
 	}
 	#MainMenuServicesMSWPictureC2 {
@@ -2754,8 +2767,8 @@ input[type="text"] {
 		position: absolute;
 		width: 17.755px;
 		height: 22.982px;
-		left: 0px;
-		top: 4.097px;
+		left: 4px;
+		top: 8.097px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#MainMenuServicesMSWPictureC1 {
@@ -2766,8 +2779,8 @@ input[type="text"] {
 		position: absolute;
 		width: 13.452px;
 		height: 27.082px;
-		left: 13.63px;
-		top: 0px;
+		left: 17.63px;
+		top: 4px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 
@@ -2827,8 +2840,8 @@ input[type="text"] {
 		position: absolute;
 		width: 14.413px;
 		height: 16.043px;
-		left: 0px;
-		top: 0px;
+		left: 4px;
+		top: 4px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#MainMenuServicesHHAPictureC5 {
@@ -2839,8 +2852,8 @@ input[type="text"] {
 		position: absolute;
 		width: 14.889px;
 		height: 23.803px;
-		left: 12.955px;
-		top: 3.173px;
+		left: 16.955px;
+		top: 7.173px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#MainMenuServicesHHAPictureC4 {
@@ -2851,8 +2864,8 @@ input[type="text"] {
 		position: absolute;
 		width: 8.445px;
 		height: 6.929px;
-		left: 2.985px;
-		top: 18.26px;
+		left: 6.985px;
+		top: 22.26px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#MainMenuServicesHHAPictureC3 {
@@ -2863,8 +2876,8 @@ input[type="text"] {
 		position: absolute;
 		width: 2.561px;
 		height: 1.123px;
-		left: 19.119px;
-		top: 13.049px;
+		left: 23.119px;
+		top: 17.049px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#MainMenuServicesHHAPictureC2 {
@@ -2875,8 +2888,8 @@ input[type="text"] {
 		position: absolute;
 		width: 0.816px;
 		height: 1.026px;
-		left: 18.391px;
-		top: 10.276px;
+		left: 22.391px;
+		top: 14.276px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#MainMenuServicesHHAPictureC1 {
@@ -2887,8 +2900,8 @@ input[type="text"] {
 		position: absolute;
 		width: 0.816px;
 		height: 1.027px;
-		left: 21.586px;
-		top: 10.276px;
+		left: 25.586px;
+		top: 14.276px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#MainMenuHeader {
@@ -2917,21 +2930,22 @@ input[type="text"] {
 		display: flex;
 		padding-left: 13px;
 		width: 100px;
+		z-index: 999;
+	}
+
+	#BannerHeaderLanguage {
+		display: flex;
+		padding-left: 13px;
+		width: 100px;
 	}
 
 	#MainMenuHeaderLanguageFrame {
 		fill: transparent;
-		stroke: var(--main-color-light);
-		
+		stroke: var(--main-color-light);		
 		stroke-width: 2px;
-		stroke-linejoin: round;
-		stroke-linecap: butt;
-		stroke-miterlimit: 4;
-		shape-rendering: auto;
 		height: 24px;
-		z-index: 1;
 	}
-
+	
 	.MainMenuHeaderLanguageFrame {
 		
 		overflow: visible;
@@ -2941,6 +2955,28 @@ input[type="text"] {
 		margin-top: 2px;
 		z-index: 1;
 	}
+
+
+
+	#BannerHeaderLanguageFrame {
+		fill: transparent;
+		stroke: var(--main-color-light);		
+		stroke-width: 2px;
+		height: 24px;
+		z-index: 1;
+	}
+
+	.BannerHeaderLanguageFrame {
+
+		overflow: visible;
+		width: 99.395px;
+		height: 22px;
+		left: 0px;
+		margin-top: 2px;
+		z-index: 1;
+	}
+
+
 
 	#MainMenuHeaderLanguage:hover #MainMenuHeaderLanguageFrame {
 		fill: var(--main-color);
@@ -3123,7 +3159,7 @@ input[type="text"] {
 		width: 100%;
 		opacity: 1;
 		animation: fixedMenu 0s forwards;
-		z-index: 10;
+		z-index: 1;
 	}
 
 
@@ -3135,7 +3171,7 @@ input[type="text"] {
 		margin-top: 26px;
 		opacity: 0;
 		background-color: var(--main-color-light);
-		z-index: 10;
+		z-index: 2;
 	}
 
 
@@ -3146,6 +3182,10 @@ input[type="text"] {
 		width: 100%;
 		opacity: 1;
 		animation: fixedLogo 0s forwards;
+
+		-webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.1);
+		-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.1);
+		box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.1);
 	}
 
 	@keyframes fixedMenu {
@@ -3281,18 +3321,29 @@ input[type="text"] {
 		top: 17.262px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	.MainMenuService:hover a .MMSPBackgroundWrapper .MainMenuServicePictureBackground {
-		fill: var(--main-color);
-		stroke: var(--main-color-light);
+
+	.too_wide_text {
+		left: -6px;
 	}
 
-
-	.MainMenuService:hover a .MainMenuServicesText{
-		color: var(--main-color);
+	.MainMenuService:hover .MainMenuServicesPicture svg .contour{
+		
 	}
 
-	.contour{
-		fill: var(--main-color);
+	.MainMenuService:hover .MainMenuServicesText{
+		
+	}
+
+	.MainMenuService:hover {
+		box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+	}
+
+	.MainMenuService:hover .MainMenuServicesPicture {
+	
+	}
+
+	.contour {
+		fill: var(--main-color);		
 	}
 
 	.MainMenuService:hover a .MainMenuServicesPicture .contour{
