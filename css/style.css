@@ -57,6 +57,7 @@ input[type="text"] {
     display: flex;
     flex-direction: column;
     align-items: center;
+	width: 100%;
 }
 
 .Block {
@@ -89,7 +90,7 @@ input[type="text"] {
 
 #BlockFooterChapIcon {
 	height: 100px;
-	margin-bottom: 20px;
+	margin-bottom: 60px;
 }
 
 .MainText span {
@@ -394,13 +395,11 @@ input[type="text"] {
     right: 15%;
     background-color: var(--main-color-transparent);
     margin-top: 43px;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 .Menu-items {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     height: 26px;
 }
 .Menu-items li {
@@ -1267,48 +1266,6 @@ input[type="text"] {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	#BannerServicesPT {
 		position: absolute;
 		width: 127.065px;
@@ -1403,7 +1360,6 @@ input[type="text"] {
 		top: 10.496px;
 		overflow: visible;
 	}
-
 	#BannerServicesST {
 		position: absolute;
 		width: 126.9px;
@@ -1590,12 +1546,6 @@ input[type="text"] {
 		top: 20.7px;
 		overflow: visible;
 	}
-
-
-
-
-
-
 	#BannerServicesMSV {
 		position: absolute;
 		width: 127.368px;
@@ -1685,8 +1635,6 @@ input[type="text"] {
 		top: 20.307px;
 		overflow: visible;
 	}
-
-
 	#BannerServicesHHA {
 		display: none;
 		position: absolute;
@@ -1784,8 +1732,6 @@ input[type="text"] {
 		overflow: visible;
 	}
 
-
-    
 	.BSItem:hover .BSAD
 	{
 		display: block;
@@ -1828,55 +1774,59 @@ input[type="text"] {
 
 	/* -------- MENU --------------------------------------------------------*/
 
-	#MainMenu {
+	#MainMenuHeaderEmail, #MainMenuHeaderPhone, #MainMenuHeaderFax, #MainMenuHeaderLocationText {
+		padding-top: 2px;
+	}
+
+	.MainMenuServices{
 		position: absolute;
-		width: 1903px;
-		height: 163px;
-		left: 0px;
-		top: 995px;
-		overflow: visible;
+		top: 1040px;
+		left: 687px;
+		opacity: 1;
 	}
-	#MainMenuBackground {
-		fill: var(--main-color-light);
-	}
-	.MainMenuBackground {
+	.MainMenuLogotype{
 		position: absolute;
-		overflow: visible;
-		width: 1903px;
-		height: 163px;
-		left: 0px;
-		top: 0px;
+		left: 279px;
+		opacity: 0;
 	}
+
+	.logo_fixed {	
+		position: fixed;
+		opacity: 1;
+		animation: fixedLogo 0s forwards;
+	}
+
 	#MainMenuLogotype {
 		position: absolute;
-		width: 363px;
-		height: 100px;
 		left: 279px;
 		top: 45px;
-		overflow: visible;
 	}
+
 	#MainMenuLogotypeText {
 		left: 124px;
-		top: 16px;
+		top: -30px;
 		position: absolute;
-		overflow: visible;
 		width: 240px;
 		white-space: nowrap;
 		text-align: left;
 		font-family: var(--main-font);
 		font-style: normal;
 		font-weight: bold;
-		font-size: 28px;
+		font-size: 20px;
 		color: var(--main-color);
 	}
+
 	#MainMenuLogotypePicture {
-		opacity: 0.9;
+		opacity: 1;
 		position: absolute;
-		width: 100px;
-		height: 100px;
+		width: 110px;
+		height: 110px;
 		left: 0px;
-		top: 0px;
-		overflow: visible;
+		top: -50px;
+		background-color: var(--main-color-light);
+		border: 5px solid var(--main-color-light);
+		border-radius: 50%;
+		z-index: 11;
 	}
 	#MainMenuLogotypePictureC34 {
 		fill: var(--main-color);
@@ -2274,61 +2224,66 @@ input[type="text"] {
 		top: 51.272px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	#MainMenuServices {
-		position: absolute;
-		width: 933px;
-		height: 100px;
-		left: 687px;
-		top: 44.306px;
-		overflow: visible;
-	}
-	#MainMenuServicesSN {
-		position: absolute;
-		width: 128px;
-		height: 100px;
-		left: 0px;
-		top: 0px;
-		overflow: visible;
-	}
-	#MainMenuServicesSNBackground {
-		fill: var(--main-color-light);
-		stroke: var(--main-color);
-		stroke-width: 1px;
-		stroke-linejoin: miter;
-		stroke-linecap: butt;
-		stroke-miterlimit: 4;
-		shape-rendering: auto;
-	}
-	.MainMenuServicesSNBackground {
-		position: absolute;
-		overflow: visible;
-		width: 128px;
-		height: 100px;
-		left: 0px;
-		top: 0px;
-	}
-	#MainMenuServicesSNPictureBackg {
-		fill: var(--main-color);
-		stroke: var(--main-color);
-		stroke-width: 1px;
-		stroke-linejoin: miter;
-		stroke-linecap: butt;
-		stroke-miterlimit: 4;
-		shape-rendering: auto;
-	}
-	.MainMenuServicesSNPictureBackg {
-		overflow: visible;
-		position: absolute;
-		width: 40px;
-		height: 40px;
-		left: 44px;
-		top: 17.262px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#MainMenuServicesSNText {
-		left: 22px;
-		width: 85px;
 
+	
+	/*----------------MAIN MENU SERVICES----------------------------*/
+	.MainMenuServices a {
+		text-decoration: none;
+	}
+
+	.MainMenuServices {		
+		display: flex;	
+		justify-content: space-between;	
+		align-items: center;
+		flex-wrap: wrap;
+		width: 45%;
+	}
+
+	.services_fixed {	
+		position: fixed;
+		top: 26px;
+		left: 40%;
+		opacity: 1;
+		animation: fixedLogo 0s forwards;
+	}
+
+	.MainMenuService {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;		
+		align-items: center;
+		width: 140px;
+		height: 48px;
+		background-color: var(--main-color);
+		border-radius: 20px;
+		text-align: center;
+	}
+
+	.MainMenuServicesPicture {
+		position: relative;
+		width: 27.035px;
+		height: 26.908px;	
+		z-index: 1;
+	}
+
+	.MainMenuServicesPicture .contour {
+		fill: var(--main-color-light);
+	}
+
+
+	.MainMenuServicesText {
+		color: var(--main-color-light);
+		position: relative;
+		font-family: var(--main-font);
+		font-size: 12px;
+		text-align: start;
+		padding-left: 12px;
+		
+	}
+
+
+	#MainMenuServicesSNText {
+		width: 85px;
 	}
 	#MainMenuServicesSNPicture {
 		position: absolute;
@@ -2410,14 +2365,9 @@ input[type="text"] {
 		top: 1.717px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	#MainMenuServicesPT {
-		position: absolute;
-		width: 128px;
-		height: 100px;
-		left: 161px;
-		top: 0px;
-		overflow: visible;
-	}
+
+
+
 	#MainMenuServicesPTBackground {
 		fill: var(--main-color-light);
 		stroke: var(--main-color);
@@ -2432,8 +2382,6 @@ input[type="text"] {
 		overflow: visible;
 		width: 128px;
 		height: 100px;
-		left: 0px;
-		top: 0px;
 	}
 	#MainMenuServicesPTPictureBackg {
 		fill: var(--main-color);
@@ -2445,24 +2393,22 @@ input[type="text"] {
 		shape-rendering: auto;
 	}
 	.MainMenuServicesPTPictureBackg {
-		overflow: visible;
 		position: absolute;
 		width: 40px;
 		height: 40px;
-		left: 44px;
 		top: 17.262px;
-		transform: matrix(1,0,0,1,0,0);
 	}
 	#MainMenuServicesPTText {
-		left: 19px;
-		width: 91px;
 
+		width: 91px;
 	}
+
+
 	#MainMenuServicesPTPicture {
 		position: absolute;
 		width: 27.035px;
 		height: 26.908px;
-		left: 50.918px;
+
 		top: 23.092px;
 		overflow: visible;
 	}
@@ -2482,7 +2428,7 @@ input[type="text"] {
 		position: absolute;
 		width: 128px;
 		height: 100px;
-		left: 322px;
+
 		top: 0px;
 		overflow: visible;
 	}
@@ -2824,14 +2770,8 @@ input[type="text"] {
 		top: 0px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	#MainMenuServicesHHA {
-		position: absolute;
-		width: 128px;
-		height: 100px;
-		left: 805px;
-		top: 0px;
-		overflow: visible;
-	}
+
+
 	#MainMenuServicesHHABackground {
 		fill: var(--main-color-light);
 		stroke: var(--main-color);
@@ -2971,20 +2911,18 @@ input[type="text"] {
 		left: 0px;
 		top: 0px;
 	}
+
+
 	#MainMenuHeaderLanguage {
-		position: absolute;
-		width: 99.395px;
-		height: 25.44px;
-		left: 1523.605px;
-		top: 0px;
-		overflow: visible;
+		display: flex;
+		padding-left: 13px;
+		width: 100px;
 	}
-
-
 
 	#MainMenuHeaderLanguageFrame {
 		fill: transparent;
 		stroke: var(--main-color-light);
+		
 		stroke-width: 2px;
 		stroke-linejoin: round;
 		stroke-linecap: butt;
@@ -3000,7 +2938,6 @@ input[type="text"] {
 		width: 99.395px;
 		height: 22px;
 		left: 0px;
-		
 		margin-top: 2px;
 		z-index: 1;
 	}
@@ -3020,7 +2957,7 @@ input[type="text"] {
 		display: block;
 		opacity: 0;
 		border-radius: 10px 0px 0px 0px;
-		margin-top: -26px;
+		margin-top: -28px;
 		margin-left: 4px;
 		height: 24px;
 		width: 24px;
@@ -3028,10 +2965,11 @@ input[type="text"] {
 	}
 
 	#MMLanguageSpainPic {
+		position: absolute;
 		display: block;
 		opacity: 0;
 		border-radius: 0px 0px 0px 10px;
-		margin-top: -2px;
+		margin-top: 22px;
 		margin-left: 4px;
 		height: 24px;
 		width: 24px;
@@ -3040,11 +2978,16 @@ input[type="text"] {
 
 	#MainMenuHeaderLanguage:hover #MMLanguageUsPic,
 	#MainMenuHeaderLanguage:hover #MMLanguageSpainPic,
-	#MainMenuHeaderLanguage:hover #MainMenuHeaderLanguageTextDrop{
+	#MainMenuHeaderLanguage:hover #MainMenuHeaderLanguageTextDrop
+	{
 		opacity: 1;
 	}
 
-	#MainMenuHeaderLanguage:hover .MainMenuHeaderLanguageWorldPic{
+
+
+	#MainMenuHeaderLanguage:hover .MainMenuHeaderLanguageWorldPic,
+	#MainMenuHeaderLanguage:hover .MainMenuHeaderLanguageArrowDow
+	{
 		opacity: 0;
 	}
 
@@ -3053,41 +2996,41 @@ input[type="text"] {
 		fill: var(--main-color-light);
 	}
 	.MainMenuHeaderLanguageWorldPic {
-		overflow: visible;
 		position: absolute;
 		width: 16.833px;
 		height: 16.472px;
-		left: 5.359px;
-		top: 4.484px;
-		transform: matrix(1,0,0,1,0,0);
+		margin-left: -94px;
+		margin-top: 4.5px;
+		z-index: 99;
 	}
+
+
 	#MainMenuHeaderLanguageText {
-		left: 23.94px;
-		top: 4.892px;
 		position: absolute;
-		overflow: visible;
 		width: 59px;
-		white-space: nowrap;
-		text-align: center;
+		margin-left: 34px;
+
+	}
+
+	#MainMenuHeaderLanguageText a {
+		text-decoration: none;
 		font-family: var(--main-font);
-		font-style: normal;
-		font-weight: normal;
 		font-size: 14px;
 		color: var(--main-color-light);
 	}
 
 	#MainMenuHeaderLanguageTextDrop {
-		opacity: 0;
-		left: 26px;
-		top: 29px;
 		position: absolute;
-		overflow: visible;
+		opacity: 0;		
 		width: 59px;
-		white-space: nowrap;
-		text-align: center;
-		font-family: var(--main-font);
-		font-style: normal;
-		font-weight: normal;
+		margin-top: 22px;
+		margin-left: 34px;	
+
+	}
+
+	#MainMenuHeaderLanguageTextDrop a {
+
+		font-family: var(--main-font);		
 		font-size: 14px;
 		color: var(--main-color-light);
 	}
@@ -3096,34 +3039,17 @@ input[type="text"] {
 		fill: var(--main-color-light);
 	}
 	.MainMenuHeaderLanguageArrowDow {
-		overflow: visible;
 		position: absolute;
 		width: 11.477px;
 		height: 7.457px;
 		transform: translate(0px, 0px) matrix(1,0,0,1,83.699,10.3558) rotate(180deg);
 		transform-origin: center;
-		left: 0px;
-		top: 0px;
 	}
-	#MainMenuHeaderLocation {
-		position: absolute;
-		width: 138.212px;
-		height: 17px;
-		left: 1338.375px;
-		top: 4.209px;
-		overflow: visible;
-	}
+
 	#MainMenuHeaderLocationText {
-		left: 18.212px;
-		top: 0px;
-		position: absolute;
-		overflow: visible;
-		width: 121px;
-		white-space: nowrap;
-		text-align: left;
+		
 		font-family: var(--main-font);
-		font-style: normal;
-		font-weight: normal;
+		margin-left: 16px;
 		font-size: 14px;
 		color: var(--main-color-light);
 	}
@@ -3131,88 +3057,66 @@ input[type="text"] {
 		fill: var(--main-color-light);
 	}
 	.MainMenuHeaderLocationMarker {
-		overflow: visible;
 		position: absolute;
 		width: 11.55px;
-		height: 14px;
-		left: 0px;
-		top: 1.5px;
-		transform: matrix(1,0,0,1,0,0);
+		height: 14px;	
+		margin-top: -18px;
 	}
 	#MainMenuHeaderFax {
-		left: 1157.112px;
-		top: 4.209px;
-		position: absolute;
-		overflow: visible;
-		width: 126px;
-		white-space: nowrap;
-		text-align: left;
 		font-family: var(--main-font);
-		font-style: normal;
-		font-weight: normal;
 		font-size: 14px;
 		color: var(--main-color-light);
 	}
 	#MainMenuHeaderPhone {
-		left: 955.065px;
-		top: 4.209px;
-		position: absolute;
-		overflow: visible;
-		width: 146px;
-		white-space: nowrap;
-		text-align: left;
 		font-family: var(--main-font);
-		font-style: normal;
-		font-weight: normal;
 		font-size: 14px;
 		color: var(--main-color-light);
 	}
 	#MainMenuHeaderEmail {
-		left: 698px;
-		top: 4.209px;
-		position: absolute;
-		overflow: visible;
-		width: 186px;
-		white-space: nowrap;
-		text-align: left;
 		font-family: var(--main-font);
-		font-style: normal;
-		font-weight: normal;
 		font-size: 14px;
 		color: var(--main-color-light);
-	}
-	
+	}	
+
 	.MainMenuBackground{
 		display: none;
 	}
+
+
+	/*-----------------------------------------------------------------*/
+
+
+
+
+
+
+
 	.ContactsBG{
 		display: none;
 	}
-	.navbar__items__wrap {
-		margin-top: 2px;
-	}
 
 	.navbar__nav {
-		display: flex;
-		align-items:flex-end;
+		display: flex;		
 		opacity: 0;
 		background-color: var(--main-color);
+		padding-right: 15%;
 	}
 
-	.MainMenuServices{
-		position: absolute;
-		top: 1040px;
-		left: 687px;
-		opacity: 1;
-	}
-	.MainMenuLogotype{
-		position: absolute;
-		left: 279px;
-		top: 1040px;
-		opacity: 1;
+	.navbar__nav li {
+		list-style-type:  none;
+		padding-left: 16px;
+		padding-right: 16px;
 	}
 
-	.contacts_fixed {	
+	.navbar__nav li a {
+		text-decoration: none;
+	}
+	
+
+
+	.contacts_fixed {
+		display: flex;
+		justify-content: end;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -3223,25 +3127,12 @@ input[type="text"] {
 	}
 
 
-	.logo_fixed {	
-		position: fixed;
-		top: 45px;
-		left: 279px;
-		width: 100%;
-		opacity: 1;
-		animation: fixedLogo 0s forwards;
-	}
-	.services_fixed {	
-		position: fixed;
-		top: 45px;
-		left: 687px;
-		width: 100%;
-		opacity: 1;
-		animation: fixedLogo 0s forwards;
-	}
 
-	.wrapper__logoserv{
-		width: 100%;
+
+	.wrapper__logoserv {
+		display: flex;
+		align-items: center;
+		margin-top: 26px;
 		opacity: 0;
 		background-color: var(--main-color-light);
 		z-index: 10;
@@ -3250,8 +3141,8 @@ input[type="text"] {
 
 	.wrapper_fixed {	
 		position: fixed;
-		top: 26px;
-		left: 0;
+		display: flex;
+		top: 0;
 		width: 100%;
 		opacity: 1;
 		animation: fixedLogo 0s forwards;
@@ -3264,7 +3155,7 @@ input[type="text"] {
 
 	@keyframes fixedLogo {
 		0% {height: 0;}
-		100% {height: 138px;}
+		100% {height: 68px;}
 	}
 
 	#BlockSNTop, 
@@ -3395,20 +3286,6 @@ input[type="text"] {
 		stroke: var(--main-color-light);
 	}
 
-	.MainMenuServicesText{
-		color: var(--main-color-light);
-		top: 67.07px;
-		position: absolute;
-		overflow: visible;
-		white-space: nowrap;
-		line-height: 16px;
-		margin-top: -2px;
-		text-align: center;
-		font-family: var(--main-font);
-		font-style: normal;
-		font-weight: normal;
-		font-size: 12px;
-	}
 
 	.MainMenuService:hover a .MainMenuServicesText{
 		color: var(--main-color);
@@ -3434,6 +3311,176 @@ input[type="text"] {
 		display: none;
 	}
 	
+
+	.Sub {
+		width: 50%;
+	}
+
+	.text {
+		margin-bottom: 8px;
+		text-align: center;
+	}
+
+	
+	
+#ContactUs {  
+	text-align: center;
+  }
+  
+  .text_contactUs{
+	text-align: left;
+	padding-left: 25%;
+	color: var(--text-color-dark);
+  }
+  
+  .input__contactUs{
+	margin-top: 8px;
+	width: 50%;
+	white-space: nowrap;
+	  text-align: left;
+	border: none;
+	background-color: transparent;
+	  border-bottom: 1px solid var(--main-color);
+	margin-bottom: 14px;
+  }
+  
+  .input__contactUs:focus{
+	  outline: transparent;
+  }
+  
+  input[type="text"]
+  {
+	  font-size:20px;
+	  color: var(--text-color-dark);
+	  font-family: var(--main-font);
+  }
+  
+  .centerText {
+	text-align: center;
+  }
+
+  
+#ContactUs
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    max-width: 500px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 15px;
+}
+
+#ContactUs h1 {
+    padding-bottom: 20px;
+    color: var(--main-color);
+}
+
+
+/* text field */
+.text-field {
+    margin-bottom: 1rem;
+}
+
+ .text-field__label {
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.text-field__input {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--text-color-dark);
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.text-field__input[type="search"]::-webkit-search-decoration,
+.text-field__input[type="search"]::-webkit-search-cancel-button,
+.text-field__input[type="search"]::-webkit-search-results-button,
+.text-field__input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+}
+
+.text-field__input::placeholder {
+    color: #212529;
+    opacity: 0.4;
+}
+
+.text-field__input:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.text-field__input:disabled,
+.text-field__input[readonly] {
+    background-color: #f5f5f5;
+    opacity: 1;
+}
+
+.text-field_floating-2 {
+    position: relative;
+}
+
+.text-field_floating-2 .text-field__input {
+    height: calc(2.5rem + 2px);
+    padding: 0.5rem 0.75rem;
+}
+
+.text-field_floating-2 .text-field__label {
+    position: absolute;
+    top: 50%;
+    left: 0.3125rem;
+    display: flex;
+    transform: translateY(-50%);
+    pointer-events: none;
+    border: none;
+    background-color: #fff;
+    color: #757575;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    transition: top 0.1s ease-in-out, scale 0.1s ease-in-out;
+}
+
+.text-field_floating-2 .text-field__input::-moz-placeholder {
+    color: transparent;
+}
+
+.text-field_floating-2 .text-field__input::placeholder {
+    color: transparent;
+}
+
+.text-field_floating-2 .text-field__input:focus~.text-field__label,
+.text-field_floating-2 .text-field__input:not(:placeholder-shown)~.text-field__label {
+    top: 0;
+    transform: translateY(-50%) scale(0.75);
+    background-color: var(--main-color-light);
+    border-radius: 5px;
+}
+
+.text-field__counter {
+    font-size: .75rem;
+    margin-top: 0.25rem;
+    text-align: right;
+    padding-right: 15px;
+    color: #bdbdbd;
+}
 
 .mediaViewInfo {
 	--web-view-name: Mobile;
