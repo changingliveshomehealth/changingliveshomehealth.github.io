@@ -3,26 +3,25 @@ window.onscroll = () => {
 	const contacts = document.querySelector('.navbar__nav');
 	const services = document.querySelector('.MainMenuServices');
 	const logo = document.querySelector('.MainMenuLogotype');
-	const wrapper = document.querySelector('.wrapper__logoserv');
+	const wrapperLS = document.querySelector('.wrapper__logoserv');
+	const wrapperNB = document.querySelector('.wrapper__navbar');
 
-	const maxServicesY = 832;
+	const maxServicesY = 700;
 	
 	const y = window.scrollY;
-
-	if (y > 200){
-		contacts.classList.add('contacts_fixed');
-	}else if (y < 200) {
-		contacts.classList.remove('contacts_fixed');
-	}
 		
 	if (y > maxServicesY){
+		contacts.classList.add('contacts_fixed');
 		services.classList.add('services_fixed');
 		logo.classList.add('logo_fixed');	
-		wrapper.classList.add('wrapper_fixed');	
+		wrapperLS.classList.add('wrapper_fixed');	
+		wrapperNB.classList.add('wrapperNB_fixed');
 	}else if (y < maxServicesY) {
+		contacts.classList.remove('contacts_fixed');
 		services.classList.remove('services_fixed');
 		logo.classList.remove('logo_fixed');	
-		wrapper.classList.remove('wrapper_fixed');
+		wrapperLS.classList.remove('wrapper_fixed');
+		wrapperNB.classList.remove('wrapperNB_fixed');
 	}
 }
 

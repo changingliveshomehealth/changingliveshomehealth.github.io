@@ -1,11 +1,10 @@
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*------------------  SETTINGS  ---------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
-
-@media screen and (min-width: 960px) {
-
-#mobile {
-	display: none;
-}
 
 .mediaViewInfo {
     --web-view-name: Changing Lives Home Health Care;
@@ -14,14 +13,13 @@
     --web-application: true;
     --web-enable-deep-linking: true;
 }
+
 :root {
-    --web-view-ids: Changing_Lives_Home_Health_Care;
-    --size-of-header: 164px;
-    --header-margin: -164px;
     --main-font: "Poppins";	
     --main-color: #FF1C24;
     --main-color-transparent: #ff1c24da;
     --main-color-light: #FFF6F1;
+	--main-color-light-transparent: #FFF6F1f7;
     --text-color: #FF1C24;
     --text-color-light: #FFF6F1;
     --text-color-dark: #333333;
@@ -44,6 +42,24 @@ html {
     background-color: var(--main-color-light);
     scroll-behavior: smooth;
     font-family: var(--main-font);
+}
+
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*------------------  DESKTOP VIEW ------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+
+@media screen and (min-width: 960px) {
+
+:root {
+	--web-view-ids: Changing_Lives_Home_Health_Care;
+	--size-of-header: 164px;
+	--header-margin: -164px;
+}
+
+#mobile {
+	display: none;
 }
 
 input[type="text"] {
@@ -86,7 +102,6 @@ input[type="text"] {
 #FooterRightText {
 	padding-right: 30%;
 }
-
 
 #Footer .Sub {
     padding-top: 44px;
@@ -1787,35 +1802,25 @@ input[type="text"] {
 		padding-top: 2px;
 	}
 
-	.MainMenuServices{
-		position: absolute;
-		top: 1040px;
-		left: 687px;
-		opacity: 1;
-	}
-	.MainMenuLogotype{
-		position: absolute;
-		left: 279px;
+	.MainMenuLogotype {
+		margin-left: 279px;
 		opacity: 0;
+		z-index: 3;
 	}
 
 	.logo_fixed {	
-		position: fixed;
+		display: flex;
 		opacity: 1;
 		animation: fixedLogo 0s forwards;
 	}
 
-	#MainMenuLogotype {
-		position: absolute;
-		left: 279px;
-		top: 45px;
+	#MainMenuLogotypeText a {
+		text-decoration: none;
+		color: var(--text-color);
 	}
 
 	#MainMenuLogotypeText {
-		left: 124px;
-		top: 30px;
-		position: absolute;
-		width: 240px;
+		position: relative;
 		white-space: nowrap;
 		text-align: left;
 		font-family: var(--main-font);
@@ -1823,18 +1828,20 @@ input[type="text"] {
 		font-weight: bold;
 		font-size: 20px;
 		color: var(--main-color);
+		margin-left: 20px;
 	}
 
 	#MainMenuLogotypePictureOutline {
-		position: absolute;
+		position: relative;
 		width: 112px;
 		height: 112px;
 		background-color: var(--main-color);
 		border: 1px solid var(--main-color);
 		border-radius: 50%;
-		top: 2px;
+		top: -24px;
+		left: 0;
+		z-index: 3;
 	}
-
 
 	#MainMenuLogotypePicture {
 		opacity: 1;
@@ -1847,6 +1854,8 @@ input[type="text"] {
 		border-radius: 50%;
 		z-index: 11;
 	}
+
+
 	#MainMenuLogotypePictureC34 {
 		fill: var(--main-color);
 	}
@@ -2254,14 +2263,13 @@ input[type="text"] {
 		display: flex;	
 		justify-content: space-between;	
 		align-items: center;
-		flex-wrap: wrap;
-		width: 45%;
+		top: 0;
+		margin-left: 172px;
 	}
+	
 
 	.services_fixed {	
-		position: fixed;
-		top: 26px;
-		left: 40%;
+
 		opacity: 1;
 		animation: fixedLogo 0s forwards;
 	}
@@ -2270,11 +2278,10 @@ input[type="text"] {
 		display: flex;
 		flex-direction: row;		
 		align-items: center;
-		width: 140px;
 		height: 48px;
 		background-color: var(--main-color);
 		border-radius: 30px;
-		text-align: center;
+		margin-left: 10px;
 	}
 
 	.MainMenuServicesPicture {
@@ -3149,59 +3156,120 @@ input[type="text"] {
 		display: none;
 	}
 
-
 	/*-----------------------------------------------------------------*/
 
 
+	.wrapper__navbar {
+		position: fixed;
+		display: flex;	
+		height: 26px;
+		width: 100%;
+		background-color: var(--main-color);
+		opacity: 0;
+	}
 
+	
+	.navbarBG {
+		position: absolute;
+		background-color: var(--main-color);
+		width: 100%;
+		height: 26px;
+		top: -26px;
+	}
 
+	.firstPartNavbar {
+		position: relative;
+		width: 40%;
+	}
 
+	.secondPartNavbar {
+		position: relative;
+		width: 45%;
+	}
 
+	.thirtyPartNavbar {
+		position: relative;
+		width: 15%;
+	}
+	
+	.ten {
+		width: 10%;
+	}	
 
-	.ContactsBG{
-		display: none;
+	.twenty {
+		width: 20%;
+	}
+
+	.thirty {
+		width: 30%;
+	}	
+
+	.forty {
+		width: 40%;
+	}
+
+	.fifty {
+		width: 50%;
+	}	
+
+	.sixty {
+		width: 60%;
+	}
+
+	.seventy {
+		width: 70%;
+	}	
+
+	.eighty {
+		width: 80%;
+	}
+
+	.ninety {
+		width: 90%;
+	}	
+
+	.hundred {
+		width: 100%;
 	}
 
 	.navbar__nav {
-		display: flex;		
+			
+		
 		opacity: 0;
 		background-color: var(--main-color);
-		padding-right: 15%;
 	}
 
 	.navbar__nav li {
 		list-style-type:  none;
-		padding-left: 16px;
-		padding-right: 16px;
+		margin-right: 20px;
 	}
 
 	.navbar__nav li a {
 		text-decoration: none;
 	}
 	
-
-
 	.contacts_fixed {
 		display: flex;
-		justify-content: end;
+		justify-content: center;
 		position: fixed;
+		margin-left: 860px;	
 		top: 0;
-		left: 0;
-		width: 100%;
 		opacity: 1;
+		border-radius: 150px;
 		animation: fixedMenu 0s forwards;
 		z-index: 1;
 	}
 
 
-
-
 	.wrapper__logoserv {
 		display: flex;
-		align-items: center;
 		margin-top: 26px;
 		opacity: 0;
-		background-color: var(--main-color-light);
+		background-color: var(--main-color-light-transparent); 
+	}
+
+	.wrapperNB_fixed {
+		opacity: 1;
 	}
 
 
@@ -3212,7 +3280,6 @@ input[type="text"] {
 		width: 100%;
 		opacity: 1;
 		animation: fixedLogo 0s forwards;
-
 		-webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.1);
 		-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.1);
 		box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.1);
@@ -3225,7 +3292,7 @@ input[type="text"] {
 
 	@keyframes fixedLogo {
 		0% {height: 0;}
-		100% {height: 68px;}
+		100% {height: 60px;}
 	}
 
 	#BlockSNTop, 
@@ -3353,7 +3420,7 @@ input[type="text"] {
 	}
 
 	.too_wide_text {
-		left: -6px;
+		width: 160px;
 	}
 
 	.MainMenuService:hover .MainMenuServicesPicture svg .contour{
@@ -3382,7 +3449,22 @@ input[type="text"] {
 
 }
 
+
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*------------------  MOBILE VIEW -------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+
 @media screen and (max-width: 960px) {
+
+
+	:root {	 
+		--max-width: 960px;
+		--min-width: 200px;
+		--size-of-header: 60px;
+		--header-margin: -60px;
+	}
 
 	#Container {
 		display: none;
@@ -3563,52 +3645,6 @@ input[type="text"] {
     color: #bdbdbd;
 }
 
-.mediaViewInfo {
-	--web-view-name: Mobile;
-	--web-view-id: Mobile;
-	--web-scale-on-resize: true;
-	--web-center-horizontally: true;
-	--web-enable-deep-linking: true;
-}
-
-:root {
-	--web-view-ids: Mobile;		
-	--main-font: "Poppins";	
-	--main-color: #FF1C24;
-  --main-color-transparent: #ff1c24da;
-	--main-color-light: #FFF6F1;
-	--text-color: #FF1C24;
-	--text-color-light: #FFF6F1;
-	--text-color-dark: #4A4A4A;
-	--button-color: #FF1C24;
-	--button-color-hover: #E0141B;
-	--button-color-active: #B61016;
-	--button-color-light: #FFF6F1;
-	--button-color-light-hover: #F1F1F1;
-	--button-color-light-active: #FFF;
-	--white-color: #FFF;
-  --black-color: #0000009d; 
-  --max-width: 700px;
-  --min-width: 200px;
-  --size-of-header: 60px;
-  --header-margin: -60px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  	background-color: var(--main-color-light);
-	scroll-behavior: smooth;
-
-}
-
-body {
-  font-family: var(--main-font);
-}
 
 #mobile {
   display: flex;
