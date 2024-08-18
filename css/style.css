@@ -3262,7 +3262,6 @@ input[type="text"] {
 
 
 	.wrapper__logoserv {
-		display: flex;
 		margin-top: 26px;
 		opacity: 0;
 		background-color: var(--main-color-light-transparent); 
