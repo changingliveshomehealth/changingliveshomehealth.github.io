@@ -2260,7 +2260,7 @@ input[type="text"] {
 	}
 
 	.MainMenuServices {		
-		display: flex;	
+			
 		justify-content: space-between;	
 		align-items: center;
 		top: 0;
@@ -2269,7 +2269,7 @@ input[type="text"] {
 	
 
 	.services_fixed {	
-
+		display: flex;
 		opacity: 1;
 		animation: fixedLogo 0s forwards;
 	}
