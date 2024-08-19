@@ -50,7 +50,6 @@ html {
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
-@media screen and (min-width: 960px) {
 
 :root {
 	--web-view-ids: Changing_Lives_Home_Health_Care;
@@ -153,8 +152,6 @@ input[type="text"] {
 .Info {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
-	flex-wrap: wrap;
 	justify-content: space-evenly;
 	margin-left: auto;
 	margin-right: auto;
@@ -391,6 +388,7 @@ input[type="text"] {
     background-position: center;
 }
 
+
 .video-box {
     overflow: hidden;
     display: flex;
@@ -408,6 +406,7 @@ input[type="text"] {
 #BannerMessage {   
 	position: absolute;
 	margin-top: 250px;
+	max-width: 700px;
 }
 
 
@@ -470,6 +469,20 @@ input[type="text"] {
     font-size: 14px;
 }
 
+
+
+#BannerHeaderLocationMarker {
+	fill: var(--main-color-light);
+}
+.BannerHeaderLocationMarker {
+	position: absolute;
+	width: 11.55px;
+	height: 14px;	
+	margin-top: 6px;
+}
+#BannerHeaderLocationText {
+	margin-left: 14px;
+}
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 /*------------------ LOGO ---------------------------------------------------*/
@@ -2300,12 +2313,11 @@ input[type="text"] {
 		justify-content: space-between;	
 		align-items: center;
 		top: 0;
-		margin-left: 172px;
 	}
 	
 
 	.services_fixed {	
-	
+		margin-right: 15%;
 		display: flex;	
 		opacity: 1;
 		animation: fixedLogo 0s forwards;
@@ -3164,6 +3176,10 @@ input[type="text"] {
 		font-size: 14px;
 		color: var(--main-color-light);
 	}
+
+
+
+
 	#MainMenuHeaderLocationMarker {
 		fill: var(--main-color-light);
 	}
@@ -3289,10 +3305,8 @@ input[type="text"] {
 		display: flex;
 		justify-content: center;
 		position: fixed;
-		margin-left: 860px;	
 		top: 0;
 		opacity: 1;
-		border-radius: 150px;
 		animation: fixedMenu 0s forwards;
 		z-index: 1;
 	}
@@ -3305,6 +3319,9 @@ input[type="text"] {
 	}
 
 	.wrapperNB_fixed {
+		display: flex;
+		justify-content: end;
+		right: 15%;
 		opacity: 1;
 	}
 
@@ -3312,6 +3329,7 @@ input[type="text"] {
 	.wrapper_fixed {	
 		position: fixed;
 		display: flex;
+		justify-content: space-between;
 		top: 0;
 		width: 100%;
 		opacity: 1;
@@ -3433,21 +3451,11 @@ input[type="text"] {
 		width: 160px;
 	}
 
-	.MainMenuService:hover .MainMenuServicesPicture svg .contour{
-		
-	}
-
-	.MainMenuService:hover .MainMenuServicesText{
-		
-	}
 
 	.MainMenuService:hover {
-		box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+		box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 	}
 
-	.MainMenuService:hover .MainMenuServicesPicture {
-	
-	}
 
 	.contour {
 		fill: var(--main-color);		
@@ -3457,7 +3465,114 @@ input[type="text"] {
 		fill: var(--main-color-light);
 	}
 
+
+
+
+@media screen and (max-width: 1900px) {
+
+	#BannerLogotype {
+		margin-top: 60px;		
+		left: 0;
+		margin-left: 16%;
+	}
+
+	.Navbar {
+		right: 16%;
+	}
+
+	.contacts_fixed {
+		margin-left: auto;
+		right: 15%;
+	}
+
+	.MainMenuLogotype {
+		margin-right: 20px;
+	}
+
 }
+
+@media screen and (max-width: 1740px) {
+
+	.MainMenuServicesPicture
+	{
+		display: none;
+	}
+
+	.MainMenuServicesText {
+		text-align: center;
+		padding-left: 0;
+		width: 80px;
+	}
+
+	.too_wide_text {
+		padding-left: 10px;
+		width: 100px;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.MainMenuLogotype {
+		margin-right: auto;
+		margin-left: 5%;
+	}
+}
+
+@media screen and (max-width: 1150px) {
+
+	#BannerLogotype {
+		display: none;
+	}
+
+	.Navbar {
+		position: absolute;
+		left: auto;
+		right: auto;
+	}
+
+	#BannerMessage {
+		margin-top: 150px;
+	}
+
+	#BS {
+		margin-top: 500px;
+		justify-content: center;
+	}
+
+	.PhoneCaption {
+		display: none;
+	}
+	
+	.contacts_fixed {
+		margin-left: auto;
+		right: 1%;
+	}
+
+	#MainMenuLogotypeText {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 910px) {
+	.FaxContact {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 744px) {
+
+	.PhoneContact {
+		display: none;
+	}
+
+	.contacts_fixed {
+		margin-left: auto;
+		right: 0;
+	}
+
+}
+
+
 
 
 /*---------------------------------------------------------------------------*/
@@ -3466,7 +3581,7 @@ input[type="text"] {
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 710px) {
 
 
 	:root {	 
@@ -3983,7 +4098,7 @@ nav {
   background-color: var(--main-color-light);
 }
 
-#ContactUs {  
+#ContactUsTop {  
   text-align: center;
 }
 
