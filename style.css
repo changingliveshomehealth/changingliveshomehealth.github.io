@@ -1,0 +1,4272 @@
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*------------------  SETTINGS  ---------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.mediaViewInfo {
+    --web-view-name: Changing Lives Home Health Care;
+    --web-view-id: Changing_Lives_Home_Health_Care;
+    --web-scale-on-resize: true;
+    --web-application: true;
+    --web-enable-deep-linking: true;
+}
+
+:root {
+    --main-font: "Poppins";	
+    --main-color: #FF1C24;
+    --main-color-transparent: #ff1c24da;
+    --main-color-light: #FFF6F1;
+	--main-color-light-transparent: #FFF6F1f7;
+    --text-color: #FF1C24;
+    --text-color-light: #FFF6F1;
+    --text-color-dark: #333333;
+    --button-color: #FF1C24;
+    --button-color-hover: #E0141B;
+    --button-color-active: #B61016;
+    --button-color-light: #FFF6F1;
+    --button-color-light-hover: #F1F1F1;
+    --button-color-light-active: #FFF;
+    --white-color: #FFF;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+html {
+    background-color: var(--main-color-light);
+    scroll-behavior: smooth;
+    font-family: var(--main-font);
+}
+
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*------------------  DESKTOP VIEW ------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+
+
+:root {
+	--web-view-ids: Changing_Lives_Home_Health_Care;
+	--size-of-header: 164px;
+	--header-margin: -164px;
+}
+
+#mobile {
+	display: none;
+}
+
+
+@keyframes fixedMenu {
+	0% {height: 0;}
+	100% {height: 26px;}
+}
+
+@keyframes fixedLogo {
+	0% {height: 0;}
+	100% {height: 60px;}
+}
+
+#BlockSNTop, 
+#BlockPTTop, 
+#BlockSTTop, 
+#BlockOTTop, 
+#BlockMSWTop, 
+#BlockHHATop, 
+#BlockCareerTop, 
+#BlockLocationTop, 
+#BlockContactUsTop, 
+#BlockFooterTop{    
+	display: block;
+	content: "";
+	margin-top: -1080px;
+	visibility: hidden;
+}
+
+
+input[type="text"] {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit; 
+    margin: 0;
+}
+
+#Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	width: 100%;
+}
+
+.Block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.Sub {
+    width: 50%;
+}
+
+#Footer {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+	width: 100%;
+	height: 100%;
+}
+
+#FooterLeftText {
+	padding-left: 50%;
+}
+
+#FooterRightText {
+	padding-right: 30%;
+}
+
+#Footer .Sub {
+    padding-top: 44px;
+}
+
+#Footer .MainText span {
+    font-weight: 600;
+	padding-bottom: 20px;
+}
+
+#BlockFooterChapIcon {
+	height: 100px;
+	margin-bottom: 60px;
+}
+
+.MainText span {
+    display: block;
+}
+
+.Info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Info div {
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: var(--button-color-light);
+	font-size: 10px;
+}
+
+.Text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Caption {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.MainText {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: var(--text-color-dark);
+}
+
+.Button {
+    border: none;
+    font-family: var(--main-font);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 12px;
+    margin-bottom: 24px;  
+    width: 228px;
+}
+ 
+
+
+
+.Image {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Image img{    
+    min-width: 100%;
+    min-height: 100%;
+    flex-shrink: 0;
+}
+
+.Block:nth-child(odd) {
+    background-color: var(--main-color-light);
+}
+
+.Block:nth-child(odd) .Text .Caption {
+    color: var(--text-color);
+}
+
+.Block:nth-child(odd) .Text .MainText {
+    color: var(--text-color-dark);
+}
+
+.Block:nth-child(odd) .Text .Button {
+    color: var(--text-color-light);
+    background-color: var(--button-color);
+}
+
+.Block:nth-child(odd) .Text .Button:hover {
+    background-color: var(--button-color-hover);
+}
+
+.Block:nth-child(odd) .Text .Button:active {
+    background-color: var(--button-color-active);
+}
+
+.Block:nth-child(even) {
+    background-color: var(--main-color);
+}
+
+.Block:nth-child(even) .Text .Caption {
+    color: var(--text-color-light);
+}
+
+.Block:nth-child(even) .Text .MainText {
+    color: var(--text-color-light);
+}
+
+.Block:nth-child(even) .Text .Button {
+    color: var(--text-color);
+    background-color: var(--button-color-light);
+}
+
+.Block:nth-child(even) .Text .Button:hover {
+    background-color: var(--button-color-light-hover);
+}
+
+.Block:nth-child(even) .Text .Button:active {
+    background-color: var(--button-color-light-active);
+}
+
+
+#ContactUs
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 15px;
+}
+
+#ContactUs h1 {
+    padding-bottom: 20px;
+    color: var(--main-color);
+}
+
+
+/* text field */
+.text-field {
+    margin-bottom: 1rem;
+}
+
+ .text-field__label {
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.text-field__input {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--text-color-dark);
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.text-field__input[type="search"]::-webkit-search-decoration,
+.text-field__input[type="search"]::-webkit-search-cancel-button,
+.text-field__input[type="search"]::-webkit-search-results-button,
+.text-field__input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+}
+
+.text-field__input::placeholder {
+    color: #212529;
+    opacity: 0.4;
+}
+
+.text-field__input:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.text-field__input:disabled,
+.text-field__input[readonly] {
+    background-color: #f5f5f5;
+    opacity: 1;
+}
+
+.text-field_floating-2 {
+    position: relative;
+}
+
+.text-field_floating-2 .text-field__input {
+    height: calc(2.5rem + 2px);
+    padding: 0.5rem 0.75rem;
+}
+
+.text-field_floating-2 .text-field__label {
+    position: absolute;
+    top: 50%;
+    left: 0.3125rem;
+    display: flex;
+    transform: translateY(-50%);
+    pointer-events: none;
+    border: none;
+    background-color: #fff;
+    color: #757575;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    transition: top 0.1s ease-in-out, scale 0.1s ease-in-out;
+}
+
+.text-field_floating-2 .text-field__input::-moz-placeholder {
+    color: transparent;
+}
+
+.text-field_floating-2 .text-field__input::placeholder {
+    color: transparent;
+}
+
+.text-field_floating-2 .text-field__input:focus~.text-field__label,
+.text-field_floating-2 .text-field__input:not(:placeholder-shown)~.text-field__label {
+    top: 0;
+    transform: translateY(-50%) scale(0.75);
+    background-color: var(--main-color-light);
+    border-radius: 5px;
+}
+
+.text-field__counter {
+    font-size: .75rem;
+    margin-top: 0.25rem;
+    text-align: right;
+    padding-right: 15px;
+    color: #bdbdbd;
+}
+
+
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*------------------  BANNER  -----------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+
+
+#Banner {
+    position: relative;    
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+	flex-wrap: wrap;
+    width: 100%;
+    background-image: url("../img/BannerBG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.video-box {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.video-box video {          
+    min-width: 100%;
+    min-height: 100%;
+    flex-shrink: 0;
+}
+
+#BannerMessage {   
+	position: absolute;
+	margin-top: 250px;
+	max-width: 700px;
+}
+
+
+#BannerMessage form {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#BannerMessageText {
+    display: flex;
+    justify-content: center;  
+    flex-direction: column;
+    text-align: center;
+    padding: 0 24px 12px 24px;
+    background-color: var(--main-color-transparent);
+    border-radius: 25px;
+}
+
+#BannerMessageCaption {
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--main-color-light);
+}
+  
+#BannerMessageMainText {
+    margin-top: 16px;
+    color: var(--main-color-light);
+}
+
+#Banner Button {
+	margin-top: 40px;
+    color: var(--text-color-light);
+    background-color: var(--button-color);
+}
+
+#Banner Button:hover {
+    background-color: var(--button-color-hover);
+}
+
+#Banner Button:active {
+    background-color: var(--button-color-active);
+}
+
+.Navbar {
+    position: absolute;
+    opacity: 0.9;
+    right: 15%;
+    background-color: var(--main-color-transparent);
+    margin-top: 43px;
+    border-radius: 12px;
+}
+
+.Menu-items {
+    display: flex;
+    height: 26px;
+}
+.Menu-items li {
+    list-style: none;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.Menu-items li a { 
+    text-decoration: none;
+    color: var(--main-color-light);
+    font-size: 14px;
+}
+
+
+
+#BannerHeaderLocationMarker {
+	fill: var(--main-color-light);
+}
+.BannerHeaderLocationMarker {
+	position: absolute;
+	width: 11.55px;
+	height: 14px;	
+	margin-top: 6px;
+}
+#BannerHeaderLocationText {
+	margin-left: 14px;
+}
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*------------------ LOGO ---------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+
+#BannerLogotype {
+    position: absolute;
+    width: 353px;
+    height: 100px;
+    left: 279px;
+    top: 20px;
+    overflow: visible;
+}
+
+#BannerLogotypeText {
+    left: 114px;
+    top: 16px;
+    line-height: 36px;
+    position: absolute;
+    overflow: visible;
+    width: 240px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color: var(--main-color-light);
+}
+
+#BannerLogotypePicture {
+    opacity: 0.9;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#BannerLogotypePictureC33 {
+    fill: var(--main-color);
+}
+
+
+#MainMenuLogotypePicture:hover #MainMenuLogotypePictureC34, 
+#MainMenuLogotypePicture:hover #MainMenuLogotypePictureC7,
+#MainMenuLogotypePicture:hover #MainMenuLogotypePictureC2
+{
+	fill: var(--button-color-hover);
+	transition-duration: 0.4s;
+}
+
+#MainMenuLogotypePicture:active #MainMenuLogotypePictureC34, 
+#MainMenuLogotypePicture:active #MainMenuLogotypePictureC7,
+#MainMenuLogotypePicture:active #MainMenuLogotypePictureC2
+{
+	fill: var(--button-color-active);
+	transition-duration: 0.4s;
+}
+
+
+
+
+
+
+.BannerLogotypePictureC33 {
+    overflow: visible;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC32 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC32 {
+    overflow: visible;
+    position: absolute;
+    width: 38.375px;
+    height: 55.094px;
+    left: 27.002px;
+    top: 21.575px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC31 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC31 {
+    overflow: visible;
+    position: absolute;
+    width: 10.109px;
+    height: 10.066px;
+    left: 19.574px;
+    top: 18.05px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC30 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC30 {
+    overflow: visible;
+    position: absolute;
+    width: 9.223px;
+    height: 8.055px;
+    left: 29.333px;
+    top: 12.463px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC29 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC29 {
+    overflow: visible;
+    position: absolute;
+    width: 7.231px;
+    height: 7.863px;
+    left: 45.121px;
+    top: 8.35px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC28 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC28 {
+    overflow: visible;
+    position: absolute;
+    width: 7.795px;
+    height: 8.511px;
+    left: 55.644px;
+    top: 9.41px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC27 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC27 {
+    overflow: visible;
+    position: absolute;
+    width: 8.049px;
+    height: 6.772px;
+    left: 83.063px;
+    top: 48.599px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC26 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC26 {
+    overflow: visible;
+    position: absolute;
+    width: 8.662px;
+    height: 7.211px;
+    left: 10.222px;
+    top: 38.194px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC25 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC25 {
+    overflow: visible;
+    position: absolute;
+    width: 8.562px;
+    height: 6.476px;
+    left: 82.254px;
+    top: 39.387px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC24 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC24 {
+    overflow: visible;
+    position: absolute;
+    width: 8.618px;
+    height: 7.324px;
+    left: 14.785px;
+    top: 29.86px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC23 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC23 {
+    overflow: visible;
+    position: absolute;
+    width: 8.669px;
+    height: 7.364px;
+    left: 79.983px;
+    top: 27.24px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC22 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC22 {
+    overflow: visible;
+    position: absolute;
+    width: 7.859px;
+    height: 6.578px;
+    left: 9.889px;
+    top: 48.699px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC21 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC21 {
+    overflow: visible;
+    position: absolute;
+    width: 6.118px;
+    height: 9.184px;
+    left: 69.335px;
+    top: 16.048px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC20 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC20 {
+    overflow: visible;
+    position: absolute;
+    width: 6.93px;
+    height: 6.196px;
+    left: 75.372px;
+    top: 22.331px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC19 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC19 {
+    overflow: visible;
+    position: absolute;
+    width: 3.434px;
+    height: 7.77px;
+    left: 39.272px;
+    top: 9.419px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC18 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC18 {
+    overflow: visible;
+    position: absolute;
+    width: 6.078px;
+    height: 5.977px;
+    left: 33.981px;
+    top: 81.917px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC17 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC17 {
+    overflow: visible;
+    position: absolute;
+    width: 4.757px;
+    height: 4.49px;
+    left: 28.805px;
+    top: 79.937px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC16 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC16 {
+    overflow: visible;
+    position: absolute;
+    width: 5.531px;
+    height: 5.793px;
+    left: 71.373px;
+    top: 75.958px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC15 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC15 {
+    overflow: visible;
+    position: absolute;
+    width: 5.69px;
+    height: 5.704px;
+    left: 23.754px;
+    top: 75.95px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC14 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC14 {
+    overflow: visible;
+    position: absolute;
+    width: 3.892px;
+    height: 5.135px;
+    left: 40.417px;
+    top: 83.872px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC13 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC13 {
+    overflow: visible;
+    position: absolute;
+    width: 3.485px;
+    height: 4.757px;
+    left: 53.244px;
+    top: 84.663px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC12 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC12 {
+    overflow: visible;
+    position: absolute;
+    width: 3.223px;
+    height: 4.672px;
+    left: 48.529px;
+    top: 84.955px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC11 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC11 {
+    overflow: visible;
+    position: absolute;
+    width: 4.397px;
+    height: 4.78px;
+    left: 58.978px;
+    top: 83.783px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC10 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC10 {
+    overflow: visible;
+    position: absolute;
+    width: 4.154px;
+    height: 5.12px;
+    left: 67.363px;
+    top: 78.871px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC9 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC9 {
+    overflow: visible;
+    position: absolute;
+    width: 4.977px;
+    height: 4.488px;
+    left: 63.361px;
+    top: 82.238px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC8 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC8 {
+    overflow: visible;
+    position: absolute;
+    width: 0.281px;
+    height: 0.281px;
+    left: 44.892px;
+    top: 8.624px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC7 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC7 {
+    overflow: visible;
+    position: absolute;
+    width: 0.281px;
+    height: 0.281px;
+    left: 39.852px;
+    top: 83.61px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC6 {
+    fill: var(--main-color);
+}
+.BannerLogotypePictureC6 {
+    overflow: visible;
+    position: absolute;
+    width: 33.854px;
+    height: 50.619px;
+    left: 29.3px;
+    top: 23.835px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC5 {
+    fill: var(--main-color);
+}
+.BannerLogotypePictureC5 {
+    overflow: visible;
+    position: absolute;
+    width: 1.702px;
+    height: 1.379px;
+    left: 17.942px;
+    top: 31.887px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC4 {
+    fill: var(--main-color);
+}
+.BannerLogotypePictureC4 {
+    overflow: visible;
+    position: absolute;
+    width: 3.061px;
+    height: 3.009px;
+    left: 29.617px;
+    top: 80.523px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC3 {
+    fill: var(--main-color);
+}
+.BannerLogotypePictureC3 {
+    overflow: visible;
+    position: absolute;
+    width: 0.786px;
+    height: 1.253px;
+    left: 60.359px;
+    top: 85.831px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC2 {
+    fill: var(--white-color);
+}
+.BannerLogotypePictureC2 {
+    overflow: visible;
+    position: absolute;
+    width: 17.182px;
+    height: 14.945px;
+    left: 43.181px;
+    top: 48.983px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BannerLogotypePictureC1 {
+    fill: var(--main-color);
+}
+.BannerLogotypePictureC1 {
+    overflow: visible;
+    position: absolute;
+    width: 12.477px;
+    height: 9.936px;
+    left: 45.405px;
+    top: 51.272px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*----------------- SERVICES ------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+
+
+/*  Banner Services Block */
+#BS {
+	position: absolute;
+	display: flex;	
+	flex-wrap: wrap;
+	margin-top: 600px;
+}
+
+#BS a {
+	text-decoration: none;
+}
+
+/* Banner Services Item */
+.BSItem {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+    width: 128px;
+    height: 200px;
+    background-color: var(--main-color-transparent);
+    border-radius: 70px;
+}
+
+/* Banner Services Arrow Down */
+.BSAD {
+	fill: var(--main-color-light);
+	position: absolute;
+	width: 20px;
+	margin-top: -8px;
+	display: none;
+}
+
+/* Banner Services Lable */
+.BSLable {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 140px;
+	line-height: 20px;    
+    width: 60px;    
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--main-color-light);
+}
+
+.three-line {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 140px;
+	line-height: 16px;    
+    width: 60px;    
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--main-color-light);
+}
+
+/* Banner Services Logotype */
+.BSLogo {
+	position: absolute;
+	width: 132px;
+	height: 132px;
+	background-color: var(--main-color-light);
+	border-radius: 50%;
+}
+
+/* Banner Services Logotype Color */
+.BSLColor {
+	fill: var(--main-color);
+}
+
+
+
+
+.BSItem:nth-child(odd) .BSLColor {
+	fill: var(--main-color);
+}
+.BSItem:nth-child(odd) .BSLogo {
+	background-color: var(--main-color-light);
+}
+.BSItem:nth-child(odd) {
+	opacity: 0.9;
+	background-color: var(--main-color);
+}
+.BSItem:nth-child(odd) .BSLable {
+	color: var(--main-color-light);
+}
+.BSItem:nth-child(odd) .BSAD svg {
+	fill: var(--main-color-light);
+}
+
+.BSItem:nth-child(even) .BSLColor {
+	fill: var(--main-color-light);
+}
+.BSItem:nth-child(even) .BSLogo {
+	background-color: var(--main-color);
+}
+.BSItem:nth-child(even) {
+	opacity: 0.9;
+	background-color: var(--main-color-light);
+}
+.BSItem:nth-child(even) .BSLable {
+	color: var(--main-color);
+}
+.BSItem:nth-child(even) .BSAD svg {
+	fill: var(--main-color);
+}
+
+
+
+
+
+
+/* Banner Services Logotype */
+.BSL {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+/* Countour #1 */
+.BSLSNC1 {
+	position: absolute;
+	width: 14.864px;
+	height: 3.036px;
+	left: 52.979px;	
+	top: 87.758px;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+/* Countour #2 */
+.BSLSNC2 {
+	position: absolute;
+	width: 80.753px;
+	height: 98.924px;
+	left: 0px;
+	top: 0px;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
+/* Countour #3 */
+.BSLSNC3 {
+	position: absolute;
+	width: 10.519px;
+	height: 4.692px;
+	left: 35.17px;
+	top: 49.457px;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
+/* Countour #4 */
+.BSLSNC4 {
+	position: absolute;
+	width: 3.184px;
+	height: 4.098px;
+	left: 29.972px;
+	top: 38.02px;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
+/* Countour #5 */
+.BSLSNC5 {
+	position: absolute;
+	width: 2.942px;
+	height: 4.066px;
+	left: 47.809px;
+	top: 38.047px;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
+/* Countour #6 */
+.BSLSNC6 {
+	position: absolute;
+	width: 9.086px;
+	height: 9.144px;
+	left: 35.846px;
+	top: 5.531px;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
+#BSLPT {
+	width: 98.784px;
+	height: 100px;
+	margin-left: 17px;
+	margin-top: 10px;
+}
+
+.BannerServicesSTLogotypeC6 {
+	position: absolute;
+	width: 58.152px;
+	height: 45.351px;
+	left: 14.02px;
+	top: 0px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.BannerServicesSTLogotypeC5 {
+	position: absolute;
+	width: 41.868px;
+	height: 44.163px;
+	left: 0px;
+	top: 42.443px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.BannerServicesSTLogotypeC4 {
+	position: absolute;
+	width: 41.817px;
+	height: 39.485px;
+	left: 48.648px;
+	top: 47.119px;
+	margin-top: 20px;
+	margin-left: 20px;	
+}
+.BannerServicesSTLogotypeC3 {
+	position: absolute;
+	width: 29.134px;
+	height: 2.769px;
+	left: 19.291px;
+	top: 17.884px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.BannerServicesSTLogotypeC2 {
+	position: absolute;
+	width: 28.99px;
+	height: 2.796px;
+	left: 19.363px;
+	top: 12.607px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.BannerServicesSTLogotypeC1 {
+	position: absolute;
+	width: 29.135px;
+	height: 2.784px;
+	left: 19.284px;
+	top: 7.34px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+
+
+
+.BannerServicesOTLogotypeC7 {
+	position: absolute;
+	width: 86.728px;
+	height: 86.6px;
+	left: 0px;
+	top: 0px;
+	margin-top: 24px;
+	margin-left: 20px;
+}
+
+.BannerServicesOTLogotypeC6 {
+	position: absolute;
+	width: 7.964px;
+	height: 4.24px;
+	left: 71.163px;
+	top: 48.533px;
+	margin-top: 24px;
+	margin-left: 20px;
+}
+
+.BannerServicesOTLogotypeC5 {
+	position: absolute;
+	width: 2.873px;
+	height: 2.873px;
+	left: 69.375px;
+	top: 43.298px;
+	margin-top: 24px;
+	margin-left: 20px;
+}
+
+.BannerServicesOTLogotypeC4 {
+	position: absolute;
+	width: 2.874px;
+	height: 2.874px;
+	left: 78.037px;
+	top: 43.298px;
+	margin-top: 24px;
+	margin-left: 20px;
+}
+
+.BannerServicesOTLogotypeC3 {
+	position: absolute;
+	width: 7.973px;
+	height: 4.259px;
+	left: 16.299px;
+	top: 19.641px;
+	margin-top: 24px;
+	margin-left: 20px;
+}
+
+.BannerServicesOTLogotypeC2 {
+	position: absolute;
+	width: 2.873px;
+	height: 2.873px;
+	left: 14.51px;
+	top: 14.425px;
+	margin-top: 24px;
+	margin-left: 20px;
+}
+
+.BannerServicesOTLogotypeC1 {
+	position: absolute;
+	width: 2.874px;
+	height: 2.874px;
+	left: 23.172px;
+	top: 14.425px;
+	margin-top: 24px;
+	margin-left: 20px;
+}
+
+.BannerServicesMSVLogotypeC2 {
+	position: absolute;
+	width: 52.448px;
+	height: 75.278px;
+	left: 0px;
+	top: 12.102px;
+	margin-top: 24px;
+	margin-left: 20px;
+}
+
+.BannerServicesMSVLogotypeC1 {
+	position: absolute;
+	width: 39.737px;
+	height: 87.386px;
+	left: 44.414px;
+	top: 0px;
+	margin-top: 24px;
+	margin-left: 20px;
+}
+
+
+.BannerServicesHHALogotypeC6 {
+	position: absolute;
+	width: 39.955px;
+	height: 44.473px;
+	left: 0px;
+	top: 0px;
+	margin-top: 28px;
+	margin-left: 28px;
+}
+
+.BannerServicesHHALogotypeC5 {
+	position: absolute;
+	width: 41.274px;
+	height: 65.986px;
+	left: 35.913px;
+	top: 8.797px;
+	margin-top: 28px;
+	margin-left: 28px;
+}
+
+.BannerServicesHHALogotypeC4 {
+	position: absolute;
+	width: 23.41px;
+	height: 19.21px;
+	left: 8.274px;
+	top: 50.621px;
+	margin-top: 28px;
+	margin-left: 20px;
+}
+
+.BannerServicesHHALogotypeC3 {
+	position: absolute;
+	width: 7.1px;
+	height: 3.114px;
+	left: 53.002px;
+	top: 36.174px;
+	margin-top: 28px;
+	margin-left: 28px;
+}
+
+.BannerServicesHHALogotypeC2 {
+	position: absolute;
+	width: 2.261px;
+	height: 2.843px;
+	left: 50.982px;
+	top: 28.488px;
+	margin-top: 28px;
+	margin-left: 28px;
+}
+
+.BannerServicesHHALogotypeC1 {
+	position: absolute;
+	width: 2.261px;
+	height: 2.847px;
+	left: 59.84px;
+	top: 28.486px;
+	margin-top: 28px;
+	margin-left: 28px;
+}
+
+
+
+	#BannerServicesPT {
+		position: absolute;
+		width: 127.065px;
+		height: 204.07px;
+		left: 160.458px;
+		top: 0px;
+		overflow: visible;
+	}
+	#BannerServicesPTBackground {
+		opacity: 0.9;
+		fill: var(--main-color-light);
+		stroke: var(--main-color);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.BannerServicesPTBackground {
+		position: absolute;
+		overflow: visible;
+		width: 126.87px;
+		height: 204.07px;
+		left: 0px;
+		top: 0px;
+	}
+	#BannerServicesPTArrowDown {
+		position: absolute;
+		width: 20.823px;
+		height: 12.241px;
+		left: 53.024px;
+		top: 198.244px;
+		display: none;
+		overflow: visible;
+	}
+	#BannerServicesPTArrowDownC2 {
+		fill: var(--main-color);
+	}
+	.BannerServicesPTArrowDownC2 {
+		display: none;
+		overflow: visible;
+		position: absolute;
+		width: 39.896px;
+		height: 39.873px;
+		left: -9.571px;
+		top: -15.863px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#BannerServicesPTArrowDownC1 {
+		fill: var(--main-color);
+	}
+	.BannerServicesPTArrowDownC1 {
+		overflow: visible;
+		position: absolute;
+		width: 20.823px;
+		height: 12.241px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#BannerServicesPTText {
+		left: 32.797px;
+		top: 142.339px;
+		position: absolute;
+		overflow: visible;
+		width: 63px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: var(--main-font);
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: var(--main-color);
+	}
+	#BannerServicesPTLogotypeBackgr {
+		fill: var(--main-color);
+	}
+	.BannerServicesPTLogotypeBackgr {
+		overflow: visible;
+		position: absolute;
+		width: 126.536px;
+		height: 128px;
+		left: 0.53px;
+		top: 0.339px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#BannerServicesPTLogotype {
+		position: absolute;
+		width: 98.784px;
+		height: 100px;
+		left: 14.406px;
+		top: 10.496px;
+		overflow: visible;
+	}
+	#BannerServicesST {
+		position: absolute;
+		width: 126.9px;
+		height: 203.799px;
+		left: 324.043px;
+		top: 0.272px;
+		overflow: visible;
+	}
+	#BannerServicesSTBackground {
+		opacity: 0.9;
+		fill: var(--main-color);
+	}
+	.BannerServicesSTBackground {
+		position: absolute;
+		overflow: visible;
+		width: 126.9px;
+		height: 196.408px;
+		left: 0px;
+		top: 7.39px;
+	}
+	#BannerServicesSTArrowDown {
+		position: absolute;
+		width: 20.883px;
+		height: 12.276px;
+		left: 53.009px;
+		top: 197.818px;
+		display: none;
+		overflow: visible;
+	}
+	#BannerServicesSTArrowDownC2 {
+		fill: var(--main-color-light);
+	}
+	.BannerServicesSTArrowDownC2 {
+		display: none;
+		overflow: visible;
+		position: absolute;
+		width: 40.01px;
+		height: 39.987px;
+		left: -9.598px;
+		top: -15.909px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#BannerServicesSTArrowDownC1 {
+		fill: var(--main-color-light);
+	}
+	.BannerServicesSTArrowDownC1 {
+		overflow: visible;
+		position: absolute;
+		width: 20.883px;
+		height: 12.276px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#BannerServicesSTText {
+		left: 33.45px;
+		top: 141.956px;
+		position: absolute;
+		overflow: visible;
+		width: 61px;
+		white-space: nowrap;
+		line-height: 19px;
+		margin-top: -1.5px;
+		text-align: center;
+		font-family: var(--main-font);
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: var(--white-color);
+	}
+	#BannerServicesSTLogotypeBackgr {
+		fill: var(--main-color-light);
+	}
+	.BannerServicesSTLogotypeBackgr {
+		overflow: visible;
+		position: absolute;
+		width: 126.9px;
+		height: 128px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#BannerServicesSTLogotype {
+		position: absolute;
+		width: 90.465px;
+		height: 86.605px;
+		left: 18.832px;
+		top: 15.385px;
+		overflow: visible;
+	}
+	
+	#BannerServicesOT {
+		position: absolute;
+		width: 126.9px;
+		height: 204.07px;
+		left: 484.839px;
+		top: 0px;
+		overflow: visible;
+	}
+	#BannerServicesOTBackground {
+		opacity: 0.9;
+		fill: var(--main-color-light);
+		stroke: var(--main-color);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.BannerServicesOTBackground {
+		position: absolute;
+		overflow: visible;
+		width: 126.87px;
+		height: 204.07px;
+		left: 0px;
+		top: 0px;
+	}
+	#BannerServicesOTArrowDown {
+		position: absolute;
+		width: 20.883px;
+		height: 12.283px;
+		left: 53.043px;
+		top: 198.152px;
+		display: none;
+		overflow: visible;
+	}
+	#BannerServicesOTArrowDownC2 {
+		fill: var(--main-color);
+	}
+	.BannerServicesOTArrowDownC2 {
+		display: none;
+		overflow: visible;
+		position: absolute;
+		width: 40.01px;
+		height: 40.01px;
+		left: -9.598px;
+		top: -15.918px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#BannerServicesOTArrowDownC1 {
+		fill: var(--main-color);
+	}
+	.BannerServicesOTArrowDownC1 {
+		overflow: visible;
+		position: absolute;
+		width: 20.883px;
+		height: 12.283px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#BannerServicesOTText {
+		left: 14px;
+		top: 142.045px;
+		position: absolute;
+		overflow: visible;
+		width: 99px;
+		white-space: nowrap;
+		line-height: 19px;
+		margin-top: -1.5px;
+		text-align: center;
+		font-family: var(--main-font);
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: var(--main-color);
+	}
+	#BannerServicesOTLogotypeBackgr {
+		fill: var(--main-color);
+	}
+	.BannerServicesOTLogotypeBackgr {
+		position: absolute;
+		overflow: visible;
+		width: 126.9px;
+		height: 128px;
+		left: 0px;
+		top: 0px;
+	}
+	#BannerServicesOTLogotype {
+		position: absolute;
+		width: 86.728px;
+		height: 86.6px;
+		left: 20.086px;
+		top: 20.7px;
+		overflow: visible;
+	}
+	#BannerServicesMSV {
+		position: absolute;
+		width: 127.368px;
+		height: 203.402px;
+		left: 648.5px;
+		top: 0.669px;
+		overflow: visible;
+	}
+	#BannerServicesMSVBackground {
+		opacity: 0.9;
+		fill: var(--main-color);
+	}
+	.BannerServicesMSVBackground {
+		position: absolute;
+		overflow: visible;
+		width: 126.9px;
+		height: 199.342px;
+		left: 0.468px;
+		top: 4.059px;
+	}
+	#BannerServicesMSVArrowDown {
+		position: absolute;
+		width: 20.877px;
+		height: 12.28px;
+		left: 53.029px;
+		top: 197.43px;
+		display: none;
+		overflow: visible;
+	}
+	#BannerServicesMSVArrowDownC2 {
+		fill: var(--main-color-light);
+	}
+	.BannerServicesMSVArrowDownC2 {
+		display: none;
+		overflow: visible;
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		left: -9.596px;
+		top: -15.914px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#BannerServicesMSVArrowDownC1 {
+		fill: var(--main-color-light);
+	}
+	.BannerServicesMSVArrowDownC1 {
+		overflow: visible;
+		position: absolute;
+		width: 20.877px;
+		height: 12.28px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#BannerServicesMSVText {
+		left: 10.433px;
+		top: 142px;
+		position: absolute;
+		overflow: visible;
+		width: 107px;
+		white-space: nowrap;
+		line-height: 19px;
+		margin-top: -1.5px;
+		text-align: center;
+		font-family: var(--main-font);
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: var(--white-color);
+	}
+	#BannerServicesMSVLogotypeBackg {
+		fill: var(--main-color-light);
+	}
+	.BannerServicesMSVLogotypeBackg {
+		position: absolute;
+		overflow: visible;
+		width: 126.867px;
+		height: 128px;
+		left: 0px;
+		top: 0px;
+	}
+	#BannerServicesMSVLogotype {
+		position: absolute;
+		width: 84.151px;
+		height: 87.386px;
+		left: 20.962px;
+		top: 20.307px;
+		overflow: visible;
+	}
+	#BannerServicesHHA {
+		display: none;
+		position: absolute;
+		width: 126.903px;
+		height: 204.07px;
+		left: 809.082px;
+		top: 0px;
+		overflow: visible;
+	}
+	#BannerServicesHHABackground {
+		opacity: 0.9;
+		fill: var(--main-color-light);
+		stroke: var(--main-color);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.BannerServicesHHABackground {
+		position: absolute;
+		overflow: visible;
+		width: 126.87px;
+		height: 204.07px;
+		left: 0.032px;
+		top: 0px;
+	}
+	#BannerServicesHHAArrowDown {
+		position: absolute;
+		width: 20.877px;
+		height: 12.28px;
+		left: 53.029px;
+		top: 198.098px;
+		display: none;
+		overflow: visible;
+	}
+	#BannerServicesHHAArrowDownC2 {
+		fill: var(--main-color);
+	}
+	.BannerServicesHHAArrowDownC2 {
+		display: none;
+		overflow: visible;
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		left: -9.596px;
+		top: -15.914px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#BannerServicesHHAArrowDownC1 {
+		fill: var(--main-color);
+	}
+	.BannerServicesHHAArrowDownC1 {
+		overflow: visible;
+		position: absolute;
+		width: 20.877px;
+		height: 12.28px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#BannerServicesHHAText {
+		left: 19.433px;
+		top: 142px;
+		position: absolute;
+		overflow: visible;
+		width: 89px;
+		white-space: nowrap;
+		line-height: 19px;
+		margin-top: -1.5px;
+		text-align: center;
+		font-family: var(--main-font);
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: var(--main-color);
+	}
+	#BannerServicesHHALogotypeBackg {
+		fill: var(--main-color);
+	}
+	.BannerServicesHHALogotypeBackg {
+		position: absolute;
+		overflow: visible;
+		width: 126.867px;
+		height: 128px;
+		left: 0px;
+		top: 0px;
+	}
+	#BannerServicesHHALogotype {
+		position: absolute;
+		width: 77.187px;
+		height: 74.783px;
+		left: 24.84px;
+		top: 26.608px;
+		overflow: visible;
+	}
+
+	.BSItem:hover .BSAD
+	{
+		display: block;
+		animation-duration: 0.5s;
+		animation-name: arrowDown;
+		animation-timing-function: ease-in-out;
+		animation-fill-mode: forwards;
+	}
+    
+	.BSItem:hover
+	{
+		animation-duration: 0.5s;
+		animation-name: rolloutService;
+		animation-timing-function: ease-in-out;
+		animation-fill-mode: forwards;
+	}
+
+    @keyframes rolloutService {
+		from {
+			height: 202.07px;
+		}
+
+		to {
+			height: 222.07px;
+		}
+	}
+
+	@keyframes arrowDown {
+		from {		
+            opacity: 0;
+			top: 177.71px;
+		}
+
+		to {
+            opacity: 1;
+			top: 197.71px;
+		}
+	}
+
+
+	/* -------- MENU --------------------------------------------------------*/
+
+	#MainMenuHeaderEmail, #MainMenuHeaderPhone, #MainMenuHeaderFax, #MainMenuHeaderLocationText {
+		padding-top: 2px;
+	}
+
+	.MainMenuLogotype {
+		margin-left: 279px;
+		opacity: 0;
+		z-index: 3;
+	}
+
+	.logo_fixed {	
+		display: flex;
+		opacity: 1;
+		animation: fixedLogo 0s forwards;
+	}
+
+	#MainMenuLogotypeText a {
+		text-decoration: none;
+		color: var(--text-color);
+	}
+
+	#MainMenuLogotypeText {
+		position: relative;
+		white-space: nowrap;
+		text-align: left;
+		font-family: var(--main-font);
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: var(--main-color);
+		margin-left: 20px;
+	}
+
+	#MainMenuLogotypePictureOutline {
+		position: relative;
+		width: 112px;
+		height: 112px;
+		background-color: var(--main-color);
+		border: 1px solid var(--main-color);
+		border-radius: 50%;
+		top: -24px;
+		left: 0;
+		z-index: 3;
+	}
+
+	#MainMenuLogotypePicture {
+		opacity: 1;
+		position: absolute;
+		width: 110px;
+		height: 110px;
+		left: 0px;
+		background-color: var(--main-color-light);
+		border: 5px solid var(--main-color-light);
+		border-radius: 50%;
+		z-index: 11;
+	}
+
+
+	#MainMenuLogotypePictureC34 {
+		fill: var(--main-color);
+	}
+	.MainMenuLogotypePictureC34 {
+		overflow: visible;
+		position: absolute;
+		width: 100px;
+		height: 100px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC33 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC33 {
+		overflow: visible;
+		position: absolute;
+		width: 38.375px;
+		height: 55.094px;
+		left: 27.002px;
+		top: 21.575px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC32 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC32 {
+		overflow: visible;
+		position: absolute;
+		width: 10.109px;
+		height: 10.066px;
+		left: 19.574px;
+		top: 18.05px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC31 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC31 {
+		overflow: visible;
+		position: absolute;
+		width: 9.223px;
+		height: 8.055px;
+		left: 29.333px;
+		top: 12.463px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC30 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC30 {
+		overflow: visible;
+		position: absolute;
+		width: 7.231px;
+		height: 7.863px;
+		left: 45.121px;
+		top: 8.35px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC29 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC29 {
+		overflow: visible;
+		position: absolute;
+		width: 7.795px;
+		height: 8.511px;
+		left: 55.644px;
+		top: 9.41px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC28 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC28 {
+		overflow: visible;
+		position: absolute;
+		width: 8.049px;
+		height: 6.772px;
+		left: 83.063px;
+		top: 48.599px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC27 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC27 {
+		overflow: visible;
+		position: absolute;
+		width: 8.662px;
+		height: 7.211px;
+		left: 10.222px;
+		top: 38.194px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC26 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC26 {
+		overflow: visible;
+		position: absolute;
+		width: 8.562px;
+		height: 6.476px;
+		left: 82.254px;
+		top: 39.387px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC25 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC25 {
+		overflow: visible;
+		position: absolute;
+		width: 8.618px;
+		height: 7.324px;
+		left: 14.785px;
+		top: 29.86px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC24 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC24 {
+		overflow: visible;
+		position: absolute;
+		width: 8.669px;
+		height: 7.364px;
+		left: 79.983px;
+		top: 27.24px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC23 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC23 {
+		overflow: visible;
+		position: absolute;
+		width: 7.859px;
+		height: 6.578px;
+		left: 9.889px;
+		top: 48.699px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC22 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC22 {
+		overflow: visible;
+		position: absolute;
+		width: 6.118px;
+		height: 9.184px;
+		left: 69.335px;
+		top: 16.048px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC21 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC21 {
+		overflow: visible;
+		position: absolute;
+		width: 6.93px;
+		height: 6.196px;
+		left: 75.372px;
+		top: 22.331px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC20 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC20 {
+		overflow: visible;
+		position: absolute;
+		width: 3.434px;
+		height: 7.77px;
+		left: 39.272px;
+		top: 9.419px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC19 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC19 {
+		overflow: visible;
+		position: absolute;
+		width: 6.078px;
+		height: 5.977px;
+		left: 33.981px;
+		top: 81.917px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC18 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC18 {
+		overflow: visible;
+		position: absolute;
+		width: 4.757px;
+		height: 4.49px;
+		left: 28.805px;
+		top: 79.937px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC17 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC17 {
+		overflow: visible;
+		position: absolute;
+		width: 5.531px;
+		height: 5.793px;
+		left: 71.373px;
+		top: 75.958px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC16 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC16 {
+		overflow: visible;
+		position: absolute;
+		width: 5.69px;
+		height: 5.704px;
+		left: 23.754px;
+		top: 75.95px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC15 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC15 {
+		overflow: visible;
+		position: absolute;
+		width: 3.892px;
+		height: 5.135px;
+		left: 40.417px;
+		top: 83.872px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC14 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC14 {
+		overflow: visible;
+		position: absolute;
+		width: 3.485px;
+		height: 4.757px;
+		left: 53.244px;
+		top: 84.663px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC13 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC13 {
+		overflow: visible;
+		position: absolute;
+		width: 3.223px;
+		height: 4.672px;
+		left: 48.529px;
+		top: 84.955px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC12 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC12 {
+		overflow: visible;
+		position: absolute;
+		width: 4.397px;
+		height: 4.78px;
+		left: 58.978px;
+		top: 83.783px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC11 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC11 {
+		overflow: visible;
+		position: absolute;
+		width: 4.154px;
+		height: 5.12px;
+		left: 67.363px;
+		top: 78.871px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC10 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC10 {
+		overflow: visible;
+		position: absolute;
+		width: 4.977px;
+		height: 4.488px;
+		left: 63.361px;
+		top: 82.238px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC9 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC9 {
+		overflow: visible;
+		position: absolute;
+		width: 0.281px;
+		height: 0.281px;
+		left: 44.892px;
+		top: 8.624px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC8 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC8 {
+		overflow: visible;
+		position: absolute;
+		width: 0.281px;
+		height: 0.281px;
+		left: 39.852px;
+		top: 83.61px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC7 {
+		fill: var(--main-color);
+	}
+	.MainMenuLogotypePictureC7 {
+		overflow: visible;
+		position: absolute;
+		width: 33.854px;
+		height: 50.619px;
+		left: 29.3px;
+		top: 23.835px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC6 {
+		fill: var(--main-color);
+	}
+	.MainMenuLogotypePictureC6 {
+		overflow: visible;
+		position: absolute;
+		width: 1.702px;
+		height: 1.379px;
+		left: 17.942px;
+		top: 31.887px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC5 {
+		fill: var(--main-color);
+	}
+	.MainMenuLogotypePictureC5 {
+		overflow: visible;
+		position: absolute;
+		width: 3.061px;
+		height: 3.009px;
+		left: 29.617px;
+		top: 80.523px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC4 {
+		fill: var(--main-color);
+	}
+	.MainMenuLogotypePictureC4 {
+		overflow: visible;
+		position: absolute;
+		width: 0.786px;
+		height: 1.253px;
+		left: 60.359px;
+		top: 85.831px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC3 {
+		fill: var(--white-color);
+	}
+	.MainMenuLogotypePictureC3 {
+		overflow: visible;
+		position: absolute;
+		width: 17.182px;
+		height: 14.945px;
+		left: 43.181px;
+		top: 48.983px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuLogotypePictureC2 {
+		fill: var(--main-color);
+	}
+	.MainMenuLogotypePictureC2 {
+		overflow: visible;
+		position: absolute;
+		width: 12.477px;
+		height: 9.936px;
+		left: 45.405px;
+		top: 51.272px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+
+
+
+	/*----------------MAIN MENU SERVICES----------------------------*/
+	.MainMenuServices a {
+		text-decoration: none;
+	}
+
+	.MainMenuServices {	
+		justify-content: space-between;	
+		align-items: center;
+		top: 0;
+	}
+
+	.services_fixed {	
+		margin-right: 15%;
+		display: flex;	
+		opacity: 1;
+		animation: fixedLogo 0s forwards;
+	}
+
+	.MainMenuService {
+		display: flex;
+		flex-direction: row;		
+		align-items: center;
+		height: 48px;
+		background-color: var(--button-color);
+		border-radius: 30px;
+		margin-left: 10px;
+	}
+
+
+	.MainMenuService:hover { 
+		background-color: var(--button-color-hover);
+		transition-duration: 0.4s;
+	}
+
+	.MainMenuService:active { 
+		background-color: var(--button-color-active);
+		transition-duration: 0.4s;
+	}
+
+
+
+
+
+	.MainMenuServicesPicture {
+		position: relative;
+		width: 44px;
+		height: 44px;
+		background-color: var(--main-color-light);
+		border: var(--main-color-light) solid;
+		border-radius: 50% 0 0 50%;	
+		left: 2px;
+		z-index: 1;
+	}
+
+	.MainMenuServicesPicture .contour {
+		fill: var(--main-color);
+	}
+
+
+	.MainMenuServicesText {
+		color: var(--main-color-light);
+		position: relative;
+		font-family: var(--main-font);
+		font-size: 12px;
+		text-align: start;
+		padding-left: 12px;
+		width: 82px;
+		
+	}
+
+
+	#MainMenuServicesSNText {
+		width: 85px;
+	}
+	#MainMenuServicesSNPicture {
+		position: absolute;
+		width: 25.07px;
+		height: 30.712px;
+		left: 51.771px;
+		top: 20.223px;
+		overflow: visible;
+	}
+
+
+	#MainMenuServicesSNPictureC6 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesSNPictureC6 {
+		overflow: visible;
+		position: absolute;
+		width: 4.615px;
+		height: 0.943px;
+		left: 21.448px;
+		top: 27.245px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesSNPictureC5 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesSNPictureC5 {
+		position: absolute;
+		width: 25.07px;
+		height: 30.712px;
+		left: 5px;
+	}
+	#MainMenuServicesSNPictureC4 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesSNPictureC4 {
+		overflow: visible;
+		position: absolute;
+		width: 3.266px;
+		height: 1.457px;
+		left: 15.919px;
+		top: 15.354px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesSNPictureC3 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesSNPictureC3 {
+		overflow: visible;
+		position: absolute;
+		width: 0.988px;
+		height: 1.272px;
+		left: 14.305px;
+		top: 11.803px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesSNPictureC2 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesSNPictureC2 {
+		overflow: visible;
+		position: absolute;
+		width: 0.913px;
+		height: 1.262px;
+		left: 19.843px;
+		top: 11.812px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesSNPictureC1 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesSNPictureC1 {
+		overflow: visible;
+		position: absolute;
+		width: 2.821px;
+		height: 2.839px;
+		left: 16.129px;
+		top: 1.717px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+
+
+
+	#MainMenuServicesPTBackground {
+		fill: var(--main-color-light);
+		stroke: var(--main-color);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.MainMenuServicesPTBackground {
+		position: absolute;
+		overflow: visible;
+		width: 128px;
+		height: 100px;
+	}
+	#MainMenuServicesPTPictureBackg {
+		fill: var(--main-color);
+		stroke: var(--main-color);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.MainMenuServicesPTPictureBackg {
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		top: 17.262px;
+	}
+	#MainMenuServicesPTText {
+
+		width: 91px;
+	}
+
+
+	#MainMenuServicesPTPicture {
+		position: absolute;
+		width: 27.035px;
+		height: 26.908px;
+
+		top: 23.092px;
+		overflow: visible;
+	}
+	#MainMenuServicesPTPictureC1 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesPTPictureC1 {
+		overflow: visible;
+		position: absolute;
+		width: 27.035px;
+		height: 26.908px;
+		left: 4px;
+		top: 4px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesST {
+		position: absolute;
+		width: 128px;
+		height: 100px;
+
+		top: 0px;
+		overflow: visible;
+	}
+	#MainMenuServicesSTBackground {
+		fill: var(--main-color-light);
+		stroke: var(--main-color);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.MainMenuServicesSTBackground {
+		position: absolute;
+		overflow: visible;
+		width: 128px;
+		height: 100px;
+		left: 0px;
+		top: 0px;
+	}
+	#MainMenuServicesSTPictureBackg {
+		fill: var(--main-color);
+		stroke: var(--main-color);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.MainMenuServicesSTPictureBackg {
+		overflow: visible;
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		left: 44px;
+		top: 17.262px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesSTText {
+		left: 20px;
+		width: 89px;
+
+	}
+	#MainMenuServicesSTPicture {
+		position: absolute;
+		width: 27.159px;
+		height: 26.001px;
+		left: 49.925px;
+		top: 22.999px;
+		overflow: visible;
+	}
+	#MainMenuServicesSTPictureC6 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesSTPictureC6 {
+		overflow: visible;
+		position: absolute;
+		width: 17.458px;
+		height: 13.615px;
+		left: 8.209px;
+		top: 4px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesSTPictureC5 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesSTPictureC5 {
+		overflow: visible;
+		position: absolute;
+		width: 12.57px;
+		height: 13.259px;
+		left: 4px;
+		top: 16.742px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesSTPictureC4 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesSTPictureC4 {
+		overflow: visible;
+		position: absolute;
+		width: 12.554px;
+		height: 11.854px;
+		left: 18.605px;
+		top: 18.146px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesSTPictureC3 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesSTPictureC3 {
+		overflow: visible;
+		position: absolute;
+		width: 8.747px;
+		height: 0.831px;
+		left: 9.791px;
+		top: 10.369px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesSTPictureC2 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesSTPictureC2 {
+		overflow: visible;
+		position: absolute;
+		width: 8.703px;
+		height: 0.839px;
+		left: 9.813px;
+		top: 7.785px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesSTPictureC1 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesSTPictureC1 {
+		overflow: visible;
+		position: absolute;
+		width: 8.747px;
+		height: 0.836px;
+		left: 9.789px;
+		top: 6.204px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesOT {
+		position: absolute;
+		width: 128px;
+		height: 100px;
+		left: 483px;
+		top: 0px;
+		overflow: visible;
+	}
+	#MainMenuServicesOTBackground {
+		fill: var(--main-color-light);
+		stroke: var(--main-color);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.MainMenuServicesOTBackground {
+		position: absolute;
+		overflow: visible;
+		width: 128px;
+		height: 100px;
+		left: 0px;
+		top: 0px;
+	}
+	#MainMenuServicesOTPictureBackg {
+		fill: var(--main-color);
+		stroke: var(--main-color);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.MainMenuServicesOTPictureBackg {
+		overflow: visible;
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		left: 44px;
+		top: 17.262px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesOTPictureText {
+		left: 3px;
+		width: 123px;
+	}
+	#MainMenuServicesOTPicture {
+		position: absolute;
+		width: 25.893px;
+		height: 25.758px;
+		left: 51.528px;
+		top: 24.346px;
+		overflow: visible;
+	}
+	#MainMenuServicesOTPictureC7 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesOTPictureC7 {
+		overflow: visible;
+		position: absolute;
+		width: 25.893px;
+		height: 25.758px;
+		left: 4px;
+		top: 4px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesOTPictureC6 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesOTPictureC6 {
+		overflow: visible;
+		position: absolute;
+		width: 2.349px;
+		height: 1.251px;
+		left: 25.302px;
+		top: 18.442px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesOTPictureC5 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesOTPictureC5 {
+		overflow: visible;
+		position: absolute;
+		width: 0.847px;
+		height: 0.847px;
+		left: 24.721px;
+		top: 16.882px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesOTPictureC4 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesOTPictureC4 {
+		overflow: visible;
+		position: absolute;
+		width: 0.848px;
+		height: 0.848px;
+		left: 27.329px;
+		top: 16.882px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesOTPictureC3 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesOTPictureC3 {
+		overflow: visible;
+		position: absolute;
+		width: 2.352px;
+		height: 1.256px;
+		left: 8.872px;
+		top: 9.844px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesOTPictureC2 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesOTPictureC2 {
+		overflow: visible;
+		position: absolute;
+		width: 0.847px;
+		height: 0.848px;
+		left: 8.334px;
+		top: 8.255px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesOTPictureC1 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesOTPictureC1 {
+		overflow: visible;
+		position: absolute;
+		width: 0.848px;
+		height: 0.848px;
+		left: 10.921px;
+		top: 8.255px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesMSW {
+		position: absolute;
+		width: 128px;
+		height: 100px;
+		left: 644px;
+		top: 0px;
+		overflow: visible;
+	}
+	#MainMenuServicesMSWBackground {
+		fill: var(--main-color-light);
+		stroke: var(--main-color);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.MainMenuServicesMSWBackground {
+		position: absolute;
+		overflow: visible;
+		width: 128px;
+		height: 100px;
+		left: 0px;
+		top: 0px;
+	}
+	#MainMenuServicesMSWPictureBack {
+		fill: var(--main-color);
+		stroke: var(--main-color);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.MainMenuServicesMSWPictureBack {
+		overflow: visible;
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		left: 44px;
+		top: 17.262px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesMSWText {
+		left: 26px;
+		width: 77px;
+	}
+	#MainMenuServicesMSWPicture {
+		position: absolute;
+		width: 27.082px;
+		height: 27.082px;
+		left: 52.57px;
+		top: 25.975px;
+		overflow: visible;
+	}
+	#MainMenuServicesMSWPictureC2 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesMSWPictureC2 {
+		overflow: visible;
+		position: absolute;
+		width: 17.755px;
+		height: 22.982px;
+		left: 4px;
+		top: 8.097px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesMSWPictureC1 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesMSWPictureC1 {
+		overflow: visible;
+		position: absolute;
+		width: 13.452px;
+		height: 27.082px;
+		left: 17.63px;
+		top: 4px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+
+
+	#MainMenuServicesHHABackground {
+		fill: var(--main-color-light);
+		stroke: var(--main-color);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.MainMenuServicesHHABackground {
+		position: absolute;
+		overflow: visible;
+		width: 128px;
+		height: 100px;
+		left: 0px;
+		top: 0px;
+	}
+	#MainMenuServicesHHAPictureBack {
+		fill: var(--main-color);
+		stroke: var(--main-color);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.MainMenuServicesHHAPictureBack {
+		overflow: visible;
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		left: 44px;
+		top: 17.262px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesHHAText {
+		left: 33px;
+		width: 63px;
+	}
+	#MainMenuServicesHHAPicture {
+		position: absolute;
+		width: 27.843px;
+		height: 26.976px;
+		left: 50.258px;
+		top: 22.738px;
+		overflow: visible;
+	}
+	#MainMenuServicesHHAPictureC6 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesHHAPictureC6 {
+		overflow: visible;
+		position: absolute;
+		width: 14.413px;
+		height: 16.043px;
+		left: 4px;
+		top: 4px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesHHAPictureC5 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesHHAPictureC5 {
+		overflow: visible;
+		position: absolute;
+		width: 14.889px;
+		height: 23.803px;
+		left: 16.955px;
+		top: 7.173px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesHHAPictureC4 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesHHAPictureC4 {
+		overflow: visible;
+		position: absolute;
+		width: 8.445px;
+		height: 6.929px;
+		left: 6.985px;
+		top: 22.26px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesHHAPictureC3 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesHHAPictureC3 {
+		overflow: visible;
+		position: absolute;
+		width: 2.561px;
+		height: 1.123px;
+		left: 23.119px;
+		top: 17.049px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesHHAPictureC2 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesHHAPictureC2 {
+		overflow: visible;
+		position: absolute;
+		width: 0.816px;
+		height: 1.026px;
+		left: 22.391px;
+		top: 14.276px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuServicesHHAPictureC1 {
+		fill: var(--main-color-light);
+	}
+	.MainMenuServicesHHAPictureC1 {
+		overflow: visible;
+		position: absolute;
+		width: 0.816px;
+		height: 1.027px;
+		left: 25.586px;
+		top: 14.276px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#MainMenuHeader {
+		position: absolute;
+		width: 1903px;
+		height: 25.44px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#ContactsBG {
+		opacity: 0.9;
+		fill: var(--main-color);
+	}
+	.ContactsBG {
+		position: absolute;
+		overflow: visible;
+		width: 1903px;
+		height: 25.427px;
+		left: 0px;
+		top: 0px;
+	}
+
+
+	#MainMenuHeaderLanguage {
+		display: flex;
+		padding-left: 13px;
+		width: 100px;
+		z-index: 999;
+	}
+
+	#BannerHeaderLanguage {
+		display: flex;
+		padding-left: 13px;
+		width: 100px;
+	}
+
+	#MainMenuHeaderLanguageFrame {
+		fill: transparent;
+		stroke: var(--main-color-light);		
+		stroke-width: 2px;
+		height: 24px;
+	}
+	
+	.MainMenuHeaderLanguageFrame {
+		
+		overflow: visible;
+		width: 99.395px;
+		height: 22px;
+		left: 0px;
+		margin-top: 2px;
+		z-index: 1;
+	}
+
+	.MainMenuHeaderLanguageFrame2 {
+		margin-top: 3px;
+		
+	}
+
+	#MainMenuHeaderLanguageFrame2 {
+		fill: transparent;
+		stroke: var(--main-color-light);		
+		stroke-width: 1.5px;
+		height: 22px;
+	}
+
+
+	#BannerHeaderLanguageFrame {
+		fill: transparent;
+		stroke: var(--main-color-light);		
+		stroke-width: 2px;
+		height: 24px;
+		z-index: 1;
+	}
+
+	.BannerHeaderLanguageFrame {
+
+		overflow: visible;
+		width: 99.395px;
+		height: 22px;
+		left: 0px;
+		margin-top: 2px;
+		z-index: 1;
+	}
+
+
+
+	#MainMenuHeaderLanguage:hover #MainMenuHeaderLanguageFrame {
+		fill: var(--main-color);
+		stroke: var(--main-color-light);
+		stroke-width: 2px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+		height: 48px;
+	}
+
+	#MainMenuHeaderLanguage:hover #MainMenuHeaderLanguageFrame2 {
+		fill: var(--main-color);
+		stroke: var(--main-color-light);
+		stroke-width: 2px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+		height: 48px;
+	}
+
+	#MMLanguageUsPic {
+		display: block;
+		opacity: 0;
+		border-radius: 10px 0px 0px 0px;
+		margin-top: -28px;
+		margin-left: 4px;
+		height: 24px;
+		width: 24px;
+		z-index: 2;
+	}
+
+	#MMLanguageSpainPic {
+		position: absolute;
+		display: block;
+		opacity: 0;
+		border-radius: 0px 0px 0px 10px;
+		margin-top: 22px;
+		margin-left: 4px;
+		height: 24px;
+		width: 24px;
+		z-index: 2;
+	}
+
+	#MainMenuHeaderLanguage:hover #MMLanguageUsPic,
+	#MainMenuHeaderLanguage:hover #MMLanguageSpainPic,
+	#MainMenuHeaderLanguage:hover #MainMenuHeaderLanguageTextDrop
+	{
+		opacity: 1;
+	}
+
+
+
+	#MainMenuHeaderLanguage:hover .MainMenuHeaderLanguageWorldPic,
+	#MainMenuHeaderLanguage:hover .MainMenuHeaderLanguageArrowDow
+	{
+		opacity: 0;
+	}
+
+
+	#MainMenuHeaderLanguageWorldPic {
+		fill: var(--main-color-light);
+	}
+	.MainMenuHeaderLanguageWorldPic {
+		position: absolute;
+		width: 16.833px;
+		height: 16.472px;
+		margin-left: -94px;
+		margin-top: 4.5px;
+		z-index: 99;
+	}
+
+
+	#MainMenuHeaderLanguageText {
+		position: absolute;
+		width: 59px;
+		margin-left: 34px;
+
+	}
+
+	#MainMenuHeaderLanguageText a {
+		text-decoration: none;
+		font-family: var(--main-font);
+		font-size: 14px;
+		color: var(--main-color-light);
+	}
+
+	#MainMenuHeaderLanguageTextDrop {
+		position: absolute;
+		opacity: 0;		
+		width: 59px;
+		margin-top: 22px;
+		margin-left: 34px;	
+
+	}
+
+	#MainMenuHeaderLanguageTextDrop a {
+
+		font-family: var(--main-font);		
+		font-size: 14px;
+		color: var(--main-color-light);
+	}
+
+	#MainMenuHeaderLanguageArrowDow {
+		fill: var(--main-color-light);
+	}
+	.MainMenuHeaderLanguageArrowDow {
+		position: absolute;
+		width: 11.477px;
+		height: 7.457px;
+		transform: translate(0px, 0px) matrix(1,0,0,1,83.699,10.3558) rotate(180deg);
+		transform-origin: center;
+	}
+
+	#MainMenuHeaderLocationText {
+		
+		font-family: var(--main-font);
+		margin-left: 16px;
+		font-size: 14px;
+		color: var(--main-color-light);
+	}
+
+
+
+
+	#MainMenuHeaderLocationMarker {
+		fill: var(--main-color-light);
+	}
+	.MainMenuHeaderLocationMarker {
+		position: absolute;
+		width: 11.55px;
+		height: 14px;	
+		margin-top: -18px;
+	}
+	#MainMenuHeaderFax {
+		font-family: var(--main-font);
+		font-size: 14px;
+		color: var(--main-color-light);
+	}
+	#MainMenuHeaderPhone {
+		font-family: var(--main-font);
+		font-size: 14px;
+		color: var(--main-color-light);
+	}
+	#MainMenuHeaderEmail {
+		font-family: var(--main-font);
+		font-size: 14px;
+		color: var(--main-color-light);
+	}	
+
+	.MainMenuBackground{
+		display: none;
+	}
+
+	/*-----------------------------------------------------------------*/
+
+
+	.wrapper__navbar {
+		position: fixed;
+		display: flex;	
+		height: 26px;
+		width: 100%;
+		background-color: var(--main-color);
+		opacity: 0;
+	}
+
+	
+	.navbarBG {
+		position: absolute;
+		background-color: var(--main-color);
+		width: 100%;
+		height: 26px;
+		top: -26px;
+	}
+
+	.firstPartNavbar {
+		position: relative;
+		width: 40%;
+	}
+
+	.secondPartNavbar {
+		position: relative;
+		width: 45%;
+	}
+
+	.thirtyPartNavbar {
+		position: relative;
+		width: 15%;
+	}
+	
+	.ten {
+		width: 10%;
+	}	
+
+	.twenty {
+		width: 20%;
+	}
+
+	.thirty {
+		width: 30%;
+	}	
+
+	.forty {
+		width: 40%;
+	}
+
+	.fifty {
+		width: 50%;
+	}	
+
+	.sixty {
+		width: 60%;
+	}
+
+	.seventy {
+		width: 70%;
+	}	
+
+	.eighty {
+		width: 80%;
+	}
+
+	.ninety {
+		width: 90%;
+	}	
+
+	.hundred {
+		width: 100%;
+	}
+
+	.navbar__nav {
+			
+		
+		opacity: 0;
+		background-color: var(--main-color);
+	}
+
+	.navbar__nav li {
+		list-style-type:  none;
+		margin-right: 20px;
+	}
+
+	.navbar__nav li a {
+		text-decoration: none;
+	}
+	
+	.contacts_fixed {
+		display: flex;
+		justify-content: center;
+		position: fixed;
+		top: 0;
+		opacity: 1;
+		animation: fixedMenu 0s forwards;
+		z-index: 1;
+	}
+
+
+	.wrapper__logoserv {
+		margin-top: 26px;
+		opacity: 0;
+		background-color: var(--main-color-light-transparent); 
+	}
+
+	.wrapperNB_fixed {
+		display: flex;
+		justify-content: end;
+		right: 15%;
+		opacity: 1;
+	}
+
+
+	.wrapper_fixed {	
+		position: fixed;
+		display: flex;
+		justify-content: space-between;
+		top: 0;
+		width: 100%;
+		opacity: 1;
+		animation: fixedLogo 0s forwards;
+		-webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.1);
+		-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.1);
+		box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.1);
+	}
+
+
+
+
+	#BannerServicesSNArrowDown {
+		position: absolute;
+		width: 20.314px;
+		height: 12.635px;
+		left: 53.312px;
+		top: 177.71px;
+		display: none;
+		overflow: visible;
+	}
+
+	#BannerServicesSN:hover a #BannerServicesSNArrowDown,
+	#BannerServicesPT:hover a #BannerServicesPTArrowDown,
+	#BannerServicesST:hover a #BannerServicesSTArrowDown,
+	#BannerServicesOT:hover a #BannerServicesOTArrowDown,
+	#BannerServicesMSV:hover a #BannerServicesMSVArrowDown,
+	#BannerServicesHHA:hover a #BannerServicesHHAArrowDown
+	{
+		display: block;
+		animation-duration: 0.5s;
+		animation-name: arrowDown;
+		animation-timing-function: ease-in-out;
+		animation-fill-mode: forwards;
+	}
+
+	#BannerServicesSN:hover a #BannerServicesSNBackground,
+	#BannerServicesPT:hover a #BannerServicesPTBackground,
+	#BannerServicesST:hover a #BannerServicesSTBackground,
+	#BannerServicesOT:hover a #BannerServicesOTBackground,
+	#BannerServicesMSV:hover a #BannerServicesMSVBackground,
+	#BannerServicesHHA:hover a #BannerServicesHHABackground
+	{
+		animation-duration: 0.5s;
+		animation-name: rolloutService;
+		animation-timing-function: ease-out;
+		animation-fill-mode: forwards;
+	}
+
+
+
+	@keyframes rolloutService {
+		from {
+			height: 202.07px;
+		}
+
+		to {
+			height: 222.07px;
+		}
+	}
+
+	@keyframes arrowDown {
+		from {		
+			top: 177.71px;
+		}
+
+		to {
+			top: 197.71px;
+		}
+	}
+
+	.MainMenuServiceBackground {
+		fill: var(--main-color);
+		stroke: var(--main-color-light);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;	
+	}
+	.MainMenuService:hover a svg .MainMenuServiceBackground {
+		fill: var(--main-color-light);
+		stroke: var(--main-color);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;	
+	}
+
+	.MMSPBackgroundWrapper {
+		overflow: visible;
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		left: 44px;
+		top: 17.262px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+
+	.MainMenuServicePictureBackground {
+		fill: var(--main-color-light);
+		stroke: var(--main-color-light);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+		overflow: visible;
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		left: 44px;
+		top: 17.262px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+
+	.too_wide_text {
+		width: 160px;
+	}
+
+
+	.MainMenuService:hover {
+		box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+	}
+
+
+	.contour {
+		fill: var(--main-color);		
+	}
+
+	.MainMenuService:hover a .MainMenuServicesPicture .contour{
+		fill: var(--main-color-light);
+	}
+
+
+
+
+@media screen and (max-width: 1900px) {
+
+	#BannerLogotype {
+		margin-top: 60px;		
+		left: 0;
+		margin-left: 16%;
+	}
+
+	.Navbar {
+		right: 16%;
+	}
+
+	.contacts_fixed {
+		margin-left: auto;
+		right: 15%;
+	}
+
+	.MainMenuLogotype {
+		margin-right: 20px;
+	}
+
+}
+
+@media screen and (max-width: 1740px) {
+
+	.MainMenuServicesPicture
+	{
+		display: none;
+	}
+
+	.MainMenuServicesText {
+		text-align: center;
+		padding-left: 0;
+		width: 80px;
+	}
+
+	.too_wide_text {
+		padding-left: 10px;
+		width: 100px;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.MainMenuLogotype {
+		margin-right: auto;
+		margin-left: 5%;
+	}
+}
+
+@media screen and (max-width: 1150px) {
+
+	#BannerLogotype {
+		display: none;
+	}
+
+	.Navbar {
+		position: absolute;
+		left: auto;
+		right: auto;
+	}
+
+	#BannerMessage {
+		margin-top: 150px;
+	}
+
+	#BS {
+		margin-top: 500px;
+		justify-content: center;
+	}
+
+	.PhoneCaption {
+		display: none;
+	}
+	
+	.contacts_fixed {
+		margin-left: auto;
+		right: 1%;
+	}
+
+	#MainMenuLogotypeText {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 1080px) {
+	.BSItem {
+		margin-left: 10px;
+		margin-right: 10px;		
+	}
+}
+
+
+@media screen and (max-width: 910px) {
+	.FaxContact {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 744px) {
+
+	.PhoneContact {
+		display: none;
+	}
+
+	.contacts_fixed {
+		margin-left: auto;
+		right: 0;
+	}
+
+}
+
+
+
+
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*------------------  MOBILE VIEW -------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+
+@media screen and (max-width: 710px) {
+
+
+	:root {	 
+		--max-width: 710px;
+		--min-width: 200px;
+		--size-of-header: 60px;
+		--header-margin: -60px;
+	}
+
+	#Container {
+		display: none;
+	}
+	
+	header {
+		display: none;
+	}
+	
+
+	.Sub {
+		width: 50%;
+	}
+
+	.text {
+		margin-bottom: 8px;
+		text-align: center;
+	}
+
+	
+	
+#ContactUs {  
+	text-align: center;
+  }
+  
+  .text_contactUs{
+	text-align: left;
+	padding-left: 25%;
+	color: var(--text-color-dark);
+  }
+  
+  .input__contactUs{
+	margin-top: 8px;
+	width: 50%;
+	white-space: nowrap;
+	  text-align: left;
+	border: none;
+	background-color: transparent;
+	  border-bottom: 1px solid var(--main-color);
+	margin-bottom: 14px;
+  }
+  
+  .input__contactUs:focus{
+	  outline: transparent;
+  }
+  
+  input[type="text"]
+  {
+	  font-size:20px;
+	  color: var(--text-color-dark);
+	  font-family: var(--main-font);
+  }
+  
+  .centerText {
+	text-align: center;
+  }
+
+  
+#ContactUs
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    max-width: 500px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 15px;
+}
+
+#ContactUs h1 {
+    padding-bottom: 20px;
+    color: var(--main-color);
+}
+
+
+/* text field */
+.text-field {
+    margin-bottom: 1rem;
+}
+
+ .text-field__label {
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.text-field__input {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--text-color-dark);
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.text-field__input[type="search"]::-webkit-search-decoration,
+.text-field__input[type="search"]::-webkit-search-cancel-button,
+.text-field__input[type="search"]::-webkit-search-results-button,
+.text-field__input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+}
+
+.text-field__input::placeholder {
+    color: #212529;
+    opacity: 0.4;
+}
+
+.text-field__input:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.text-field__input:disabled,
+.text-field__input[readonly] {
+    background-color: #f5f5f5;
+    opacity: 1;
+}
+
+.text-field_floating-2 {
+    position: relative;
+}
+
+.text-field_floating-2 .text-field__input {
+    height: calc(2.5rem + 2px);
+    padding: 0.5rem 0.75rem;
+}
+
+.text-field_floating-2 .text-field__label {
+    position: absolute;
+    top: 50%;
+    left: 0.3125rem;
+    display: flex;
+    transform: translateY(-50%);
+    pointer-events: none;
+    border: none;
+    background-color: #fff;
+    color: #757575;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    transition: top 0.1s ease-in-out, scale 0.1s ease-in-out;
+}
+
+.text-field_floating-2 .text-field__input::-moz-placeholder {
+    color: transparent;
+}
+
+.text-field_floating-2 .text-field__input::placeholder {
+    color: transparent;
+}
+
+.text-field_floating-2 .text-field__input:focus~.text-field__label,
+.text-field_floating-2 .text-field__input:not(:placeholder-shown)~.text-field__label {
+    top: 0;
+    transform: translateY(-50%) scale(0.75);
+    background-color: var(--main-color-light);
+    border-radius: 5px;
+}
+
+.text-field__counter {
+    font-size: .75rem;
+    margin-top: 0.25rem;
+    text-align: right;
+    padding-right: 15px;
+    color: #bdbdbd;
+}
+
+
+#mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+}
+
+.container {
+  container: sidebar / inline-size;
+  width: 100%;
+  margin: auto;
+}
+
+nav {
+  width: 100%;
+}
+
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: var(--main-color-light);
+  box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+  z-index: 9999;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
+
+.navbar .menu-items {
+  display: flex;
+  width: 100%;
+}
+
+.navbar .nav-container li {
+  list-style: none;
+}
+
+.navbar .nav-container a {
+  text-decoration: none;
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0.7rem;
+}
+
+.navbar .nav-container a:hover{
+  font-weight: bolder;
+}
+
+.nav-container {
+  display: block;
+  position: relative;
+  height: 60px;
+}
+
+.nav-container .checkbox {
+  position: absolute;
+  display: block;
+  height: 60px;
+  width: 60px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+}
+
+
+.nav-container .hamburger-lines {
+  display: block;
+  height: 26px;
+  width: 32px;
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-container .hamburger-lines .line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background:  var(--main-color);
+}
+
+.nav-container .hamburger-lines .line1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.navbar .menu-items {
+  padding-top: 120px;
+  background-color: var(--main-color-light);
+  height: 100vh;
+  width: 100%;
+  transform: translate(-150%);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.5s ease-in-out;
+  text-align: center;
+}
+
+.navbar .menu-items li {
+  margin-bottom: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.logo {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  font-size: 1.2rem;
+  color: var(--main-color);
+}
+
+
+
+@container sidebar (max-width: 600px) {
+  .logo h1 {
+    margin-top: 4px;
+    font-size: 24px;
+  }
+}
+
+@container sidebar (max-width: 500px) {
+  .logo h1 {
+    margin-top: 6px;
+    font-size: 20px;
+  }
+}
+
+@container sidebar (max-width: 430px) {
+  .logo h1 {
+    margin-top: 8px;
+    font-size: 16px;
+  }
+}
+
+@container sidebar (max-width: 360px) {
+  .logo h1 {
+    margin-top: 12px;
+    font-size: 14px;
+  }
+}
+
+@container sidebar (max-width: 320px) {
+  .logo h1 {
+    margin-top: 13px;
+    font-size: 12px;
+  }
+}
+
+@container sidebar (max-width: 290px) {
+  .logo h1 {
+    margin-top: 14px;
+    font-size: 10px;
+  }
+}
+
+@container sidebar (max-width: 250px) {
+  .logo h1 {
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 12px;
+  }
+}
+
+@container blocksbar (max-width: 600px) {
+  #Banner {
+    background-size: auto 100%;
+  }
+}
+
+
+
+#MobileBanner {
+  display: flex;
+  justify-content: center;  
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  padding-top: 60px;
+  background-image: url("../img/MobileBannerBG.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#bannerImage {
+  width: 100%;
+}
+
+#MobileBannerMessage {
+  display: flex;
+  justify-content: center;  
+  flex-direction: column;
+  margin-top: 24px;
+  padding: 0 24px 12px 24px;
+  background-color: var(--main-color-transparent);
+  border-radius: 25px;
+}
+
+
+
+#MobileBannerMessageCaption{
+  margin-top: 6px;
+  font-size: 24px;
+  text-align: center;
+	font-style: normal;
+	font-weight: bold;
+  color: var(--main-color-light);
+}
+
+#MobileBannerMessageMainText {
+  margin-top: 8px;
+  text-align: center;
+	font-style: normal;
+	font-weight: normal;
+  color: var(--main-color-light);
+}
+
+.button {
+  border: none;
+  font-family: var(--main-font);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 25px;
+  margin-top: 12px;
+  margin-bottom: 24px;  
+  width: 228px;
+}
+
+.button a {
+	text-decoration: none;	
+}
+
+.btnDark a {
+	color: var(--text-color-light);
+}
+
+.btnLight a {
+	color: var(--text-color);
+}
+
+.lightBlock{
+  display: flex;
+  justify-content: center;  
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--main-color-light);
+  width: 100%;
+}
+
+.darkBlock {
+  display: flex;
+  justify-content: center;  
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--main-color);
+  width: 100%;
+}
+
+.caption {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.text {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.capDark {
+  color: var(--text-color);
+}
+
+.capLight {
+  color: var(--text-color-light);
+}
+
+.txtDark {
+  color: var(--text-color-dark);
+}
+
+.txtLight {
+  color: var(--text-color-light);
+}
+
+.btnDark {
+  color: var(--main-color-light);
+  background-color: var(--main-color);
+}
+
+.btnLight {
+  color: var(--main-color);
+  background-color: var(--main-color-light);
+}
+
+#ContactUs {  
+  text-align: center;
+}
+
+#MobileContactUsTop {
+	
+}
+
+.text_contactUs{
+  text-align: left;
+  padding-left: 25%;
+  color: var(--text-color-dark);
+}
+
+.input__contactUs{
+  margin-top: 8px;
+  width: 50%;
+  white-space: nowrap;
+	text-align: left;
+  border: none;
+  background-color: transparent;
+	border-bottom: 1px solid var(--main-color);
+  margin-bottom: 14px;
+}
+
+.input__contactUs:focus{
+	outline: transparent;
+}
+
+input[type="text"]
+{
+    font-size:20px;
+    color: var(--text-color-dark);
+    font-family: var(--main-font);
+}
+
+.centerText {
+  text-align: center;
+}
+
+
+.footerCaption{
+  margin-top: 24px;
+  margin-bottom: 18px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+#MobileBlockFooterCopyrightMainText {
+  margin-top: 24px;
+}
+
+#MobileBlockFooterCopyrightCaption {
+  margin-top: 24px;
+}
+
+#mobile_change__language {
+  font-size: small;
+}
+
+
+.mobilePopup {
+	position: absolute;
+  	display: none;
+	width: 100%;
+  	height: 552px;
+	margin-top: 60px;
+	overflow: visible;
+	background-color: var(--black-color);
+	opacity: 1;
+	z-index: 99;
+}
+
+.mobilePopupText {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	white-space: nowrap;
+	text-align: left;
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: var(--text-color-light);
+}
+#ServicesTop, #ContactUsTop, #CareerTop, #LocationTop {
+	display: block;
+	content: "";
+	margin-top: var(--header-margin);
+	height: var(--size-of-header);
+	visibility: hidden;
+}
+
+
+
+}
