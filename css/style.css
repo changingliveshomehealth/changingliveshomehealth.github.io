@@ -84,8 +84,7 @@ html {
 #BlockFooterTop{    
 	display: block;
 	content: "";
-	margin-top: -760px;
-	height: 1px;
+	margin-top: -1080px;
 	visibility: hidden;
 }
 
@@ -198,7 +197,10 @@ input[type="text"] {
     margin-bottom: 24px;  
     width: 228px;
 }
-  
+ 
+
+
+
 .Image {
     overflow: hidden;
     display: flex;
@@ -226,7 +228,15 @@ input[type="text"] {
 
 .Block:nth-child(odd) .Text .Button {
     color: var(--text-color-light);
-    background-color: var(--main-color);
+    background-color: var(--button-color);
+}
+
+.Block:nth-child(odd) .Text .Button:hover {
+    background-color: var(--button-color-hover);
+}
+
+.Block:nth-child(odd) .Text .Button:active {
+    background-color: var(--button-color-active);
 }
 
 .Block:nth-child(even) {
@@ -243,16 +253,24 @@ input[type="text"] {
 
 .Block:nth-child(even) .Text .Button {
     color: var(--text-color);
-    background-color: var(--main-color-light);
+    background-color: var(--button-color-light);
 }
+
+.Block:nth-child(even) .Text .Button:hover {
+    background-color: var(--button-color-light-hover);
+}
+
+.Block:nth-child(even) .Text .Button:active {
+    background-color: var(--button-color-light-active);
+}
+
 
 #ContactUs
 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    max-width: 500px; 
+     
     margin-left: auto; 
     margin-right: auto; 
     padding: 15px;
@@ -438,12 +456,19 @@ input[type="text"] {
     color: var(--main-color-light);
 }
 
-#Banner button {
+#Banner Button {
 	margin-top: 40px;
     color: var(--text-color-light);
-    background-color: var(--main-color-transparent);
+    background-color: var(--button-color);
 }
 
+#Banner Button:hover {
+    background-color: var(--button-color-hover);
+}
+
+#Banner Button:active {
+    background-color: var(--button-color-active);
+}
 
 .Navbar {
     position: absolute;
@@ -526,6 +551,29 @@ input[type="text"] {
 #BannerLogotypePictureC33 {
     fill: var(--main-color);
 }
+
+
+#MainMenuLogotypePicture:hover #MainMenuLogotypePictureC34, 
+#MainMenuLogotypePicture:hover #MainMenuLogotypePictureC7,
+#MainMenuLogotypePicture:hover #MainMenuLogotypePictureC2
+{
+	fill: var(--button-color-hover);
+	transition-duration: 0.4s;
+}
+
+#MainMenuLogotypePicture:active #MainMenuLogotypePictureC34, 
+#MainMenuLogotypePicture:active #MainMenuLogotypePictureC7,
+#MainMenuLogotypePicture:active #MainMenuLogotypePictureC2
+{
+	fill: var(--button-color-active);
+	transition-duration: 0.4s;
+}
+
+
+
+
+
+
 .BannerLogotypePictureC33 {
     overflow: visible;
     position: absolute;
@@ -2303,7 +2351,8 @@ input[type="text"] {
 		transform: matrix(1,0,0,1,0,0);
 	}
 
-	
+
+
 	/*----------------MAIN MENU SERVICES----------------------------*/
 	.MainMenuServices a {
 		text-decoration: none;
@@ -2314,7 +2363,6 @@ input[type="text"] {
 		align-items: center;
 		top: 0;
 	}
-	
 
 	.services_fixed {	
 		margin-right: 15%;
@@ -2328,10 +2376,25 @@ input[type="text"] {
 		flex-direction: row;		
 		align-items: center;
 		height: 48px;
-		background-color: var(--main-color);
+		background-color: var(--button-color);
 		border-radius: 30px;
 		margin-left: 10px;
 	}
+
+
+	.MainMenuService:hover { 
+		background-color: var(--button-color-hover);
+		transition-duration: 0.4s;
+	}
+
+	.MainMenuService:active { 
+		background-color: var(--button-color-active);
+		transition-duration: 0.4s;
+	}
+
+
+
+
 
 	.MainMenuServicesPicture {
 		position: relative;
@@ -3585,7 +3648,7 @@ input[type="text"] {
 
 
 	:root {	 
-		--max-width: 960px;
+		--max-width: 710px;
 		--min-width: 200px;
 		--size-of-header: 60px;
 		--header-margin: -60px;
@@ -3967,6 +4030,7 @@ nav {
 }
 
 
+
 #MobileBanner {
   display: flex;
   justify-content: center;  
@@ -4099,8 +4163,12 @@ nav {
   background-color: var(--main-color-light);
 }
 
-#ContactUsTop {  
+#ContactUs {  
   text-align: center;
+}
+
+#MobileContactUsTop {
+	
 }
 
 .text_contactUs{
