@@ -3616,23 +3616,55 @@ input[type="text"] {
 
 }
 
+@media screen and (max-width: 1080px) {
+	.BSItem {
+		margin-left: 10px;
+		margin-right: 10px;		
+	}
+}
+
 @media screen and (max-width: 910px) {
 	.FaxContact {
 		display: none;
 	}
 }
 
-@media screen and (max-width: 744px) {
+@media screen and (max-width: 888px) {
+	.BSItem {
+		margin-left: 2px;
+		margin-right: 2px;				
+	}
+}
 
+
+@media screen and (max-width: 778px) {
+	.BSItem {
+		margin-left: 2px;
+		margin-right: 2px;
+		width: 100px;				
+	}
+	.BSLogo {
+		width: 100px;	
+		height: 100px;
+	}
+	.BSL {
+		position: absolute;
+		margin-left: -14px;
+		margin-top: -8px;
+		width: 100px;	
+		height: 100px;
+	}
+}
+
+
+@media screen and (max-width: 744px) {
 	.PhoneContact {
 		display: none;
 	}
-
 	.contacts_fixed {
 		margin-left: auto;
 		right: 0;
 	}
-
 }
 
 
