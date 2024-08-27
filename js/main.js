@@ -1,18 +1,20 @@
 
-
 window.onload = () => {
 	var h = document.getElementById('Banner').clientHeight;
-	if (h < 650) {
-		console.log(h);		
+	if (h < 650) {		
 		document.getElementById('BS').classList.add('hidden');
 		toggleVisibility('BS');
 	}
-	}
-	
-	function toggleVisibility(id) {
-		var el = document.getElementById(id);
-		el.style.visibility = el.style.visibility === 'hidden' ? 'visible' : 'hidden';
-	}
+
+}
+
+
+
+
+function toggleVisibility(id) {
+	var el = document.getElementById(id);
+	el.style.visibility = el.style.visibility === 'hidden' ? 'visible' : 'hidden';
+}
 
 window.onscroll = () => {
 

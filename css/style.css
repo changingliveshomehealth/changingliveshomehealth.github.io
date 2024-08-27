@@ -30,6 +30,7 @@
     --button-color-light-hover: #F1F1F1;
     --button-color-light-active: #FFF;
     --white-color: #FFF;
+	--block-height: 100vmin;
 }
 
 *, *::before, *::after {
@@ -108,7 +109,7 @@ input[type="text"] {
     flex-direction: row;
     align-items: center;
     width: 100%;
-	height: 100vmin;
+	height: var(--block-height);
 }
 
 .Sub {
@@ -210,7 +211,7 @@ input[type="text"] {
  
 .gmap {
 	border: 0;
-	height: 100vmin;
+	height: var(--block-height);
 	width: 100%;
 }
 
@@ -225,7 +226,7 @@ input[type="text"] {
 .Image img{    
 	object-fit: cover;
     min-width: 100%;
-    height: 100vmin;
+    height: var(--block-height);
     flex-shrink: 0;
 }
 
