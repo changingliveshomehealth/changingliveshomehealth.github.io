@@ -108,6 +108,7 @@ input[type="text"] {
     flex-direction: row;
     align-items: center;
     width: 100%;
+	height: 100vh;
 }
 
 .Sub {
@@ -120,7 +121,11 @@ input[type="text"] {
     justify-content: space-around;
 	width: 100%;
 	height: 100%;
+	color: var(--text-color-light);
+	background-color: var(--main-color);
 }
+
+
 
 #FooterLeftText {
 	padding-left: 50%;
@@ -137,6 +142,12 @@ input[type="text"] {
 #Footer .MainText span {
     font-weight: 600;
 	padding-bottom: 20px;
+	color: var(--text-color-light);
+}
+
+.Info {
+	width: 100%;
+	background-color: var(--main-color);
 }
 
 #BlockFooterChapIcon {
@@ -151,17 +162,16 @@ input[type="text"] {
 .Info {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
-	margin-left: auto;
-	margin-right: auto;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .Info div {
 	display: block;
-	padding-left: 20px;
-	padding-right: 20px;
 	color: var(--button-color-light);
-	font-size: 10px;
+	font-size: 12px;	
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 .Text {
@@ -198,7 +208,11 @@ input[type="text"] {
     width: 228px;
 }
  
-
+.gmap {
+	border: 0;
+	height: 100vh;
+	width: 100%;
+}
 
 
 .Image {
@@ -210,7 +224,7 @@ input[type="text"] {
 
 .Image img{    
     min-width: 100%;
-    min-height: 100%;
+    height: 100vh;
     flex-shrink: 0;
 }
 
@@ -401,6 +415,7 @@ input[type="text"] {
     align-items: center;
 	flex-wrap: wrap;
     width: 100%;
+	height: 100vh;
     background-image: url("../img/BannerBG.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -423,7 +438,7 @@ input[type="text"] {
 
 #BannerMessage {   
 	position: absolute;
-	margin-top: 250px;
+	margin-top: 30vh;
 	max-width: 700px;
 }
 
@@ -980,7 +995,7 @@ input[type="text"] {
 	position: absolute;
 	display: flex;	
 	flex-wrap: wrap;
-	margin-top: 600px;
+	margin-top: 70vh;
 }
 
 #BS a {
@@ -3593,11 +3608,9 @@ input[type="text"] {
 	}
 
 	#BannerMessage {
-		margin-top: 150px;
 	}
 
 	#BS {
-		margin-top: 500px;
 		justify-content: center;
 	}
 
@@ -3637,7 +3650,7 @@ input[type="text"] {
 }
 
 
-@media screen and (max-width: 778px) {
+@media screen and (max-width: 792px) {
 	.BSItem {
 		margin-left: 2px;
 		margin-right: 2px;
