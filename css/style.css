@@ -440,7 +440,7 @@ input[type="text"] {
 
 #BannerMessage {   
 	position: absolute;
-	margin-top: 25vmin;
+	margin-top: 30vmin;
 	max-width: 700px;
 }
 
@@ -3610,6 +3610,7 @@ input[type="text"] {
 	}
 
 	#BS {
+
 		justify-content: center;
 	}
 
@@ -3642,9 +3643,21 @@ input[type="text"] {
 }
 
 @media screen and (max-width: 888px) {
+	
+	
 	.BSItem {
+		display: none;
 		margin-left: 2px;
 		margin-right: 2px;				
+	}
+
+	#BannerMessage {
+		display: flex;
+		height: 100%;
+		flex-direction: row;
+		align-items: center;
+		text-align: center;
+		margin-top: 10vmin;
 	}
 }
 
