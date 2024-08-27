@@ -1,5 +1,21 @@
 
+
+window.onload = () => {
+	var h = document.getElementById('Banner').clientHeight;
+	if (h < 650) {
+		console.log(h);		
+		document.getElementById('BS').classList.add('hidden');
+		toggleVisibility('BS');
+	}
+	}
+	
+	function toggleVisibility(id) {
+		var el = document.getElementById(id);
+		el.style.visibility = el.style.visibility === 'hidden' ? 'visible' : 'hidden';
+	}
+
 window.onscroll = () => {
+
 	const contacts = document.querySelector('.navbar__nav');
 	const services = document.querySelector('.MainMenuServices');
 	const logo = document.querySelector('.MainMenuLogotype');
@@ -94,6 +110,8 @@ function Hamburger() {
 	}
 }
 
+
+
 const elemLogin = document.querySelector('#login');
 const elemCounter = elemLogin.nextElementSibling;
 const maxLength = elemLogin.maxLength;
@@ -107,3 +125,4 @@ elemLogin.addEventListener('keydown', updateCounter);
 
 
 
+  
