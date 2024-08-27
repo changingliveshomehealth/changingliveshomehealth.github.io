@@ -108,7 +108,7 @@ input[type="text"] {
     flex-direction: row;
     align-items: center;
     width: 100%;
-	height: 100vh;
+	height: 100vmin;
 }
 
 .Sub {
@@ -223,8 +223,9 @@ input[type="text"] {
 }
 
 .Image img{    
+	object-fit: cover;
     min-width: 100%;
-    height: 100vh;
+    height: 100vmin;
     flex-shrink: 0;
 }
 
@@ -415,7 +416,7 @@ input[type="text"] {
     align-items: center;
 	flex-wrap: wrap;
     width: 100%;
-	height: 100vh;
+	height: 100vmin;
     background-image: url("../img/BannerBG.png");
     background-repeat: no-repeat;
     background-position: center;
