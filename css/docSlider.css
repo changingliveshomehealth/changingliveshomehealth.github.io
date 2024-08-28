@@ -70,7 +70,7 @@ html:active, body:active,
 .docSlider {
   overflow: hidden;
   width: 100vw;
-  height: 100vh;
+  height: 100vmin;
   position: fixed;
   top: 0;
   left: 0;
