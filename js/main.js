@@ -1,4 +1,5 @@
 
+
 window.onload = () => {
 	var h = document.getElementById('Banner').clientHeight;
 	if (h < 650) {		
@@ -7,9 +8,6 @@ window.onload = () => {
 	}
 
 }
-
-
-
 
 function toggleVisibility(id) {
 	var el = document.getElementById(id);
@@ -125,6 +123,3 @@ updateCounter();
 elemLogin.addEventListener('keyup', updateCounter);
 elemLogin.addEventListener('keydown', updateCounter);
 
-
-
-  
