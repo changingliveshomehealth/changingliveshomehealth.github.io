@@ -109,7 +109,7 @@ html {
 
 .scroller .section {
 	height: var(--block-height);
-	scroll-snap-align: center;	
+	scroll-snap-align: start;	
 }
 
 

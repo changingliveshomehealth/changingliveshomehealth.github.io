@@ -1,5 +1,8 @@
+function scrollToBlock() {
+	document.getElementById("SplideBlock").scrollIntoView({ block: "start", behavior: "smooth" });
+}
 
-window.onload = () => {
+window.onresize = () => {
 	var h = document.getElementById('Banner').clientHeight;
 	if (h < 650) {		
 		document.getElementById('BS').classList.add('hidden');
@@ -107,3 +110,5 @@ function Hamburger() {
 		closeHamburger();
 	}
 }
+
+
