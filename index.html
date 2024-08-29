@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Changing Lives Home Health Care</title>
-    <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="css/style.css"/>
-
+    
+	<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="css/style.css"/>
     <script id="applicationScript" type="text/javascript" src="js/main.js"></script>
 
-	<link rel="stylesheet" href="css/docSlider.css">
-
+    <script src="./js/splide.min.js"></script>
+    <script src="./js/splide-extension-url-hash.min.js"></script>
+    <link rel="stylesheet" href="./css/splide-default.min.css">
 
     <!-- Обязательный (и достаточный) тег для браузеров -->
     <link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
@@ -19,10 +20,10 @@
 </head>
 <body>
 	
-	<div id="Container">
-		<div class="docSlider">
+	<div id="Container" class="scroller">
+			
 
-			<section id="Banner" class="section">
+			<div id="Banner" class="section">
 				<div class="video-box">     
 					<video preload="auto" autoplay="autoplay" loop="loop" muted="" poster="img/BlockBannerImage.png" playsinline="playsinline" >          
 						<source src="video/1.mp4" type="video/mp4">             
@@ -460,314 +461,341 @@
 						</div>
 					</a>
 				</div>
-			</section>
+			</div>
+			<div></div>
 
-			
-				<section class="Block section">
-					<div id="BlockSNTop"></div>
-					<div class="Sub Text">
-						<div class="Caption">
-							<span>SKILLED NURSING</span>
-						</div>
-						<div class="MainText">
-							<span>
-								• Wound care<br/>
-								• Medication management<br/>
-								• Patient education<br/>
-								• Diabetic teaching<br/>
-								• Incontinence care<br/>
-								• IV therapy<br/>
-								• Enteral Nutrition<br/>
-								• Pre-Op and Post-Op Care<br/>
-								• Ostomy care and teachings<br/>
-								• Оur nurses speak Spanish<br>
-							</span>
-						</div>
-						<form id="BannerMessageForm"  action="#BlockContactUsTop">
-							<button class="Button">
-								<span>Contact Us</span>
-							</button>
-						</form>
-					</div>
-					<div class="Sub Image">            
-						<img src="img/BlockSNImage.jpg">
-					</div>
-				</section> 
 
-				<section class="Block section">
-					<div id="BlockPTTop"></div>
-					<div class="Sub Image">            
-						<img src="img/BlockPTImage.jpg">
-					</div>
-					<div class="Sub Text">
-						<div class="Caption">
-							<span>PHYSICAL THERAPY</span>
-						</div>
-						<div class="MainText">
-							<span>
-								• Restoration of specific functional loss, <br/>
-								range of motion, and strength<br/>
-								• Adaptive equipment utilization instruction<br/>
-								• Rehabilitation assistance<br/>
-								• Instruction on the safe use of assistive devices<br/>
-								• Safe ambulation and transfers<br/>
-								• Fall and injury prevention
-							</span>
-						</div>
-						<form id="BannerMessageForm"  action="#BlockContactUsTop">
-							<button class="Button">
-								<span>Contact Us</span>
-							</button>
-						</form>
-					</div>
-				</section> 
-				
-				<section class="Block section">
-					<div id="BlockSTTop"></div>
-					<div class="Sub Text">
-						<div class="Caption">
-							<span>SPEECH THERAPY</span>
-						</div>
-						<div class="MainText">
-							<span>
-								• Assistance in regaining<br/> 
-								speech abilities<br/>
-								• Instruction on<br/> 
-								communication and<br/> 
-								swallowing techniques<br/>
-								• Intervention for hearing<br/> 
-								impairment and<br/> 
-								neurological disorders
-							</span>
-						</div>
-						<form id="BannerMessageForm"  action="#BlockContactUsTop">
-							<button class="Button">
-								<span>Contact Us</span>
-							</button>
-						</form>
-					</div>
-					<div class="Sub Image">            
-						<img src="img/BlockSTImage.jpg">
-					</div>
-				</section> 
-
-				<section class="Block section">
-					<div id="BlockOTTop"></div>
-					<div class="Sub Image">            
-						<img src="img/BlockOTImage.jpg">
-					</div>
-					<div class="Sub Text">
-						<div class="Caption">
-							<span>OCCUPATIONAL THERAPY</span>
-						</div>
-						<div class="MainText">
-							<span>
-								• Therapeutic exercises for<br/>   
-								activities of daily living skills<br/>
-								• Instructions on orthopedic<br/>   
-								devices and energy<br/>   
-								conservation exercises
-							</span>
-						</div>
-						<form id="BannerMessageForm"  action="#BlockContactUsTop">
-							<button class="Button">
-								<span>Contact Us</span>
-							</button>
-						</form>
-					</div>
-				</section> 
-				
-				<section class="Block section">
-					<div id="BlockMSWTop"></div>
-					<div class="Sub Text">
-						<div class="Caption">
-							<span>MEDICAL SOCIAL WORKER</span>
-						</div>
-						<div class="MainText">
-							<span>
-								• Assisting in claiming financial<br/>   
-								and social resources for<br/>   
-								optimum level of care<br/>
-								• Assisting in dealing with social<br/>   
-								and emotional factors relating to<br/>   
-								illness
-							</span>
-						</div>
-						<form id="BannerMessageForm"  action="#BlockContactUsTop">
-							<button class="Button">
-								<span>Contact Us</span>
-							</button>
-						</form>
-					</div>
-					<div class="Sub Image">            
-						<img src="img/BlockMSWImage.jpg">
-					</div>
-				</section> 
-
-				<section class="Block section">
-					<div id="BlockHHATop"></div>
-					<div class="Sub Image">            
-						<img src="img/BlockHHAImage.jpg">
-					</div>
-					<div class="Sub Text">
-						<div class="Caption">
-							<span>HOME HEALTH AIDE</span>
-						</div>
-						<div class="MainText">
-							<span>
-								• Personal Care
-							</span>
-						</div>
-						<form id="BannerMessageForm"  action="#BlockContactUsTop">
-							<button class="Button">
-								<span>Contact Us</span>
-							</button>
-						</form>
-					</div>
-				</section> 
-				
-				<section class="Block section">
-					<div class="Sub Text">
-						<div class="Caption">
-							<span>Career Opportunities</span>
-						</div>
-						<div class="MainText">
-							<span>
-								We have openings for <br/>
-								• Registered Nurses <br/>
-								• License Vocational Nurses<br/>
-								• Physical Therapists<br/>
-								• Occupational Therapists<br/>
-								• Home Health Aide <br/>
-								• Medical Social Worker 
-							</span>
-						</div>
-						<form id="BannerMessageForm"  action="#BlockContactUsTop">
-							<button class="Button">
-								<span>Contact Us</span>
-							</button>
-						</form>
-					</div>
-					<div class="Sub Image">            
-						<img src="img/BlockCareerImage.jpg">
-					</div>
-				</section> 
-
-				<section class="Block section">        
-					<div id="BlockLocationTop"></div>
-					<div class="Sub Image">         
-						<iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6603.898170471231!2d-118.2487233!3d34.1476447!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c1076a6fcead%3A0x9819be9c9e37bef9!2s805%20E%20Wilson%20Ave%2C%20Glendale%2C%20CA%2091206%2C%20USA!5e0!3m2!1sen!2sru!4v1724684605483!5m2!1sen!2sru" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-					</div>
-					<div class="Sub Text">
-						<div class="Caption">
-							<span>Location</span>
-						</div>
-						<div class="MainText">
-							<span>
-								805 E Wilson Ave Unit B<br/>
-								Glendale, CA, 91206<br/>
-								(818) 396-5678
-							</span>
-						</div>
-						<form action="https://maps.app.goo.gl/4Unjkwu2iop1h6mz8">
-							<button class="Button">
-								<span>Open Map</span>
-							</button>
-						</form>
-					</div>
-				</section> 
-
-				<section class="Block section">
-					<div id="BlockContactUsTop"></div>
-					<div class="Sub Text">
-						
-						<form id="ContactUsForm" action="" method="get">
-
-							<div id="ContactUs" >
-
-								<h1>Contact Us</h1>
-
-								<div class="text-field text-field_floating-2">
-								<input class="text-field__input" type="email" id="email" name="email" placeholder="">
-								<label class="text-field__label" for="email">Email</label>
-								</div>  
-
-								<div class="text-field text-field_floating-2">
-									<input class="text-field__input" type="name" id="name" name="name" placeholder="">
-									<label class="text-field__label" for="email">Name</label>
-								</div>  
-
-								<div class="text-field text-field_floating-2" >
-									<input class="text-field__input" type="text" name="message" id="message" placeholder="Message" maxlength="20" required>
-									<label class="text-field__label" for="message">Message</label>
-									<div class="text-field__counter"></div>
+			<div class="splide section" role="group" aria-label="Splide">
+				<div class="splide__track">
+				  <ul class="splide__list">
+					<li class="splide__slide" data-splide-hash="slide01">			
+						<div class="Block section">						
+							<div class="Sub Text">
+								<div class="Caption">
+									<span>SKILLED NURSING</span>
 								</div>
+								<div class="MainText">
+									<span>
+										• Wound care<br/>
+										• Medication management<br/>
+										• Patient education<br/>
+										• Diabetic teaching<br/>
+										• Incontinence care<br/>
+										• IV therapy<br/>
+										• Enteral Nutrition<br/>
+										• Pre-Op and Post-Op Care<br/>
+										• Ostomy care and teachings<br/>
+										• Оur nurses speak Spanish<br>
+									</span>
+								</div>
+								<form id="BannerMessageForm"  action="#BlockContactUsTop">
+									<button class="Button">
+										<span>Contact Us</span>
+									</button>
+								</form>
+							</div>
+							<div class="Sub Image">            
+								<img src="img/BlockSNImage.jpg">
+							</div>
+						</div> 
+					</li>
+					<li class="splide__slide" data-splide-hash="slide02">
+						<div class="Block section">	
+							<div class="Sub Text">
+								<div class="Caption">
+									<span>PHYSICAL THERAPY</span>
+								</div>
+								<div class="MainText">
+									<span>
+										• Restoration of specific functional loss, <br/>
+										range of motion, and strength<br/>
+										• Adaptive equipment utilization instruction<br/>
+										• Rehabilitation assistance<br/>
+										• Instruction on the safe use of assistive devices<br/>
+										• Safe ambulation and transfers<br/>
+										• Fall and injury prevention
+									</span>
+								</div>
+								<form id="BannerMessageForm"  action="#BlockContactUsTop">
+									<button class="Button">
+										<span>Contact Us</span>
+									</button>
+								</form>
+							</div>
+							<div class="Sub Image">            
+								<img src="img/BlockPTImage.jpg">
+							</div>
+						</div>
+					</li>
+					<li class="splide__slide" data-splide-hash="slide03">
+						<div class="Block section">							
+							<div class="Sub Text">
+								<div class="Caption">
+									<span>SPEECH THERAPY</span>
+								</div>
+								<div class="MainText">
+									<span>
+										• Assistance in regaining<br/> 
+										speech abilities<br/>
+										• Instruction on<br/> 
+										communication and<br/> 
+										swallowing techniques<br/>
+										• Intervention for hearing<br/> 
+										impairment and<br/> 
+										neurological disorders
+									</span>
+								</div>
+								<form id="BannerMessageForm"  action="#BlockContactUsTop">
+									<button class="Button">
+										<span>Contact Us</span>
+									</button>
+								</form>
+							</div>
+							<div class="Sub Image">            
+								<img src="img/BlockSTImage.jpg">
+							</div>
+						</div> 
+					</li>
+					<li class="splide__slide" data-splide-hash="slide04">
+						<div class="Block section">	
+							<div class="Sub Text">
+								<div class="Caption">
+									<span>OCCUPATIONAL THERAPY</span>
+								</div>
+								<div class="MainText">
+									<span>
+										• Therapeutic exercises for<br/>   
+										activities of daily living skills<br/>
+										• Instructions on orthopedic<br/>   
+										devices and energy<br/>   
+										conservation exercises
+									</span>
+								</div>
+								<form id="BannerMessageForm"  action="#BlockContactUsTop">
+									<button class="Button">
+										<span>Contact Us</span>
+									</button>
+								</form>
+							</div>
+							<div class="Sub Image">            
+								<img src="img/BlockOTImage.jpg">
+							</div>
+						</div> 
+					</li>
+					<li class="splide__slide" data-splide-hash="slide05">
+						<div class="Block section">
+							<div class="Sub Text">
+								<div class="Caption">
+									<span>MEDICAL SOCIAL WORKER</span>
+								</div>
+								<div class="MainText">
+									<span>
+										• Assisting in claiming financial<br/>   
+										and social resources for<br/>   
+										optimum level of care<br/>
+										• Assisting in dealing with social<br/>   
+										and emotional factors relating to<br/>   
+										illness
+									</span>
+								</div>
+								<form id="BannerMessageForm"  action="#BlockContactUsTop">
+									<button class="Button">
+										<span>Contact Us</span>
+									</button>
+								</form>
+							</div>
+							<div class="Sub Image">            
+								<img src="img/BlockMSWImage.jpg">
+							</div>
+						</div> 
+					</li>
+					<li class="splide__slide" data-splide-hash="slide06">
+						<div class="Block section">
+							<div class="Sub Text">
+								<div class="Caption">
+									<span>HOME HEALTH AIDE</span>
+								</div>
+								<div class="MainText">
+									<span>
+										• Personal Care
+									</span>
+								</div>
+								<form id="BannerMessageForm"  action="#BlockContactUsTop">
+									<button class="Button">
+										<span>Contact Us</span>
+									</button>
+								</form>
+							</div>
+							<div class="Sub Image">            
+								<img src="img/BlockHHAImage.jpg">
+							</div>
+						</div> 
+					</li>
+				  </ul>
+				</div>
+			</div>
 
-								<button type="submit" class="Button">Submit</button>
+			<script>
+      
+				document.addEventListener( 'DOMContentLoaded', function() 
+				{
+				  var splide = new Splide( '.splide', {
+					perPage    : 1,
+					perMove    : 1,
+					pagination : false, // disable pagination
+				  } ).mount( window.splide.Extensions );        
+				} );
+		  
+		  
+			</script>
+		  
+		  <div></div>
 
+			<div class="Block section">        
+				<div id="BlockLocationTop"></div>
+				<div class="Sub Image">         
+					<iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6603.898170471231!2d-118.2487233!3d34.1476447!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c1076a6fcead%3A0x9819be9c9e37bef9!2s805%20E%20Wilson%20Ave%2C%20Glendale%2C%20CA%2091206%2C%20USA!5e0!3m2!1sen!2sru!4v1724684605483!5m2!1sen!2sru" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+				<div class="Sub Text">
+					<div class="Caption">
+						<span>Location</span>
+					</div>
+					<div class="MainText">
+						<span>
+							805 E Wilson Ave Unit B<br/>
+							Glendale, CA, 91206<br/>
+							(818) 396-5678
+						</span>
+					</div>
+					<form action="https://maps.app.goo.gl/4Unjkwu2iop1h6mz8">
+						<button class="Button">
+							<span>Open Map</span>
+						</button>
+					</form>
+				</div>
+			</div> 
+
+			<div class="Block section">
+				<div id="BlockContactUsTop"></div>
+				<div class="Sub Text">
+					
+					<form id="ContactUsForm" action="" method="get">
+
+						<div id="ContactUs" >
+
+							<h1>Contact Us</h1>
+
+							<div class="text-field text-field_floating-2">
+							<input class="text-field__input" type="email" id="email" name="email" placeholder="">
+							<label class="text-field__label" for="email">Email</label>
+							</div>  
+
+							<div class="text-field text-field_floating-2">
+								<input class="text-field__input" type="name" id="name" name="name" placeholder="">
+								<label class="text-field__label" for="email">Name</label>
+							</div>  
+
+							<div class="text-field text-field_floating-2" >
+								<input class="text-field__input" type="text" name="message" id="message" placeholder="Message" maxlength="20" required>
+								<label class="text-field__label" for="message">Message</label>
+								<div class="text-field__counter"></div>
 							</div>
 
-						
-						</form>
-					</div>
-					<div class="Sub Image">            
-						<img src="img/BlockContactUsImage.jpg">
-					</div>
-				</section>
-			
-		
-				<div id="Footer">
-					<div class="Sub Text">
-						<div id="FooterLeftText" class="MainText">
-							<span class="Caption">
-								A Medicare Certified <br/>
-								Home Health Agency<br/>
-							</span>
-							<span>
-								805 E Wilson Ave Unit B<br/>
-								Glendale, CA, 91206<br/>
-								(818) 396-5678<br/>
-							</span>
-						</div>
-					</div>
-					<div class="Sub Text">
-						<div class="MainText">
-							<span class="Caption">
-								CHAP Accredited
-							</span>
-						</div>
-						<img id="BlockFooterChapIcon" src="img/BlockFooterChapIcon.png">
-					</div>
-					<div class="Sub Text">
-						<div id="FooterRightText" class="MainText">
-							<span  class="Caption">
-								Opening Hours<br/>
-							</span>
-							<span>
-								Monday – Friday<br/>
-								10:00 AM to 5:00 PM
-							</span>
-							<span>
-								On-Call Nurse Available by Telephone<br/>
-								24 hours a day , 7 days a week<br/>
-							</span>
+							<button type="submit" class="Button">Submit</button>
 
 						</div>
-					</div>
-				</div>
-				<div class="Info">
-					<div>Compliance Information</div>
-					<div>Notice of Privacy</div>
-					<div>Practices Nondiscrimination Policy</div>
-					<div>Language Assistance Policy</div>
-					<div>Open Payments Database</div>
-					<div>No Surprises</div>			
-				</div>
-				<div class="Info">
-					<div>© Copyright 2024. All Rights Reserved.</div>	
-				</div>
 
+					
+					</form>
+				</div>
+				<div class="Sub Image">            
+					<img src="img/BlockContactUsImage.jpg">
+				</div>
 			</div>
+
+			<div></div>
+			<div class="Block section">
+				<div class="Sub Image">            
+					<img src="img/BlockCareerImage.jpg">
+				</div>
+				<div class="Sub Text">
+					<div class="Caption">
+						<span>Career Opportunities</span>
+					</div>
+					<div class="MainText">
+						<span>
+							We have openings for <br/>
+							• Registered Nurses <br/>
+							• License Vocational Nurses<br/>
+							• Physical Therapists<br/>
+							• Occupational Therapists<br/>
+							• Home Health Aide <br/>
+							• Medical Social Worker 
+						</span>
+					</div>
+					<form id="BannerMessageForm"  action="#BlockContactUsTop">
+						<button class="Button">
+							<span>Contact Us</span>
+						</button>
+					</form>
+				</div>
+
+			</div> 
+		
+			<div id="Footer"  class="Block section">
+				<div class="Sub Text">
+					<div id="FooterLeftText" class="MainText">
+						<span class="Caption">
+							A Medicare Certified <br/>
+							Home Health Agency<br/>
+						</span>
+						<span>
+							805 E Wilson Ave Unit B<br/>
+							Glendale, CA, 91206<br/>
+							(818) 396-5678<br/>
+						</span>
+					</div>
+				</div>
+				<div class="Sub Text">
+					<div class="MainText">
+						<span class="Caption">
+							CHAP Accredited
+						</span>
+					</div>
+					<img id="BlockFooterChapIcon" src="img/BlockFooterChapIcon.png">
+				</div>
+				<div class="Sub Text">
+					<div id="FooterRightText" class="MainText">
+						<span  class="Caption">
+							Opening Hours<br/>
+						</span>
+						<span>
+							Monday – Friday<br/>
+							10:00 AM to 5:00 PM
+						</span>
+						<span>
+							On-Call Nurse Available by Telephone<br/>
+							24 hours a day , 7 days a week<br/>
+						</span>
+
+					</div>
+				</div>
+			</div>
+			<div class="Info"  class="Block section">
+				<div>Compliance Information</div>
+				<div>Notice of Privacy</div>
+				<div>Practices Nondiscrimination Policy</div>
+				<div>Language Assistance Policy</div>
+				<div>Open Payments Database</div>
+				<div>No Surprises</div>			
+			</div>
+			<div class="Info"  class="Block section">
+				<div>© Copyright 2024. All Rights Reserved.</div>	
+			</div>
+		 
+
+
+
 
 	</div>
 	
@@ -920,7 +948,7 @@
 				</div>				
 			</div>	
 			<div class="MainMenuServices">
-				<a href="#BlockSNTop">
+				<a href="#slide01">
 					<div id="MMSSN" class="MainMenuService">							
 						<div class="MainMenuServicesPicture">
 							<svg class="MainMenuServicesSNPictureC6" viewBox="207.12 340.052 4.615 0.943">
@@ -953,7 +981,7 @@
 						</div>
 					</div>
 				</a>
-				<a href="#BlockPTTop">
+				<a href="#slide02">
 					<div class="MainMenuService">
 						<div class="MainMenuServicesPicture">
 							<svg class="MainMenuServicesPTPictureC1" viewBox="-0.022 -0.012 27.035 26.908">
@@ -966,7 +994,7 @@
 						</div>
 					</div>
 				</a>
-				<a href="#BlockSTTop">
+				<a href="#slide03">
 					<div class="MainMenuService">							
 						<div class="MainMenuServicesPicture">
 							<svg class="MainMenuServicesSTPictureC6" viewBox="53.822 -0.008 17.458 13.615">
@@ -999,7 +1027,7 @@
 						</div>
 					</div>
 				</a>
-				<a href="#BlockOTTop">
+				<a href="#slide04">
 					<div class="MainMenuService too_wide_text">							
 						<div class="MainMenuServicesPicture">
 							<svg class="MainMenuServicesOTPictureC7" viewBox="-0.002 0 25.893 25.758">
@@ -1036,7 +1064,7 @@
 						</div>
 					</div>
 				</a>
-				<a href="#BlockMSWTop">
+				<a href="#slide05">
 					<div class="MainMenuService">
 						<div class="MainMenuServicesPicture">
 							<svg class="MainMenuServicesMSWPictureC2" viewBox="-0.018 53.201 17.755 22.982">
@@ -1053,7 +1081,7 @@
 						</div>				
 					</div>
 				</a>
-				<a href="#BlockHHATop">
+				<a href="#slide06">
 					<div class="MainMenuService">
 						<div class="MainMenuServicesPicture">
 							<svg class="MainMenuServicesHHAPictureC6" viewBox="-0.03 -0.009 14.413 16.043">
@@ -1387,7 +1415,5 @@
 	</div>
 
 
-    <script src="./js/docSlider.min.js"></script>
-    <script>docSlider.init();</script>
 
 </body>

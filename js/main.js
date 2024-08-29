@@ -1,12 +1,10 @@
 
-
 window.onload = () => {
 	var h = document.getElementById('Banner').clientHeight;
 	if (h < 650) {		
 		document.getElementById('BS').classList.add('hidden');
 		toggleVisibility('BS');
 	}
-
 }
 
 function toggleVisibility(id) {
@@ -109,17 +107,3 @@ function Hamburger() {
 		closeHamburger();
 	}
 }
-
-
-
-const elemLogin = document.querySelector('#login');
-const elemCounter = elemLogin.nextElementSibling;
-const maxLength = elemLogin.maxLength;
-const updateCounter = (e) => {
-  const len = e ? e.target.value.length : 0;
-  elemCounter.textContent = `${len} / ${maxLength}`;
-}
-updateCounter();
-elemLogin.addEventListener('keyup', updateCounter);
-elemLogin.addEventListener('keydown', updateCounter);
-

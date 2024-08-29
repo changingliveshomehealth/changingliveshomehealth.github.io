@@ -17,6 +17,7 @@
 :root {
     --main-font: "Poppins";	
     --main-color: #FF1C24;
+	--main-color-dark: #800e12;
     --main-color-transparent: #ff1c24da;
     --main-color-light: #FFF6F1;
 	--main-color-light-transparent: #FFF6F1f7;
@@ -30,7 +31,8 @@
     --button-color-light-hover: #F1F1F1;
     --button-color-light-active: #FFF;
     --white-color: #FFF;
-	--block-height: 100vmin;
+	--size-of-header: 86px;
+	--block-height: calc(100vmin - var(--size-of-header)) ;;
 }
 
 *, *::before, *::after {
@@ -43,6 +45,7 @@ html {
     background-color: var(--main-color-light);
     scroll-behavior: smooth;
     font-family: var(--main-font);
+	scrollbar-width: thin;
 }
 
 /*---------------------------------------------------------------------------*/
@@ -52,10 +55,10 @@ html {
 /*---------------------------------------------------------------------------*/
 
 
+
+
 :root {
-	--web-view-ids: Changing_Lives_Home_Health_Care;
-	--size-of-header: 164px;
-	--header-margin: -164px;
+	--web-view-ids: Changing_Lives_Home_Health_Care;	
 }
 
 #mobile {
@@ -73,12 +76,6 @@ html {
 	100% {height: 60px;}
 }
 
-#BlockSNTop, 
-#BlockPTTop, 
-#BlockSTTop, 
-#BlockOTTop, 
-#BlockMSWTop, 
-#BlockHHATop, 
 #BlockCareerTop, 
 #BlockLocationTop, 
 #BlockContactUsTop, 
@@ -103,6 +100,18 @@ input[type="text"] {
     align-items: center;
 	width: 100%;
 }
+
+
+html {
+	scroll-snap-type: y mandatory;
+	scroll-padding-top: var(--size-of-header);
+}
+
+.scroller .section {
+	height: var(--block-height);
+	scroll-snap-align: center;	
+}
+
 
 .Block {
     display: flex;
@@ -526,6 +535,7 @@ input[type="text"] {
 #BannerHeaderLocationText {
 	margin-left: 14px;
 }
+
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 /*------------------ LOGO ---------------------------------------------------*/
@@ -554,7 +564,7 @@ input[type="text"] {
     font-style: normal;
     font-weight: bold;
     font-size: 28px;
-    color: var(--main-color-light);
+    color: var(--main-color);
 }
 
 #BannerLogotypePicture {
@@ -1909,6 +1919,16 @@ input[type="text"] {
             opacity: 1;
 			top: 197.71px;
 		}
+	}
+
+	/* -------- splide --------------------------------------------------------*/
+
+	.splide {
+		width: 100%;
+	}
+	  
+	.splide__list {
+		width: 100%;
 	}
 
 
@@ -4320,3 +4340,13 @@ input[type="text"]
 
 
 }
+
+
+
+
+
+
+
+
+
+
