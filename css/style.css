@@ -48,6 +48,8 @@ html {
 	scrollbar-width: thin;
 }
 
+
+
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 /*------------------  DESKTOP VIEW ------------------------------------------*/
@@ -3817,6 +3819,7 @@ html {
     margin-bottom: 0.25rem;
 }
 
+
 .text-field__input {
     display: block;
     width: 100%;
@@ -3836,6 +3839,8 @@ html {
     -moz-appearance: none;
     appearance: none;
 }
+
+
 
 .text-field__input[type="search"]::-webkit-search-decoration,
 .text-field__input[type="search"]::-webkit-search-cancel-button,
@@ -3902,6 +3907,7 @@ html {
     background-color: var(--main-color-light);
     border-radius: 5px;
 }
+
 
 .text-field__counter {
     font-size: .75rem;
@@ -4118,7 +4124,6 @@ nav {
   height: 400px;
   padding-top: 60px;
   background-image: url("../img/MobileBannerBG.png");
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
